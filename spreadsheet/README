@@ -1,0 +1,55 @@
+Meeting with John Dowling 29th Jan 2010
+Re:  7 syndromes.xls spreadsheet
+==========================================================================
+I've asked John to:
+     1.  Add two new columns:
+           - Column 1:  Diagnosis (binary) (e.g. "pulmonary embolism")
+           - Column 2:  Syndrome  (binary) (e.g. "cold symptoms")
+     2.  Add keywords for those terms not currently covered by the SSO-Junior
+
+Further work (for John):
+     1.  Add findings (this depends on exactly how many diagnoses and syndromes there are)
+     2.  Add concept/subconcept structure.
+
+
+
+
+Meeting with John Downing 18th Dec 09
+Re:  7syndromes.xls spreadheet (i.e. Chief Complaints Ontology Terminology)
+==========================================================================
+
+* Each record has a "Primary source" field (field 1).  This refers to the source from which the term was found.  Note that John identified the term first, and only then linked it to a source vocabulary.  Several source vocabs were used:
+       1. Biocaster -available
+       2. SyndromeCC -ask Wendy
+       3. 55 respiratory -ask Wendy
+       4  Rods CC -ask Wendy
+       5. ICD-9 -available
+Blanks indicate that the term identified by John is not in any of the source vocabularies.
+
+* Note that John has included x_ray findings and dx (diagnosis).  It is not obvious how these fit into a chief complaints framework.
+
+* I (MC) have agreed to input the UMLS codes into the spreadsheet.
+
+* There are currently 11 fields in each record, viz:
+        1.  (A) Primary source (eg. Biocaster, Rods CC, etc.)
+        2.  (B) Primary concept source.  This is a term from the associated primary source (if a code isn't available, then the field is left blank).
+        3.  (C) Syndrome (One of the 7 syndromes, GI, etc.)
+        4   (D) ConceptName.  Disease concept
+        5.  (E) UMLS concept ID:  Probably best in the "DISEASE::XXXX" format"
+        6.  (F) Symptom - Patient centred (i.e. subjective reports by the patient).  According to Wikipedia "A symptom is experienced and reported by the patient".
+        7.  (G) Sign -  Medic centred (i.e a sign is discovered by the physician in the examination process).
+        8.  (H) Related disease
+        9.  (I) Analogue disease 
+        10. (J) Bioterrorism disease (CDC bioterrorism list in full)
+        11. (K) Chest radiograph (disease can only be diagnosed with a chest xray)
+
+* Note that the relationship between Related diseases, analogue diseases and bioterrorism diseases is not straightforward.  It goes something like this:  analogue diseases can be given as the mistaken diagnosis for a bioterrorism disease (i.e. there are sufficient similarities for an early misdiagnosis).  For example, the _analogue_disease_  ASTHMA could be diagnosed instead of the actual _bioterrorism_ disease (e.g. Anthrax, Plague, etc.) [note that the relation is one to many]. The relation between _related_disease_ and _analogue_disease_ follows a similar pattern (with the same one to many relation).  Note however that it is unlikely that a _related_disease_ would be diagnosed in a situation where the *real* illness was a bioterrorism disease.
+
+Things to do (MC):
+=================
+* Add UMLS codes
+* Ensure consistent capitalization of concepts
+* Fill in Primary Source Concept if possible
+* Add terms for different vocabularies (Mesh, Snomed, ICD-9).  Hopefully we can do this at least semi-automatically.
+* Identify any further facts and relations we want to identify.
+       
