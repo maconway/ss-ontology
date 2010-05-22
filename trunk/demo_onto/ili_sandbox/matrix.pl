@@ -1,3 +1,21 @@
+#!/usr/bin/perl
+
+# Mike Conway, University of Pittsburgh, DBMI, May 2010
+
+# matrix.pl
+# generates a list of relations from an appropriately
+# formatted Excel spreadsheet.
+
+# Use:
+#          perl matrix.pl > matrix.txt
+
+# Note that it is important that the output file is named "matrix.txt"
+# as the ILI population ontology script is expecting to see it.
+
+# SVN Versioning Info:
+# $Id$
+
+
 use strict;
 
 my $previous_subconcept;
@@ -19,13 +37,11 @@ while (<>) {
     if ($relation =~ /Synonym/) {
         my $lc_subconcept = lcfirst($subconcept);
         my $lc_previous_subconcept = lcfirst($previous_subconcept);
-        
 	print "$lc_subconcept SYN $lc_previous_subconcept\n";
     }
 	
     if ($relation =~ /ConceptName/) {
-	$previous_subconcept = $subconcept;
-        
+	$previous_subconcept = $subconcept;      
     }
     $line_number++;
 
