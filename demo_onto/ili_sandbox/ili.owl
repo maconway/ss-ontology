@@ -16,41 +16,34 @@
       <owl:Class rdf:ID="ClinicalConcept"/>
     </owl:disjointWith>
   </owl:Class>
-  <owl:Class>
-    <owl:unionOf rdf:parseType="Collection">
-      <owl:Class rdf:ID="Symptom"/>
-      <owl:Class rdf:ID="Disease"/>
-      <owl:Class rdf:ID="Finding"/>
-    </owl:unionOf>
-  </owl:Class>
-  <owl:Class rdf:about="#Symptom">
+  <owl:Class rdf:ID="Symptom">
     <rdfs:subClassOf>
       <owl:Class rdf:about="#ClinicalConcept"/>
     </rdfs:subClassOf>
   </owl:Class>
-  <owl:Class>
-    <owl:unionOf rdf:parseType="Collection">
-      <owl:Class rdf:about="#Symptom"/>
-      <owl:Class rdf:about="#Disease"/>
-      <owl:Class rdf:about="#Finding"/>
-    </owl:unionOf>
-  </owl:Class>
   <owl:Class rdf:about="#ClinicalConcept">
     <owl:disjointWith>
-      <owl:Class rdf:ID="RegularExpression"/>
+      <owl:Class rdf:ID="Keyword"/>
     </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Status"/>
     <owl:disjointWith>
       <owl:Class rdf:ID="Link"/>
     </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Status"/>
     <owl:disjointWith>
-      <owl:Class rdf:ID="Keyword"/>
+      <owl:Class rdf:ID="RegularExpression"/>
     </owl:disjointWith>
   </owl:Class>
   <owl:Class rdf:ID="UmlsLink">
     <rdfs:subClassOf>
       <owl:Class rdf:about="#Link"/>
     </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class>
+    <owl:unionOf rdf:parseType="Collection">
+      <owl:Class rdf:about="#Symptom"/>
+      <owl:Class rdf:ID="Disease"/>
+      <owl:Class rdf:ID="Finding"/>
+    </owl:unionOf>
   </owl:Class>
   <owl:Class rdf:ID="Syndrome"/>
   <owl:Class>
@@ -70,15 +63,15 @@
       <owl:Class rdf:about="#Finding"/>
     </owl:unionOf>
   </owl:Class>
-  <owl:Class rdf:about="#RegularExpression">
-    <owl:disjointWith rdf:resource="#ClinicalConcept"/>
-  </owl:Class>
   <owl:Class>
     <owl:unionOf rdf:parseType="Collection">
       <owl:Class rdf:about="#Symptom"/>
       <owl:Class rdf:about="#Disease"/>
       <owl:Class rdf:about="#Finding"/>
     </owl:unionOf>
+  </owl:Class>
+  <owl:Class rdf:about="#RegularExpression">
+    <owl:disjointWith rdf:resource="#ClinicalConcept"/>
   </owl:Class>
   <owl:Class rdf:ID="EnglishKeyword">
     <rdfs:subClassOf>
@@ -94,6 +87,9 @@
   <owl:Class rdf:about="#Finding">
     <rdfs:subClassOf rdf:resource="#ClinicalConcept"/>
   </owl:Class>
+  <owl:Class rdf:ID="EnglishRegularExpression">
+    <rdfs:subClassOf rdf:resource="#RegularExpression"/>
+  </owl:Class>
   <owl:Class>
     <owl:unionOf rdf:parseType="Collection">
       <owl:Class rdf:about="#Symptom"/>
@@ -101,8 +97,12 @@
       <owl:Class rdf:about="#Finding"/>
     </owl:unionOf>
   </owl:Class>
-  <owl:Class rdf:ID="EnglishRegularExpression">
-    <rdfs:subClassOf rdf:resource="#RegularExpression"/>
+  <owl:Class>
+    <owl:unionOf rdf:parseType="Collection">
+      <owl:Class rdf:about="#Symptom"/>
+      <owl:Class rdf:about="#Disease"/>
+      <owl:Class rdf:about="#Finding"/>
+    </owl:unionOf>
   </owl:Class>
   <owl:ObjectProperty rdf:ID="currentStatus">
     <owl:inverseOf>
@@ -119,13 +119,6 @@
     </owl:inverseOf>
     <rdfs:range rdf:resource="#Keyword"/>
     <rdfs:domain rdf:resource="#ClinicalConcept"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:ID="isSynonymousWith">
-    <rdfs:range rdf:resource="#ClinicalConcept"/>
-    <rdfs:domain rdf:resource="#ClinicalConcept"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-    <owl:inverseOf rdf:resource="#isSynonymousWith"/>
-    <rdfs:comment xml:lang="en">Links ClinicalConcepts to each other using a strong synonym relationship.  Note that there is also the "isRelatedTo" concept which is weaker than synonymy.</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="hasAssociatedSyndrome">
     <rdfs:range rdf:resource="#Syndrome"/>
@@ -153,13 +146,6 @@
     <rdfs:range rdf:resource="#Link"/>
     <rdfs:comment xml:lang="en">Links Clinical Concepts to terminological links</rdfs:comment>
     <rdfs:domain rdf:resource="#ClinicalConcept"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:ID="isRelatedTo">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-    <rdfs:domain rdf:resource="#ClinicalConcept"/>
-    <rdfs:comment xml:lang="en">Links Clinical Concepts to one another.  Note that "isRelatedTo" is symmetric and a weaker notion than synonymy.</rdfs:comment>
-    <owl:inverseOf rdf:resource="#isRelatedTo"/>
-    <rdfs:range rdf:resource="#ClinicalConcept"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="isLinkAssociatedWithClinicalConcept">
     <rdfs:range rdf:resource="#ClinicalConcept"/>
@@ -193,12 +179,44 @@
       </owl:Class>
     </rdfs:range>
   </owl:ObjectProperty>
-  <owl:DatatypeProperty rdf:ID="hasKeywordString">
+  <owl:DatatypeProperty rdf:ID="definition">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#ClinicalConcept"/>
+          <owl:Class rdf:about="#Syndrome"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-    <rdfs:domain rdf:resource="#Keyword"/>
+    <rdfs:comment xml:lang="en">Provides a brief definition for each  ClinicalConcept and Syndrome instance.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="code">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="#Link"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </owl:DatatypeProperty>
-  <owl:DatatypeProperty rdf:ID="label">
+  <owl:SymmetricProperty rdf:ID="isSynonymousWith">
+    <rdfs:range rdf:resource="#ClinicalConcept"/>
+    <rdfs:domain rdf:resource="#ClinicalConcept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="#isSynonymousWith"/>
+    <rdfs:comment xml:lang="en">Links ClinicalConcepts to each other using a strong synonym relationship.  Note that there is also the "isRelatedTo" concept which is weaker than synonymy.</rdfs:comment>
+  </owl:SymmetricProperty>
+  <owl:SymmetricProperty rdf:ID="isRelatedTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#ClinicalConcept"/>
+    <rdfs:comment xml:lang="en">Links Clinical Concepts to one another.  Note that "isRelatedTo" is symmetric and a weaker notion than synonymy.</rdfs:comment>
+    <owl:inverseOf rdf:resource="#isRelatedTo"/>
+    <rdfs:range rdf:resource="#ClinicalConcept"/>
+  </owl:SymmetricProperty>
+  <owl:FunctionalProperty rdf:ID="hasKeywordString">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#Keyword"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="label">
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdfs:domain>
       <owl:Class>
@@ -209,59 +227,27 @@
         </owl:unionOf>
       </owl:Class>
     </rdfs:domain>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:comment xml:lang="en">Provides a brief label for each instance in the ontology.</rdfs:comment>
-  </owl:DatatypeProperty>
-  <owl:DatatypeProperty rdf:ID="hasCodeString">
-    <rdfs:domain rdf:resource="#Link"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  </owl:DatatypeProperty>
-  <owl:DatatypeProperty rdf:ID="hasRegularExpressionString">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-    <rdfs:domain rdf:resource="#RegularExpression"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </owl:DatatypeProperty>
-  <owl:FunctionalProperty rdf:ID="definition">
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdfs:domain>
-      <owl:Class>
-        <owl:unionOf rdf:parseType="Collection">
-          <owl:Class rdf:about="#ClinicalConcept"/>
-          <owl:Class rdf:about="#Syndrome"/>
-        </owl:unionOf>
-      </owl:Class>
-    </rdfs:domain>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:comment xml:lang="en">Provides a brief definition for each  ClinicalConcept and Syndrome instance.</rdfs:comment>
   </owl:FunctionalProperty>
-  <owl:FunctionalProperty rdf:ID="code">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  <owl:FunctionalProperty rdf:ID="hasCodeString">
     <rdfs:domain rdf:resource="#Link"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="hasRegularExpressionString">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#RegularExpression"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </owl:FunctionalProperty>
   <Status rdf:ID="accepted"/>
   <Status rdf:ID="delete"/>
+  <Status rdf:ID="scheduledForDeletion"/>
   <Syndrome rdf:ID="syndrome_1">
     <rdfs:comment xml:lang="en">null</rdfs:comment>
     <label xml:lang="en">influenza like illness</label>
   </Syndrome>
-  <Status rdf:ID="scheduledForDeletion"/>
   <Status rdf:ID="candidate"/>
-  <rdf:Description rdf:ID="Syndrome_1">
-    <rdfs:comment xml:lang="en">null</rdfs:comment>
-  </rdf:Description>
-  <Disease rdf:ID="Disease_32">
-    <isRelatedTo>
-      <Disease rdf:ID="Disease_26">
-        <isRelatedTo rdf:resource="#Disease_32"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-        ></rdfs:comment>
-      </Disease>
-    </isRelatedTo>
-    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    ></rdfs:comment>
-  </Disease>
 </rdf:RDF>
 
 <!-- Created with Protege (with OWL Plugin 3.4.4, Build 579)  http://protege.stanford.edu -->
