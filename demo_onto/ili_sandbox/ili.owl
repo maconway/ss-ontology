@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns="http://www.owl-ontologies.com/Ontology1274288723.owl#"
+    xmlns:ili="http://www.owl-ontologies.com/Ontology1274288723.owl#"
     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
     xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -12,40 +12,25 @@
   xml:base="http://www.owl-ontologies.com/Ontology1274288723.owl">
   <owl:Ontology rdf:about=""/>
   <owl:Class rdf:ID="Status">
-    <owl:disjointWith>
-      <owl:Class rdf:ID="ClinicalConcept"/>
-    </owl:disjointWith>
-  </owl:Class>
-  <owl:Class rdf:ID="Symptom">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="#ClinicalConcept"/>
-    </rdfs:subClassOf>
-  </owl:Class>
-  <owl:Class rdf:about="#ClinicalConcept">
-    <owl:disjointWith>
-      <owl:Class rdf:ID="Keyword"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:ID="Link"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Status"/>
-    <owl:disjointWith>
-      <owl:Class rdf:ID="RegularExpression"/>
-    </owl:disjointWith>
-  </owl:Class>
-  <owl:Class rdf:ID="UmlsLink">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="#Link"/>
-    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >instances used to describe status of a ClinicalConcept (e.g. "accepted", "candidate", "delete").</rdfs:comment>
   </owl:Class>
   <owl:Class>
     <owl:unionOf rdf:parseType="Collection">
-      <owl:Class rdf:about="#Symptom"/>
+      <owl:Class rdf:ID="Symptom"/>
       <owl:Class rdf:ID="Disease"/>
       <owl:Class rdf:ID="Finding"/>
     </owl:unionOf>
   </owl:Class>
-  <owl:Class rdf:ID="Syndrome"/>
+  <owl:Class rdf:about="#Symptom">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ClinicalConcept"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#ClinicalConcept">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ClinicalConcept - divided into 3 subclasses (Disease, Finding and Symptom)</rdfs:comment>
+  </owl:Class>
   <owl:Class>
     <owl:unionOf rdf:parseType="Collection">
       <owl:Class rdf:about="#Symptom"/>
@@ -53,6 +38,14 @@
       <owl:Class rdf:about="#Finding"/>
     </owl:unionOf>
   </owl:Class>
+  <owl:Class rdf:ID="UmlsLink">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Link"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Syndrome"/>
   <owl:Class rdf:about="#Disease">
     <rdfs:subClassOf rdf:resource="#ClinicalConcept"/>
   </owl:Class>
@@ -63,46 +56,42 @@
       <owl:Class rdf:about="#Finding"/>
     </owl:unionOf>
   </owl:Class>
+  <owl:Class rdf:ID="RegularExpression"/>
+  <owl:Class rdf:ID="EnglishKeyword">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Keyword"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Keyword">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Keywords - subclass for each language (currently only English implemented)</rdfs:comment>
+  </owl:Class>
   <owl:Class>
     <owl:unionOf rdf:parseType="Collection">
       <owl:Class rdf:about="#Symptom"/>
       <owl:Class rdf:about="#Disease"/>
       <owl:Class rdf:about="#Finding"/>
     </owl:unionOf>
-  </owl:Class>
-  <owl:Class rdf:about="#RegularExpression">
-    <owl:disjointWith rdf:resource="#ClinicalConcept"/>
-  </owl:Class>
-  <owl:Class rdf:ID="EnglishKeyword">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="#Keyword"/>
-    </rdfs:subClassOf>
-  </owl:Class>
-  <owl:Class rdf:about="#Link">
-    <owl:disjointWith rdf:resource="#ClinicalConcept"/>
-  </owl:Class>
-  <owl:Class rdf:about="#Keyword">
-    <owl:disjointWith rdf:resource="#ClinicalConcept"/>
   </owl:Class>
   <owl:Class rdf:about="#Finding">
     <rdfs:subClassOf rdf:resource="#ClinicalConcept"/>
   </owl:Class>
+  <owl:Class>
+    <owl:unionOf rdf:parseType="Collection">
+      <owl:Class rdf:about="#Symptom"/>
+      <owl:Class rdf:about="#Disease"/>
+      <owl:Class rdf:about="#Finding"/>
+    </owl:unionOf>
+  </owl:Class>
+  <owl:Class>
+    <owl:unionOf rdf:parseType="Collection">
+      <owl:Class rdf:about="#Symptom"/>
+      <owl:Class rdf:about="#Disease"/>
+      <owl:Class rdf:about="#Finding"/>
+    </owl:unionOf>
+  </owl:Class>
   <owl:Class rdf:ID="EnglishRegularExpression">
     <rdfs:subClassOf rdf:resource="#RegularExpression"/>
-  </owl:Class>
-  <owl:Class>
-    <owl:unionOf rdf:parseType="Collection">
-      <owl:Class rdf:about="#Symptom"/>
-      <owl:Class rdf:about="#Disease"/>
-      <owl:Class rdf:about="#Finding"/>
-    </owl:unionOf>
-  </owl:Class>
-  <owl:Class>
-    <owl:unionOf rdf:parseType="Collection">
-      <owl:Class rdf:about="#Symptom"/>
-      <owl:Class rdf:about="#Disease"/>
-      <owl:Class rdf:about="#Finding"/>
-    </owl:unionOf>
   </owl:Class>
   <owl:ObjectProperty rdf:ID="currentStatus">
     <owl:inverseOf>
@@ -240,14 +229,14 @@
     <rdfs:domain rdf:resource="#RegularExpression"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </owl:FunctionalProperty>
-  <Status rdf:ID="accepted"/>
-  <Status rdf:ID="delete"/>
-  <Status rdf:ID="scheduledForDeletion"/>
-  <Syndrome rdf:ID="syndrome_1">
+  <ili:Status rdf:ID="accepted"/>
+  <ili:Status rdf:ID="delete"/>
+  <ili:Syndrome rdf:ID="syndrome_1">
     <rdfs:comment xml:lang="en">null</rdfs:comment>
-    <label xml:lang="en">influenza like illness</label>
-  </Syndrome>
-  <Status rdf:ID="candidate"/>
+    <ili:label xml:lang="en">influenza like illness</ili:label>
+  </ili:Syndrome>
+  <ili:Status rdf:ID="scheduledForDeletion"/>
+  <ili:Status rdf:ID="candidate"/>
 </rdf:RDF>
 
 <!-- Created with Protege (with OWL Plugin 3.4.4, Build 579)  http://protege.stanford.edu -->

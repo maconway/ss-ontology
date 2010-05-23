@@ -126,9 +126,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000246">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bnvd\b</ns0:hasRegularExpressionString>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r34">
-    <rdf:rest rdf:nodeID="r1274571622r58792r35"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000170">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
@@ -231,6 +228,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000197">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">fatique</ns0:hasKeywordString>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r24">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Finding"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#isLinkAssociatedWithClinicalConcept">
     <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Link"/>
   </rdf:Description>
@@ -278,9 +278,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000092">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#diarrhea"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r27">
-    <rdf:rest rdf:nodeID="r1274571622r58792r28"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000002">
     <ns0:code xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">C0003123</ns0:code>
@@ -363,9 +360,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000378">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#tonsillitis"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r7">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Disease"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#hemiparesis">
     <ns0:isRelatedTo xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#limbWeakness"/>
   </rdf:Description>
@@ -404,9 +398,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000019">
     <ns0:isLinkAssociatedWithClinicalConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#diarrhea"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r1">
-    <ns0:unionOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:nodeID="r1274571622r58792r2"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000032">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\brsv\b</ns0:hasRegularExpressionString>
@@ -543,9 +534,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#soreThroat">
     <ns0:hasLink xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000043"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r33">
-    <rdf:rest rdf:nodeID="r1274571622r58792r34"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000088">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">diarrea</ns0:hasKeywordString>
   </rdf:Description>
@@ -639,6 +627,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000035">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#UmlsLink"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#ClinicalConcept">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ClinicalConcept - divided into 3 subclasses (Disease, Finding and Symptom)</ns0:comment>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000017">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
@@ -666,6 +657,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000017">
     <ns0:isLinkAssociatedWithClinicalConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#pertussis"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r29">
+    <ns0:unionOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:nodeID="r1274637062r61243r30"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000449">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#reactiveAirways"/>
   </rdf:Description>
@@ -681,17 +675,14 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#ataxia">
     <ns0:isRelatedTo xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#falling"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r26">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Symptom"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000264">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#pneumonia"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#Status">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">instances used to describe status of a ClinicalConcept (e.g. "accepted", "candidate", "delete").</ns0:comment>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000217">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bfeel.*?\s+sick\b</ns0:hasRegularExpressionString>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r6">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Symptom"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#isRegularExpressionAssociatedWithConcept">
     <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#RegularExpression"/>
@@ -717,9 +708,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000395">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r27">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Disease"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000291">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">pne</ns0:hasKeywordString>
   </rdf:Description>
@@ -741,9 +729,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000471">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">asthmaticus</ns0:hasKeywordString>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r11">
-    <rdf:rest rdf:nodeID="r1274571622r58792r12"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000281">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#pneumonia"/>
   </rdf:Description>
@@ -752,6 +737,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000027">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#UmlsLink"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r32">
+    <ns0:unionOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:nodeID="r1274637062r61243r33"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000455">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
@@ -951,6 +939,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000459">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">asmtha</ns0:hasKeywordString>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r22">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Symptom"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000366">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
@@ -1019,6 +1010,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000387">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">tonsilli</ns0:hasKeywordString>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r27">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Disease"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#transientIschemicAttack">
     <ns0:isRelatedTo xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#cerebrovascularAccident"/>
@@ -1232,9 +1226,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000222">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#malaise"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r3">
-    <rdf:rest rdf:nodeID="r1274571622r58792r4"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000198">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bfeel.*?\s+ill\b</ns0:hasRegularExpressionString>
@@ -1473,6 +1464,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000136">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#fever"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r15">
+    <rdf:rest rdf:nodeID="r1274637062r61243r16"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000059">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">croup</ns0:hasKeywordString>
   </rdf:Description>
@@ -1520,6 +1514,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#hasKeyword">
     <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#ClinicalConcept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r1">
+    <ns0:unionOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:nodeID="r1274637062r61243r2"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000019">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#bodyAches"/>
@@ -2096,6 +2093,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000023">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">myalgia</ns0:hasKeywordString>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r16">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Finding"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000371">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
@@ -2790,6 +2790,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000409">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">pharygitis</ns0:hasKeywordString>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r26">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Symptom"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000192">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
@@ -3009,6 +3012,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000006">
     <ns0:code xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">C0231528</ns0:code>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r25">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000154">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bloss\s+of\s+voice\b</ns0:hasRegularExpressionString>
   </rdf:Description>
@@ -3041,9 +3047,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#bronchiolitis">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Disease"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r18">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Symptom"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000232">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#nausea"/>
@@ -3164,6 +3167,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000118">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">faver</ns0:hasKeywordString>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r31">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Syndrome"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000004">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#anorexia"/>
@@ -3288,9 +3294,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000008">
     <ns0:isLinkAssociatedWithClinicalConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#bronchiolitis"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r3">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Disease"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000406">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#pharyngitis"/>
   </rdf:Description>
@@ -3327,14 +3330,14 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000059">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bpertus+is\b</ns0:hasRegularExpressionString>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r21">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000204">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bsick\b</ns0:hasRegularExpressionString>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000136">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">feels hot</ns0:hasKeywordString>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r9">
+    <ns0:unionOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:nodeID="r1274637062r61243r10"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000241">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#nausea"/>
@@ -3345,11 +3348,11 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000329">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bthroat\s+disc.*?</ns0:hasRegularExpressionString>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r32">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000373">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#soreThroat"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r4">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Finding"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000436">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#coldSymptoms"/>
@@ -3498,9 +3501,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000308">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r5">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#hasCodeString">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
@@ -3584,6 +3584,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000219">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#malaise"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r11">
+    <rdf:rest rdf:nodeID="r1274637062r61243r12"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000001">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#anorexia"/>
@@ -3777,9 +3780,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000113">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r2">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Symptom"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000051">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#productiveCough"/>
   </rdf:Description>
@@ -3812,6 +3812,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000062">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">barking cough</ns0:hasKeywordString>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000182">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">ili</ns0:hasKeywordString>
@@ -3864,14 +3867,14 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#myalgia">
     <ns0:label xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">myalgia</ns0:label>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r4">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Finding"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000283">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#pneumonitis"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000189">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">lethargy</ns0:hasKeywordString>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r8">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Finding"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000418">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#pharyngitis"/>
@@ -3962,12 +3965,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000228">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#nausea"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r18">
-    <rdf:rest rdf:nodeID="r1274571622r58792r19"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#Link">
-    <ns0:disjointWith xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#ClinicalConcept"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000183">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#iLI"/>
@@ -4158,14 +4155,8 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000420">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">throat infec</ns0:hasKeywordString>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r14">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Symptom"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000339">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bthroat\s+sw.*?\b</ns0:hasRegularExpressionString>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r19">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Disease"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000358">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#soreThroat"/>
@@ -4196,6 +4187,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#fatigue">
     <ns0:hasAssociatedSyndrome xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#syndrome_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r6">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Symptom"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000171">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
@@ -4392,6 +4386,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000408">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\busi\b</ns0:hasRegularExpressionString>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r4">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#isRelatedTo">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
@@ -4473,6 +4470,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000405">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#upperRespiratoryInfection"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r18">
+    <rdf:rest rdf:nodeID="r1274637062r61243r19"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#hantavirusPulmonarySyndrome">
     <ns0:isRelatedTo xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#pneumonia"/>
   </rdf:Description>
@@ -4481,9 +4481,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#rigor">
     <ns0:hasLink xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000012"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r31">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Syndrome"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000132">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
@@ -4505,9 +4502,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000242">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r29">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000162">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">hoarseness</ns0:hasKeywordString>
@@ -4541,6 +4535,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000027">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bbron*chi.*?tis\b</ns0:hasRegularExpressionString>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r19">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Disease"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000269">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
@@ -4662,9 +4659,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000015">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bbody\s*?ache\b</ns0:hasRegularExpressionString>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r22">
-    <rdf:rest rdf:nodeID="r1274571622r58792r23"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#cerebrovascularAccident">
     <ns0:isRelatedTo xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#transientIschemicAttack"/>
   </rdf:Description>
@@ -4685,9 +4679,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000104">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#diarrhea"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r30">
-    <rdf:rest rdf:nodeID="r1274571622r58792r31"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000028">
     <ns0:hasCodeString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">influenza</ns0:hasCodeString>
@@ -4760,9 +4751,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000325">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bswol.*?\s+uvula\b</ns0:hasRegularExpressionString>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r30">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#ClinicalConcept"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000315">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
@@ -5030,9 +5018,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#rigor">
     <ns0:label xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">rigor</ns0:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r35">
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000263">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">nauseau</ns0:hasKeywordString>
@@ -5343,9 +5328,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000320">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#soreThroat"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r7">
-    <rdf:rest rdf:nodeID="r1274571622r58792r8"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000221">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#malaise"/>
   </rdf:Description>
@@ -5357,6 +5339,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000014">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bachy\b</ns0:hasRegularExpressionString>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r31">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000201">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
@@ -5378,6 +5363,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000009">
     <ns0:code xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">C0035236</ns0:code>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r12">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#isSyndromeAssociatedWithClinicalConcept">
     <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Links syndrome (in this case ILI only) to Clinical Concepts (Symptom | Disease | Finding)</ns0:comment>
@@ -5418,9 +5406,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000219">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r35">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Syndrome"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000416">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bwheez.*?\b</ns0:hasRegularExpressionString>
   </rdf:Description>
@@ -5447,6 +5432,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000034">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">rsv</ns0:hasKeywordString>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r24">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#wheezing">
     <ns0:isRelatedTo xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#reactiveAirways"/>
@@ -5510,6 +5498,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000337">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#soreThroat"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r29">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000007">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#UmlsLink"/>
@@ -5610,9 +5601,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000240">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r21">
-    <ns0:unionOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:nodeID="r1274571622r58792r22"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#coldSymptoms">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Symptom"/>
   </rdf:Description>
@@ -5633,6 +5621,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000120">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r28">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000008">
     <ns0:hasCodeString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">bronchiolitis</ns0:hasCodeString>
@@ -6003,6 +5994,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000332">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r30">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#ClinicalConcept"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000166">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">no voice</ns0:hasKeywordString>
   </rdf:Description>
@@ -6020,6 +6014,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000101">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r23">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Disease"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000296">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#soreThroat"/>
@@ -6080,6 +6077,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000248">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bnauceous\b</ns0:hasRegularExpressionString>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r35">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Syndrome"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000394">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#tonsillitis"/>
@@ -6173,6 +6173,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000144">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r26">
+    <rdf:rest rdf:nodeID="r1274637062r61243r27"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000159">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#influenza"/>
@@ -6308,6 +6311,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000433">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\basthma\b</ns0:hasRegularExpressionString>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r27">
+    <rdf:rest rdf:nodeID="r1274637062r61243r28"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000186">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
@@ -6531,9 +6537,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000263">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#nausea"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r31">
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000034">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bchills\b</ns0:hasRegularExpressionString>
   </rdf:Description>
@@ -6578,9 +6581,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000423">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r12">
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000145">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
@@ -6728,9 +6728,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000378">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#pharyngitis"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r9">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#Link">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -7008,6 +7005,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000453">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bchest\s+tight.*?\b</ns0:hasRegularExpressionString>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r3">
+    <rdf:rest rdf:nodeID="r1274637062r61243r4"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000343">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#soreThroat"/>
   </rdf:Description>
@@ -7044,6 +7044,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000075">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">d&amp;v</ns0:hasKeywordString>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r34">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#ClinicalConcept"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000447">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
   </rdf:Description>
@@ -7052,9 +7055,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#bronchiolitis">
     <ns0:hasLink xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000008"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r9">
-    <ns0:unionOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:nodeID="r1274571622r58792r10"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000043">
     <ns0:code xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">C0242429</ns0:code>
@@ -7092,6 +7092,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000253">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#Keyword">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Keywords - subclass for each language (currently only English implemented)</ns0:comment>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000340">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
   </rdf:Description>
@@ -7101,14 +7104,14 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000375">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">tonsilitis</ns0:hasKeywordString>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r35">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#anorexia">
     <ns0:hasLink xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000002"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000099">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#diarrhea"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r28">
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000049">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">copugh</ns0:hasKeywordString>
@@ -7145,6 +7148,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000423">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#pharyngitis"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r7">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Disease"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000022">
     <ns0:isLinkAssociatedWithClinicalConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#elevatedTemperature"/>
@@ -7269,6 +7275,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000379">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r30">
+    <rdf:rest rdf:nodeID="r1274637062r61243r31"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000359">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
@@ -7290,6 +7299,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000116">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">fever</ns0:hasKeywordString>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000186">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#lethargy"/>
   </rdf:Description>
@@ -7299,11 +7311,8 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000139">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#elevatedTemperature"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r10">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Symptom"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#definition">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="r1274571622r58792r29"/>
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="r1274637062r61243r29"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#hasKeywordString">
     <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -7322,9 +7331,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000365">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r26">
-    <rdf:rest rdf:nodeID="r1274571622r58792r27"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#influenza">
     <ns0:hasStatus xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#accepted"/>
@@ -7590,12 +7596,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000218">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#malaise"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r14">
-    <rdf:rest rdf:nodeID="r1274571622r58792r15"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r16">
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000274">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
   </rdf:Description>
@@ -7607,9 +7607,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000416">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">pharynitis</ns0:hasKeywordString>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#Status">
-    <ns0:disjointWith xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#ClinicalConcept"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000223">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">feels ill</ns0:hasKeywordString>
@@ -7632,9 +7629,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000032">
     <ns0:isLinkAssociatedWithClinicalConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#somnolent"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r25">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000033">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#UmlsLink"/>
   </rdf:Description>
@@ -7649,6 +7643,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000429">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#upperRespiratoryInfection"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r21">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000138">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
@@ -7679,9 +7676,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000074">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#diarrhea"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r1">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000043">
     <ns0:hasCodeString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">sorethroat</ns0:hasCodeString>
@@ -7752,9 +7746,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000333">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bthroat\s+irr.*?\b</ns0:hasRegularExpressionString>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r22">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Symptom"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000022">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
   </rdf:Description>
@@ -7788,6 +7779,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000421">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r3">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Disease"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000312">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#soreThroat"/>
   </rdf:Description>
@@ -7820,6 +7814,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000365">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\btonsil.*?\b</ns0:hasRegularExpressionString>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r8">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#labConfirmedFlu">
     <ns0:isSynonymousWith xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#influenza"/>
@@ -8034,9 +8031,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000414">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r10">
-    <rdf:rest rdf:nodeID="r1274571622r58792r11"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000446">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\basthmia\b</ns0:hasRegularExpressionString>
   </rdf:Description>
@@ -8144,9 +8138,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000081">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">diar</ns0:hasKeywordString>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r13">
-    <ns0:unionOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:nodeID="r1274571622r58792r14"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000327">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">burning in throat</ns0:hasKeywordString>
@@ -8277,18 +8268,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#somnolent">
     <ns0:hasLink xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000032"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#ClinicalConcept">
-    <ns0:disjointWith xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#RegularExpression"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#ClinicalConcept">
-    <ns0:disjointWith xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Status"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#ClinicalConcept">
-    <ns0:disjointWith xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Link"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#ClinicalConcept">
-    <ns0:disjointWith xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Keyword"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000217">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
@@ -8357,6 +8336,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000258">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#pneumonia"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r21">
+    <ns0:unionOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:nodeID="r1274637062r61243r22"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000287">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#rhinorrhea"/>
@@ -8507,6 +8489,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000163">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#influenza"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r19">
+    <rdf:rest rdf:nodeID="r1274637062r61243r20"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000477">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
@@ -9021,9 +9006,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#iLI">
     <ns0:label xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">i l i</ns0:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r15">
-    <rdf:rest rdf:nodeID="r1274571622r58792r16"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000052">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#productiveCough"/>
   </rdf:Description>
@@ -9101,9 +9083,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000152">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r28">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Finding"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#dysarthria">
     <ns0:isRelatedTo xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#speechProblem"/>
@@ -9582,6 +9561,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000157">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bcyanotic\b</ns0:hasRegularExpressionString>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r34">
+    <rdf:rest rdf:nodeID="r1274637062r61243r35"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000276">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#pneumonia"/>
   </rdf:Description>
@@ -9741,9 +9723,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000337">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r32">
-    <ns0:unionOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:nodeID="r1274571622r58792r33"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000386">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#tonsillitis"/>
   </rdf:Description>
@@ -9753,14 +9732,11 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000091">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">diarrha</ns0:hasKeywordString>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r13">
+    <ns0:unionOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:nodeID="r1274637062r61243r14"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000313">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">rhinorrhea</ns0:hasKeywordString>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r8">
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r32">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000372">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#soreThroat"/>
@@ -9779,6 +9755,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000278">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#pneumonia"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r2">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Symptom"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000002">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#UmlsLink"/>
@@ -9836,6 +9815,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000338">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bthroat\s+swel.*?\b</ns0:hasRegularExpressionString>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r20">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Finding"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000290">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">pna</ns0:hasKeywordString>
@@ -9924,14 +9906,8 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000424">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r13">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#dyspnea">
     <ns0:hasLink xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000020"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r24">
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000041">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">chiles</ns0:hasKeywordString>
@@ -9941,9 +9917,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000447">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">wheezing</ns0:hasKeywordString>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r23">
-    <rdf:rest rdf:nodeID="r1274571622r58792r24"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000189">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#lethargy"/>
@@ -9983,6 +9956,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000375">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\binflam.*?\s+throat\b</ns0:hasRegularExpressionString>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r20">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000009">
     <ns0:isLinkAssociatedWithClinicalConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#respiratorySyncytialVirus"/>
@@ -10056,9 +10032,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000207">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#malaise"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r17">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000005">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
   </rdf:Description>
@@ -10082,9 +10055,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000047">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r23">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Disease"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000057">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#productiveCough"/>
@@ -10134,14 +10104,14 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000041">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#rigor"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r33">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Status"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000372">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000059">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r33">
+    <rdf:rest rdf:nodeID="r1274637062r61243r34"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000135">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#fever"/>
@@ -10163,9 +10133,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000437">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#asthma"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r16">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Finding"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#rhinorrhea">
     <ns0:hasKeyword xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000307"/>
@@ -10260,9 +10227,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000011">
     <ns0:code xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">C0085593</ns0:code>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r19">
-    <rdf:rest rdf:nodeID="r1274571622r58792r20"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000356">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">throat disconfort</ns0:hasKeywordString>
   </rdf:Description>
@@ -10286,6 +10250,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000351">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\btonsulitis\b</ns0:hasRegularExpressionString>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r17">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000048">
     <ns0:code xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">C0863093</ns0:code>
@@ -10473,6 +10440,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000402">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">pharyngitis</ns0:hasKeywordString>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r5">
+    <ns0:unionOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:nodeID="r1274637062r61243r6"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000292">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
@@ -10517,9 +10487,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000153">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r25">
-    <ns0:unionOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:nodeID="r1274571622r58792r26"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000012">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bftt\b</ns0:hasRegularExpressionString>
@@ -10665,9 +10632,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000219">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bfeel.*?\s+sick\b</ns0:hasRegularExpressionString>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r34">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#ClinicalConcept"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000438">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#coldSymptoms"/>
   </rdf:Description>
@@ -10724,9 +10688,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000310">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r2">
-    <rdf:rest rdf:nodeID="r1274571622r58792r3"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000336">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
@@ -10787,6 +10748,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000094">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">dirrhea</ns0:hasKeywordString>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r7">
+    <rdf:rest rdf:nodeID="r1274637062r61243r8"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000220">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">dont feel good</ns0:hasKeywordString>
@@ -11103,6 +11067,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000226">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#nausea"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r33">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Status"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#cough">
     <ns0:label xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">cough</ns0:label>
   </rdf:Description>
@@ -11111,9 +11078,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000121">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">fevber</ns0:hasKeywordString>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r11">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Disease"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000292">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#pneumonia"/>
@@ -11133,6 +11097,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000121">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bfuo\b</ns0:hasRegularExpressionString>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#UmlsLink">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ns0:comment>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000455">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#wheezing"/>
   </rdf:Description>
@@ -11144,6 +11111,12 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000392">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#pharyngitis"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r14">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r12">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Finding"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000220">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bfeel.*?\s+unwell\b</ns0:hasRegularExpressionString>
@@ -11181,14 +11154,14 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000425">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">u r i</ns0:hasKeywordString>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000268">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#pneumonia"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000221">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r17">
-    <ns0:unionOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:nodeID="r1274571622r58792r18"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#diarrhea">
     <ns0:hasAssociatedSyndrome xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#syndrome_1"/>
@@ -11322,6 +11295,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000425">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#upperRespiratoryInfection"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r13">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000304">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
   </rdf:Description>
@@ -11336,9 +11312,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000200">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#Keyword">
-    <ns0:disjointWith xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#ClinicalConcept"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000003">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">eating disorder</ns0:hasKeywordString>
@@ -11370,8 +11343,14 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#dehydration">
     <ns0:isRelatedTo xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#hypovolemicShock"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r8">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Finding"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000162">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r14">
+    <rdf:rest rdf:nodeID="r1274637062r61243r15"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000293">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bsoerthroat\b</ns0:hasRegularExpressionString>
@@ -11468,6 +11447,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000393">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r10">
+    <rdf:rest rdf:nodeID="r1274637062r61243r11"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000009">
     <ns0:hasCodeString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">respiratory syncytial virus</ns0:hasCodeString>
@@ -11700,6 +11682,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000441">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">viral</ns0:hasKeywordString>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r18">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Symptom"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000023">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
@@ -11751,26 +11736,29 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000214">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#malaise"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r4">
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000402">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#upperRespiratoryInfection"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000403">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#pharyngitis"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r6">
-    <rdf:rest rdf:nodeID="r1274571622r58792r7"/>
+  <rdf:Description rdf:nodeID="r1274637062r61243r16">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000314">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#soreThroat"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r10">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Symptom"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000324">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#viralSymptoms">
     <ns0:label xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">viral symptoms</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r23">
+    <rdf:rest rdf:nodeID="r1274637062r61243r24"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000177">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
@@ -12252,8 +12240,8 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000386">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r5">
-    <ns0:unionOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:nodeID="r1274571622r58792r6"/>
+  <rdf:Description rdf:nodeID="r1274637062r61243r22">
+    <rdf:rest rdf:nodeID="r1274637062r61243r23"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#pleuriticPain">
     <ns0:isSynonymousWith xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#pleurisy"/>
@@ -12362,9 +12350,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000124">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#fever"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r12">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Finding"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000051">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#cough"/>
@@ -12624,6 +12609,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#bronchiolitis">
     <ns0:isRelatedTo xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#respiratorySyncytialVirus"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r2">
+    <rdf:rest rdf:nodeID="r1274637062r61243r3"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000185">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
@@ -12644,9 +12632,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000357">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r20">
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000159">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
@@ -12756,6 +12741,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#earache">
     <ns0:isSynonymousWith xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#otalgia"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r17">
+    <ns0:unionOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:nodeID="r1274637062r61243r18"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000437">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">cold symptoms</ns0:hasKeywordString>
   </rdf:Description>
@@ -12766,7 +12754,7 @@
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#malaise"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#isSyndromeAssociatedWithClinicalConcept">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="r1274571622r58792r25"/>
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="r1274637062r61243r25"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#drowsiness">
     <ns0:isSynonymousWith xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#lethargy"/>
@@ -12795,9 +12783,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000285">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#pneumonia"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r15">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Disease"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000251">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
@@ -12815,9 +12800,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000227">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r20">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Finding"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000350">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#soreThroat"/>
@@ -13002,6 +12984,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#respiratorySyncytialVirus">
     <ns0:label xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">respiratory syncytial virus</ns0:label>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r15">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Disease"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000095">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#diarrhea"/>
   </rdf:Description>
@@ -13028,6 +13013,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000317">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishRegularExpression"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r6">
+    <rdf:rest rdf:nodeID="r1274637062r61243r7"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000080">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
@@ -13064,6 +13052,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000357">
     <ns0:isRegularExpressionAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#tonsillitis"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r25">
+    <ns0:unionOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:nodeID="r1274637062r61243r26"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#viralSymptoms">
     <ns0:hasLink xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000050"/>
@@ -13281,6 +13272,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#umls_000036">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#UmlsLink"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r11">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Disease"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000215">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
@@ -13341,6 +13335,9 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000077">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1274637062r61243r28">
+    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Finding"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000467">
     <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#EnglishKeyword"/>
   </rdf:Description>
@@ -13384,7 +13381,7 @@
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bsore\s+thriat\b</ns0:hasRegularExpressionString>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#label">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="r1274571622r58792r32"/>
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="r1274637062r61243r32"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000145">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#elevatedTemperature"/>
@@ -13484,9 +13481,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000361">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">throat pa</ns0:hasKeywordString>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r29">
-    <ns0:unionOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:nodeID="r1274571622r58792r30"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000199">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#fatigue"/>
@@ -14013,9 +14007,6 @@
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000217">
     <ns0:isKeywordAssociatedWithConcept xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#malaise"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1274571622r58792r24">
-    <rdf:first rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#Finding"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enKeyword_000371">
     <ns0:hasKeywordString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">sore thort</ns0:hasKeywordString>
   </rdf:Description>
@@ -14093,9 +14084,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#amnesia">
     <ns0:isRelatedTo xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#alteredMentalStatus"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#RegularExpression">
-    <ns0:disjointWith xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://www.owl-ontologies.com/Ontology1274288723.owl#ClinicalConcept"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1274288723.owl#enRegularExpression_000065">
     <ns0:hasRegularExpressionString xmlns:ns0="http://www.owl-ontologies.com/Ontology1274288723.owl#" xml:lang="en">\bdearrh.*?\b</ns0:hasRegularExpressionString>
