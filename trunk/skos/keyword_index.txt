@@ -1,9 +1,9 @@
-﻿abdominalRigidity HAS_KEYWORD abdominal rigidity
+abdominalRigidity HAS_KEYWORD abdominal rigidity
 abdominalRigidity HAS_KEYWORD rigid abdomen
 abdominalRigidity HAS_KEYWORD stiff abdomen
 alteredMentalStatus HAS_KEYWORD altered mental status
 alteredMentalStatus HAS_KEYWORD unconscious
-alteredMentalStatus HAS_KEYWORD � coma
+alteredMentalStatus HAS_KEYWORD  coma
 alteredMentalStatus HAS_KEYWORD obtunded
 alteredMentalStatus HAS_KEYWORD limp
 dementia HAS_KEYWORD dementia
@@ -382,7 +382,7 @@ xRayPleuralEffusion HAS_KEYWORD effusion in the pleural space on x-ray
 xRayPneumonia HAS_KEYWORD x-ray pneumonia
 xRayPneumonia HAS_KEYWORD infiltrate on x-ray
 xRayPneumothorax HAS_KEYWORD x-ray pneumothorax
-xRayPneumothorax HAS_KEYWORD air in� the pleural space on x-ray
+xRayPneumothorax HAS_KEYWORD air in the pleural space on x-ray
 xRayPulmonaryEdema HAS_KEYWORD x-ray pulmonary edema
 xRayPulmonaryEdema HAS_KEYWORD fluid in the lungs on x-ray
 xRayWidenedMediastinum HAS_KEYWORD x-ray widened mediastium
@@ -693,7 +693,6 @@ shortnessOfBreath HAS_KEYWORD shallow breat(hing)
 shortnessOfBreath HAS_KEYWORD troub(le) breat(hing)
 shortnessOfBreath HAS_KEYWORD wob
 shortnessOfBreath HAS_KEYWORD work of br(eathing)
-shortnessOfBreath HAS_KEYWORD )]
 shortnessOfBreath HAS_KEYWORD pneumonia-resp distress
 earache HAS_KEYWORD ear ache
 earache HAS_KEYWORD ear aches

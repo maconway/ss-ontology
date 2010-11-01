@@ -1,0 +1,2 @@
+Run the script skos.pl with no arguments.  It generates
+the rdf SKOS.

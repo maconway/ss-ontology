@@ -1,3 +1,7 @@
+# syndrome_index.pl
+# Mike Conway Oct 2010
+# generates syndrome index for SKOS vocab
+
 use strict;
 use Spreadsheet::ParseExcel;
 

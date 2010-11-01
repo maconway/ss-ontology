@@ -1,3 +1,7 @@
+# regexp_index.pl
+# Mike Conway Oct 2010
+# generates regular expression labels for skos
+
 use strict;
 use Spreadsheet::ParseExcel;
 use Perl6::Slurp;

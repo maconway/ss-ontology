@@ -1,3 +1,7 @@
+# keywords_index.pl
+# Mike Conway Oct 2010
+# Generates altLabel skos tags from spreadsheet
+    
 use strict;
 use Spreadsheet::ParseExcel;
 use Perl6::Slurp;
