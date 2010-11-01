@@ -303,7 +303,6 @@ shortnessOfBreath HAS_REGEXP \bshallow\s+breat.*?\b
 shortnessOfBreath HAS_REGEXP \btroub.*?\s+breat.*?\b
 shortnessOfBreath HAS_REGEXP \bwob\b
 shortnessOfBreath HAS_REGEXP \bwork\s+of\s+br.*?\b
-shortnessOfBreath HAS_REGEXP )]
 shortnessOfBreath HAS_REGEXP \bpneu.*?(\/|-|\s+)+resp.*?\s+distress\b
 earache HAS_REGEXP \bear\s*aches?\b
 earache HAS_REGEXP \bear\s*aches?\b
@@ -835,7 +834,7 @@ vomiting HAS_REGEXP \bretch.*?\b
 vomiting HAS_REGEXP \bv\s*d\b
 vomiting HAS_REGEXP \bvomit\b
 vomiting HAS_REGEXP \bvomick.*?\b
-vomiting HAS_REGEXP \can\’?t\s+hold\s.*?food\s+down\b
+vomiting HAS_REGEXP \can\?t\s+hold\s.*?food\s+down\b
 vomiting HAS_REGEXP \b(threw|throwing|throw)\s+up\b
 vomiting HAS_REGEXP \b(threw|throwing|throw)\s+up\b
 vomiting HAS_REGEXP \b(threw|throwing|throw)\s+up\b

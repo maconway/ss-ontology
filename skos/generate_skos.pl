@@ -5,9 +5,8 @@
 # SVN Keywords:
 # $Id$
 
-
-# Script generates SKOS from Excel spreadsheet
-
+# Script generates SKOS from Excel spreadsheet.  Uses a series of indices as
+# a basis
 
 use strict;
 use RDF::Helper;
@@ -19,7 +18,6 @@ my @definitions;
 
 # Create RDF store
 my $rdf = RDF::Helper->new();
-
 
 # Open spreadsheet...
 my $parser = Spreadsheet::ParseExcel->new();
@@ -89,6 +87,8 @@ generate_regexp();
 generate_altUMLS();
 generate_icd_prefLabel();
 generate_mesh_prefLabel();
+generate_indicators();
+generate_diagnosis();
 
 # Serialize...
 $rdf->serialize( filename => 'out.xml', format => "rdfxml");
@@ -124,42 +124,42 @@ sub setup_syndromeSkos {
     #create taxonmic relations for specific and sensitive syndromes
     $rdf->assert_resource(
         "http://www.extended_sso.org/resource#sensitiveGastrointestinalSyndrome",
-        "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+        "http://www.w3.org/2004/02/skos/core#broader",
         "http://www.extended_sso.org/resource#gastrointestinalSyndrome",
         );
     $rdf->assert_resource(
         "http://www.extended_sso.org/resource#gastrointestinalSyndrome",
-        "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+        "http://www.w3.org/2004/02/skos/core#narrower",
         "http://www.extended_sso.org/resource#sensitiveGastrointestinalSyndrome",
         );
         $rdf->assert_resource(
         "http://www.extended_sso.org/resource#specificGastrointestinalSyndrome",
-        "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+        "http://www.w3.org/2004/02/skos/core#broader",
         "http://www.extended_sso.org/resource#gastrointestinalSyndrome",
         );
     $rdf->assert_resource(
         "http://www.extended_sso.org/resource#gastrointestinalSyndrome",
-        "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+        "http://www.w3.org/2004/02/skos/core#narrower",
         "http://www.extended_sso.org/resource#specificGastrointestinalSyndrome",
         );
      $rdf->assert_resource(
         "http://www.extended_sso.org/resource#sensitiveRespiratorySyndrome",
-        "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+        "http://www.w3.org/2004/02/skos/core#broader",
         "http://www.extended_sso.org/resource#respiratorySyndrome",
         );
     $rdf->assert_resource(
         "http://www.extended_sso.org/resource#respiratorySyndrome",
-        "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+        "http://www.w3.org/2004/02/skos/core#narrower",
         "http://www.extended_sso.org/resource#sensitiveRespiratorySyndrome",
         );
      $rdf->assert_resource(
         "http://www.extended_sso.org/resource#specificRespiratorySyndrome",
-        "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+        "http://www.w3.org/2004/02/skos/core#broader",
         "http://www.extended_sso.org/resource#respiratorySyndrome",
         );
     $rdf->assert_resource(
         "http://www.extended_sso.org/resource#respiratorySyndrome",
-        "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+        "http://www.w3.org/2004/02/skos/core#narrower",
         "http://www.extended_sso.org/resource#specificRespiratorySyndrome",
         );
 }
@@ -171,12 +171,12 @@ sub populate_syndromes {
         my ($concept, $ignore, $syndrome) = split(/\s+/, $syndrome_line);
         $rdf->assert_resource(
         "http://www.extended_sso.org/resource#$concept",
-        "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+        "http://www.w3.org/2004/02/skos/core#broader",
         "http://www.extended_sso.org/resource#$syndrome"
      );
          $rdf->assert_resource(
         "http://www.extended_sso.org/resource#$syndrome",
-        "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+        "http://www.w3.org/2004/02/skos/core#narrower",
         "http://www.extended_sso.org/resource#$concept"
      );
         
@@ -244,10 +244,11 @@ sub generate_notes {
         $concept = trim($concept);
         $note = trim($note);
         #my $note_obj = $rdf->new_literal($note, "en");
+        my $note_obj = $rdf->new_literal($note, "", "http://www.extended_sso.org/resource#dataCategory");
         $rdf->assert_literal(
              "http://www.extended_sso.org/resource#$concept",
-             "http://www.w3.org/2004/02/skos/core#note",
-             "$note"
+             "http://www.w3.org/2004/02/skos/core#notation",
+             $note_obj
             );
         
     }
@@ -268,7 +269,9 @@ sub generate_umls_prefLabel {
         my $umls      = $umls_cell->unformatted();
         if ($umls eq "0") {next;}
         $umls = trim($umls);
-        my $umls_obj = $rdf->new_literal($umls, "", "umlsPrefLabel");
+        $umls =~ s/\[//s;
+        $umls =~ s/\]//s;
+        my $umls_obj = $rdf->new_literal($umls, "", "http://www.extended_sso.org/resource#umlsPrefLabel");
         $rdf->assert_literal(
             "http://www.extended_sso.org/resource#$concept",
             "http://www.w3.org/2004/02/skos/core#notation",
@@ -291,9 +294,11 @@ sub generate_icd_prefLabel {
 
         my $icd9      = $icd9_cell->unformatted();
         print $icd9 . "\n";print $concept . "\n";
-
         $icd9 = trim($icd9);
-        my $icd9_obj = $rdf->new_literal($icd9, "", "icd9PrefLabel");
+        #standardize with other vocabs (i.e code followed by colon, then text
+        # eg 83838.383:Some text)
+        $icd9 =~ s/\s+/:/;       
+        my $icd9_obj = $rdf->new_literal($icd9, "", "http://www.extended_sso.org/resource#icd9PrefLabel");
         $rdf->assert_literal(
             "http://www.extended_sso.org/resource#$concept",
             "http://www.w3.org/2004/02/skos/core#notation",
@@ -315,10 +320,14 @@ sub generate_mesh_prefLabel {
         if (!(defined $mesh_cell)) {next;}
 
         my $mesh      = $mesh_cell->unformatted();
-        print $mesh . "\n";print $concept . "\n";
-
+      #  print $mesh . "\n";print $concept . "\n";
         $mesh = trim($mesh);
-        my $mesh_obj = $rdf->new_literal($mesh, "", "meshPrefLabel");
+        # swap round so bracketed code is followed by text
+        $mesh =~ s/(.*?)\s+\[(.*?)\]/$2:$1/g;
+        $mesh =~ s/\[//g;
+        $mesh =~ s/\]//g;
+        
+        my $mesh_obj = $rdf->new_literal($mesh, "", "http://www.extended_sso.org/resource#meshPrefLabel");
         $rdf->assert_literal(
             "http://www.extended_sso.org/resource#$concept",
             "http://www.w3.org/2004/02/skos/core#notation",
@@ -340,7 +349,7 @@ sub generate_regexp {
         $regexp = trim($regexp); print $regexp . " $concept" . "\n";
         $concept = trim($concept);
 
-        my $regexp_obj = $rdf->new_literal($regexp, "", "englishAltRegExp");
+        my $regexp_obj = $rdf->new_literal($regexp, "", "http://www.extended_sso.org/resource#englishAltRegExp");
         $rdf->assert_literal(
             "http://www.extended_sso.org/resource#$concept",
             "http://www.w3.org/2004/02/skos/core#notation",
@@ -364,8 +373,10 @@ sub generate_altUMLS {
         }
         $umls = trim($umls);
         $concept = trim($concept);
+        $umls =~ s/\[//s;
+        $umls =~ s/\]//s;
 
-        my $umls_obj = $rdf->new_literal($umls, "", "umlsAltLabel");
+        my $umls_obj = $rdf->new_literal($umls, "", "http://www.extended_sso.org/resource#umlsAltLabel");
         $rdf->assert_literal(
             "http://www.extended_sso.org/resource#$concept",
             "http://www.w3.org/2004/02/skos/core#notation",
@@ -374,4 +385,48 @@ sub generate_altUMLS {
         
     }
     
+}
+
+sub generate_indicators {
+    my @lines = slurp("indicates_index.txt");
+    foreach my $line (@lines) {
+        chomp($line);
+        my $concept;
+        my $sign;
+        if ($line =~ /^(.*?)\s+HAS_INDICATOR\s+(.*)/) {
+            $concept = $1;
+            $sign = $2;
+        }
+        $concept = trim($concept);
+        $sign = trim($sign);
+
+        my $sign_obj = $rdf->new_literal($sign, "", "http://www.extended_sso.org/resource#sign");
+        $rdf->assert_literal(
+             "http://www.extended_sso.org/resource#$concept",
+            "http://www.w3.org/2004/02/skos/core#notation",
+            $sign_obj    
+            );
+    }
+}
+
+sub generate_diagnosis {
+     my @lines = slurp("indicates_index.txt");
+    foreach my $line (@lines) {
+        chomp($line);
+        my $concept;
+        my $sign;
+        if ($line =~ /^(.*?)\s+HAS_INDICATOR\s+(.*)/) {
+            $concept = $1;
+            $sign = $2;
+        }
+        $concept = trim($concept);
+        $sign = trim($sign);
+
+        my $diagnosis_obj = $rdf->new_literal($concept, "", "http://www.extended_sso.org/resource#diagnosis");
+        $rdf->assert_literal(
+             "http://www.extended_sso.org/resource#$sign",
+            "http://www.w3.org/2004/02/skos/core#notation",
+            $diagnosis_obj    
+            )
+    }
 }

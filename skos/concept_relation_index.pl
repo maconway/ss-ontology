@@ -1,4 +1,7 @@
-
+# concept_relation_index.pl
+# Mike Conway Oct 2010
+# generates "related" relations for skos vocab
+    
 use strict;
 use Spreadsheet::ParseExcel;
 

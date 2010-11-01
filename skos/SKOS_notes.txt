@@ -1,0 +1,21 @@
+1st November 2010
+SKOS Notes
+Mike Conway
+
+
+In addition to the standard SKOS apparatus, we have defined several typed literals that contain extra information:
+
+^^sign - indicates the signs that accompany a diagnosis.  For example, "encephalitis" has the signs "limbWeakness" and "hallucination" associated with it.
+
+^^diagnosis - diagnoses associated with symptoms/signs.  For example, the sign "drowsiness" has diagnosis "concussion" and "cerebral bleed"
+
+^^dataCategory can be diagnosis, sign, syndrome OR bioterrorism
+
+^^meshPrefLabel
+
+^^icd9PrefLabel
+
+^^umlsPrefLabel
+
+^^umlsAltLabel - alternatives to the core UMLS CUI
+

@@ -1,3 +1,7 @@
+# altUMLS_index.pl
+# Mike Conway Oct 2010
+# Generates an index of altUMLs codes for SKOS
+
 use strict;
 use Spreadsheet::ParseExcel;
 use Perl6::Slurp;

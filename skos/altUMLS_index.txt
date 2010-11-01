@@ -302,8 +302,7 @@ shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
 shortnessOfBreath HAS_ALT_UMLS C0221161:Shallow breathing
 shortnessOfBreath HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
 shortnessOfBreath HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
-shortnessOfBreath HAS_ALT_UMLS work of br(eathing) \bwork\s+of\s+br.*?\bC0013404:Breathing Difficulties (Dyspnea
-shortnessOfBreath HAS_ALT_UMLS )
+shortnessOfBreath HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
 shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
 earache HAS_ALT_UMLS C0013456:Earache
 earache HAS_ALT_UMLS C0013456:Earache
