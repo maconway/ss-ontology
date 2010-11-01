@@ -1,0 +1,1281 @@
+﻿abdominalRigidity HAS_KEYWORD abdominal rigidity
+abdominalRigidity HAS_KEYWORD rigid abdomen
+abdominalRigidity HAS_KEYWORD stiff abdomen
+alteredMentalStatus HAS_KEYWORD altered mental status
+alteredMentalStatus HAS_KEYWORD unconscious
+alteredMentalStatus HAS_KEYWORD � coma
+alteredMentalStatus HAS_KEYWORD obtunded
+alteredMentalStatus HAS_KEYWORD limp
+dementia HAS_KEYWORD dementia
+dementia HAS_KEYWORD mental deterioration
+confusion HAS_KEYWORD confusion
+confusion HAS_KEYWORD abnormal mental state
+disorientation HAS_KEYWORD disorientation
+amnesia HAS_KEYWORD amnesia
+amnesia HAS_KEYWORD no memory
+hallucination HAS_KEYWORD hallucination
+anthrax HAS_KEYWORD anthrax
+anthrax HAS_KEYWORD widened mediastinum
+anthrax HAS_KEYWORD eschar
+cutaneousAnthrax   HAS_KEYWORD cutaneous anthrax
+cutaneousAnthrax   HAS_KEYWORD eschar
+appendicitis HAS_KEYWORD appendicitis
+appendicitis HAS_KEYWORD abdominal pain
+appendicitis HAS_KEYWORD right lower quadrant pain
+arthralgias HAS_KEYWORD arthralgias
+arthralgias HAS_KEYWORD joint pain
+ataxia HAS_KEYWORD ataxia
+ataxia HAS_KEYWORD abnormal gait
+falling HAS_KEYWORD falling
+lossOfBalance HAS_KEYWORD loss of balance
+lossOfBalance HAS_KEYWORD staggering
+lossOfBalance HAS_KEYWORD abnormal gait
+abnormalGait HAS_KEYWORD abnormal gait
+abnormalGait HAS_KEYWORD staggering
+bacterialFoodPoisoning  HAS_KEYWORD bacterial food poisoning
+bacterialFoodPoisoning  HAS_KEYWORD staphylococcal food poisoning
+bellsPalsy HAS_KEYWORD bell's palsy
+bellsPalsy HAS_KEYWORD facial paralysis
+bleedingFromOrifices HAS_KEYWORD bleeding from orifices
+rectalBleeding HAS_KEYWORD rectal bleeding
+vaginalBleeding HAS_KEYWORD vaginal bleeding
+bleedingFromGums HAS_KEYWORD bleeding from gums
+bleedingFromSurgicalIncision HAS_KEYWORD bleeding from surgical incision
+bleedingFromTubeOrCatheter HAS_KEYWORD bleeding from tube
+bleedingFromTubeOrCatheter HAS_KEYWORD bleeding from catheter
+bleedingFromTubeOrCatheter HAS_KEYWORD bleeding from tube or catheter
+botulism HAS_KEYWORD botulism
+botulism HAS_KEYWORD facial nerve paralysis
+botulism HAS_KEYWORD peripheral paralysis
+breathSoundsDecreased HAS_KEYWORD breath sounds decreased
+breathSoundsDecreased HAS_KEYWORD collapsed lung
+brucellosis HAS_KEYWORD brucellosis
+cerebralDysfunction HAS_KEYWORD derebral dysfunction
+cerebralDysfunction HAS_KEYWORD CVA
+cerebrovascularAccident HAS_KEYWORD cerebralvascular accident
+cerebrovascularAccident HAS_KEYWORD CVA
+cerebrovascularAccident HAS_KEYWORD intercrancal bleed
+cerebrovascularAccident HAS_KEYWORD cerebral infarct
+cerebralBleed HAS_KEYWORD cerebral bleed
+cerebralBleed HAS_KEYWORD CVA
+cerebralBleed HAS_KEYWORD CVI
+cerebralBleed HAS_KEYWORD stroke
+extremityTingling HAS_KEYWORD extremity tingling
+extremityTingling HAS_KEYWORD arm tingling
+extremityTingling HAS_KEYWORD leg tingling
+extremityWeakness HAS_KEYWORD extremity weakness
+extremityWeakness HAS_KEYWORD arm weak
+extremityWeakness HAS_KEYWORD leg weak
+extremityNumbness HAS_KEYWORD extremity numbness
+extremityNumbness HAS_KEYWORD arm numb
+extremityNumbness HAS_KEYWORD leg numb
+transientIschemicAttack HAS_KEYWORD transient ischemic attack
+transientIschemicAttack HAS_KEYWORD TIA
+chestClear HAS_KEYWORD chest clear
+chestClear HAS_KEYWORD chest normal
+chestClear HAS_KEYWORD normal breath sounds
+chestPain HAS_KEYWORD Chest pain
+chestPain HAS_KEYWORD substernal pain
+chestPain HAS_KEYWORD crushing pain
+chestPain HAS_KEYWORD pain radiates to arm
+substernalDiscomfortOrBurning HAS_KEYWORD substernal discomfort or burning
+substernalDiscomfortOrBurning HAS_KEYWORD precordial pain
+musculoSkeletalChestPain HAS_KEYWORD musculoskeletal chest pain
+chestTenderness HAS_KEYWORD chest tenderness
+chestTenderness HAS_KEYWORD tender chest
+chickenpox HAS_KEYWORD chickenpox
+chickenpox HAS_KEYWORD chicken pox
+chickenpox HAS_KEYWORD zoster
+chickenpox HAS_KEYWORD vesicular rash
+cholera HAS_KEYWORD cholera
+coagulopathy HAS_KEYWORD coagulopathy
+coagulopathy HAS_KEYWORD bleeding
+coarseBreathSounds HAS_KEYWORD coarse breath sounds
+coarseBreathSounds HAS_KEYWORD bronchial breath sounds
+colitis HAS_KEYWORD colitis
+ulcerativeColitis HAS_KEYWORD ulcerative colitis
+concussion HAS_KEYWORD concussion
+conjunctivitis HAS_KEYWORD conjunctivitis
+conjunctivitis HAS_KEYWORD pink eye
+convulsion HAS_KEYWORD convulsion
+convulsion HAS_KEYWORD convulsions
+seizure HAS_KEYWORD seizure
+seizure HAS_KEYWORD convulsion
+seizure HAS_KEYWORD convulsions
+persistentNonProductiveCough HAS_KEYWORD persistent non-productive cough
+crohnsDisease HAS_KEYWORD crohns disease
+crohnsDisease HAS_KEYWORD crohn's disease
+crohnsDisease HAS_KEYWORD crohn's
+crohnsDisease HAS_KEYWORD crohns
+crohnsDisease HAS_KEYWORD iliitis
+cytomegaloViralDisease HAS_KEYWORD cytomegaloviral diease
+cytomegaloViralDisease HAS_KEYWORD CMV disease
+cytomegaloViralDisease HAS_KEYWORD CMV
+decreasedHearing HAS_KEYWORD decreased hearing
+decreasedHearing HAS_KEYWORD hard of hearing
+hypovolemicShock HAS_KEYWORD hypovolemic shock
+delirium HAS_KEYWORD delirium
+delirium HAS_KEYWORD mental disturbance
+dermatitis HAS_KEYWORD dermatitis
+dermatitis HAS_KEYWORD rash
+dermatitis HAS_KEYWORD hives
+desquamation HAS_KEYWORD desquamation
+sweating HAS_KEYWORD sweating
+sweating HAS_KEYWORD diaphoresis
+dysentery HAS_KEYWORD dysentery
+dysentery HAS_KEYWORD diarrhea
+dullness HAS_KEYWORD dullness
+dysphagia HAS_KEYWORD dysphagia
+dysphagia HAS_KEYWORD difficulty swallowing
+eczema HAS_KEYWORD eczema
+eczema HAS_KEYWORD itchy rash
+edema HAS_KEYWORD edema
+edema HAS_KEYWORD fluid under the skin
+periorbitalEdema HAS_KEYWORD Periorbital edema
+empyema HAS_KEYWORD empyema
+empyema HAS_KEYWORD fluid in the chest
+encephalitis HAS_KEYWORD encephalitis
+enteritis HAS_KEYWORD enteritis
+enteritis HAS_KEYWORD illeitis
+epidemicTyphus HAS_KEYWORD epidemic typhus
+epidemicTyphus HAS_KEYWORD typhus
+epistaxis HAS_KEYWORD epistaxis
+epistaxis HAS_KEYWORD nose bleed
+erythema HAS_KEYWORD erythematous
+erythema HAS_KEYWORD red
+erythema HAS_KEYWORD red skin
+sunburn HAS_KEYWORD sunburn
+sunburn HAS_KEYWORD erythematous rash
+facialNumbness HAS_KEYWORD facial numbness
+facialPain HAS_KEYWORD facial pain
+facialWeakness HAS_KEYWORD facial weakness
+facialWeakness HAS_KEYWORD cranial nerve palsy
+fainting HAS_KEYWORD fainting
+fainting HAS_KEYWORD syncope
+vertigo HAS_KEYWORD vertigo
+vertigo HAS_KEYWORD dizziness
+flushedFace HAS_KEYWORD flushed face
+flushedFace HAS_KEYWORD slapped face syndrome
+gastrointestinalBleeding HAS_KEYWORD gastrointestinal bleeding
+gastrointestinalBleeding HAS_KEYWORD gi bleed
+gastrointestinalBleeding HAS_KEYWORD g.i. bleed
+asthenia HAS_KEYWORD asthenia
+asthenia HAS_KEYWORD weakness
+headache HAS_KEYWORD headache
+headache HAS_KEYWORD cephalgia
+migraine HAS_KEYWORD migraine
+hematochezia HAS_KEYWORD hematochezia
+hematochezia HAS_KEYWORD hematochesia
+hematochezia HAS_KEYWORD blood in stool
+hematospermia HAS_KEYWORD hematospermia
+hematospermia HAS_KEYWORD decreased sperm
+hematuria HAS_KEYWORD hematuria
+hematuria HAS_KEYWORD blood in urine
+hematuria HAS_KEYWORD pink urine
+hemorrhage HAS_KEYWORD hemorrhage
+hemorrhage HAS_KEYWORD bleeding
+hemorrhagicFeverSyndrome HAS_KEYWORD hemorrhagic fever syndrome
+hemorrhagicFeverSyndrome HAS_KEYWORD ecchymoses
+herpesSimplex HAS_KEYWORD herpes simplex
+herpesSimplex HAS_KEYWORD herpes
+hiccups HAS_KEYWORD hiccups
+idiopathicThrombocytopenicPurpura HAS_KEYWORD idiopathic thrombocytic purpura
+idiopathicThrombocytopenicPurpura HAS_KEYWORD purpura
+idiopathicThrombocytopenicPurpura HAS_KEYWORD ecchymoses
+idiopathicThrombocytopenicPurpura HAS_KEYWORD itp
+infectiousMononucleosis HAS_KEYWORD infectious mononucleosis
+infectiousMononucleosis HAS_KEYWORD mono
+infectiousMononucleosis HAS_KEYWORD kissing disease
+iLI HAS_KEYWORD ili
+iLI HAS_KEYWORD influenza-like illness
+iLI HAS_KEYWORD flu
+insomnia HAS_KEYWORD insomnia
+insomnia HAS_KEYWORD can't sleep
+insomnia HAS_KEYWORD cannot sleep
+internalBleeding HAS_KEYWORD internal bleeding
+internalBleeding HAS_KEYWORD internal hemorrhage
+notDrinking HAS_KEYWORD not drinking
+notDrinking HAS_KEYWORD fussy baby
+notDrinking HAS_KEYWORD irritable baby
+excessiveCryingInfant HAS_KEYWORD excessive crying infant
+excessiveCryingInfant HAS_KEYWORD fussy infant
+drowsiness HAS_KEYWORD drowsiness
+drowsiness HAS_KEYWORD sleepy
+limbWeakness HAS_KEYWORD limb weakness
+limbWeakness HAS_KEYWORD monoplegia
+hemiparesis HAS_KEYWORD hemiparesis
+hemiparesis HAS_KEYWORD left side paralyzed
+hemiparesis HAS_KEYWORD right side paralyzed
+lymeDisease HAS_KEYWORD lyme disease
+lymeDisease HAS_KEYWORD circular rash
+cervicalAdenopathy HAS_KEYWORD cerebralvascular accident
+cervicalAdenopathy HAS_KEYWORD CVA
+cervicalAdenopathy HAS_KEYWORD intercrancal bleed
+cervicalAdenopathy HAS_KEYWORD cerebral infarct
+macular HAS_KEYWORD macular
+macular HAS_KEYWORD smooth rash
+maculoPapularRash HAS_KEYWORD maculo papular rash
+measles HAS_KEYWORD measles
+measles HAS_KEYWORD erythematous rash
+koplikSpots HAS_KEYWORD koplik spots
+koplikSpots HAS_KEYWORD koplik spot
+melena HAS_KEYWORD melena
+melena HAS_KEYWORD blood in stool
+melioidosis HAS_KEYWORD melioidosis
+meningitis HAS_KEYWORD meningitis
+meningitis HAS_KEYWORD meningismus
+stiffNeck HAS_KEYWORD stiff neck
+stiffNeck HAS_KEYWORD meningismus
+meningococcemia HAS_KEYWORD meningococcemia
+meningococcemia HAS_KEYWORD purpuric rash
+myasthenaGravis HAS_KEYWORD myasthenia gravis
+necrotizingFasciitis HAS_KEYWORD necrotizing fasciitis
+neuropathy HAS_KEYWORD neuropathy
+neuropathy HAS_KEYWORD abnormal nerve
+sciatica HAS_KEYWORD sciatica
+sciatica HAS_KEYWORD leg pain
+neuralgia HAS_KEYWORD neuralgia
+neuralgia HAS_KEYWORD nerve pain
+ornithosis  HAS_KEYWORD ornithosis
+ornithosis  HAS_KEYWORD psittacosis
+ornithosis  HAS_KEYWORD parakeet fever
+papular HAS_KEYWORD papular
+papular HAS_KEYWORD raised rash
+papular HAS_KEYWORD palpable rash
+paralysis HAS_KEYWORD paralysis
+paralysis HAS_KEYWORD limp
+progressiveParalysis HAS_KEYWORD progressive paralysis
+plague HAS_KEYWORD plague
+plague HAS_KEYWORD pestis
+hantavirusPulmonarySyndrome HAS_KEYWORD hantavirus pulmonary syndrome
+hantavirusPulmonarySyndrome HAS_KEYWORD HPS
+hantavirusPulmonarySyndrome HAS_KEYWORD pneumonia
+pneumoniaHistory HAS_KEYWORD pneumonia history
+pneumoniaHistory HAS_KEYWORD history of pneumonia
+pneumothoraxDX HAS_KEYWORD pneumothorax dx
+pneumothoraxDX HAS_KEYWORD fluid in the chest
+prostration HAS_KEYWORD prostration
+prostration HAS_KEYWORD extreme exhaustion
+prostration HAS_KEYWORD powerlessness
+itching HAS_KEYWORD itching
+itching HAS_KEYWORD pruritus
+ptosisOfEyelid HAS_KEYWORD ptosis of eyelid
+ptosisOfEyelid HAS_KEYWORD droopy eyelid
+pulmonaryEmbolus HAS_KEYWORD pulmonary embolus
+pulmonaryEmbolus HAS_KEYWORD pulmonary artery clot
+purpuric HAS_KEYWORD purpuric
+purpuric HAS_KEYWORD itchy
+ecchymosis HAS_KEYWORD ecchymosis
+ecchymosis HAS_KEYWORD bleeding into the skin
+petechial HAS_KEYWORD petechial
+petechial HAS_KEYWORD small erythematous rash
+pustule  HAS_KEYWORD pustule
+qFever HAS_KEYWORD q fever
+rabies HAS_KEYWORD rabies
+rabies HAS_KEYWORD hydrophobia
+rales HAS_KEYWORD rales
+rales HAS_KEYWORD crackling
+rales HAS_KEYWORD crackles
+rash HAS_KEYWORD rash
+rash HAS_KEYWORD skin lesion
+rash HAS_KEYWORD skin eruption
+respiratoryDistress HAS_KEYWORD respiratory distress
+respiratoryDistress HAS_KEYWORD tachypnea
+rheumaticFever HAS_KEYWORD rheumatic fever
+coryza HAS_KEYWORD coryza
+coryza HAS_KEYWORD runny nose
+coryza HAS_KEYWORD rhinorrhea
+nasalObstruction HAS_KEYWORD nasal obstruction
+nasalObstruction HAS_KEYWORD rhinitis
+nasalObstruction HAS_KEYWORD rhinorrhea
+sneezing HAS_KEYWORD sneezing
+sneezing HAS_KEYWORD sneeze
+rhonchi HAS_KEYWORD rhonchi
+rhonchi HAS_KEYWORD coarse breath sounds
+rubella HAS_KEYWORD rubella
+rubella HAS_KEYWORD german measles
+scarletFever HAS_KEYWORD scarlet fever
+scarring HAS_KEYWORD scarring
+scarring HAS_KEYWORD scars
+scarring HAS_KEYWORD scarred
+sepsis HAS_KEYWORD sepsis
+sepsis HAS_KEYWORD bacteremia
+severeAcuteRespiratorySyndrome HAS_KEYWORD severe acute respiratory syndrome
+severeAcuteRespiratorySyndrome HAS_KEYWORD sars
+shigellosis HAS_KEYWORD shigellosis
+shigellosis HAS_KEYWORD shigella
+shigellosis HAS_KEYWORD bacillary dysentery
+smallpox HAS_KEYWORD smallpox
+smallpox HAS_KEYWORD small pox
+sores HAS_KEYWORD sore
+sores HAS_KEYWORD sores
+spasms HAS_KEYWORD spasms
+spasms HAS_KEYWORD contractions
+dysphonia HAS_KEYWORD dysphonia
+dysphonia HAS_KEYWORD difficulty speaking
+dysarthria HAS_KEYWORD dysarthria
+dysarthria HAS_KEYWORD difficulty speaking
+slurredSpeech HAS_KEYWORD slurred speech
+lossOfSpeech HAS_KEYWORD loss of speech
+lossOfSpeech HAS_KEYWORD aphonic
+subcutaneousHemorrhage HAS_KEYWORD subcutaneous hemorrhage
+subungualHematoma HAS_KEYWORD subungual hematoma
+syncope HAS_KEYWORD syncope
+syncope HAS_KEYWORD unconscious
+syncope HAS_KEYWORD fainted
+coma HAS_KEYWORD coma
+coma HAS_KEYWORD unconscious
+coma HAS_KEYWORD unresponsive
+lossOfConsciousness HAS_KEYWORD loss of consciousness
+lossOfConsciousness HAS_KEYWORD coma
+lossOfConsciousness HAS_KEYWORD syncope
+tachycardia HAS_KEYWORD tachycardia
+tachycardia HAS_KEYWORD fast heart rate
+thrombocytopenia HAS_KEYWORD thrombocytopenia
+thrombocytopenia HAS_KEYWORD low platelets
+tremor HAS_KEYWORD tremor
+trigeminalNeuralgia HAS_KEYWORD trigeminal neurolgia
+tuberculosis HAS_KEYWORD tuberculosis
+tuberculosis HAS_KEYWORD mycobacterium
+tuberculosis HAS_KEYWORD mycobacteriosis
+tularemia HAS_KEYWORD tularemia
+tularemia HAS_KEYWORD francisella tularensis
+typhoidFever HAS_KEYWORD typhoid fever
+typhoidFever HAS_KEYWORD salmonella typhi
+typhoidFever HAS_KEYWORD salmonellosis
+vesicular HAS_KEYWORD vesicular
+vesicular HAS_KEYWORD hives
+hives HAS_KEYWORD hives
+hives HAS_KEYWORD rash
+hives HAS_KEYWORD vesicules
+hives HAS_KEYWORD blisters
+blisters HAS_KEYWORD blisters
+blisters HAS_KEYWORD wheals
+blisters HAS_KEYWORD hives
+viralInfection HAS_KEYWORD viral infection
+viralSyndrome HAS_KEYWORD viral syndrome
+painOnEyeMovement HAS_KEYWORD pain on eye movement
+visionProblem HAS_KEYWORD vision problem
+visionProblem HAS_KEYWORD sight problem
+diplopia  HAS_KEYWORD diplopia
+diplopia  HAS_KEYWORD double vision
+blurredVision HAS_KEYWORD blurred vision
+blurredVision HAS_KEYWORD blurry vision
+photophobia HAS_KEYWORD photophobia
+photophobia HAS_KEYWORD aversion to light
+visionLoss HAS_KEYWORD vision loss
+visionLoss HAS_KEYWORD blind
+visionLoss HAS_KEYWORD blindness
+decreasedVision HAS_KEYWORD decreased vision
+weightLoss HAS_KEYWORD weight loss
+xRayAtelectasis HAS_KEYWORD x-ray atelectasis
+xRayAtelectasis HAS_KEYWORD x-ray collapsed lung
+xRayChestNormal HAS_KEYWORD x-ray chest normal
+xRayChestNormal HAS_KEYWORD chest x-ray normal
+xRayHyperinflatedLungs HAS_KEYWORD x-ray hyperinflated lungs
+xRayHyperinflatedLungs HAS_KEYWORD emphysema
+xRayMass HAS_KEYWORD x-ray mass
+xRayMass HAS_KEYWORD tumor on chest x-ray
+xRayMediastinalShift HAS_KEYWORD x-ray mediastinal shift
+xRayPleuralEffusion HAS_KEYWORD x-ray pleural effusion
+xRayPleuralEffusion HAS_KEYWORD effusion in the pleural space on x-ray
+xRayPneumonia HAS_KEYWORD x-ray pneumonia
+xRayPneumonia HAS_KEYWORD infiltrate on x-ray
+xRayPneumothorax HAS_KEYWORD x-ray pneumothorax
+xRayPneumothorax HAS_KEYWORD air in� the pleural space on x-ray
+xRayPulmonaryEdema HAS_KEYWORD x-ray pulmonary edema
+xRayPulmonaryEdema HAS_KEYWORD fluid in the lungs on x-ray
+xRayWidenedMediastinum HAS_KEYWORD x-ray widened mediastium
+zoster HAS_KEYWORD zoster
+zoster HAS_KEYWORD herpes zoster
+abdominalDistension HAS_KEYWORD abdominal distension, abdominal organomegally
+abdominalPain HAS_KEYWORD abd* ache*
+abdominalPain HAS_KEYWORD abd* pian
+abdominalPain HAS_KEYWORD abd* discomf*
+abdominalPain HAS_KEYWORD abd* px
+abdominalPain HAS_KEYWORD abd* pn
+abdominalPain HAS_KEYWORD ab pain
+abdominalPain HAS_KEYWORD ab. pain
+abdominalPain HAS_KEYWORD abd pain
+abdominalPain HAS_KEYWORD abd pains
+abdominalPain HAS_KEYWORD abd pn
+abdominalPain HAS_KEYWORD abd. pain
+abdominalPain HAS_KEYWORD abdmoninal pain
+abdominalPain HAS_KEYWORD abdo pain
+abdominalPain HAS_KEYWORD abdomen pain
+abdominalPain HAS_KEYWORD abdomianl pain
+abdominalPain HAS_KEYWORD abdomin pain
+abdominalPain HAS_KEYWORD abdomina pain
+abdominalPain HAS_KEYWORD abdominal pain
+abdominalPain HAS_KEYWORD abdominal pain.
+abdominalPain HAS_KEYWORD abdominal pains
+abdominalPain HAS_KEYWORD abdomnal pain
+abdominalPain HAS_KEYWORD abdonminal pain
+abdominalPain HAS_KEYWORD abominal pain
+abdominalPain HAS_KEYWORD adb pain
+abdominalPain HAS_KEYWORD adb pn
+abdominalPain HAS_KEYWORD adb. pain
+abdominalPain HAS_KEYWORD adbdominal pain
+abdominalPain HAS_KEYWORD adominal pain
+abdominalPain HAS_KEYWORD belly ache
+abdominalPain HAS_KEYWORD belly pain
+abdominalPain HAS_KEYWORD blq pain
+abdominalPain HAS_KEYWORD l q pain
+abdominalPain HAS_KEYWORD lq pain
+abdominalPain HAS_KEYWORD quadrant pain
+abdominalPain HAS_KEYWORD r q pain
+abdominalPain HAS_KEYWORD rq pain
+abdominalPain HAS_KEYWORD abd + pain
+abdominalPain HAS_KEYWORD abd + pressure
+abdominalPain HAS_KEYWORD adb pain
+abdominalPain HAS_KEYWORD adb pn
+abdominalPain HAS_KEYWORD adbdominal pain
+abdominalPain HAS_KEYWORD adominal pain
+abdominalPain HAS_KEYWORD abd pn
+suprapubicPain HAS_KEYWORD suprapubic pain
+anorexia HAS_KEYWORD anorexia
+anorexia HAS_KEYWORD appetite
+anorexia HAS_KEYWORD eating disorder
+anorexia HAS_KEYWORD not eating
+anorexia HAS_KEYWORD not feeding
+anorexia HAS_KEYWORD appitite
+anorexia HAS_KEYWORD poor eating
+anorexia HAS_KEYWORD poor feeding
+anorexia HAS_KEYWORD apetite (decreased|low|poor|dec|decr|refus)
+failureToThrive HAS_KEYWORD f.t.t
+failureToThrive HAS_KEYWORD failure to thrive
+failureToThrive HAS_KEYWORD ftt
+apnea HAS_KEYWORD agonal
+apnea HAS_KEYWORD apnea (exclude sleep apnea)
+apnea HAS_KEYWORD apnic
+apnea HAS_KEYWORD not breathing
+apnea HAS_KEYWORD resp* arrest
+apnea HAS_KEYWORD stop* breath*
+respiratoryFailure HAS_KEYWORD resp* failure
+bodyAches HAS_KEYWORD acheness
+bodyAches HAS_KEYWORD achy
+bodyAches HAS_KEYWORD body ache
+bodyAches HAS_KEYWORD body aches
+bodyAches HAS_KEYWORD bodyache
+bodyAches HAS_KEYWORD bodyaches
+bodyAches HAS_KEYWORD bosy ache
+myalgia HAS_KEYWORD malgaria
+myalgia HAS_KEYWORD myalgia
+myalgia HAS_KEYWORD myalgias
+myalgia HAS_KEYWORD mylgias
+myalgia HAS_KEYWORD muscle ach
+generalizedMuscleAches HAS_KEYWORD generalized muscle aches
+bronchiolitis HAS_KEYWORD brochiolitis
+bronchiolitis HAS_KEYWORD bronchialitis
+bronchiolitis HAS_KEYWORD bronchilitis
+bronchiolitis HAS_KEYWORD bronchiolitis
+bronchiolitis HAS_KEYWORD broncolitis
+bronchiolitis HAS_KEYWORD bronculitis
+respiratorySyncytialVirus HAS_KEYWORD rsv
+respiratorySyncytialVirus HAS_KEYWORD respiratory syncytial virus
+bronchitis HAS_KEYWORD brionchitis
+bronchitis HAS_KEYWORD bronchit
+chestCongestion HAS_KEYWORD chest + congest*
+chill HAS_KEYWORD chills
+chill HAS_KEYWORD chiles
+chill HAS_KEYWORD rigors
+chill HAS_KEYWORD chiles
+chill HAS_KEYWORD shiver
+chill HAS_KEYWORD shaking chills
+rigor HAS_KEYWORD rigors
+rigor HAS_KEYWORD rigours
+cOPD HAS_KEYWORD c.o.p.d.
+cOPD HAS_KEYWORD copd
+cOPD HAS_KEYWORD pulm obstructive disease
+cOPD HAS_KEYWORD chronic obstructive pulmonary disease
+cOPD HAS_KEYWORD c o p d
+cOPD HAS_KEYWORD dcopd
+emphysema HAS_KEYWORD emphysema
+chronicBronchitis HAS_KEYWORD chronic bronchitis
+cough HAS_KEYWORD cough
+cough HAS_KEYWORD copugh
+cough HAS_KEYWORD couch
+cough HAS_KEYWORD coug
+cough HAS_KEYWORD cough+fever
+cough HAS_KEYWORD coughed
+cough HAS_KEYWORD coughing
+cough HAS_KEYWORD couh
+cough HAS_KEYWORD dry cough
+productiveCough HAS_KEYWORD phlegm
+productiveCough HAS_KEYWORD sputum
+productiveCough HAS_KEYWORD productive
+croup HAS_KEYWORD croup
+croup HAS_KEYWORD croupy
+croup HAS_KEYWORD barky cough
+croup HAS_KEYWORD barking cough
+croup HAS_KEYWORD bark*
+pertussis HAS_KEYWORD pertusis
+pertussis HAS_KEYWORD pertussis
+pertussis HAS_KEYWORD post-tussive
+pertussis HAS_KEYWORD whooping
+dehydration HAS_KEYWORD dihydration
+dehydration HAS_KEYWORD volume depletion
+dehydration HAS_KEYWORD needs IV fluids
+dehydration HAS_KEYWORD needs fluids
+dehydration HAS_KEYWORD dehy
+diaphoresis HAS_KEYWORD clammy
+diaphoresis HAS_KEYWORD diaphoresis
+diaphoresis HAS_KEYWORD diaphoretic
+diaphoresis HAS_KEYWORD night sweats
+diaphoresis HAS_KEYWORD sweat
+diaphoresis HAS_KEYWORD sweating
+diaphoresis HAS_KEYWORD sweats
+diarrhea HAS_KEYWORD diar*
+diarrhea HAS_KEYWORD dair*
+diarrhea HAS_KEYWORD diah*
+diarrhea HAS_KEYWORD dearrh*
+diarrhea HAS_KEYWORD dirrhe*
+diarrhea HAS_KEYWORD diaar
+diarrhea HAS_KEYWORD d&v
+diarrhea HAS_KEYWORD dearrhea
+diarrhea HAS_KEYWORD diaarrhea
+diarrhea HAS_KEYWORD diahhea
+diarrhea HAS_KEYWORD diahrea
+diarrhea HAS_KEYWORD diahrrea
+diarrhea HAS_KEYWORD diar
+diarrhea HAS_KEYWORD diareha
+diarrhea HAS_KEYWORD diarehea
+diarrhea HAS_KEYWORD diarhea
+diarrhea HAS_KEYWORD diarhha
+diarrhea HAS_KEYWORD diarhhea
+diarrhea HAS_KEYWORD diarr
+diarrhea HAS_KEYWORD diarrea
+diarrhea HAS_KEYWORD diarreah
+diarrhea HAS_KEYWORD diarrh
+diarrhea HAS_KEYWORD diarrha
+diarrhea HAS_KEYWORD diarrhea
+diarrhea HAS_KEYWORD diheria
+diarrhea HAS_KEYWORD dirrhea
+diarrhea HAS_KEYWORD fdiarrhea
+diarrhea HAS_KEYWORD n d
+diarrhea HAS_KEYWORD nvd
+diarrhea HAS_KEYWORD v d
+diarrhea HAS_KEYWORD v&d
+diarrhea HAS_KEYWORD v+d
+diarrhea HAS_KEYWORD dair
+diarrhea HAS_KEYWORD diah
+diarrhea HAS_KEYWORD diahhea
+diarrhea HAS_KEYWORD diarea
+diarrhea HAS_KEYWORD diareas
+diarrhea HAS_KEYWORD diareha
+diarrhea HAS_KEYWORD dv
+diarrhea HAS_KEYWORD enteri
+diarrhea HAS_KEYWORD enteritis
+diarrhea HAS_KEYWORD n d
+diarrhea HAS_KEYWORD n v d
+rotavirus HAS_KEYWORD rotovirus
+rotavirus HAS_KEYWORD rotavirus
+wateryStool HAS_KEYWORD liquid stool
+wateryStool HAS_KEYWORD watery stool
+looseStool HAS_KEYWORD loose bm
+looseStool HAS_KEYWORD loose stool
+looseStool HAS_KEYWORD loose stools
+looseStool HAS_KEYWORD bowel + loose
+looseStool HAS_KEYWORD loose + stool
+dyspnea HAS_KEYWORD dyspne*
+dyspnea HAS_KEYWORD yspnec
+dyspnea HAS_KEYWORD dyspneic
+dyspnea HAS_KEYWORD dyspnic
+gasping HAS_KEYWORD gasping
+cannotBreathe HAS_KEYWORD can't breat(he)
+cannotBreathe HAS_KEYWORD cant breat(he)
+cannotBreathe HAS_KEYWORD can t breat(he)
+cannotBreathe HAS_KEYWORD cannot breat(he)
+cannotBreathe HAS_KEYWORD not breat(hing)
+respiratoryDistress HAS_KEYWORD resp(iratory) dist(ress)
+respiratoryDistress HAS_KEYWORD respiratiory dist(ress)
+respiratoryDistress HAS_KEYWORD respitory dist(ress)
+respiratoryDistress HAS_KEYWORD respr dist(ress)
+respiratoryDistress HAS_KEYWORD resp(iratory) destress
+respiratoryDistress HAS_KEYWORD respiratiory destress
+respiratoryDistress HAS_KEYWORD respitory destress
+respiratoryDistress HAS_KEYWORD respr(iatory) destress
+respiratoryDistress HAS_KEYWORD respitory stress
+respiratoryDistress HAS_KEYWORD respiratiory stress
+respiratoryDistress HAS_KEYWORD respitory stress
+respiratoryDistress HAS_KEYWORD respr(iatory) stress
+respiratoryDistress HAS_KEYWORD braeth*
+respiratoryDistress HAS_KEYWORD breaht*
+respiratoryDistress HAS_KEYWORD breath*
+respiratoryDistress HAS_KEYWORD breat(hing) diff(iculty)
+respiratoryDistress HAS_KEYWORD breat(hing) funny
+respiratoryDistress HAS_KEYWORD breat(hing) hard
+respiratoryDistress HAS_KEYWORD breat(hing) heav(y/ily)
+respiratoryDistress HAS_KEYWORD breat(hing) issue
+respiratoryDistress HAS_KEYWORD breat(hing) prob(lems)
+respiratoryDistress HAS_KEYWORD breat(hing) troub(le)
+respiratoryDistress HAS_KEYWORD coarse breat(hing)
+respiratoryDistress HAS_KEYWORD course breat(hing)
+respiratoryDistress HAS_KEYWORD diff(iculty) breat(hing)
+respiratoryDistress HAS_KEYWORD ard to breat(he)
+respiratoryDistress HAS_KEYWORD heavy breat(hing)
+respiratoryDistress HAS_KEYWORD hyperventilating
+respiratoryDistress HAS_KEYWORD hyperventilation
+respiratoryDistress HAS_KEYWORD labored breat(hing)
+respiratoryDistress HAS_KEYWORD prob(lem) breat(hing)
+respiratoryDistress HAS_KEYWORD resp(iratory) breat(hing)
+respiratoryDistress HAS_KEYWORD respiratiory breat(hing)
+respiratoryDistress HAS_KEYWORD respitory breat(hing)
+respiratoryDistress HAS_KEYWORD respr(iatory) breat(hing)
+respiratoryDistress HAS_KEYWORD resp(iratory) diff(iculty)
+respiratoryDistress HAS_KEYWORD respiratiory diff(iculty)
+respiratoryDistress HAS_KEYWORD respitory diff(iculty)
+respiratoryDistress HAS_KEYWORD respr diff(iculty)
+respiratoryDistress HAS_KEYWORD resp(iratory) prob(lems)
+respiratoryDistress HAS_KEYWORD respiratiory prob(lems)
+respiratoryDistress HAS_KEYWORD respitory prob(lems)
+respiratoryDistress HAS_KEYWORD respr(iatory) prob(lems)
+respiratoryDistress HAS_KEYWORD respiratiory troub(le)
+respiratoryDistress HAS_KEYWORD resp(iratory) troub(le)
+respiratoryDistress HAS_KEYWORD respitory troub(le)
+respiratoryDistress HAS_KEYWORD respr(iatory) troub(le)
+respiratoryDistress HAS_KEYWORD retracting
+respiratoryDistress HAS_KEYWORD shallow breat(hing)
+respiratoryDistress HAS_KEYWORD troub(le) breat(hing)
+respiratoryDistress HAS_KEYWORD wob
+respiratoryDistress HAS_KEYWORD work of br(eathing)
+respiratoryDistress HAS_KEYWORD )]
+respiratoryDistress HAS_KEYWORD pneumonia-resp distress
+shortnessOfBreath HAS_KEYWORD resp(iratory) dist(ress)
+shortnessOfBreath HAS_KEYWORD respiratiory dist(ress)
+shortnessOfBreath HAS_KEYWORD respitory dist(ress)
+shortnessOfBreath HAS_KEYWORD respr dist(ress)
+shortnessOfBreath HAS_KEYWORD resp(iratory) destress
+shortnessOfBreath HAS_KEYWORD respiratiory destress
+shortnessOfBreath HAS_KEYWORD respitory destress
+shortnessOfBreath HAS_KEYWORD respr(iatory) destress
+shortnessOfBreath HAS_KEYWORD respitory stress
+shortnessOfBreath HAS_KEYWORD respiratiory stress
+shortnessOfBreath HAS_KEYWORD respitory stress
+shortnessOfBreath HAS_KEYWORD respr(iatory) stress
+shortnessOfBreath HAS_KEYWORD braeth*
+shortnessOfBreath HAS_KEYWORD breaht*
+shortnessOfBreath HAS_KEYWORD breath*
+shortnessOfBreath HAS_KEYWORD breat(hing) diff(iculty)
+shortnessOfBreath HAS_KEYWORD breat(hing) funny
+shortnessOfBreath HAS_KEYWORD breat(hing) hard
+shortnessOfBreath HAS_KEYWORD breat(hing) heav(y/ily)
+shortnessOfBreath HAS_KEYWORD breat(hing) issue
+shortnessOfBreath HAS_KEYWORD breat(hing) prob(lems)
+shortnessOfBreath HAS_KEYWORD breat(hing) troub(le)
+shortnessOfBreath HAS_KEYWORD coarse breat(hing)
+shortnessOfBreath HAS_KEYWORD course breat(hing)
+shortnessOfBreath HAS_KEYWORD diff(iculty) breat(hing)
+shortnessOfBreath HAS_KEYWORD ard to breat(he)
+shortnessOfBreath HAS_KEYWORD heavy breat(hing)
+shortnessOfBreath HAS_KEYWORD hyperventilating
+shortnessOfBreath HAS_KEYWORD hyperventilation
+shortnessOfBreath HAS_KEYWORD labored breat(hing)
+shortnessOfBreath HAS_KEYWORD prob(lem) breat(hing)
+shortnessOfBreath HAS_KEYWORD resp(iratory) breat(hing)
+shortnessOfBreath HAS_KEYWORD respiratiory breat(hing)
+shortnessOfBreath HAS_KEYWORD respitory breat(hing)
+shortnessOfBreath HAS_KEYWORD respr(iatory) breat(hing)
+shortnessOfBreath HAS_KEYWORD resp(iratory) diff(iculty)
+shortnessOfBreath HAS_KEYWORD respiratiory diff(iculty)
+shortnessOfBreath HAS_KEYWORD respitory diff(iculty)
+shortnessOfBreath HAS_KEYWORD respr diff(iculty)
+shortnessOfBreath HAS_KEYWORD resp(iratory) prob(lems)
+shortnessOfBreath HAS_KEYWORD respiratiory prob(lems)
+shortnessOfBreath HAS_KEYWORD respitory prob(lems)
+shortnessOfBreath HAS_KEYWORD respr(iatory) prob(lems)
+shortnessOfBreath HAS_KEYWORD respiratiory troub(le)
+shortnessOfBreath HAS_KEYWORD resp(iratory) troub(le)
+shortnessOfBreath HAS_KEYWORD respitory troub(le)
+shortnessOfBreath HAS_KEYWORD respr(iatory) troub(le)
+shortnessOfBreath HAS_KEYWORD retracting
+shortnessOfBreath HAS_KEYWORD shallow breat(hing)
+shortnessOfBreath HAS_KEYWORD troub(le) breat(hing)
+shortnessOfBreath HAS_KEYWORD wob
+shortnessOfBreath HAS_KEYWORD work of br(eathing)
+shortnessOfBreath HAS_KEYWORD )]
+shortnessOfBreath HAS_KEYWORD pneumonia-resp distress
+earache HAS_KEYWORD ear ache
+earache HAS_KEYWORD ear aches
+earache HAS_KEYWORD ear pain
+earache HAS_KEYWORD ear pn
+earache HAS_KEYWORD earache
+earache HAS_KEYWORD erache
+earache HAS_KEYWORD tugging
+earache HAS_KEYWORD ear hurts
+otitisExterna HAS_KEYWORD external otitis
+otitisExterna HAS_KEYWORD oe
+otitisExterna HAS_KEYWORD ototis externa
+otitisMedia HAS_KEYWORD acute ot media
+otitisMedia HAS_KEYWORD bil otitis media
+otitisMedia HAS_KEYWORD chronic otitis media
+otitisMedia HAS_KEYWORD ear dranage
+otitisMedia HAS_KEYWORD ear inf
+otitisMedia HAS_KEYWORD ear infection
+otitisMedia HAS_KEYWORD ear infections
+otitisMedia HAS_KEYWORD om
+otitisMedia HAS_KEYWORD ot media
+otitisMedia HAS_KEYWORD otitis
+otitisMedia HAS_KEYWORD otitis media
+otitisMedia HAS_KEYWORD otitis media bilat
+otitisMedia HAS_KEYWORD otits media
+otitisMedia HAS_KEYWORD totis media
+otalgia HAS_KEYWORD otalgia
+epiglottitis HAS_KEYWORD epiglottitis
+epiglottitis HAS_KEYWORD epiglotitis
+faintness HAS_KEYWORD wooz
+faintness HAS_KEYWORD faint
+faintness HAS_KEYWORD faintness
+faintness HAS_KEYWORD pre-syncopal
+dizziness HAS_KEYWORD dizz
+lightHeadedness HAS_KEYWORD light headed
+lightHeadedness HAS_KEYWORD light headedness
+lightHeadedness HAS_KEYWORD light headned
+lightHeadedness HAS_KEYWORD lightheaded
+lightHeadedness HAS_KEYWORD light-headed
+lightHeadedness HAS_KEYWORD lightheadness
+lightHeadedness HAS_KEYWORD ltheaded
+fever HAS_KEYWORD fever
+fever HAS_KEYWORD debrile
+fever HAS_KEYWORD faver
+fever HAS_KEYWORD febile
+fever HAS_KEYWORD febrile
+fever HAS_KEYWORD fevber
+fever HAS_KEYWORD feveer
+fever HAS_KEYWORD fever
+fever HAS_KEYWORD feverd
+fever HAS_KEYWORD fevers
+fever HAS_KEYWORD fevr
+fever HAS_KEYWORD fevrile
+fever HAS_KEYWORD fuo
+fever HAS_KEYWORD fv
+fever HAS_KEYWORD fver
+fever HAS_KEYWORD febile
+fever HAS_KEYWORD febre
+fever HAS_KEYWORD febril
+fever HAS_KEYWORD fev
+fever HAS_KEYWORD fiebre
+fever HAS_KEYWORD feels hot
+fever HAS_KEYWORD pyrexia
+elevatedTemperature HAS_KEYWORD temp
+elevatedTemperature HAS_KEYWORD temperature
+elevatedTemperature HAS_KEYWORD increased temperature
+elevatedTemperature HAS_KEYWORD hi temp
+elevatedTemperature HAS_KEYWORD high temp
+elevatedTemperature HAS_KEYWORD elevated temp
+elevatedTemperature HAS_KEYWORD temp >
+elevatedTemperature HAS_KEYWORD temp gt
+gastroenteritis HAS_KEYWORD gastroe
+gastroenteritis HAS_KEYWORD stomach flu
+gastroenteritis HAS_KEYWORD gastroenteritis
+generalizedWeakness HAS_KEYWORD generalized weakness
+hemoptysis HAS_KEYWORD bloddy cough
+hemoptysis HAS_KEYWORD bringing up blood
+hemoptysis HAS_KEYWORD hemoptisis
+hemoptysis HAS_KEYWORD hemoptosis
+hemoptysis HAS_KEYWORD hemoptysis
+hemoptysis HAS_KEYWORD hemopysis
+hemoptysis HAS_KEYWORD hemotypsis
+hemoptysis HAS_KEYWORD blood + cough
+hemoptysis HAS_KEYWORD blood + spit
+hemoptysis HAS_KEYWORD coughing up blood
+hemoptysis HAS_KEYWORD cough + blood
+hoarseness HAS_KEYWORD hoarse
+hoarseness HAS_KEYWORD hoarseness
+hoarseness HAS_KEYWORD hoarsness
+hoarseness HAS_KEYWORD lost voice
+hoarseness HAS_KEYWORD loss of voice
+hoarseness HAS_KEYWORD no voice
+laryngitis HAS_KEYWORD laryngeal tracititis
+laryngitis HAS_KEYWORD laryngitis
+hypoxia HAS_KEYWORD hypoxia
+hypoxia HAS_KEYWORD hypoxic
+hypoxia HAS_KEYWORD hypoxemia
+cyanosis HAS_KEYWORD cyancsis
+cyanosis HAS_KEYWORD cyanotic
+cyanosis HAS_KEYWORD cyanosis
+desaturation HAS_KEYWORD dec o2 sat
+desaturation HAS_KEYWORD decrease 02 stat
+desaturation HAS_KEYWORD decrease o2 sat
+desaturation HAS_KEYWORD decreased 02 stats
+desaturation HAS_KEYWORD decreased o2 sat
+desaturation HAS_KEYWORD decreased o2 sats
+desaturation HAS_KEYWORD decreased sat
+desaturation HAS_KEYWORD decreased sats
+desaturation HAS_KEYWORD desat
+desaturation HAS_KEYWORD hypoxemia
+desaturation HAS_KEYWORD lo 02
+desaturation HAS_KEYWORD low 02 sat
+desaturation HAS_KEYWORD low 02 stats
+desaturation HAS_KEYWORD low o2
+desaturation HAS_KEYWORD low sa02
+desaturation HAS_KEYWORD low sats
+desaturation HAS_KEYWORD low saturations
+desaturation HAS_KEYWORD low stat s
+desaturation HAS_KEYWORD o2 stats down
+desaturation HAS_KEYWORD oxigen low
+desaturation HAS_KEYWORD satis dropping
+influenza HAS_KEYWORD flu
+influenza HAS_KEYWORD flue
+influenza HAS_KEYWORD flu-like
+influenza HAS_KEYWORD fly symptoms
+influenza HAS_KEYWORD influenza
+influenza HAS_KEYWORD a flu
+influenza HAS_KEYWORD flu up
+influenza HAS_KEYWORD fly sym
+influenza HAS_KEYWORD +flu
+influenza HAS_KEYWORD flulike
+influenza HAS_KEYWORD influenza
+influenza HAS_KEYWORD ILI
+irritable HAS_KEYWORD irritable
+irritable HAS_KEYWORD irritability
+irritable HAS_KEYWORD cranky
+irritable HAS_KEYWORD crying
+irritable HAS_KEYWORD fussiness
+fussyInfant HAS_KEYWORD irritable
+fussyInfant HAS_KEYWORD irritability
+fussyInfant HAS_KEYWORD cranky
+fussyInfant HAS_KEYWORD crying
+fussyInfant HAS_KEYWORD fussiness
+lethargy HAS_KEYWORD lathargic
+lethargy HAS_KEYWORD lethagic
+lethargy HAS_KEYWORD lethargic
+lethargy HAS_KEYWORD lethargie
+lethargy HAS_KEYWORD lethargy
+lethargy HAS_KEYWORD lethary
+lethargy HAS_KEYWORD letargia
+lethargy HAS_KEYWORD letargica
+lethargy HAS_KEYWORD letargico
+lethargy HAS_KEYWORD lethargic
+fatigue HAS_KEYWORD fatigue
+fatigue HAS_KEYWORD fatigued
+fatigue HAS_KEYWORD fatique
+fatigue HAS_KEYWORD fitigue
+fatigue HAS_KEYWORD fatigue
+fatigue HAS_KEYWORD tired
+somnolence HAS_KEYWORD nodding off
+somnolence HAS_KEYWORD sommolence
+somnolence HAS_KEYWORD somnolence
+somnolence HAS_KEYWORD somnolent
+somnolence HAS_KEYWORD somnulent
+somnolence HAS_KEYWORD sleepy
+somnolence HAS_KEYWORD stay awake
+lowerRespiratoryInfection HAS_KEYWORD lower respiratory infection
+lowerRespiratoryInfection HAS_KEYWORD LRTI
+lymphadenopathy HAS_KEYWORD enlarged glands
+lymphadenopathy HAS_KEYWORD lymphadanopathy
+lymphadenopathy HAS_KEYWORD lymphadenopathy
+lymphadenopathy HAS_KEYWORD lymphadenopathy
+lymphadenopathy HAS_KEYWORD node swelling
+lymphadenopathy HAS_KEYWORD swollen gland
+lymphadenopathy HAS_KEYWORD swollen glands
+lymphadenopathy HAS_KEYWORD swollen lymph node
+lymphadenopathy HAS_KEYWORD swollen lymph nodes
+malaise HAS_KEYWORD listless
+malaise HAS_KEYWORD malise
+malaise HAS_KEYWORD malaise
+malaise HAS_KEYWORD feeling ill
+malaise HAS_KEYWORD feels ill
+malaise HAS_KEYWORD feels unwell
+malaise HAS_KEYWORD not feeling any better
+malaise HAS_KEYWORD not feeling well
+malaise HAS_KEYWORD doesn t feel too good
+malaise HAS_KEYWORD dont feel good
+malaise HAS_KEYWORD sick
+malaise HAS_KEYWORD doesn t feel too good
+malaise HAS_KEYWORD dont feel good
+malaise HAS_KEYWORD feeling ill
+malaise HAS_KEYWORD feeling sick
+malaise HAS_KEYWORD feels ill
+malaise HAS_KEYWORD feels sick
+malaise HAS_KEYWORD feels unwell
+malaise HAS_KEYWORD not feeling any better
+malaise HAS_KEYWORD not feeling well
+malaise HAS_KEYWORD sick
+malaise HAS_KEYWORD malise
+malaise HAS_KEYWORD feeling ill
+malaise HAS_KEYWORD feeling sick
+malaise HAS_KEYWORD feels ill
+malaise HAS_KEYWORD feels sick
+malaise HAS_KEYWORD feels unwell
+malaise HAS_KEYWORD not feeling any better
+nausea HAS_KEYWORD nuasea
+nausea HAS_KEYWORD naseau
+nausea HAS_KEYWORD nauceous
+nausea HAS_KEYWORD n/v
+nausea HAS_KEYWORD v/n
+nausea HAS_KEYWORD n+v
+nausea HAS_KEYWORD v+n
+nausea HAS_KEYWORD n and v
+nausea HAS_KEYWORD n v
+nausea HAS_KEYWORD n & v
+nausea HAS_KEYWORD n d
+nausea HAS_KEYWORD n v
+nausea HAS_KEYWORD n v d
+nausea HAS_KEYWORD n&v
+nausea HAS_KEYWORD n+v
+nausea HAS_KEYWORD nasea
+nausea HAS_KEYWORD naseau
+nausea HAS_KEYWORD nasuea
+nausea HAS_KEYWORD nause
+nausea HAS_KEYWORD nausea
+nausea HAS_KEYWORD nauseated
+nausea HAS_KEYWORD nauseau
+nausea HAS_KEYWORD naussa
+nausea HAS_KEYWORD nv
+nausea HAS_KEYWORD nvd
+nausea HAS_KEYWORD nasuea
+nausea HAS_KEYWORD nauceous
+nausea HAS_KEYWORD nauseau
+nausea HAS_KEYWORD naussa
+nausea HAS_KEYWORD nv
+pleuralEffusion HAS_KEYWORD pleural effusion
+pleuralEffusion HAS_KEYWORD pleuritis
+pleuriticPain HAS_KEYWORD pleuritic pain
+pleuriticPain HAS_KEYWORD peluritic cp
+pleuriticPain HAS_KEYWORD pl cp
+pleuriticPain HAS_KEYWORD pl. chest discomfort
+pleuriticPain HAS_KEYWORD pleturic
+pleuriticPain HAS_KEYWORD pleur c.p.
+pleuriticPain HAS_KEYWORD pleuratic cp
+pleuriticPain HAS_KEYWORD pleuretic chest discomfort
+pleuriticPain HAS_KEYWORD pleuretic chest pain
+pleuriticPain HAS_KEYWORD pleuretic cp
+pleuriticPain HAS_KEYWORD pleuritic
+pleuriticPain HAS_KEYWORD pleuritic chest pain
+pleuriticPain HAS_KEYWORD pleuritic cp
+pleuriticPain HAS_KEYWORD pleurtic cp
+pleuriticPain HAS_KEYWORD plueritic cp
+pleuriticPain HAS_KEYWORD plurtic c.p
+pleuriticPain HAS_KEYWORD painful respiration
+pleuriticPain HAS_KEYWORD pl chest discomfort
+pleuriticPain HAS_KEYWORD pl cp
+pleuriticPain HAS_KEYWORD painful breat*
+pleurisy HAS_KEYWORD pleurisy
+pleurisy HAS_KEYWORD pluritis
+pneumonia HAS_KEYWORD pneumon*
+pneumonia HAS_KEYWORD pnuem*
+pneumonia HAS_KEYWORD pnumon*
+pneumonia HAS_KEYWORD PHEUMONIA
+pneumonia HAS_KEYWORD PHNEUMONIA
+pneumonia HAS_KEYWORD PNEAMONIA
+pneumonia HAS_KEYWORD PNEMONIA
+pneumonia HAS_KEYWORD PNEOMONIA
+pneumonia HAS_KEYWORD PNEUMMONIA
+pneumonia HAS_KEYWORD PNEUMONIAE
+pneumonia HAS_KEYWORD PNEUMONIE
+pneumonia HAS_KEYWORD PNUEMONIA
+pneumonia HAS_KEYWORD PUENMONIA
+pneumonia HAS_KEYWORD pna
+pneumonia HAS_KEYWORD pne
+pneumonia HAS_KEYWORD pneumonia
+pneumonia HAS_KEYWORD pneumonia
+pneumonia HAS_KEYWORD pneu
+pneumonia HAS_KEYWORD pneumonia
+pneumonia HAS_KEYWORD pneumonia
+pneumonia HAS_KEYWORD pneumonia-resp distress
+pneumonia HAS_KEYWORD pneumosepsis
+pneumonia HAS_KEYWORD pneuomoia
+pneumonia HAS_KEYWORD pneumonia
+pneumonia HAS_KEYWORD pna
+pneumonia HAS_KEYWORD pne
+pneumonia HAS_KEYWORD pnemonia
+pneumonia HAS_KEYWORD pneumonia
+pneumonia HAS_KEYWORD cap
+pneumonitis HAS_KEYWORD pneumonitis
+pneumonitis HAS_KEYWORD pneumonitits
+infiltrate HAS_KEYWORD infiltrate
+infiltrate HAS_KEYWORD infiltr
+rhinitis HAS_KEYWORD rhinitis
+rhinorrhea HAS_KEYWORD runny nose
+rhinorrhea HAS_KEYWORD running nose
+rhinorrhea HAS_KEYWORD rhinorrhea
+nasalCongestion HAS_KEYWORD nasal|nose + stuff*|cong*|conj*
+sinusitis HAS_KEYWORD sines pain
+sinusitis HAS_KEYWORD sinusitis
+sinusitis HAS_KEYWORD sinus
+sinusitis HAS_KEYWORD sinus inf
+sinusitis HAS_KEYWORD sinus infection
+sinusitis HAS_KEYWORD sinus pain
+sinusitis HAS_KEYWORD sinus pressure
+sinusitis HAS_KEYWORD sinus problem
+sinusitis HAS_KEYWORD sinus problems
+sinusitis HAS_KEYWORD sinus unfection
+sinusitis HAS_KEYWORD sinus?
+soreThroat HAS_KEYWORD sorethroat
+soreThroat HAS_KEYWORD soar throat
+soreThroat HAS_KEYWORD soarthroat
+soreThroat HAS_KEYWORD dorethroat
+soreThroat HAS_KEYWORD scratchy throat
+soreThroat HAS_KEYWORD soerthroat
+soreThroat HAS_KEYWORD sore thr
+soreThroat HAS_KEYWORD sore thrat
+soreThroat HAS_KEYWORD sore throa
+soreThroat HAS_KEYWORD sore throat
+soreThroat HAS_KEYWORD sore trhoat
+soreThroat HAS_KEYWORD sorethroat
+soreThroat HAS_KEYWORD throat pain
+soreThroat HAS_KEYWORD burning in throat
+soreThroat HAS_KEYWORD pain* throat
+soreThroat HAS_KEYWORD soar throat
+soreThroat HAS_KEYWORD sopre throat
+soreThroat HAS_KEYWORD sor ethroat
+soreThroat HAS_KEYWORD sor throat
+soreThroat HAS_KEYWORD sore thoart
+soreThroat HAS_KEYWORD sore thoat
+soreThroat HAS_KEYWORD sore thorat
+soreThroat HAS_KEYWORD sore thoroat
+soreThroat HAS_KEYWORD sore thr
+soreThroat HAS_KEYWORD sore thraot
+soreThroat HAS_KEYWORD sore thriat
+soreThroat HAS_KEYWORD sore thro
+soreThroat HAS_KEYWORD sore thrt
+soreThroat HAS_KEYWORD sore tnroat
+soreThroat HAS_KEYWORD sore troat
+soreThroat HAS_KEYWORD sorethprat
+soreThroat HAS_KEYWORD sorethraot
+soreThroat HAS_KEYWORD soretroat
+soreThroat HAS_KEYWORD sorre throat
+soreThroat HAS_KEYWORD sosre throat
+soreThroat HAS_KEYWORD swelling in throat
+soreThroat HAS_KEYWORD swollen throat
+soreThroat HAS_KEYWORD swollen uvula
+soreThroat HAS_KEYWORD throart swelling
+soreThroat HAS_KEYWORD throat ache
+soreThroat HAS_KEYWORD throat burning
+soreThroat HAS_KEYWORD throat discomfort
+soreThroat HAS_KEYWORD throat disconfort
+soreThroat HAS_KEYWORD throat drainage
+soreThroat HAS_KEYWORD throat hurt
+soreThroat HAS_KEYWORD throat irr
+soreThroat HAS_KEYWORD throat irritation
+soreThroat HAS_KEYWORD throat pa
+soreThroat HAS_KEYWORD throat pn
+soreThroat HAS_KEYWORD throat sore
+soreThroat HAS_KEYWORD throat swel
+soreThroat HAS_KEYWORD throat swollen
+soreThroat HAS_KEYWORD throat tingling
+soreThroat HAS_KEYWORD throat(.*?)tight
+soreThroat HAS_KEYWORD throatp
+soreThroat HAS_KEYWORD achey throat
+soreThroat HAS_KEYWORD scratchy throat
+soreThroat HAS_KEYWORD sore thort
+soreThroat HAS_KEYWORD sore thr
+soreThroat HAS_KEYWORD sore trhoat
+soreThroat HAS_KEYWORD sorethroat
+tonsillitis HAS_KEYWORD tonsilitis
+tonsillitis HAS_KEYWORD tonsillitis
+tonsillitis HAS_KEYWORD tonsulitis
+tonsillitis HAS_KEYWORD inflammed tonsil
+tonsillitis HAS_KEYWORD swollen tonsil
+tonsillitis HAS_KEYWORD tonsil infection
+tonsillitis HAS_KEYWORD tonsil pain
+tonsillitis HAS_KEYWORD tonsil problem
+tonsillitis HAS_KEYWORD tonsil swelling
+tonsillitis HAS_KEYWORD tonsilar swelling
+tonsillitis HAS_KEYWORD tonsilitis
+tonsillitis HAS_KEYWORD tonsillar swelling
+tonsillitis HAS_KEYWORD tonsilli
+tonsillitis HAS_KEYWORD tonsillis
+tonsillitis HAS_KEYWORD tonsilliti
+tonsillitis HAS_KEYWORD tonsills infected
+tonsillitis HAS_KEYWORD tonsils enlarged
+tonsillitis HAS_KEYWORD tonsils infected
+tonsillitis HAS_KEYWORD tonsils pain
+tonsillitis HAS_KEYWORD tonsils swelled
+tonsillitis HAS_KEYWORD tonsils swollen
+tonsillitis HAS_KEYWORD tonsilitis
+tonsillitis HAS_KEYWORD tonsillitis
+tonsillitis HAS_KEYWORD tonsulitis
+throatSwelling HAS_KEYWORD throat swelling
+throatSwelling HAS_KEYWORD swollen throat
+pharyngitis HAS_KEYWORD inflammed throat
+pharyngitis HAS_KEYWORD pharyngitis
+pharyngitis HAS_KEYWORD pharynsitis
+pharyngitis HAS_KEYWORD pheryngitis
+pharyngitis HAS_KEYWORD pustules in throat
+pharyngitis HAS_KEYWORD strep
+pharyngitis HAS_KEYWORD strep throat
+pharyngitis HAS_KEYWORD inflamed throat
+pharyngitis HAS_KEYWORD pharygitis
+pharyngitis HAS_KEYWORD pharyngiits
+pharyngitis HAS_KEYWORD pharyngitis
+pharyngitis HAS_KEYWORD pharyngitits
+pharyngitis HAS_KEYWORD pharyngotonsillitis
+pharyngitis HAS_KEYWORD pharyngtis
+pharyngitis HAS_KEYWORD pharynigitis
+pharyngitis HAS_KEYWORD pharynitis
+pharyngitis HAS_KEYWORD phayngitis
+pharyngitis HAS_KEYWORD strep
+pharyngitis HAS_KEYWORD throat inf
+pharyngitis HAS_KEYWORD throat infec
+pharyngitis HAS_KEYWORD pharingitis
+pharyngitis HAS_KEYWORD pharyngitis
+pharyngitis HAS_KEYWORD pharynsitis
+pharyngitis HAS_KEYWORD pheryngitis
+stridor HAS_KEYWORD stridor
+stridor HAS_KEYWORD noisy breathing
+tachypnea HAS_KEYWORD tachypnea
+tachypnea HAS_KEYWORD tachypneic
+tachypnea HAS_KEYWORD tachyp
+increasedRespiration HAS_KEYWORD increased resp
+increasedRespiration HAS_KEYWORD increased respiratory
+increasedRespiration HAS_KEYWORD breathing fast
+increasedRespiration HAS_KEYWORD rapid breathing
+increasedRespiration HAS_KEYWORD rapid respiration
+increasedRespiration HAS_KEYWORD breathing rapid
+increasedRespiration HAS_KEYWORD fast breat
+increasedRespiration HAS_KEYWORD rapid breat
+increasedRespiration HAS_KEYWORD rapid resp
+increasedRespiratoryRate HAS_KEYWORD increased RR
+increasedRespiratoryRate HAS_KEYWORD inc RR
+increasedRespiratoryRate HAS_KEYWORD inc. RR
+increasedRespiratoryRate HAS_KEYWORD inc. resp%rate
+increasedRespiratoryRate HAS_KEYWORD increased resp%rate
+increasedRespiratoryRate HAS_KEYWORD respiratory rate
+increasedRespiratoryRate HAS_KEYWORD increased resp
+increasedRespiratoryRate HAS_KEYWORD increased respiratory
+increasedRespiratoryRate HAS_KEYWORD breathing fast
+increasedRespiratoryRate HAS_KEYWORD rapid breathing
+increasedRespiratoryRate HAS_KEYWORD rapid respiration
+increasedRespiratoryRate HAS_KEYWORD breathing rapid
+increasedRespiratoryRate HAS_KEYWORD fast breat
+increasedRespiratoryRate HAS_KEYWORD rapid breat
+increasedRespiratoryRate HAS_KEYWORD rapid resp
+upperRespiratoryInfection HAS_KEYWORD u r i
+upperRespiratoryInfection HAS_KEYWORD u.r.i.
+upperRespiratoryInfection HAS_KEYWORD upper respiratory
+upperRespiratoryInfection HAS_KEYWORD upper respiratory infection
+upperRespiratoryInfection HAS_KEYWORD upper respitory
+upperRespiratoryInfection HAS_KEYWORD ur i
+upperRespiratoryInfection HAS_KEYWORD uri
+upperRespiratoryInfection HAS_KEYWORD uris
+upperRespiratoryInfection HAS_KEYWORD urti
+upperRespiratoryInfection HAS_KEYWORD usi
+upperRespiratoryInfection HAS_KEYWORD ur i
+coldSymptoms HAS_KEYWORD cold
+coldSymptoms HAS_KEYWORD cold symptoms
+coldSymptoms HAS_KEYWORD cold sx
+viralSymptoms HAS_KEYWORD virus
+viralSymptoms HAS_KEYWORD viral
+vomiting HAS_KEYWORD vmt
+vomiting HAS_KEYWORD n/v
+vomiting HAS_KEYWORD v/n
+vomiting HAS_KEYWORD v/d
+vomiting HAS_KEYWORD d/v
+vomiting HAS_KEYWORD v+d
+vomiting HAS_KEYWORD d+v
+vomiting HAS_KEYWORD n+v
+vomiting HAS_KEYWORD v+n
+vomiting HAS_KEYWORD v + d
+vomiting HAS_KEYWORD d + v
+vomiting HAS_KEYWORD etc.
+vomiting HAS_KEYWORD d & v
+vomiting HAS_KEYWORD dry heaves
+vomiting HAS_KEYWORD emsis
+vomiting HAS_KEYWORD f v
+vomiting HAS_KEYWORD fv
+vomiting HAS_KEYWORD n v
+vomiting HAS_KEYWORD n & v
+vomiting HAS_KEYWORD n v
+vomiting HAS_KEYWORD n v d
+vomiting HAS_KEYWORD n&v
+vomiting HAS_KEYWORD n+v
+vomiting HAS_KEYWORD nv
+vomiting HAS_KEYWORD nvd
+vomiting HAS_KEYWORD retching
+vomiting HAS_KEYWORD v d
+vomiting HAS_KEYWORD v f
+vomiting HAS_KEYWORD v&d
+vomiting HAS_KEYWORD v+d
+vomiting HAS_KEYWORD vimiting
+vomiting HAS_KEYWORD viomiting
+vomiting HAS_KEYWORD vmt
+vomiting HAS_KEYWORD vo
+vomiting HAS_KEYWORD voimiting
+vomiting HAS_KEYWORD voiting
+vomiting HAS_KEYWORD vom
+vomiting HAS_KEYWORD vometing
+vomiting HAS_KEYWORD vomi
+vomiting HAS_KEYWORD vomikting
+vomiting HAS_KEYWORD vomintg
+vomiting HAS_KEYWORD vominting
+vomiting HAS_KEYWORD vomit
+vomiting HAS_KEYWORD vomited
+vomiting HAS_KEYWORD vomitibg
+vomiting HAS_KEYWORD vomitin
+vomiting HAS_KEYWORD vomitine
+vomiting HAS_KEYWORD vomiting
+vomiting HAS_KEYWORD vomitinig
+vomiting HAS_KEYWORD vomitiong
+vomiting HAS_KEYWORD vomitng
+vomiting HAS_KEYWORD vomitt
+vomiting HAS_KEYWORD vomitting
+vomiting HAS_KEYWORD vomittng
+vomiting HAS_KEYWORD vomitus
+vomiting HAS_KEYWORD vommiting
+vomiting HAS_KEYWORD vomoting
+vomiting HAS_KEYWORD vomtiing
+vomiting HAS_KEYWORD vomtiming
+vomiting HAS_KEYWORD vomting
+vomiting HAS_KEYWORD vomtiting
+vomiting HAS_KEYWORD puke
+vomiting HAS_KEYWORD n v
+vomiting HAS_KEYWORD retching
+vomiting HAS_KEYWORD v d
+vomiting HAS_KEYWORD vomit
+vomiting HAS_KEYWORD vomicking
+vomiting HAS_KEYWORD cant hold any food down
+vomiting HAS_KEYWORD threw up
+vomiting HAS_KEYWORD throw up
+vomiting HAS_KEYWORD throwing up
+vomiting HAS_KEYWORD emesis
+vomiting HAS_KEYWORD emisis
+vomiting HAS_KEYWORD d&v
+vomiting HAS_KEYWORD dv
+spittingUp HAS_KEYWORD bringing up
+spittingUp HAS_KEYWORD spitting up
+hematemesis HAS_KEYWORD hematemesis
+hematemesis HAS_KEYWORD coffee ground emesis
+hematemesis HAS_KEYWORD throw* up + blood
+hematemesis HAS_KEYWORD vomit + blood
+emesis HAS_KEYWORD emesis
+wheezing HAS_KEYWORD whez
+wheezing HAS_KEYWORD wheezing
+wheezing HAS_KEYWORD weezing
+wheezing HAS_KEYWORD wheeszing
+wheezing HAS_KEYWORD wheeze
+wheezing HAS_KEYWORD wheezy
+wheezing HAS_KEYWORD whezzing
+wheezing HAS_KEYWORD wheeszing
+wheezing HAS_KEYWORD wheeze
+wheezing HAS_KEYWORD wheezing
+wheezing HAS_KEYWORD wheezy
+wheezing HAS_KEYWORD whezzing
+asthma HAS_KEYWORD asth*
+asthma HAS_KEYWORD asmtha
+asthma HAS_KEYWORD ashtma
+asthma HAS_KEYWORD astma
+asthma HAS_KEYWORD asyhma
+asthma HAS_KEYWORD azth*
+asthma HAS_KEYWORD asthma
+asthma HAS_KEYWORD asthama
+asthma HAS_KEYWORD asthmatic
+asthma HAS_KEYWORD asthma
+asthma HAS_KEYWORD asthmatic
+asthma HAS_KEYWORD asthmia
+asthma HAS_KEYWORD status
+asthma HAS_KEYWORD asthmaticus
+asthma HAS_KEYWORD ashtma
+asthma HAS_KEYWORD asma
+asthma HAS_KEYWORD asthama
+asthma HAS_KEYWORD asthamtic
+asthma HAS_KEYWORD asthma
+asthma HAS_KEYWORD asthmia
+asthma HAS_KEYWORD asthmaticus
+reactiveAirways HAS_KEYWORD brochospasm
+reactiveAirways HAS_KEYWORD chest tight
+reactiveAirways HAS_KEYWORD r a d
+reactiveAirways HAS_KEYWORD rad
+reactiveAirways HAS_KEYWORD reactive airway disease
+reactiveAirways HAS_KEYWORD chest tightness
