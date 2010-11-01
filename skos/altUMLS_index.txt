@@ -1,0 +1,891 @@
+abdominalDistension HAS_ALT_UMLS abdominal distension, abdominal organomegally
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS abdomianl pain \babd.*?\s+pain\b
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+abdominalPain HAS_ALT_UMLS C0000737:Abdominal Pain
+suprapubicPain HAS_ALT_UMLS C0241310:(D)Suprapubic pain
+anorexia HAS_ALT_UMLS C0003123:Anorexia
+anorexia HAS_ALT_UMLS C0003123:Anorexia
+anorexia HAS_ALT_UMLS C0003123:Anorexia
+anorexia HAS_ALT_UMLS C0003123:Anorexia
+anorexia HAS_ALT_UMLS C0003123:Anorexia
+anorexia HAS_ALT_UMLS C0003123:Anorexia
+anorexia HAS_ALT_UMLS C0003123:Anorexia
+anorexia HAS_ALT_UMLS C0003123:Anorexia
+anorexia HAS_ALT_UMLS C0003123:Anorexia
+failureToThrive HAS_ALT_UMLS C0015544:Failure to Thrive
+failureToThrive HAS_ALT_UMLS C0015544:Failure to Thrive
+failureToThrive HAS_ALT_UMLS C0015544:Failure to Thrive
+apnea HAS_ALT_UMLS C1963065:Apnea
+apnea HAS_ALT_UMLS C1963065:Apnea
+apnea HAS_ALT_UMLS C1963065:Apnea
+apnea HAS_ALT_UMLS C1963065:Apnea
+apnea HAS_ALT_UMLS C1963065:Apnea
+apnea HAS_ALT_UMLS C1963065:Apnea
+respiratoryFailure HAS_ALT_UMLS C1145670:Respiratory Failure
+bodyAches HAS_ALT_UMLS C0741585:BODY ACHE
+bodyAches HAS_ALT_UMLS C0741585:BODY ACHE
+bodyAches HAS_ALT_UMLS C0741585:BODY ACHE
+bodyAches HAS_ALT_UMLS C0741585:BODY ACHE
+bodyAches HAS_ALT_UMLS C0741585:BODY ACHE
+bodyAches HAS_ALT_UMLS C0741585:BODY ACHE
+bodyAches HAS_ALT_UMLS C0741585:BODY ACHE
+myalgia HAS_ALT_UMLS C0231528:Myalgia
+myalgia HAS_ALT_UMLS C0231528:Myalgia
+myalgia HAS_ALT_UMLS C0231528:Myalgia
+myalgia HAS_ALT_UMLS C0231528:Myalgia
+myalgia HAS_ALT_UMLS C0231528:Myalgia
+generalizedMuscleAches HAS_ALT_UMLS C0746669:Generalised muscle aches
+bronchiolitis HAS_ALT_UMLS C0006271:Bronchiolitis
+bronchiolitis HAS_ALT_UMLS C0006271:Bronchiolitis
+bronchiolitis HAS_ALT_UMLS C0006271:Bronchiolitis
+bronchiolitis HAS_ALT_UMLS C0006271:Bronchiolitis
+bronchiolitis HAS_ALT_UMLS C0006271:Bronchiolitis
+bronchiolitis HAS_ALT_UMLS C0006271:Bronchiolitis
+respiratorySyncytialVirus HAS_ALT_UMLS C0035236:Respiratory syncytial virus
+respiratorySyncytialVirus HAS_ALT_UMLS C0035236:Respiratory syncytial virus
+bronchitis HAS_ALT_UMLS C0006277:Bronchitis
+bronchitis HAS_ALT_UMLS C0006277:Bronchitis
+chestCongestion HAS_ALT_UMLS C0242073:Pulmonary congestion
+chill HAS_ALT_UMLS C0085593:Chills
+chill HAS_ALT_UMLS C0085593:Chills
+chill HAS_ALT_UMLS C0424790:RIGORS
+chill HAS_ALT_UMLS C0085593:Chills
+chill HAS_ALT_UMLS C0036973:SHIVERS
+chill HAS_ALT_UMLS C0036973:SHIVERS
+rigor HAS_ALT_UMLS C0424790:RIGORS
+rigor HAS_ALT_UMLS C0424790:RIGORS
+cOPD HAS_ALT_UMLS C0024117:COPD (Chronic Obstructive Airway Disease)
+cOPD HAS_ALT_UMLS C0024117:COPD (Chronic Obstructive Airway Disease)
+cOPD HAS_ALT_UMLS C0024117:COPD (Chronic Obstructive Airway Disease)
+cOPD HAS_ALT_UMLS C0024117:COPD (Chronic Obstructive Airway Disease)
+cOPD HAS_ALT_UMLS C0024117:COPD (Chronic Obstructive Airway Disease)
+cOPD HAS_ALT_UMLS C0024117:COPD (Chronic Obstructive Airway Disease)
+emphysema HAS_ALT_UMLS C0034067:Emphysema
+chronicBronchitis HAS_ALT_UMLS C0008677:Bronchitis Chronic
+cough HAS_ALT_UMLS C0010200:Cough
+cough HAS_ALT_UMLS C0010200:Cough
+cough HAS_ALT_UMLS C0010200:Cough
+cough HAS_ALT_UMLS C0010200:Cough
+cough HAS_ALT_UMLS C0010200:Cough
+cough HAS_ALT_UMLS C0010200:Cough
+cough HAS_ALT_UMLS C0010200:Cough
+cough HAS_ALT_UMLS C0010200:Cough
+cough HAS_ALT_UMLS C0010200:Cough
+productiveCough HAS_ALT_UMLS C0239134:Productive cough NOS
+productiveCough HAS_ALT_UMLS C0239134:Productive cough NOS
+productiveCough HAS_ALT_UMLS C0239134:Productive cough NOS
+croup HAS_ALT_UMLS C0010380:Croup
+croup HAS_ALT_UMLS C0010380:Croup
+croup HAS_ALT_UMLS C0010380:Croup
+croup HAS_ALT_UMLS C0010380:Croup
+croup HAS_ALT_UMLS C0010380:Croup
+pertussis HAS_ALT_UMLS C0043167:Pertussis
+pertussis HAS_ALT_UMLS C0043167:Pertussis
+pertussis HAS_ALT_UMLS C0043167:Pertussis
+pertussis HAS_ALT_UMLS C0043167:Pertussis
+dehydration HAS_ALT_UMLS C0011175:Dehydration
+dehydration HAS_ALT_UMLS C0011175:Dehydration
+dehydration HAS_ALT_UMLS C0011175:Dehydration
+dehydration HAS_ALT_UMLS C0011175:Dehydration
+dehydration HAS_ALT_UMLS C0011175:Dehydration
+diaphoresis HAS_ALT_UMLS C0392162:Clammy (Clammy skin)
+diaphoresis HAS_ALT_UMLS C0038990:Diaphoresis
+diaphoresis HAS_ALT_UMLS C1707737:Diaphoretic
+diaphoresis HAS_ALT_UMLS C0028081:Night sweats
+diaphoresis HAS_ALT_UMLS C0038990:SWEAT
+diaphoresis HAS_ALT_UMLS C0038990:Sweating
+diaphoresis HAS_ALT_UMLS C0038990:SWEATS
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+diarrhea HAS_ALT_UMLS C0011991:DIARRHOEA (Diarrhea)
+rotavirus HAS_ALT_UMLS C0035870:Rotavirus
+rotavirus HAS_ALT_UMLS C0035870:Rotavirus
+wateryStool HAS_ALT_UMLS C0232708:Watery stool
+wateryStool HAS_ALT_UMLS C0232708:Watery stool
+looseStool HAS_ALT_UMLS C0011991:Loose stool
+looseStool HAS_ALT_UMLS C0011991:Loose stool
+looseStool HAS_ALT_UMLS C0011991:Loose stool
+looseStool HAS_ALT_UMLS C0011991:Loose stool
+looseStool HAS_ALT_UMLS C0011991:Loose stool
+dyspnea HAS_ALT_UMLS C0013404:DYSPNOEA
+dyspnea HAS_ALT_UMLS C0013404:DYSPNOEA
+dyspnea HAS_ALT_UMLS C0013404:DYSPNOEA
+dyspnea HAS_ALT_UMLS C0013404:DYSPNOEA
+gasping HAS_ALT_UMLS C0425449:Gasping
+cannotBreathe HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+cannotBreathe HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+cannotBreathe HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+cannotBreathe HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+cannotBreathe HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0013404:Breathless
+respiratoryDistress HAS_ALT_UMLS C0013404:Breathless
+respiratoryDistress HAS_ALT_UMLS C0013404:Breathless
+respiratoryDistress HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+respiratoryDistress HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+respiratoryDistress HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+respiratoryDistress HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+respiratoryDistress HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+respiratoryDistress HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+respiratoryDistress HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+respiratoryDistress HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+respiratoryDistress HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+respiratoryDistress HAS_ALT_UMLS C0020578:Hyperventilating
+respiratoryDistress HAS_ALT_UMLS C0020578:Hyperventilating
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+respiratoryDistress HAS_ALT_UMLS C0221161:Shallow breathing
+respiratoryDistress HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+respiratoryDistress HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+respiratoryDistress HAS_ALT_UMLS work of br(eathing) \bwork\s+of\s+br.*?\bC0013404:Breathing Difficulties (Dyspnea
+respiratoryDistress HAS_ALT_UMLS )
+respiratoryDistress HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0013404:Breathless
+shortnessOfBreath HAS_ALT_UMLS C0013404:Breathless
+shortnessOfBreath HAS_ALT_UMLS C0013404:Breathless
+shortnessOfBreath HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+shortnessOfBreath HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+shortnessOfBreath HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+shortnessOfBreath HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+shortnessOfBreath HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+shortnessOfBreath HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+shortnessOfBreath HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+shortnessOfBreath HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+shortnessOfBreath HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+shortnessOfBreath HAS_ALT_UMLS C0020578:Hyperventilating
+shortnessOfBreath HAS_ALT_UMLS C0020578:Hyperventilating
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+shortnessOfBreath HAS_ALT_UMLS C0221161:Shallow breathing
+shortnessOfBreath HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+shortnessOfBreath HAS_ALT_UMLS C0013404:Breathing Difficulties (Dyspnea)
+shortnessOfBreath HAS_ALT_UMLS work of br(eathing) \bwork\s+of\s+br.*?\bC0013404:Breathing Difficulties (Dyspnea
+shortnessOfBreath HAS_ALT_UMLS )
+shortnessOfBreath HAS_ALT_UMLS C0476273:Respiratory distress
+earache HAS_ALT_UMLS C0013456:Earache
+earache HAS_ALT_UMLS C0013456:Earache
+earache HAS_ALT_UMLS C0013456:Earache
+earache HAS_ALT_UMLS C0013456:Earache
+earache HAS_ALT_UMLS C0013456:Earache
+earache HAS_ALT_UMLS C0013456:Earache
+earache HAS_ALT_UMLS C0013456:Earache
+earache HAS_ALT_UMLS C0013456:Earache
+otitisExterna HAS_ALT_UMLS C0029878:Otitis Externa
+otitisExterna HAS_ALT_UMLS C0029878:Otitis Externa
+otitisExterna HAS_ALT_UMLS C0029878:Otitis Externa
+otitisMedia HAS_ALT_UMLS C0029882:Otitis Media
+otitisMedia HAS_ALT_UMLS C0029882:Otitis Media
+otitisMedia HAS_ALT_UMLS C0029882:Otitis Media
+otitisMedia HAS_ALT_UMLS C0029882:Otitis Media
+otitisMedia HAS_ALT_UMLS C0029882:Otitis Media
+otitisMedia HAS_ALT_UMLS C0029882:Otitis Media
+otitisMedia HAS_ALT_UMLS C0029882:Otitis Media
+otitisMedia HAS_ALT_UMLS C0029882:Otitis Media
+otitisMedia HAS_ALT_UMLS C0029882:Otitis Media
+otitisMedia HAS_ALT_UMLS C0029882:Otitis Media
+otitisMedia HAS_ALT_UMLS C0029882:Otitis Media
+otitisMedia HAS_ALT_UMLS C0029882:Otitis Media
+otitisMedia HAS_ALT_UMLS C0029882:Otitis Media
+otitisMedia HAS_ALT_UMLS C0029882:Otitis Media
+otalgia HAS_ALT_UMLS C0013456:Otalgia
+epiglottitis HAS_ALT_UMLS C0014541:Epiglottitis
+epiglottitis HAS_ALT_UMLS C0014541:Epiglottitis
+faintness HAS_ALT_UMLS C0039070:Faintness
+faintness HAS_ALT_UMLS C0039070:Faintness
+faintness HAS_ALT_UMLS C0039070:Faintness
+faintness HAS_ALT_UMLS C0039070:Faintness
+dizziness HAS_ALT_UMLS C0012833:Dizzy
+lightHeadedness HAS_ALT_UMLS C0220870:Light-headed
+lightHeadedness HAS_ALT_UMLS C0220870:Light-headed
+lightHeadedness HAS_ALT_UMLS C0220870:Light-headed
+lightHeadedness HAS_ALT_UMLS C0220870:Light-headed
+lightHeadedness HAS_ALT_UMLS C0220870:Light-headed
+lightHeadedness HAS_ALT_UMLS C0220870:Light-headed
+lightHeadedness HAS_ALT_UMLS C0220870:Light-headed
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+fever HAS_ALT_UMLS C0015967:Fever
+elevatedTemperature HAS_ALT_UMLS C0015967:High temperature
+elevatedTemperature HAS_ALT_UMLS C0015967:High temperature
+elevatedTemperature HAS_ALT_UMLS C0015967:High temperature
+elevatedTemperature HAS_ALT_UMLS C0015967:High temperature
+elevatedTemperature HAS_ALT_UMLS C0015967:High temperature
+elevatedTemperature HAS_ALT_UMLS C0015967:High temperature
+elevatedTemperature HAS_ALT_UMLS C0015967:High temperature
+elevatedTemperature HAS_ALT_UMLS C0015967:High temperature
+gastroenteritis HAS_ALT_UMLS C0017160:Gastroenteritis
+gastroenteritis HAS_ALT_UMLS C0017160:Gastroenteritis
+gastroenteritis HAS_ALT_UMLS C0017160:Gastroenteritis
+generalizedWeakness HAS_ALT_UMLS C1883552:GENERALIZED WEAKNESS
+hemoptysis HAS_ALT_UMLS C0019079:HAEMOPTYSIS (Hemoptysis)
+hemoptysis HAS_ALT_UMLS C0019079:HAEMOPTYSIS (Hemoptysis)
+hemoptysis HAS_ALT_UMLS C0019079:HAEMOPTYSIS (Hemoptysis)
+hemoptysis HAS_ALT_UMLS C0019079:HAEMOPTYSIS (Hemoptysis)
+hemoptysis HAS_ALT_UMLS C0019079:HAEMOPTYSIS (Hemoptysis)
+hemoptysis HAS_ALT_UMLS C0019079:HAEMOPTYSIS (Hemoptysis)
+hemoptysis HAS_ALT_UMLS C0019079:HAEMOPTYSIS (Hemoptysis)
+hemoptysis HAS_ALT_UMLS C0019079:HAEMOPTYSIS (Hemoptysis)
+hemoptysis HAS_ALT_UMLS C0019079:HAEMOPTYSIS (Hemoptysis)
+hemoptysis HAS_ALT_UMLS C0019079:HAEMOPTYSIS (Hemoptysis)
+hemoptysis HAS_ALT_UMLS C0019079:HAEMOPTYSIS (Hemoptysis)
+hoarseness HAS_ALT_UMLS C0019825:Hoarseness
+hoarseness HAS_ALT_UMLS C0019825:Hoarseness
+hoarseness HAS_ALT_UMLS C0019825:Hoarseness
+hoarseness HAS_ALT_UMLS C0019825:Hoarseness
+hoarseness HAS_ALT_UMLS C0019825:Hoarseness
+hoarseness HAS_ALT_UMLS C0019825:Hoarseness
+laryngitis HAS_ALT_UMLS C0023067:Laryngitis
+laryngitis HAS_ALT_UMLS C0023067:Laryngitis
+hypoxia HAS_ALT_UMLS C0242184:Hypoxia
+hypoxia HAS_ALT_UMLS C0242184:Hypoxia
+hypoxia HAS_ALT_UMLS C0242184:Hypoxia
+cyanosis HAS_ALT_UMLS C0010520:Cyanosis
+cyanosis HAS_ALT_UMLS C0010520:Cyanosis
+cyanosis HAS_ALT_UMLS C0010520:Cyanosis
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+desaturation HAS_ALT_UMLS C0483415:  Oxygen saturation
+influenza HAS_ALT_UMLS C0021400:Influenza
+influenza HAS_ALT_UMLS C0021400:Influenza
+influenza HAS_ALT_UMLS C0021400:Influenza
+influenza HAS_ALT_UMLS C0021400:Influenza
+influenza HAS_ALT_UMLS C0021400:Influenza
+influenza HAS_ALT_UMLS C0021400:Influenza
+influenza HAS_ALT_UMLS C0021400:Influenza
+influenza HAS_ALT_UMLS C0021400:Influenza
+influenza HAS_ALT_UMLS C0021400:Influenza
+influenza HAS_ALT_UMLS C0021400:Influenza
+influenza HAS_ALT_UMLS C0021400:Influenza
+influenza HAS_ALT_UMLS C0021400:Influenza
+irritable HAS_ALT_UMLS C0022107:Irritable
+irritable HAS_ALT_UMLS C0022107:Irritable
+irritable HAS_ALT_UMLS C0022107:Irritable
+irritable HAS_ALT_UMLS C0010399:Crying
+irritable HAS_ALT_UMLS C0022107:Fussiness
+fussyInfant HAS_ALT_UMLS C0022107:Irritable
+fussyInfant HAS_ALT_UMLS C0022107:Irritable
+fussyInfant HAS_ALT_UMLS C0022107:Irritable
+fussyInfant HAS_ALT_UMLS C0010399:Crying
+fussyInfant HAS_ALT_UMLS C0022107:Fussiness
+lethargy HAS_ALT_UMLS C0023380:Lethargy
+lethargy HAS_ALT_UMLS C0023380:Lethargy
+lethargy HAS_ALT_UMLS C0023380:Lethargy
+lethargy HAS_ALT_UMLS C0023380:Lethargy
+lethargy HAS_ALT_UMLS C0023380:Lethargy
+lethargy HAS_ALT_UMLS C0023380:Lethargy
+lethargy HAS_ALT_UMLS C0023380:Lethargy
+lethargy HAS_ALT_UMLS C0023380:Lethargy
+lethargy HAS_ALT_UMLS C0023380:Lethargy
+lethargy HAS_ALT_UMLS C0023380:Lethargy
+fatigue HAS_ALT_UMLS C0015672:Fatigue
+fatigue HAS_ALT_UMLS C0015672:Fatigue
+fatigue HAS_ALT_UMLS C0015672:Fatigue
+fatigue HAS_ALT_UMLS C0015672:Fatigue
+fatigue HAS_ALT_UMLS C0015672:Fatigue
+fatigue HAS_ALT_UMLS C0015672:Fatigue
+somnolence HAS_ALT_UMLS C0234450:Somnolent
+somnolence HAS_ALT_UMLS C0234450:Somnolent
+somnolence HAS_ALT_UMLS C0234450:Somnolent
+somnolence HAS_ALT_UMLS C0234450:Somnolent
+somnolence HAS_ALT_UMLS C0234450:Somnolent
+somnolence HAS_ALT_UMLS C0234450:Somnolent
+somnolence HAS_ALT_UMLS C0234450:Somnolent
+lowerRespiratoryInfection HAS_ALT_UMLS C0035243:respiratory infection
+lowerRespiratoryInfection HAS_ALT_UMLS C0035243:respiratory infection
+lymphadenopathy HAS_ALT_UMLS C0024228:Lymphadenopathy
+lymphadenopathy HAS_ALT_UMLS C0024228:Lymphadenopathy
+lymphadenopathy HAS_ALT_UMLS C0024228:Lymphadenopathy
+lymphadenopathy HAS_ALT_UMLS C0024228:Lymphadenopathy
+lymphadenopathy HAS_ALT_UMLS C0024228:Lymphadenopathy
+lymphadenopathy HAS_ALT_UMLS C0024228:Lymphadenopathy
+lymphadenopathy HAS_ALT_UMLS C0024228:Lymphadenopathy
+lymphadenopathy HAS_ALT_UMLS C0024228:Lymphadenopathy
+lymphadenopathy HAS_ALT_UMLS C0024228:Lymphadenopathy
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+malaise HAS_ALT_UMLS C0231218:Malaise
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+nausea HAS_ALT_UMLS C0027497:Nausea
+pleuralEffusion HAS_ALT_UMLS C0032227:Pleural Effusion
+pleuralEffusion HAS_ALT_UMLS C0032227:Pleural Effusion
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleuriticPain HAS_ALT_UMLS C0008033:Pleuritic pain
+pleurisy HAS_ALT_UMLS C0032231:Pleurisy
+pleurisy HAS_ALT_UMLS C0032231:Pleurisy
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonia HAS_ALT_UMLS C0032285:Pneumonia
+pneumonitis HAS_ALT_UMLS C0032285:Pneumonitis
+pneumonitis HAS_ALT_UMLS C0032285:Pneumonitis
+infiltrate HAS_ALT_UMLS C0235896:PULMONARY INFILTRATE
+infiltrate HAS_ALT_UMLS C0235896:PULMONARY INFILTRATE
+rhinitis HAS_ALT_UMLS C0035455:Rhinitis
+rhinorrhea HAS_ALT_UMLS C1260880:RHINORRHOEA
+rhinorrhea HAS_ALT_UMLS C1260880:RHINORRHOEA
+rhinorrhea HAS_ALT_UMLS C1260880:RHINORRHOEA
+nasalCongestion HAS_ALT_UMLS C0027424:Nose congestion
+sinusitis HAS_ALT_UMLS C0037199:Sinusitis
+sinusitis HAS_ALT_UMLS C0037199:Sinusitis
+sinusitis HAS_ALT_UMLS C0037199:Sinusitis
+sinusitis HAS_ALT_UMLS C0037199:Sinusitis
+sinusitis HAS_ALT_UMLS C0037199:Sinusitis
+sinusitis HAS_ALT_UMLS C0037199:Sinusitis
+sinusitis HAS_ALT_UMLS C0037199:Sinusitis
+sinusitis HAS_ALT_UMLS C0037199:Sinusitis
+sinusitis HAS_ALT_UMLS C0037199:Sinusitis
+sinusitis HAS_ALT_UMLS C0037199:Sinusitis
+sinusitis HAS_ALT_UMLS C0037199:Sinusitis
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0700184:scratchy throat
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0700184:Throat irritation
+soreThroat HAS_ALT_UMLS C0700184:Throat irritation
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0700184:scratchy throat
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+soreThroat HAS_ALT_UMLS C0242429:SORETHROAT
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+tonsillitis HAS_ALT_UMLS C0040425:Tonsillitis
+throatSwelling HAS_ALT_UMLS C0031350:Pharyngitis
+throatSwelling HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0036689:Strep throat
+pharyngitis HAS_ALT_UMLS C0729771:Throat infection
+pharyngitis HAS_ALT_UMLS C0729771:Throat infection
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+pharyngitis HAS_ALT_UMLS C0031350:Pharyngitis
+stridor HAS_ALT_UMLS C0038450:Stridor
+stridor HAS_ALT_UMLS C0237304:Noisy breathing
+tachypnea HAS_ALT_UMLS C0231835:(D)Tachypnea
+tachypnea HAS_ALT_UMLS C0231835:(D)Tachypnea
+tachypnea HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiration HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiration HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiration HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiration HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiration HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiration HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiration HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiration HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiration HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiratoryRate HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiratoryRate HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiratoryRate HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiratoryRate HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiratoryRate HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiratoryRate HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiratoryRate HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiratoryRate HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiratoryRate HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiratoryRate HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiratoryRate HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiratoryRate HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiratoryRate HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiratoryRate HAS_ALT_UMLS C0231835:(D)Tachypnea
+increasedRespiratoryRate HAS_ALT_UMLS C0231835:(D)Tachypnea
+upperRespiratoryInfection HAS_ALT_UMLS C0041912:Upper respiratory infection
+upperRespiratoryInfection HAS_ALT_UMLS C0041912:Upper respiratory infection
+upperRespiratoryInfection HAS_ALT_UMLS C0041912:Upper respiratory infection
+upperRespiratoryInfection HAS_ALT_UMLS C0041912:Upper respiratory infection
+upperRespiratoryInfection HAS_ALT_UMLS C0041912:Upper respiratory infection
+upperRespiratoryInfection HAS_ALT_UMLS C0041912:Upper respiratory infection
+upperRespiratoryInfection HAS_ALT_UMLS C0041912:Upper respiratory infection
+upperRespiratoryInfection HAS_ALT_UMLS C0041912:Upper respiratory infection
+upperRespiratoryInfection HAS_ALT_UMLS C0041912:Upper respiratory infection
+upperRespiratoryInfection HAS_ALT_UMLS C0041912:Upper respiratory infection
+upperRespiratoryInfection HAS_ALT_UMLS C0041912:Upper respiratory infection
+coldSymptoms HAS_ALT_UMLS C0863093:Cold symptoms
+coldSymptoms HAS_ALT_UMLS C0863093:Cold symptoms
+coldSymptoms HAS_ALT_UMLS C0863093:Cold symptoms
+viralSymptoms HAS_ALT_UMLS C0042769:virus
+viralSymptoms HAS_ALT_UMLS C0042769:virus
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+vomiting HAS_ALT_UMLS C0042963:Vomiting
+spittingUp HAS_ALT_UMLS C0042963:Vomiting
+spittingUp HAS_ALT_UMLS C0042963:Vomiting
+hematemesis HAS_ALT_UMLS C0018926:HAEMATEMESIS
+hematemesis HAS_ALT_UMLS C0018926:HAEMATEMESIS
+hematemesis HAS_ALT_UMLS C0018926:HAEMATEMESIS
+hematemesis HAS_ALT_UMLS C0018926:HAEMATEMESIS
+emesis HAS_ALT_UMLS C0042963:Vomiting
+wheezing HAS_ALT_UMLS C0043144:Wheezing
+wheezing HAS_ALT_UMLS C0043144:Wheezing
+wheezing HAS_ALT_UMLS C0043144:Wheezing
+wheezing HAS_ALT_UMLS C0043144:Wheezing
+wheezing HAS_ALT_UMLS C0043144:Wheezing
+wheezing HAS_ALT_UMLS C0043144:Wheezing
+wheezing HAS_ALT_UMLS C0043144:Wheezing
+wheezing HAS_ALT_UMLS C0043144:Wheezing
+wheezing HAS_ALT_UMLS C0043144:Wheezing
+wheezing HAS_ALT_UMLS C0043144:Wheezing
+wheezing HAS_ALT_UMLS C0043144:Wheezing
+wheezing HAS_ALT_UMLS C0043144:Wheezing
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+asthma HAS_ALT_UMLS C0004096:Asthma
+reactiveAirways HAS_ALT_UMLS C0006266:Bronchial Spasm
+reactiveAirways HAS_ALT_UMLS C0232292:Chest tightness
+reactiveAirways HAS_ALT_UMLS C0302862:Reactive airways disease
+reactiveAirways HAS_ALT_UMLS C0302862:Reactive airways disease
+reactiveAirways HAS_ALT_UMLS C0302862:Reactive airways disease
+reactiveAirways HAS_ALT_UMLS C0302862:Reactive airways disease
