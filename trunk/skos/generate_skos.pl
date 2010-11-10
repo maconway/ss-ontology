@@ -17,7 +17,7 @@ my @subconcepts;
 my @definitions;
 
 # Create RDF store
-my $rdf = RDF::Helper->new();
+my $rdf = RDF::Helper->new(BaseURI => "http://ss-ontology.googlecode.com/svn/trunk/skos/out.xml");
 
 # Open spreadsheet...
 my $parser = Spreadsheet::ParseExcel->new();
