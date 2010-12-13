@@ -62,19 +62,36 @@ foreach my $relation (@relations_index_lines) {
     my @parsed = split(/\s+/,$relation);
     my $field1 = $parsed[0]; print $field1;
     my $field2 = $parsed[2]; print $field2 . "\n";
-    $rdf->assert_resource(
-        "http://www.extended_sso.org/resource#$field1",
-        "http://www.w3.org/2004/02/skos/core#related",
-        "http://www.extended_sso.org/resource#$field2"
+    my $relation_field = $parsed[1];
+
+    if ($relation_field eq "RELATED_TO") {
+        $rdf->assert_resource(
+            "http://www.extended_sso.org/resource#$field1",
+            "http://www.w3.org/2004/02/skos/core#related",
+            "http://www.extended_sso.org/resource#$field2"
         );
-    #Although the related skos relation is symmetrical, we will
-    #assert it anyway
-    $rdf->assert_resource(
-        "http://www.extended_sso.org/resource#$field2",
-        "http://www.w3.org/2004/02/skos/core#related",
-        "http://www.extended_sso.org/resource#$field1"
+        #Although the related skos relation is symmetrical, we will
+        #assert it anyway
+        $rdf->assert_resource(
+            "http://www.extended_sso.org/resource#$field2",
+            "http://www.w3.org/2004/02/skos/core#related",
+            "http://www.extended_sso.org/resource#$field1"
         );
-    
+    }
+
+    if ($relation_field eq "BROADER_THAN") {
+        $rdf->assert_resource(
+            "http://www.extended_sso.org/resource#$field1",
+            "http://www.w3.org/2004/02/skos/core#narrower",
+            "http://www.extended_sso.org/resource#$field2"
+         );
+          $rdf->assert_resource(
+             "http://www.extended_sso.org/resource#$field2",
+             "http://www.w3.org/2004/02/skos/core#broader",
+             "http://www.extended_sso.org/resource#$field1"
+          );
+        
+    }
 }
 
 populate_syndromes();
