@@ -19,3 +19,6 @@ In addition to the standard SKOS apparatus, we have defined several typed litera
 
 ^^umlsAltLabel - alternatives to the core UMLS CUI
 
+^^biocasterPrefLabel - gives the biocaster term code if available
+
+^^sso - if there is an associated SSO concepts, name that concept

@@ -89,6 +89,8 @@ generate_icd_prefLabel();
 generate_mesh_prefLabel();
 generate_indicators();
 generate_diagnosis();
+generate_biocaster_label();
+generate_sso();
 
 # Serialize...
 $rdf->serialize( filename => 'out.xml', format => "rdfxml");
@@ -333,6 +335,56 @@ sub generate_mesh_prefLabel {
             "http://www.w3.org/2004/02/skos/core#notation",
             $mesh_obj        
         );
+    }
+}
+
+sub generate_sso {
+    my $parser = Spreadsheet::ParseExcel->new();
+    my $workbook = $parser->parse("../spreadsheet/ESSO.xls");
+    my $worksheet = $workbook->worksheet("concept_data");
+    for (my $i = 1; $i < 280; $i++) {
+        my $concept_cell = $worksheet->get_cell($i,16);
+        my $concept = $concept_cell->unformatted();
+        $concept = lcfirst($concept);
+
+        my $sso_cell = $worksheet->get_cell($i,2);
+        my $sso = $sso_cell->unformatted();
+        $sso = trim($sso);
+        if ($sso == 0) { next; }
+        my $sso_obj = $rdf->new_literal($concept, "", "http://www.extended_sso.org/resource#sso");
+        $rdf->assert_literal(
+            "http://www.extended_sso.org/resource#$concept",
+            "http://www.w3.org/2004/02/skos/core#notation",
+            $sso_obj        
+        );        
+    }    
+}
+
+sub generate_biocaster_label {
+    my $parser = Spreadsheet::ParseExcel->new();
+    my $workbook = $parser->parse("../spreadsheet/ESSO.xls");
+    my $worksheet = $workbook->worksheet("concept_data");
+    for (my $i = 1; $i < 280; $i++) {
+        my $concept_cell = $worksheet->get_cell($i,16);
+        my $concept = $concept_cell->unformatted();
+        $concept = lcfirst($concept);
+
+        
+        my $prov_label = $worksheet->get_cell($i,0);
+         if (!(defined $prov_label)) {next;}
+        my $prov_text  = $prov_label->unformatted();
+        print "Biocaster $prov_text";
+        my $code_text;
+        if ($prov_text =~ /biocaster/i) {
+            my $code_label = $worksheet->get_cell($i,1);
+            $code_text = $code_label->unformatted();
+        }
+        my $biocaster_obj = $rdf->new_literal($code_text, "", "http://www.extended_sso.org/resource#biocasterPrefLabel");
+        $rdf->assert_literal(
+            "http://www.extended_sso.org/resource#$concept",
+            "http://www.w3.org/2004/02/skos/core#notation",
+            $biocaster_obj
+        );        
     }
 }
 
