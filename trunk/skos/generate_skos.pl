@@ -17,14 +17,16 @@ my @subconcepts;
 my @definitions;
 
 # Create RDF store
-my $rdf = RDF::Helper->new(BaseURI => "http://ss-ontology.googlecode.com/svn/trunk/skos/out.xml");
+my $rdf = RDF::Helper->new();#BaseURI => "http://www.extended_sso.org");
 
 # Open spreadsheet...
 my $parser = Spreadsheet::ParseExcel->new();
 my $workbook = $parser->parse("../spreadsheet/ESSO.xls");
 my $conceptlist_worksheet = $workbook->worksheet("sub_concept_list");
 
+setup_ontology_names();
 setup_syndromeSkos();
+
 
 #get list of and assert them as skos concepts
 for (my $i = 1; $i < 280; $i++)  {
@@ -82,15 +84,29 @@ foreach my $relation (@relations_index_lines) {
     if ($relation_field eq "BROADER_THAN") {
         $rdf->assert_resource(
             "http://www.extended_sso.org/resource#$field1",
-            "http://www.w3.org/2004/02/skos/core#narrower",
+            "http://www.w3.org/2004/02/skos/core#related",
             "http://www.extended_sso.org/resource#$field2"
          );
           $rdf->assert_resource(
              "http://www.extended_sso.org/resource#$field2",
-             "http://www.w3.org/2004/02/skos/core#broader",
+             "http://www.w3.org/2004/02/skos/core#related",
              "http://www.extended_sso.org/resource#$field1"
-          );
-        
+          );        
+    }
+
+    # This is an owl relation that will add extra hierarchy not covered
+    # by the skos vocabulary
+        if ($relation_field eq "BROADER_THAN") {
+        $rdf->assert_resource(
+            "http://www.extended_sso.org/resource#$field1",
+            "#isSuperordinateConceptOf",
+            "http://www.extended_sso.org/resource#$field2"
+         );
+          $rdf->assert_resource(
+             "http://www.extended_sso.org/resource#$field2",
+             "#hasSuperordinateConcept",
+             "http://www.extended_sso.org/resource#$field1"
+          );        
     }
 }
 
@@ -110,14 +126,114 @@ generate_biocaster_label();
 generate_sso();
 
 # Serialize...
-$rdf->serialize( filename => 'out.xml', format => "rdfxml");
+$rdf->serialize( filename => 'esso.xml', format => "rdfxml");
 
 
 
 ############################################################
 # SUBROUTINES
 ############################################################
-# Set up Syndrome classes for skos Syndromic relations
+#Set up ontology name and top concepts
+sub setup_ontology_names {
+    #Name concept scheme
+    $rdf->assert_resource(
+         "http://www.extended_sso.org/#extended_sso",
+         "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+         "http://www.w3.org/2004/02/skos/core#ConceptScheme"         
+        );
+
+    #DUBLIN CORE DOCUMENT LEVEL
+    #title
+     $rdf->assert_literal(
+         "http://www.extended_sso.org/#extended_sso",
+         "http://purl.org/dc/terms/title",
+         "Extended syndromic surveillance ontology"
+         );
+    #audience
+    $rdf->assert_literal(
+      "http://www.extended_sso.org/#extended_sso",
+     "http://purl.org/dc/terms/audience",
+      "We aim to appeal to two groups of users.  First, those seeking a reference for standard syndrome definitions.  Second, those seeking to automate syndromic surveillance");
+
+    #alternative
+     $rdf->assert_literal(
+      "http://www.extended_sso.org/#extended_sso",
+     "http://purl.org/dc/terms/alternative",
+      "Extended SSO, ESSO"
+     );
+    
+    #created
+    $rdf->assert_literal(
+        "http://www.extended_sso.org/#extended_sso",
+     "http://purl.org/dc/terms/created",
+      "2011-03-31"
+    );
+
+   #creator
+   $rdf->assert_literal(
+       "http://www.extended_sso.org/#extended_sso",
+     "http://purl.org/dc/terms/creator",
+      "M.Conway, J.Dowling, W.Chapman et al. UCSD"
+       );
+
+    #description
+      $rdf->assert_literal(
+       "http://www.extended_sso.org/#extended_sso",
+     "http://purl.org/dc/terms/description",
+     "The Extended Syndromic Surveillance Ontology is a terminological ontology/application ontology designed to facilitate NLP for syndromic surveillance.  The ontology uses data from the Syndromic Surveillance Ontology"
+       );
+
+      #hasVersion
+   $rdf->assert_literal(
+       "http://www.extended_sso.org/#extended_sso",
+     "http://purl.org/dc/terms/hasVersion",
+      "SVN:  \$Revision\$"
+       );
+
+    #language
+    $rdf->assert_literal(
+         "http://www.extended_sso.org/#extended_sso",
+     "http://purl.org/dc/terms/language",
+      "English"
+       );
+
+       #modified
+   $rdf->assert_literal(
+       "http://www.extended_sso.org/#extended_sso",
+     "http://purl.org/dc/terms/modfied",
+      "SVN:  \$Date\$"
+       );
+
+       #subject
+    $rdf->assert_literal(
+         "http://www.extended_sso.org/#extended_sso",
+     "http://purl.org/dc/terms/subject",
+      "Syndromic surveillance"
+       );
+        
+        
+    
+    #Assert top concepts
+    my @syndromes = qw(rashSyndrome
+                       hemorrhagicSyndrome
+                       botulismSyndrome
+                       neurologicalSyndrome
+                       constitutionalSyndrome
+                       respiratorySyndrome
+                       gastrointestinalSyndrome
+                       influenzaLikeIllnessSyndrome);
+    foreach my $syndrome (@syndromes) {
+        $rdf->assert_resource(
+             "http://www.extended_sso.org/",
+             "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "http://www.extended_sso.org/resource#$syndrome"     
+             );
+    
+   }         
+   
+}
+
+# Set up Syndrome classes forSyndromic relations
 sub setup_syndromeSkos {
     my @syndromes = qw(rashSyndrome
                        hemorrhagicSyndrome
@@ -263,10 +379,10 @@ sub generate_notes {
         $concept = trim($concept);
         $note = trim($note);
         #my $note_obj = $rdf->new_literal($note, "en");
-        my $note_obj = $rdf->new_literal($note, "", "http://www.extended_sso.org/resource#dataCategory");
+        my $note_obj = $rdf->new_literal($note, ""); #"http://www.extended_sso.org/resource#dataCategory");
         $rdf->assert_literal(
              "http://www.extended_sso.org/resource#$concept",
-             "http://www.w3.org/2004/02/skos/core#notation",
+             "#dataCategory",
              $note_obj
             );
         

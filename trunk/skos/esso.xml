@@ -741,6 +741,9 @@
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#productiveCough">
     <ns0:prefLabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">productive cough</ns0:prefLabel>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.extended_sso.org/#extended_sso">
+    <ns0:language xmlns:ns0="http://purl.org/dc/terms/">English</ns0:language>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#confusion">
     <ns0:prefLabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">confusion</ns0:prefLabel>
   </rdf:Description>
@@ -2516,6 +2519,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#meningococcemia">
     <ns0:notation xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.extended_sso.org/resource#umlsPrefLabel">C0025306:Meningococcaemia</ns0:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.extended_sso.org/#extended_sso">
+    <ns0:hasVersion xmlns:ns0="http://purl.org/dc/terms/">SVN:  $Revision$</ns0:hasVersion>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#cervicalAdenopathy">
     <ns0:altLabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">cerebral infarct</ns0:altLabel>
@@ -12510,6 +12516,9 @@
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#chill">
     <ns0:definition xmlns:ns0="http://www.w3.org/2004/02/skos/core#">An attack of involuntary contractions of the voluntary muscles accompanied by a sense of cold</ns0:definition>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.extended_sso.org/#extended_sso">
+    <ns0:modfied xmlns:ns0="http://purl.org/dc/terms/">SVN:  $Date$</ns0:modfied>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#generalizedMuscleAches">
     <ns0:definition xmlns:ns0="http://www.w3.org/2004/02/skos/core#">Pain in the muscles throughout the body</ns0:definition>
   </rdf:Description>
@@ -12894,12 +12903,6 @@
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#cutaneousAnthrax">
     <ns0:notation xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.extended_sso.org/resource#umlsPrefLabel">C0003177:Cutaneous anthrax</ns0:notation>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.extended_sso.org/resource#hives">
-    <ns0:related xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://www.extended_sso.org/resource#vesicular"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.extended_sso.org/resource#hives">
-    <ns0:related xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://www.extended_sso.org/resource#blisters"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#wateryStool">
     <ns0:related xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://www.extended_sso.org/resource#diarrhea"/>
   </rdf:Description>
@@ -12911,6 +12914,12 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#wateryStool">
     <ns0:related xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://www.extended_sso.org/resource#rotavirus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.extended_sso.org/resource#hives">
+    <ns0:related xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://www.extended_sso.org/resource#vesicular"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.extended_sso.org/resource#hives">
+    <ns0:related xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://www.extended_sso.org/resource#blisters"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#lightHeadedness">
     <ns0:notation xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.extended_sso.org/resource#sso">lightHeadedness</ns0:notation>
@@ -15069,6 +15078,9 @@
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#otitisExterna">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.extended_sso.org/#extended_sso">
+    <ns0:subject xmlns:ns0="http://purl.org/dc/terms/">Syndromic surveillance</ns0:subject>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#dysphagia">
     <ns0:broader xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://www.extended_sso.org/resource#botulismSyndrome"/>
   </rdf:Description>
@@ -15088,7 +15100,7 @@
     <ns0:definition xmlns:ns0="http://www.w3.org/2004/02/skos/core#">Infection by a virus</ns0:definition>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.extended_sso.org/#extended_sso">
-    <ns0:description xmlns:ns0="http://purl.org/dc/terms/">The Extended Syndromic Surveillance Ontology is </ns0:description>
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/">The Extended Syndromic Surveillance Ontology is a terminological ontology/application ontology designed to facilitate NLP for syndromic surveillance.  The ontology uses data from the Syndromic Surveillance Ontology</ns0:description>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#smallpox">
     <ns0:dataCategory xmlns:ns0="#">bioterrorism</ns0:dataCategory>
@@ -18945,14 +18957,14 @@
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#throatSwelling">
     <ns0:altLabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">throat swelling</ns0:altLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.extended_sso.org/resource#thrombocytopenia">
-    <ns0:broader xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://www.extended_sso.org/resource#hemorrhagicSyndrome"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#visionProblem">
     <ns0:altLabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">sight problem</ns0:altLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#visionProblem">
     <ns0:altLabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">vision problem</ns0:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.extended_sso.org/resource#thrombocytopenia">
+    <ns0:broader xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://www.extended_sso.org/resource#hemorrhagicSyndrome"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#delirium">
     <ns0:dataCategory xmlns:ns0="#">sign</ns0:dataCategory>
