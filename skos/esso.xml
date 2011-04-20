@@ -14488,7 +14488,7 @@
     <ns0:altLabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">cerebralvascular accident</ns0:altLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.extended_sso.org/#extended_sso">
-    <ns0:hasVersion xmlns:ns0="http://purl.org/dc/terms/">SVN:  $Revision$</ns0:hasVersion>
+    <ns0:hasVersion xmlns:ns0="http://purl.org/dc/terms/">SVN:  $Revision: 47 $</ns0:hasVersion>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#diarrhea">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
