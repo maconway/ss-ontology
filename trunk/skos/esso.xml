@@ -12517,7 +12517,7 @@
     <ns0:definition xmlns:ns0="http://www.w3.org/2004/02/skos/core#">An attack of involuntary contractions of the voluntary muscles accompanied by a sense of cold</ns0:definition>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.extended_sso.org/#extended_sso">
-    <ns0:modfied xmlns:ns0="http://purl.org/dc/terms/">SVN:  $Date$</ns0:modfied>
+    <ns0:modfied xmlns:ns0="http://purl.org/dc/terms/">SVN:  $Date: 2011-04-19 20:04:35 -0700 (Tue, 19 Apr 2011) $</ns0:modfied>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#generalizedMuscleAches">
     <ns0:definition xmlns:ns0="http://www.w3.org/2004/02/skos/core#">Pain in the muscles throughout the body</ns0:definition>
