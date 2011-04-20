@@ -111,6 +111,8 @@ foreach my $relation (@relations_index_lines) {
 }
 
 populate_syndromes();
+link_to_conceptscheme();
+add_notes();
 populate_prefLabels();
 populate_altLabels();
 generate_notes();
@@ -159,7 +161,13 @@ sub setup_ontology_names {
      $rdf->assert_literal(
       "http://www.extended_sso.org/#extended_sso",
      "http://purl.org/dc/terms/alternative",
-      "Extended SSO, ESSO"
+      "Extended SSO"
+     );
+        #alternative
+     $rdf->assert_literal(
+      "http://www.extended_sso.org/#extended_sso",
+     "http://purl.org/dc/terms/alternative",
+      "ESSO"
      );
     
     #created
@@ -173,8 +181,26 @@ sub setup_ontology_names {
    $rdf->assert_literal(
        "http://www.extended_sso.org/#extended_sso",
      "http://purl.org/dc/terms/creator",
-      "M.Conway, J.Dowling, W.Chapman et al. UCSD"
+      "M.Conway"
+  );
+     $rdf->assert_literal(
+       "http://www.extended_sso.org/#extended_sso",
+     "http://purl.org/dc/terms/creator",
+      "J.Dowling"
        );
+     $rdf->assert_literal(
+       "http://www.extended_sso.org/#extended_sso",
+     "http://purl.org/dc/terms/creator",
+      "W.Chapman"
+       );
+
+    #format
+    $rdf->assert_literal(
+        "http://www.extended_sso.org/#extended_sso",
+     "http://purl.org/dc/terms/format",
+      "SKOS"
+       );
+        
 
     #description
       $rdf->assert_literal(
@@ -224,9 +250,14 @@ sub setup_ontology_names {
                        influenzaLikeIllnessSyndrome);
     foreach my $syndrome (@syndromes) {
         $rdf->assert_resource(
-             "http://www.extended_sso.org/",
+             "http://www.extended_sso.org/#extended_sso",
              "http://www.w3.org/2004/02/skos/core#hasTopConcept",
               "http://www.extended_sso.org/resource#$syndrome"     
+             );
+        $rdf->assert_resource(
+             "http://www.extended_sso.org/resource#$syndrome",
+             "http://www.w3.org/2004/02/skos/core#topConceptOf",
+              "http://www.extended_sso.org/#extended_sso"
              );
     
    }         
@@ -315,6 +346,53 @@ sub populate_syndromes {
         "http://www.extended_sso.org/resource#$concept"
      );
         
+    }
+}
+
+
+sub link_to_conceptscheme {
+    foreach my $concept (@subconcepts) {
+        $rdf->assert_resource(
+            "http://www.extended_sso.org/resource#$concept",
+            "http://www.w3.org/2004/02/skos/core#inScheme",
+            "http://www.extended_sso.org/#extended_sso"
+            );
+    }
+}
+
+sub add_notes {
+    foreach my $concept (@subconcepts) {
+        # DC:CREATED
+        $rdf->assert_literal(
+             "http://www.extended_sso.org/resource#$concept",
+             "http://purl.org/dc/terms/created",
+             "2011-03-31"
+            );
+        # DC:MODIFIED
+             $rdf->assert_literal(
+             "http://www.extended_sso.org/resource#$concept",
+             "http://purl.org/dc/terms/modified",
+             "2011-03-31"
+            );
+         
+        # DC:CREATOR
+           $rdf->assert_literal(
+             "http://www.extended_sso.org/resource#$concept",
+             "http://purl.org/dc/terms/creator",
+             "MC"
+            );
+        # SKOS:ChangeNote
+          $rdf->assert_literal(
+              "http://www.extended_sso.org/resource#$concept",
+              "http://www.w3.org/2004/02/skos/core#changeNote",
+              ""
+              );
+        # SKOS: editorialNote
+        $rdf->assert_literal(
+              "http://www.extended_sso.org/resource#$concept",
+              "http://www.w3.org/2004/02/skos/core#editorialNote",
+              ""
+              );
     }
 }
 
@@ -584,13 +662,12 @@ sub generate_indicators {
         }
         $concept = trim($concept);
         $sign = trim($sign);
-
-        my $sign_obj = $rdf->new_literal($sign, "", "http://www.extended_sso.org/resource#sign");
-        $rdf->assert_literal(
+               $rdf->assert_resource(
              "http://www.extended_sso.org/resource#$concept",
-            "http://www.w3.org/2004/02/skos/core#notation",
-            $sign_obj    
-            );
+            "#has_sign",
+             "http://www.extended_sso.org/resource#$sign"
+            )
+    
     }
 }
 
@@ -607,11 +684,10 @@ sub generate_diagnosis {
         $concept = trim($concept);
         $sign = trim($sign);
 
-        my $diagnosis_obj = $rdf->new_literal($concept, "", "http://www.extended_sso.org/resource#diagnosis");
-        $rdf->assert_literal(
+        $rdf->assert_resource(
              "http://www.extended_sso.org/resource#$sign",
-            "http://www.w3.org/2004/02/skos/core#notation",
-            $diagnosis_obj    
+            "#has_diagnosis",
+             "http://www.extended_sso.org/resource#$concept"
             )
     }
 }
