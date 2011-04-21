@@ -8362,7 +8362,7 @@
     <ns0:prefLabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">irritable</ns0:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.extended_sso.org/#extended_sso">
-    <ns0:modfied xmlns:ns0="http://purl.org/dc/terms/">SVN:  $Date$</ns0:modfied>
+    <ns0:modfied xmlns:ns0="http://purl.org/dc/terms/">SVN:  $Date: 2011-04-20 21:44:44 -0700 (Wed, 20 Apr 2011) $</ns0:modfied>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.extended_sso.org/resource#generalizedWeakness">
     <ns0:changeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#"></ns0:changeNote>
