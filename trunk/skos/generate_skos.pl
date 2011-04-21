@@ -125,6 +125,7 @@ generate_mesh_prefLabel();
 generate_indicators();
 generate_diagnosis();
 generate_biocaster_label();
+generate_dc_source();
 generate_sso();
 
 # Serialize...
@@ -562,11 +563,11 @@ sub generate_sso {
         my $sso = $sso_cell->unformatted();
         $sso = trim($sso);
         if ($sso == 0) { next; }
-        my $sso_obj = $rdf->new_literal($concept, "", "http://www.extended_sso.org/resource#sso");
+     
         $rdf->assert_literal(
             "http://www.extended_sso.org/resource#$concept",
-            "http://www.w3.org/2004/02/skos/core#notation",
-            $sso_obj        
+            "http://purl.org/dc/terms/source",
+            "sso"    
         );        
     }    
 }
@@ -584,18 +585,109 @@ sub generate_biocaster_label {
         my $prov_label = $worksheet->get_cell($i,0);
          if (!(defined $prov_label)) {next;}
         my $prov_text  = $prov_label->unformatted();
-        print "Biocaster $prov_text";
+        print "Biocaster $prov_text\t$concept\n";
         my $code_text;
         if ($prov_text =~ /biocaster/i) {
             my $code_label = $worksheet->get_cell($i,1);
             $code_text = $code_label->unformatted();
-        }
+        
         my $biocaster_obj = $rdf->new_literal($code_text, "", "http://www.extended_sso.org/resource#biocasterPrefLabel");
         $rdf->assert_literal(
             "http://www.extended_sso.org/resource#$concept",
             "http://www.w3.org/2004/02/skos/core#notation",
             $biocaster_obj
-        );        
+        );
+        }
+    }
+}
+
+sub generate_dc_source {
+    my $parser = Spreadsheet::ParseExcel->new();
+    my $workbook = $parser->parse("../spreadsheet/ESSO.xls");
+    my $worksheet = $workbook->worksheet("concept_data");
+    for (my $i = 1; $i < 280; $i++) {
+        my $concept_cell = $worksheet->get_cell($i,16);
+        my $concept = $concept_cell->unformatted();
+        $concept = lcfirst($concept);
+
+        
+        my $source_label = $worksheet->get_cell($i,0);
+        if (!(defined $source_label)) {
+            next;
+        }
+        my $source_text  = $source_label->unformatted();
+
+        if ($source_text =~ /respiratory/i) {
+            $rdf->assert_literal(
+                "http://www.extended_sso.org/resource#$concept",
+                "http://purl.org/dc/terms/source",
+                "respiratory"
+            );
+        }
+
+        if ($source_text =~ /icd/i) {
+            $rdf->assert_literal(
+                "http://www.extended_sso.org/resource#$concept",
+                "http://purl.org/dc/terms/source",
+                "icd"
+            );
+        }
+
+        if ($source_text =~ /biocaster/i) {
+            $rdf->assert_literal(
+                "http://www.extended_sso.org/resource#$concept",
+                "http://purl.org/dc/terms/source",
+                "biocaster"
+            );
+        }
+        
+        if ($source_text =~ /rod/i) {
+            $rdf->assert_literal(
+                "http://www.extended_sso.org/resource#$concept",
+                "http://purl.org/dc/terms/source",
+                "rods"
+            );
+        }
+
+        if ($source_text eq /bn/i) {
+            $rdf->assert_literal(
+                "http://www.extended_sso.org/resource#$concept",
+                "http://purl.org/dc/terms/source",
+                "bn_flu"
+            );
+        }
+
+        if ($source_text =~ /flu/i) {
+            $rdf->assert_literal(
+                "http://www.extended_sso.org/resource#$concept",
+                "http://purl.org/dc/terms/source",
+                "bn_flu"
+            );
+        }
+
+        if ($source_text =~ /measles/i) {
+            $rdf->assert_literal(
+                "http://www.extended_sso.org/resource#$concept",
+                "http://purl.org/dc/terms/source",
+                "bn_measles"
+            );
+        }
+
+        if ($source_text =~ /syndrome/i) {
+            $rdf->assert_literal(
+                "http://www.extended_sso.org/resource#$concept",
+                "http://purl.org/dc/terms/source",
+                "syndrome_cc"
+            );
+        }
+
+        if ($source_text =~ /ontology/i) {
+            $rdf->assert_literal(
+                "http://www.extended_sso.org/resource#$concept",
+                "http://purl.org/dc/terms/source",
+                "cc_ontology"
+            );
+        }       
     }
 }
 
@@ -609,10 +701,10 @@ sub generate_regexp {
             $concept = $1;
             $regexp = $2;
         }
-        $regexp = trim($regexp); print $regexp . " $concept" . "\n";
+        $regexp = trim($regexp); print "INTEREST " . $regexp . " $concept" . "\n";
         $concept = trim($concept);
 
-        my $regexp_obj = $rdf->new_literal($regexp, "", "http://www.extended_sso.org/resource#englishAltRegExp");
+        my $regexp_obj = $rdf->new_literal($regexp, "", "http://www.extended_sso.org/resource#englishRegExp");
         $rdf->assert_literal(
             "http://www.extended_sso.org/resource#$concept",
             "http://www.w3.org/2004/02/skos/core#notation",
