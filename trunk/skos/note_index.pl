@@ -18,17 +18,17 @@ for(my $i = 1; $i < 280; $i++) {
     my $concept = $concept_cell->unformatted();
     $concept = lcfirst($concept);
 
-    my $diagnosis         = get_value($i, 19);
-    if ($diagnosis == 1) {push(@cats, "diagnosis")};
+    my $disease         = get_value($i, 19);
+    if ($disease == 1) {push(@cats, "disease")};
 
     my $syndrome          = get_value($i, 20);
     if ($syndrome == 1)   {push(@cats, "syndrome")};
     my $finding           = get_value($i,21);
     my $symptom           = get_value($i,22);
     my $sign              = get_value($i,23);
-    if ($finding =~ /1/)       {push(@cats, "sign")};
-    if ($symptom =~ /1/)    {push(@cats, "sign")};
-    if ($sign =~  /1/)   {push(@cats, "sign")};
+    if ($finding =~ /1/)       {push(@cats, "symptom")};
+    if ($symptom =~ /1/)    {push(@cats, "symptom")};
+    if ($sign =~  /1/)   {push(@cats, "symptom")};
 
     my $bioterrorism      = get_value($i, 27);
     if ($bioterrorism =~ /1/) {push(@cats, "bioterrorism")};

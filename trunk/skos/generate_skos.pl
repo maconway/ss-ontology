@@ -461,7 +461,7 @@ sub generate_notes {
         my $note_obj = $rdf->new_literal($note, ""); #"http://www.extended_sso.org/resource#dataCategory");
         $rdf->assert_literal(
              "http://www.extended_sso.org/resource#$concept",
-             "#dataCategory",
+             "http://www.extended_sso.org/resource#dataCategory",
              $note_obj
             );
         
@@ -756,7 +756,7 @@ sub generate_indicators {
         $sign = trim($sign);
                $rdf->assert_resource(
              "http://www.extended_sso.org/resource#$concept",
-            "#has_sign",
+            "http://www.extended_sso.org/resource#isAssociatedWithSymptom",
              "http://www.extended_sso.org/resource#$sign"
             )
     
@@ -778,7 +778,7 @@ sub generate_diagnosis {
 
         $rdf->assert_resource(
              "http://www.extended_sso.org/resource#$sign",
-            "#has_diagnosis",
+            "http://www.extended_sso.org/resource#isAssociatedWithDisease",
              "http://www.extended_sso.org/resource#$concept"
             )
     }
