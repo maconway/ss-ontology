@@ -4260,20 +4260,28 @@
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0581876:Crying infant</skos:notation>
+        <skos:hiddenLabel>crying infantt</skos:hiddenLabel>
+        <ns0:created>2011-03-31</ns0:created>
+        <resource:dataCategory>symptom</resource:dataCategory>
+        <ns0:creator>MC</ns0:creator>
+        <ns0:source>icd</ns0:source>
+        <ns0:modified>2011-05-12</ns0:modified>
+        <skos:hiddenLabel>excesive crying</skos:hiddenLabel>
+        <skos:editorialNote
+            >2011-05-12 - Added altLabels and hiddenLabels</skos:editorialNote>
         <skos:changeNote></skos:changeNote>
         <skos:definition
             >Exceeding the usual amount of crying</skos:definition>
-        <skos:editorialNote></skos:editorialNote>
-        <ns0:created>2011-03-31</ns0:created>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <resource:dataCategory>symptom</resource:dataCategory>
-        <ns0:creator>MC</ns0:creator>
+        <skos:altLabel xml:lang="en"
+            >crying excessive</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >crying excessively</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >excessive crying</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >excessive crying infant</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >excessive crying infant</skos:prefLabel>
-        <skos:altLabel xml:lang="en">fussy infant</skos:altLabel>
-        <ns0:source>icd</ns0:source>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;constitutionalSyndrome"/>
         <skos:related rdf:resource="&resource;fussyInfant"/>
@@ -4488,21 +4496,25 @@
         <skos:notation rdf:datatype="&resource;englishRegExp"
             >\bfailure\s+to\s+thrive\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\bftt\b</skos:notation>
+        <ns0:modified>2011-05-12</ns0:modified>
         <ns0:source>sso</ns0:source>
-        <ns0:modified>2011-03-31</ns0:modified>
         <ns0:creator>MC</ns0:creator>
         <skos:definition
             >Failure of an infant to meet expected abilities and functions for his age</skos:definition>
+        <skos:editorialNote
+            >2011-05-12 - Added altLabel and hiddenLabel</skos:editorialNote>
         <ns0:source>syndrome_cc</ns0:source>
         <skos:changeNote></skos:changeNote>
         <ns0:created>2011-03-31</ns0:created>
-        <skos:editorialNote></skos:editorialNote>
         <skos:altLabel xml:lang="en">f.t.t</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >failure to thrive</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >failure to thrive</skos:prefLabel>
-        <skos:altLabel xml:lang="en">ftt</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >failure to thrivee</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">ftt</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en">not thriving</skos:altLabel>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;constitutionalSyndrome"/>
@@ -4521,17 +4533,23 @@
             >C0039070:Fainting</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.606.358.800.600:Syncope</skos:notation>
-        <skos:editorialNote></skos:editorialNote>
+        <ns0:modified>2011-05-12</ns0:modified>
+        <ns0:source>rods</ns0:source>
+        <ns0:created>2011-03-31</ns0:created>
         <skos:definition
             >A temporary cessation of consciousness</skos:definition>
         <resource:dataCategory>symptom</resource:dataCategory>
-        <ns0:modified>2011-03-31</ns0:modified>
         <ns0:creator>MC</ns0:creator>
-        <ns0:source>rods</ns0:source>
-        <ns0:created>2011-03-31</ns0:created>
+        <skos:editorialNote
+            >2011-05-12  - Added altLabels and hiddenLabels</skos:editorialNote>
         <skos:changeNote></skos:changeNote>
+        <skos:altLabel xml:lang="en">fainted</skos:altLabel>
         <skos:altLabel xml:lang="en">fainting</skos:altLabel>
         <skos:prefLabel xml:lang="en">fainting</skos:prefLabel>
+        <skos:altLabel xml:lang="en">faints</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">feint</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">feinting</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">sincope</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">syncope</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;cholera"/>
@@ -4634,22 +4652,23 @@
         <skos:notation rdf:datatype="&resource;englishRegExp">\bfatiqu.*?\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\btired\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\fitigu.*?\b</skos:notation>
-        <skos:editorialNote></skos:editorialNote>
+        <skos:editorialNote
+            >2011-05-12 - Added altLabels and hiddenLabels</skos:editorialNote>
         <ns0:source>sso</ns0:source>
+        <ns0:modified>2011-05-12</ns0:modified>
         <ns0:source>syndrome_cc</ns0:source>
         <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:created>2011-03-31</ns0:created>
         <skos:changeNote></skos:changeNote>
-        <ns0:modified>2011-03-31</ns0:modified>
         <ns0:creator>MC</ns0:creator>
         <skos:definition
             >A state of increased discomfort and decreased efficiency resulting from prolonged or excessive exertion</skos:definition>
         <skos:prefLabel xml:lang="en">fatigue</skos:prefLabel>
-        <skos:altLabel xml:lang="en">fatigue</skos:altLabel>
-        <skos:altLabel xml:lang="en">fatigued</skos:altLabel>
-        <skos:altLabel xml:lang="en">fatique</skos:altLabel>
-        <skos:altLabel xml:lang="en">fitigue</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">fatigued</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">fatique</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">fitigue</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">tired</skos:altLabel>
+        <skos:altLabel xml:lang="en">tiredness</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;constitutionalSyndrome"/>
         <skos:related rdf:resource="&resource;drowsiness"/>
@@ -4697,34 +4716,36 @@
         <skos:notation rdf:datatype="&resource;englishRegExp">\fevrile\b</skos:notation>
         <skos:definition
             >Elevated body temperature</skos:definition>
-        <skos:editorialNote></skos:editorialNote>
+        <skos:editorialNote
+            >2011-05-12 - Added hiddenLabels and altLabels</skos:editorialNote>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:creator>MC</ns0:creator>
-        <skos:altLabel xml:lang="en">debrile</skos:altLabel>
         <ns0:source>syndrome_cc</ns0:source>
         <resource:dataCategory>symptom</resource:dataCategory>
+        <ns0:modified>2011-05-12</ns0:modified>
         <skos:changeNote></skos:changeNote>
-        <ns0:source>sso</ns0:source>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <skos:altLabel xml:lang="en">faver</skos:altLabel>
-        <skos:altLabel xml:lang="en">febile</skos:altLabel>
-        <skos:altLabel xml:lang="en">febre</skos:altLabel>
-        <skos:altLabel xml:lang="en">febril</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">faver</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">febile</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">febre</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">febril</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">febrile</skos:altLabel>
         <skos:altLabel xml:lang="en">feels hot</skos:altLabel>
-        <skos:altLabel xml:lang="en">fev</skos:altLabel>
-        <skos:altLabel xml:lang="en">fevber</skos:altLabel>
-        <skos:altLabel xml:lang="en">feveer</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">fev</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">fevber</skos:hiddenLabel>
+        <ns0:source>sso</ns0:source>
+        <skos:hiddenLabel xml:lang="en">debrile</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">feveer</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en">fever</skos:prefLabel>
-        <skos:altLabel xml:lang="en">fever</skos:altLabel>
-        <skos:altLabel xml:lang="en">feverd</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">feverd</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en">fevered</skos:altLabel>
+        <skos:altLabel xml:lang="en">feverish</skos:altLabel>
         <skos:altLabel xml:lang="en">fevers</skos:altLabel>
-        <skos:altLabel xml:lang="en">fevr</skos:altLabel>
-        <skos:altLabel xml:lang="en">fevrile</skos:altLabel>
-        <skos:altLabel xml:lang="en">fiebre</skos:altLabel>
-        <skos:altLabel xml:lang="en">fuo</skos:altLabel>
-        <skos:altLabel xml:lang="en">fv</skos:altLabel>
-        <skos:altLabel xml:lang="en">fver</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">fevr</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">fevrile</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">fiebre</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">fuo</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">fv</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">fver</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">pyrexia</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;anthrax"/>
@@ -4837,7 +4858,11 @@
         <ns0:creator>MC</ns0:creator>
         <skos:altLabel xml:lang="en">cranky</skos:altLabel>
         <skos:altLabel xml:lang="en">crying</skos:altLabel>
+        <skos:altLabel xml:lang="en">fuss</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">fussi</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">fussi infant</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">fussiness</skos:altLabel>
+        <skos:altLabel xml:lang="en">fussy</skos:altLabel>
         <skos:prefLabel xml:lang="en">fussy infant</skos:prefLabel>
         <skos:altLabel xml:lang="en">irritability</skos:altLabel>
         <skos:altLabel xml:lang="en">irritable</skos:altLabel>
@@ -5004,14 +5029,34 @@
         <skos:definition
             >Pain in the muscles throughout the body</skos:definition>
         <skos:changeNote></skos:changeNote>
-        <skos:altLabel xml:lang="en"
-            >generalized muscle aches</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >genaralized mucsle ache</skos:hiddenLabel>
         <ns0:source>sso</ns0:source>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:editorialNote></skos:editorialNote>
         <ns0:creator>MC</ns0:creator>
+        <skos:altLabel xml:lang="en"
+            >general muscle ache</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >general muscle aches</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >generalised mucsle ache</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >generalised mucsle aches</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en"
+            >generalised muscle ache</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >generalised muscle aches</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >generalized mucsle aches</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en"
+            >generalized muscle ache</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >generalized muscle aches</skos:prefLabel>
+        <skos:hiddenLabel xml:lang="en">mucsle ache</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">mucsle aches</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en">muscle ache</skos:altLabel>
+        <skos:altLabel xml:lang="en">muscle aches</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <p1:hasSuperordinateConcept rdf:resource="&resource;bodyAches"/>
         <skos:related rdf:resource="&resource;bodyAches"/>
@@ -5035,19 +5080,27 @@
             >C1883552:GENERALIZED WEAKNESS</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
             >\bgeneral.*?\sweak.*?\b</skos:notation>
+        <skos:editorialNote
+            >2011-05-12 - Added extra hiddenLabels
+                     - Removed redundant altLabels</skos:editorialNote>
+        <skos:definition>Global weakness</skos:definition>
+        <ns0:modified>2011-05-12</ns0:modified>
         <ns0:source>icd</ns0:source>
         <skos:changeNote></skos:changeNote>
         <ns0:creator>MC</ns0:creator>
         <ns0:source>sso</ns0:source>
-        <skos:definition>Global weakness</skos:definition>
         <resource:dataCategory>symptom</resource:dataCategory>
-        <skos:editorialNote></skos:editorialNote>
-        <ns0:modified>2011-03-31</ns0:modified>
         <ns0:created>2011-03-31</ns0:created>
+        <skos:hiddenLabel xml:lang="en">gen weak</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">gen weakness</skos:hiddenLabel>
         <skos:altLabel xml:lang="en"
-            >generalized weakness</skos:altLabel>
+            >general weakness
+</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >generalised weakness</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >generalized weakness</skos:prefLabel>
+        <skos:altLabel xml:lang="en">generally weak</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;constitutionalSyndrome"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;myasthenaGravis"/>
@@ -5921,19 +5974,25 @@
             >C0021345:Infectious Mononucleosis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C02.256.466.313.400:Infectious Mononucleosis</skos:notation>
-        <skos:editorialNote></skos:editorialNote>
-        <ns0:created>2011-03-31</ns0:created>
         <ns0:source>icd</ns0:source>
         <ns0:creator>MC</ns0:creator>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <skos:changeNote></skos:changeNote>
         <skos:definition
             >Disease due to EB virus, a Herpes virus, characterized by an increase in atypical mononuclear cells in the blood</skos:definition>
         <resource:dataCategory>disease</resource:dataCategory>
-        <skos:altLabel xml:lang="en"
-            >infectious mononucleosis</skos:altLabel>
+        <ns0:created>2011-03-31</ns0:created>
+        <skos:editorialNote
+            >2011-05-12  - Added additional altLabel</skos:editorialNote>
+        <skos:changeNote></skos:changeNote>
+        <ns0:modified>2011-05-12</ns0:modified>
+        <skos:altLabel xml:lang="en">glandular fever</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">infect. mono.</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >infectios mononucleosis</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">infectious mono</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en"
             >infectious mononucleosis</skos:prefLabel>
+        <skos:altLabel xml:lang="en"
+            >infectious mononucleosis</skos:altLabel>
         <skos:altLabel xml:lang="en">kissing disease</skos:altLabel>
         <skos:altLabel xml:lang="en">mono</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
@@ -6189,20 +6248,22 @@
         <skos:notation rdf:datatype="&resource;englishRegExp">\birritable\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:creator>MC</ns0:creator>
+        <skos:editorialNote
+            >2011-05-12 - Added different forms of &#39;irritable&#39; to the altLabel section</skos:editorialNote>
+        <ns0:modified>2011-05-12</ns0:modified>
         <skos:definition
             >Readily excited to impatience or anger</skos:definition>
         <ns0:source>sso</ns0:source>
         <ns0:source>cc_ontology</ns0:source>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:changeNote></skos:changeNote>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <skos:editorialNote></skos:editorialNote>
         <skos:altLabel xml:lang="en">cranky</skos:altLabel>
         <skos:altLabel xml:lang="en">crying</skos:altLabel>
         <skos:altLabel xml:lang="en">fussiness</skos:altLabel>
         <skos:altLabel xml:lang="en">irritability</skos:altLabel>
         <skos:prefLabel xml:lang="en">irritable</skos:prefLabel>
         <skos:altLabel xml:lang="en">irritable</skos:altLabel>
+        <skos:altLabel xml:lang="en">testy</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;constitutionalSyndrome"/>
         <p1:isSuperordinateConceptOf rdf:resource="&resource;excessiveCryingInfant"/>
@@ -6386,25 +6447,27 @@
             >\blight\s*?head.*?\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\blthead.*?\b</skos:notation>
         <resource:dataCategory>symptom</resource:dataCategory>
+        <ns0:modified>2011-05-12</ns0:modified>
+        <skos:editorialNote
+            >2011-05-12 - Added hiddenLabels</skos:editorialNote>
         <skos:definition
             >A sensation that the head if floating</skos:definition>
         <ns0:source>syndrome_cc</ns0:source>
         <skos:changeNote></skos:changeNote>
         <ns0:source>sso</ns0:source>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <skos:editorialNote></skos:editorialNote>
         <ns0:creator>MC</ns0:creator>
         <ns0:created>2011-03-31</ns0:created>
-        <skos:altLabel xml:lang="en">light headed</skos:altLabel>
-        <skos:prefLabel xml:lang="en"
-            >light headedness</skos:prefLabel>
-        <skos:altLabel xml:lang="en"
-            >light headedness</skos:altLabel>
-        <skos:altLabel xml:lang="en">light headned</skos:altLabel>
-        <skos:altLabel xml:lang="en">light-headed</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">light headed</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >light headedness</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">light headned</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">light-headed</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >light-headedness</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">lightheaded</skos:altLabel>
+        <skos:prefLabel xml:lang="en">lightheadedness</skos:prefLabel>
         <skos:altLabel xml:lang="en">lightheadness</skos:altLabel>
-        <skos:altLabel xml:lang="en">ltheaded</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">ltheaded</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;constitutionalSyndrome"/>
         <skos:related rdf:resource="&resource;dizziness"/>
@@ -6647,16 +6710,19 @@
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_131</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <skos:changeNote></skos:changeNote>
-        <skos:editorialNote></skos:editorialNote>
         <resource:dataCategory>disease</resource:dataCategory>
         <skos:definition
             >Lyme disease is a tick-borne infectious disease caused by Borrelia species. The characteristic symptoms include a characteristic rash, fever, altered mental state, headache, meningeal signs, focal neurological signs, and seizures.</skos:definition>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <ns0:modified>2011-05-12</ns0:modified>
         <ns0:source>biocaster</ns0:source>
         <ns0:creator>MC</ns0:creator>
+        <skos:editorialNote
+            >2011-05-12 - Added extra altLabel</skos:editorialNote>
         <skos:altLabel xml:lang="en">circular rash</skos:altLabel>
-        <skos:altLabel xml:lang="en">lyme disease</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >lyme borreliosis</skos:altLabel>
         <skos:prefLabel xml:lang="en">lyme disease</skos:prefLabel>
+        <skos:hiddenLabel xml:lang="en">lymes disease</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;arthralgias"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;conjunctivitis"/>
@@ -6699,18 +6765,21 @@
             >\bswoll.*?\s+lymp.*?\s+node.?\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
             >\bymphadenopathy\b</skos:notation>
+        <ns0:modified>2011-05-12 </ns0:modified>
         <ns0:source>sso</ns0:source>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <skos:editorialNote></skos:editorialNote>
         <skos:definition
             >Enlargement or pain of lymph nodes</skos:definition>
         <ns0:creator>MC</ns0:creator>
         <ns0:created>2011-03-31</ns0:created>
         <skos:changeNote></skos:changeNote>
+        <skos:editorialNote
+            >2011-05-12 - Added hiddenLabels
+                     - Removed redundant altLabel</skos:editorialNote>
         <skos:altLabel xml:lang="en">enlarged glands</skos:altLabel>
-        <skos:altLabel xml:lang="en">lymphadanopathy</skos:altLabel>
-        <skos:altLabel xml:lang="en">lymphadenopathy</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">limphadenopathy</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en">lymphadenopathy</skos:prefLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >lympthadenapathy</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">node swelling</skos:altLabel>
         <skos:altLabel xml:lang="en">swollen gland</skos:altLabel>
         <skos:altLabel xml:lang="en">swollen glands</skos:altLabel>
@@ -6830,28 +6899,31 @@
         <skos:notation rdf:datatype="&resource;englishRegExp"
             >\bnot feeling well\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\bsick\b</skos:notation>
-        <ns0:modified>2011-03-31</ns0:modified>
         <skos:definition
             >A vague feeling of bodily discomfort</skos:definition>
         <ns0:source>sso</ns0:source>
         <ns0:created>2011-03-31</ns0:created>
+        <ns0:modified>2011-05-12</ns0:modified>
         <skos:changeNote></skos:changeNote>
         <ns0:creator>MC</ns0:creator>
         <ns0:source>syndrome_cc</ns0:source>
         <resource:dataCategory>symptom</resource:dataCategory>
-        <skos:editorialNote></skos:editorialNote>
+        <skos:editorialNote
+            >2011-05-12 - Added hiddenLabels and altLabels</skos:editorialNote>
+        <skos:altLabel xml:lang="en"
+            >does not feel good</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >doesn t feel too good</skos:altLabel>
-        <skos:altLabel xml:lang="en">dont feel good</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">don&#39;t feel good</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">feeling ill</skos:altLabel>
         <skos:altLabel xml:lang="en">feeling sick</skos:altLabel>
         <skos:altLabel xml:lang="en">feels ill</skos:altLabel>
         <skos:altLabel xml:lang="en">feels sick</skos:altLabel>
         <skos:altLabel xml:lang="en">feels unwell</skos:altLabel>
         <skos:altLabel xml:lang="en">listless</skos:altLabel>
-        <skos:altLabel xml:lang="en">malaise</skos:altLabel>
         <skos:prefLabel xml:lang="en">malaise</skos:prefLabel>
         <skos:altLabel xml:lang="en">malise</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">malise</skos:hiddenLabel>
         <skos:altLabel xml:lang="en"
             >not feeling any better</skos:altLabel>
         <skos:altLabel xml:lang="en"
@@ -7034,17 +7106,21 @@
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">235</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0025306:Meningococcaemia</skos:notation>
-        <skos:editorialNote></skos:editorialNote>
         <resource:dataCategory>disease</resource:dataCategory>
         <skos:definition
             >Meningococcemia is a form of sepsis, that is, a systemic inflammatory response syndrome with high fever and a high white blood cell count, caused by the Neisseria meningitidis (or meningococcus).</skos:definition>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <ns0:modified>2011-05-12</ns0:modified>
         <ns0:source>biocaster</ns0:source>
+        <skos:editorialNote
+            >2011-05-12 - Added hiddenLabels and altLabels</skos:editorialNote>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:creator>MC</ns0:creator>
         <skos:changeNote></skos:changeNote>
         <skos:prefLabel xml:lang="en">meningococcemia</skos:prefLabel>
-        <skos:altLabel xml:lang="en">meningococcemia</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">meningococcemie</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">meningococemia</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >menningococcemia</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">purpuric rash</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;alteredMentalStatus"/>
@@ -7133,22 +7209,26 @@
         <skos:notation rdf:datatype="&resource;englishRegExp">\bmyalgia\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\bmyalgias\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\bmylgias\b</skos:notation>
-        <skos:editorialNote></skos:editorialNote>
         <ns0:source>sso</ns0:source>
+        <ns0:modified>2011-05-12</ns0:modified>
         <ns0:creator>MC</ns0:creator>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <skos:editorialNote
+            >2011-05-12  - Added hiddenLabel</skos:editorialNote>
         <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:source>syndrome_cc</ns0:source>
         <skos:changeNote></skos:changeNote>
         <skos:definition
             >Pain in the muscle(s)</skos:definition>
         <ns0:created>2011-03-31</ns0:created>
-        <skos:altLabel xml:lang="en">malgaria</skos:altLabel>
-        <skos:altLabel xml:lang="en">muscle ach</skos:altLabel>
-        <skos:altLabel xml:lang="en">myalgia</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">malgaria</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">muscle ach</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en">muscle pain</skos:altLabel>
         <skos:prefLabel xml:lang="en">myalgia</skos:prefLabel>
         <skos:altLabel xml:lang="en">myalgias</skos:altLabel>
-        <skos:altLabel xml:lang="en">mylgias</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">mylgias</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en">pain in muscle</skos:altLabel>
+        <skos:altLabel xml:lang="en">pain in muscles</skos:altLabel>
+        <skos:altLabel xml:lang="en">painful muscle</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:related rdf:resource="&resource;bodyAches"/>
         <p1:hasSuperordinateConcept rdf:resource="&resource;bodyAches"/>
@@ -7515,17 +7595,17 @@
     <owl:Thing rdf:about="&resource;notDrinking">
         <rdf:type rdf:resource="&skos;Concept"/>
         <ns0:source>icd</ns0:source>
-        <skos:editorialNote></skos:editorialNote>
-        <ns0:modified>2011-03-31</ns0:modified>
         <ns0:creator>MC</ns0:creator>
+        <ns0:modified>2011-05-12</ns0:modified>
         <skos:changeNote></skos:changeNote>
         <ns0:created>2011-03-31</ns0:created>
         <resource:dataCategory>symptom</resource:dataCategory>
+        <skos:editorialNote
+            >2011-05-12 - Added hiddenLabel and removed redundant altLabel</skos:editorialNote>
         <skos:definition
             >Decreased consumption of liquids</skos:definition>
-        <skos:altLabel xml:lang="en">fussy baby</skos:altLabel>
-        <skos:altLabel xml:lang="en">irritable baby</skos:altLabel>
-        <skos:altLabel xml:lang="en">not drinking</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >decreased liquid consumption</skos:altLabel>
         <skos:prefLabel xml:lang="en">not drinking</skos:prefLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;constitutionalSyndrome"/>
@@ -7550,16 +7630,18 @@
         <skos:changeNote></skos:changeNote>
         <skos:definition
             >A virus disease of birds including the parrot family, chickens, pigeons, canaries, etc.</skos:definition>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <skos:editorialNote
+            >2011-05-12 - Added altLabels</skos:editorialNote>
         <ns0:creator>MC</ns0:creator>
         <resource:dataCategory>bioterrorism</resource:dataCategory>
         <ns0:source>icd</ns0:source>
-        <skos:editorialNote></skos:editorialNote>
         <ns0:created>2011-03-31</ns0:created>
         <resource:dataCategory>disease</resource:dataCategory>
-        <skos:altLabel xml:lang="en">ornithosis</skos:altLabel>
+        <ns0:modified>2011-05-12</ns0:modified>
         <skos:prefLabel xml:lang="en">ornithosis</skos:prefLabel>
         <skos:altLabel xml:lang="en">parakeet fever</skos:altLabel>
+        <skos:altLabel xml:lang="en">parrot disease</skos:altLabel>
+        <skos:altLabel xml:lang="en">parrot fever</skos:altLabel>
         <skos:altLabel xml:lang="en">psittacosis</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;alteredMentalStatus"/>
@@ -9396,9 +9478,11 @@
         <ns0:modified>2011-03-31</ns0:modified>
         <resource:dataCategory>disease</resource:dataCategory>
         <ns0:created>2011-03-31</ns0:created>
-        <skos:editorialNote></skos:editorialNote>
-        <skos:altLabel xml:lang="en">rheumatic fever</skos:altLabel>
+        <skos:editorialNote
+            >2011-05-12 - Added hiddenLabel and removed redundant altLabel</skos:editorialNote>
         <skos:prefLabel xml:lang="en">rheumatic fever</skos:prefLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >rheutmatic fevers</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;abdominalPain"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;arthralgias"/>
@@ -9921,14 +10005,19 @@
             >Bacteremia or viremia accompanied by organ failure and prostration</skos:definition>
         <resource:dataCategory>disease</resource:dataCategory>
         <ns0:creator>MC</ns0:creator>
-        <skos:changeNote></skos:changeNote>
-        <skos:editorialNote></skos:editorialNote>
+        <skos:changeNote
+            >Note:  is &#39;bateremia&#39; really a synonym (i.e. altLabel) for sepsis?  Is this usage now defunct? (MC)</skos:changeNote>
         <ns0:source>respiratory</ns0:source>
         <ns0:modified>2011-03-31</ns0:modified>
+        <skos:editorialNote
+            >2011-05-12:  - Added additional altLabels.</skos:editorialNote>
         <ns0:created>2011-03-31</ns0:created>
         <skos:altLabel xml:lang="en">bacteremia</skos:altLabel>
         <skos:altLabel xml:lang="en">sepsis</skos:altLabel>
         <skos:prefLabel xml:lang="en">sepsis</skos:prefLabel>
+        <skos:altLabel xml:lang="en">sirs</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >systemic inflammatory response syndrome</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;alteredMentalStatus"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;chill"/>
@@ -10435,21 +10524,23 @@
         <skos:notation rdf:datatype="&resource;englishRegExp">\bsomnulent\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
             >\bstay\s+awake\b</skos:notation>
+        <skos:editorialNote
+            >2011-05-12 - Added hiddenLabels</skos:editorialNote>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:changeNote></skos:changeNote>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <ns0:modified>2011-05-12</ns0:modified>
         <ns0:source>syndrome_cc</ns0:source>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:creator>MC</ns0:creator>
         <skos:definition>Sleepiness</skos:definition>
         <skos:altLabel xml:lang="en">nodding off</skos:altLabel>
-        <skos:altLabel xml:lang="en">sleepy</skos:altLabel>
         <ns0:source>sso</ns0:source>
-        <skos:editorialNote></skos:editorialNote>
         <skos:altLabel xml:lang="en">sommolence</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">sommolence</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en">somnolence</skos:prefLabel>
-        <skos:altLabel xml:lang="en">somnolence</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">somnolence</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">somnolent</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">somnulent</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">somnulent</skos:altLabel>
         <skos:altLabel xml:lang="en">stay awake</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
