@@ -666,23 +666,37 @@
         <skos:definition
             >Lack or loss of the appetite for food</skos:definition>
         <ns0:created>2011-03-31</ns0:created>
-        <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:creator>MC</ns0:creator>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <skos:prefLabel xml:lang="en">anorexia</skos:prefLabel>
-        <skos:altLabel xml:lang="en">anorexia</skos:altLabel>
-        <skos:altLabel xml:lang="en">appetite</skos:altLabel>
-        <skos:altLabel xml:lang="en">appitite</skos:altLabel>
+        <ns0:source>sso</ns0:source>
+        <skos:editorialNote
+            >2011-05-11 - Added hiddenTerm
+                     - Removed redundant altTerm</skos:editorialNote>
+        <ns0:modified>2011-05-11</ns0:modified>
+        <resource:dataCategory>symptom</resource:dataCategory>
+        <skos:altLabel>anorexic</skos:altLabel>
         <ns0:source>syndrome_cc</ns0:source>
+        <skos:hiddenLabel xml:lang="en">annorexia</skos:hiddenLabel>
+        <skos:prefLabel xml:lang="en">anorexia</skos:prefLabel>
+        <skos:hiddenLabel xml:lang="en">anorrexia</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">apetite</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en">appetite</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">appitite</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">dec appetite</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">decr appetite</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >decreased apetite</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en"
+            >decreased appetite</skos:altLabel>
         <skos:altLabel xml:lang="en">eating disorder</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >lack of appetite</skos:altLabel>
+        <skos:altLabel xml:lang="en">low appetite</skos:altLabel>
         <skos:altLabel xml:lang="en">not eating</skos:altLabel>
         <skos:altLabel xml:lang="en">not feeding</skos:altLabel>
+        <skos:altLabel xml:lang="en">poor appetite</skos:altLabel>
         <skos:altLabel xml:lang="en">poor eating</skos:altLabel>
-        <ns0:source>sso</ns0:source>
-        <skos:editorialNote></skos:editorialNote>
-        <skos:altLabel xml:lang="en"
-            >apetite (decreased|low|poor|dec|decr|refus)</skos:altLabel>
         <skos:altLabel xml:lang="en">poor feeding</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">refus appetite</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;appendicitis"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;brucellosis"/>
@@ -1280,20 +1294,22 @@
         <skos:definition
             >Pain in the muscles throughout the body</skos:definition>
         <ns0:creator>MC</ns0:creator>
+        <skos:editorialNote
+            >2011-05-11 - Added hiddenTerm
+                     - Added altTerm</skos:editorialNote>
+        <ns0:modified>2011-05-11</ns0:modified>
+        <skos:hiddenLabel xml:lang="en">acheness</skos:hiddenLabel>
         <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:source>syndrome_cc</ns0:source>
-        <skos:editorialNote></skos:editorialNote>
         <ns0:created>2011-03-31</ns0:created>
-        <ns0:source>sso</ns0:source>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <skos:altLabel xml:lang="en">acheness</skos:altLabel>
         <skos:altLabel xml:lang="en">achy</skos:altLabel>
         <skos:altLabel xml:lang="en">body ache</skos:altLabel>
         <skos:prefLabel xml:lang="en">body aches</skos:prefLabel>
-        <skos:altLabel xml:lang="en">body aches</skos:altLabel>
-        <skos:altLabel xml:lang="en">bodyache</skos:altLabel>
-        <skos:altLabel xml:lang="en">bodyaches</skos:altLabel>
-        <skos:altLabel xml:lang="en">bosy ache</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">bodyache</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">bodyaches</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">bosy ache</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">bosy aches</skos:hiddenLabel>
+        <ns0:source>sso</ns0:source>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;constitutionalSyndrome"/>
         <skos:related rdf:resource="&resource;generalizedMuscleAches"/>
@@ -1505,17 +1521,32 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C01.252.400.167:Brucellosis</skos:notation>
         <skos:changeNote></skos:changeNote>
-        <ns0:modified>2011-03-31</ns0:modified>
         <skos:definition
             >Brucellosis is a zoonotic disease that is transmitted by the bacteria of the genus Brucella through contacts with dairy products obtained from infected animals.</skos:definition>
         <ns0:source>biocaster</ns0:source>
+        <skos:editorialNote
+            >2011-05-11 -  Added extra altTerms (sourced from Wikipedia)
+                     -  Added hiddenTerms</skos:editorialNote>
+        <ns0:modified>2011-05-11</ns0:modified>
         <ns0:creator>MC</ns0:creator>
         <ns0:created>2011-03-31</ns0:created>
+        <skos:altLabel xml:lang="en">bang&#39;s disease</skos:altLabel>
         <resource:dataCategory>disease</resource:dataCategory>
         <resource:dataCategory>bioterrorism</resource:dataCategory>
-        <skos:editorialNote></skos:editorialNote>
-        <skos:altLabel xml:lang="en">brucellosis</skos:altLabel>
         <skos:prefLabel xml:lang="en">brucellosis</skos:prefLabel>
+        <skos:hiddenLabel xml:lang="en">brucelosis</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">brusellosis</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">bruselosis</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en">crimean fever</skos:altLabel>
+        <skos:altLabel xml:lang="en">gibraltar fever</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">gibraltor fever</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en">malta fever</skos:altLabel>
+        <skos:altLabel xml:lang="en">maltese fever</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">med fever</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en"
+            >mediterranean fever</skos:altLabel>
+        <skos:altLabel xml:lang="en">rock fever</skos:altLabel>
+        <skos:altLabel xml:lang="en">undulant fever</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;anorexia"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;arthralgias"/>
@@ -1782,29 +1813,28 @@
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0024228:Adenopathy</skos:notation>
+        <skos:editorialNote
+            >2011-05-11  - Added altLabel
+                      - Added related term
+                      - added super and subordinate concept (lymphanopathy)</skos:editorialNote>
         <resource:dataCategory>symptom</resource:dataCategory>
+        <ns0:modified>2011-05-11</ns0:modified>
         <ns0:creator>MC</ns0:creator>
+        <skos:altLabel>neck adenopathy</skos:altLabel>
         <ns0:source>respiratory</ns0:source>
         <skos:changeNote></skos:changeNote>
         <ns0:created>2011-03-31</ns0:created>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <skos:editorialNote></skos:editorialNote>
         <skos:definition
             >Enlargement or pain of lymph nodes in the neck</skos:definition>
-        <skos:altLabel xml:lang="en">CVA</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >cerebral infarct</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >cerebralvascular accident</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >cervical adenopathy</skos:prefLabel>
-        <skos:altLabel xml:lang="en"
-            >intercrancal bleed</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;constitutionalSyndrome"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;gastroenteritis"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;infectiousMononucleosis"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;influenza"/>
+        <hasSuperordinateConcept rdf:resource="&resource;lymphadenopathy"/>
+        <skos:related rdf:resource="&resource;lymphadenopathy"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;pharyngitis"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;rubella"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;tularemia"/>
@@ -1989,19 +2019,24 @@
         <skos:notation rdf:datatype="&resource;englishRegExp"
             >\bshaking\s+chill.*?\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\bshiver\b</skos:notation>
-        <skos:changeNote></skos:changeNote>
         <resource:dataCategory>symptom</resource:dataCategory>
+        <skos:changeNote></skos:changeNote>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:creator>MC</ns0:creator>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <skos:editorialNote></skos:editorialNote>
+        <skos:altLabel>shivers</skos:altLabel>
+        <skos:editorialNote
+            >2011-05-11 - Added hiddenLabels</skos:editorialNote>
+        <ns0:modified>2011-05-11</ns0:modified>
         <ns0:source>respiratory</ns0:source>
         <skos:definition
             >An attack of involuntary contractions of the voluntary muscles accompanied by a sense of cold</skos:definition>
-        <skos:altLabel xml:lang="en">chiles</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">chiles</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en">chill</skos:prefLabel>
+        <skos:hiddenLabel xml:lang="en">chilll</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">chills</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">chll</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">rigors</skos:altLabel>
+        <skos:altLabel xml:lang="en">rigours</skos:altLabel>
         <skos:altLabel xml:lang="en">shaking chills</skos:altLabel>
         <skos:altLabel xml:lang="en">shiver</skos:altLabel>
         <ns0:source>sso</ns0:source>
@@ -2753,8 +2788,9 @@
             >078.5:cytomegalic inclusion virus disease</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C02.256.466.245:Cytomegalovirus Infections</skos:notation>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <skos:editorialNote></skos:editorialNote>
+        <ns0:modified>2011-05-11</ns0:modified>
+        <skos:editorialNote
+            >2011-05-11 - Corrected spelling of &#39;disease&#39; in altLabel</skos:editorialNote>
         <ns0:created>2011-03-31</ns0:created>
         <resource:dataCategory>disease</resource:dataCategory>
         <skos:definition
@@ -2767,7 +2803,7 @@
         <skos:prefLabel xml:lang="en"
             >cytomegalo viral disease</skos:prefLabel>
         <skos:altLabel xml:lang="en"
-            >cytomegaloviral diease</skos:altLabel>
+            >cytomegaloviral disease</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;constitutionalSyndrome"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;extremityNumbness"/>
@@ -3117,17 +3153,21 @@
         <skos:changeNote></skos:changeNote>
         <ns0:source>sso</ns0:source>
         <ns0:created>2011-03-31</ns0:created>
+        <skos:editorialNote
+            >2011-05-11 - Added hiddenTerms</skos:editorialNote>
+        <ns0:modified>2011-05-11</ns0:modified>
         <ns0:creator>MC</ns0:creator>
-        <ns0:modified>2011-03-31</ns0:modified>
         <skos:definition
             >Persperation, especially profuse perspiration</skos:definition>
         <resource:dataCategory>symptom</resource:dataCategory>
-        <skos:editorialNote></skos:editorialNote>
         <ns0:source>cc_ontology</ns0:source>
         <skos:altLabel xml:lang="en">clammy</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">diaforesis</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">diaphoreses</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en">diaphoresis</skos:prefLabel>
-        <skos:altLabel xml:lang="en">diaphoresis</skos:altLabel>
         <skos:altLabel xml:lang="en">diaphoretic</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >excessive sweating</skos:altLabel>
         <skos:altLabel xml:lang="en">night sweats</skos:altLabel>
         <skos:altLabel xml:lang="en">sweat</skos:altLabel>
         <skos:altLabel xml:lang="en">sweating</skos:altLabel>
@@ -3346,19 +3386,23 @@
         <skos:notation rdf:datatype="&resource;umlsAltLabel">C0012833:Dizzy</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.751.237:Dizziness</skos:notation>
-        <skos:notation rdf:datatype="&resource;englishRegExp">\bdizz\b</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp">\bdizz.*?\b</skos:notation>
+        <ns0:modified>2011-05-11</ns0:modified>
         <ns0:source>sso</ns0:source>
         <resource:dataCategory>symptom</resource:dataCategory>
-        <skos:editorialNote></skos:editorialNote>
+        <skos:editorialNote
+            >2011-05-11 - added altLabel
+                     - added hiddenLabel</skos:editorialNote>
         <skos:definition
             >A disturbed sense of relationship to space; a sensation of unsteadiness with a feeling of movement within the head</skos:definition>
         <ns0:source>syndrome_cc</ns0:source>
         <skos:changeNote></skos:changeNote>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:creator>MC</ns0:creator>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <skos:altLabel xml:lang="en">dizz</skos:altLabel>
+        <skos:altLabel xml:lang="en">disequilibrium</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">dizz</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en">dizziness</skos:prefLabel>
+        <skos:altLabel xml:lang="en">dizzy</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;cerebralBleed"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;cerebrovascularAccident"/>
@@ -3828,26 +3872,32 @@
         <skos:notation rdf:datatype="&resource;englishRegExp">\btemp\s+&gt;\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\btemp\s+gt\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\btemperature\b</skos:notation>
-        <skos:changeNote></skos:changeNote>
+        <skos:changeNote
+            >2011-05-11 - MC - Should &#39;temp&#39; be included as an altTerm.  On the negative side, it does not specify direction (i.e. high vs low temperature).  On the plus side, &#39;temp&#39; may be used only to describe high temperature in the context of clinical notes</skos:changeNote>
+        <skos:editorialNote
+            >2011-05-11  - Created hiddenTerms</skos:editorialNote>
         <ns0:created>2011-03-31</ns0:created>
         <skos:definition
             >Elevated body temperature</skos:definition>
         <ns0:source>sso</ns0:source>
         <ns0:creator>MC</ns0:creator>
-        <skos:editorialNote></skos:editorialNote>
         <ns0:source>cc_ontology</ns0:source>
-        <ns0:modified>2011-03-31</ns0:modified>
         <resource:dataCategory>symptom</resource:dataCategory>
-        <skos:altLabel xml:lang="en">elevated temp</skos:altLabel>
+        <ns0:modified>2011-05-11</ns0:modified>
+        <skos:hiddenLabel xml:lang="en">elevated temp</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en"
+            >elevated temperature</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >elevated temperature</skos:prefLabel>
-        <skos:altLabel xml:lang="en">hi temp</skos:altLabel>
-        <skos:altLabel xml:lang="en">high temp</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">hi temp</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">high temp</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en"
+            >high temperature</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >increased temperature</skos:altLabel>
-        <skos:altLabel xml:lang="en">temp</skos:altLabel>
-        <skos:altLabel xml:lang="en">temp &gt;</skos:altLabel>
-        <skos:altLabel xml:lang="en">temp gt</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">temp</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">temp &gt;</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">temp gt</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">temperature</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;constitutionalSyndrome"/>
@@ -4067,17 +4117,25 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0041473:Epidemic typhus</skos:notation>
         <resource:dataCategory>bioterrorism</resource:dataCategory>
-        <skos:editorialNote></skos:editorialNote>
         <ns0:source>biocaster</ns0:source>
         <ns0:creator>MC</ns0:creator>
-        <skos:changeNote></skos:changeNote>
+        <ns0:modified>2011-05-11</ns0:modified>
         <ns0:created>2011-03-31</ns0:created>
         <skos:definition
             >Epidemic typhus refers to disease due to Rickettsia prowazekii that is transmitted from rodents by lice.</skos:definition>
         <resource:dataCategory>disease</resource:dataCategory>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <skos:altLabel xml:lang="en">epidemic typhus</skos:altLabel>
+        <skos:changeNote
+            >2011-05-11 - Should &#39;typhus&#39; as opposed to &#39;epidemic typhus&#39; be included as an altLabel?  Or is this misleading?  (MC)</skos:changeNote>
+        <skos:editorialNote
+            >2011-05-11 - Added altTerms from Wikipedia</skos:editorialNote>
+        <skos:altLabel xml:lang="en">camp fever</skos:altLabel>
         <skos:prefLabel xml:lang="en">epidemic typhus</skos:prefLabel>
+        <skos:altLabel xml:lang="en">famine fever</skos:altLabel>
+        <skos:altLabel xml:lang="en">hospital fever</skos:altLabel>
+        <skos:altLabel xml:lang="en">jail fever</skos:altLabel>
+        <skos:altLabel xml:lang="en">petechial fever</skos:altLabel>
+        <skos:altLabel xml:lang="en">putrid fever</skos:altLabel>
+        <skos:altLabel xml:lang="en">ship fever</skos:altLabel>
         <skos:altLabel xml:lang="en">typhus</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;chill"/>
@@ -4846,20 +4904,24 @@
         <skos:notation rdf:datatype="&resource;englishRegExp">\bgastroe\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
             >\bgastroenteritis\b</skos:notation>
+        <skos:editorialNote
+            >2011-05-11 - added hiddenLabels
+                     - added altLabels</skos:editorialNote>
         <ns0:source>sso</ns0:source>
         <ns0:creator>MC</ns0:creator>
         <ns0:source>syndrome_cc</ns0:source>
         <ns0:modified>2011-03-31</ns0:modified>
-        <skos:editorialNote></skos:editorialNote>
         <skos:changeNote></skos:changeNote>
         <skos:definition
             >Inflammation of the stomach and small bowel</skos:definition>
         <ns0:created>2011-03-31</ns0:created>
         <resource:dataCategory>disease</resource:dataCategory>
-        <skos:altLabel xml:lang="en">gastroe</skos:altLabel>
-        <skos:altLabel xml:lang="en">gastroenteritis</skos:altLabel>
+        <skos:altLabel xml:lang="en">gastric flu</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">gastro</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">gastroe</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en">gastroenteritis</skos:prefLabel>
         <skos:altLabel xml:lang="en">stomach flu</skos:altLabel>
+        <skos:altLabel xml:lang="en">stomach virus</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;abdominalPain"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;cervicalAdenopathy"/>
@@ -4884,21 +4946,28 @@
             >578.9:Gastrointestinal Bleeding NOS</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0017181:Gastrointestinal bleeding</skos:notation>
-        <skos:editorialNote></skos:editorialNote>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <ns0:created>2011-03-31</ns0:created>
+        <ns0:modified>2011-05-11</ns0:modified>
+        <skos:changeNote></skos:changeNote>
+        <skos:editorialNote
+            >2011-05-11 - Added hiddenLabels
+                     - Changed altLabels</skos:editorialNote>
         <ns0:creator>MC</ns0:creator>
         <ns0:source>rods</ns0:source>
-        <ns0:created>2011-03-31</ns0:created>
         <skos:definition
             >Bleeding into the bowel</skos:definition>
         <resource:dataCategory>syndrome</resource:dataCategory>
-        <skos:changeNote></skos:changeNote>
         <skos:altLabel xml:lang="en">g.i. bleed</skos:altLabel>
+        <skos:altLabel xml:lang="en">g.i. bleeding</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">gastro bleed</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">gastro bleeding</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">gastro blood</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en"
+            >gastrointestinal bleed</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >gastrointestinal bleeding</skos:prefLabel>
-        <skos:altLabel xml:lang="en"
-            >gastrointestinal bleeding</skos:altLabel>
-        <skos:altLabel xml:lang="en">gi bleed</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">gi bleed</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">gi bleeding</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;hemorrhagicSyndrome"/>
         <skos:broader rdf:resource="&resource;sensitiveGastrointestinalSyndrome"/>
@@ -6653,6 +6722,8 @@
         <ns0:source>syndrome_cc</ns0:source>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;brucellosis"/>
+        <isSuperordinateConceptOf rdf:resource="&resource;cervicalAdenopathy"/>
+        <skos:related rdf:resource="&resource;cervicalAdenopathy"/>
         <skos:broader rdf:resource="&resource;constitutionalSyndrome"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;cutaneousAnthrax"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;cytomegaloViralDisease"/>
