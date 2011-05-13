@@ -297,10 +297,10 @@
 
     <skos:ConceptScheme rdf:about="&www;extended_sso">
         <rdf:type rdf:resource="&owl;Thing"/>
-        <ns0:hasVersion
-            >SVN:  $Revision$</ns0:hasVersion>
         <ns0:alternative>Extended SSO</ns0:alternative>
         <ns0:created>2011-03-31</ns0:created>
+        <ns0:hasVersion
+            >SVN:  $Revision$</ns0:hasVersion>
         <ns0:language>English</ns0:language>
         <ns0:alternative>ESSO</ns0:alternative>
         <ns0:creator>M.Conway</ns0:creator>
@@ -3175,6 +3175,7 @@
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;brucellosis"/>
         <skos:broader rdf:resource="&resource;constitutionalSyndrome"/>
+        <skos:related rdf:resource="&resource;sweating"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;typhoidFever"/>
     </owl:Thing>
     
@@ -5094,8 +5095,7 @@
         <skos:hiddenLabel xml:lang="en">gen weak</skos:hiddenLabel>
         <skos:hiddenLabel xml:lang="en">gen weakness</skos:hiddenLabel>
         <skos:altLabel xml:lang="en"
-            >general weakness
-</skos:altLabel>
+            >general weakness</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >generalised weakness</skos:altLabel>
         <skos:prefLabel xml:lang="en"
@@ -6765,7 +6765,6 @@
             >\bswoll.*?\s+lymp.*?\s+node.?\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
             >\bymphadenopathy\b</skos:notation>
-        <ns0:modified>2011-05-12 </ns0:modified>
         <ns0:source>sso</ns0:source>
         <skos:definition
             >Enlargement or pain of lymph nodes</skos:definition>
@@ -6775,6 +6774,7 @@
         <skos:editorialNote
             >2011-05-12 - Added hiddenLabels
                      - Removed redundant altLabel</skos:editorialNote>
+        <ns0:modified>2011-05-12</ns0:modified>
         <skos:altLabel xml:lang="en">enlarged glands</skos:altLabel>
         <skos:hiddenLabel xml:lang="en">limphadenopathy</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en">lymphadenopathy</skos:prefLabel>
@@ -11177,19 +11177,19 @@
             >C0038990:Sweating</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >G07.110.232.693:Sweating</skos:notation>
-        <ns0:modified>2011-03-31</ns0:modified>
         <ns0:source>icd</ns0:source>
+        <ns0:modified>2011-05-12</ns0:modified>
+        <skos:editorialNote
+            >2011-5-12 - &#39;Sweating&#39; is distinct from &#39;sweats&#39; (concept diaphoresis)</skos:editorialNote>
         <ns0:creator>MC</ns0:creator>
         <ns0:created>2011-03-31</ns0:created>
         <skos:definition>Persperation</skos:definition>
+        <skos:prefLabel xml:lang="en">sweating</skos:prefLabel>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:changeNote></skos:changeNote>
-        <skos:editorialNote></skos:editorialNote>
-        <skos:altLabel xml:lang="en">diaphoresis</skos:altLabel>
-        <skos:prefLabel xml:lang="en">sweating</skos:prefLabel>
-        <skos:altLabel xml:lang="en">sweating</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;constitutionalSyndrome"/>
+        <skos:related rdf:resource="&resource;diaphoresis"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;tuberculosis"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;ulcerativeColitis"/>
     </owl:Thing>
@@ -11237,17 +11237,23 @@
             >785.0:Tachycardia, unspecified</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0039231:Tachycardia</skos:notation>
-        <ns0:modified>2011-03-31</ns0:modified>
         <skos:definition>Fast heart rate</skos:definition>
-        <skos:editorialNote></skos:editorialNote>
         <skos:changeNote></skos:changeNote>
         <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:source>respiratory</ns0:source>
+        <ns0:modified>2011-05-12</ns0:modified>
         <ns0:created>2011-03-31</ns0:created>
+        <skos:editorialNote
+            >2011-05-12 - Added altLabels and hiddenLabels
+                     - Removed redundant altLabel</skos:editorialNote>
         <ns0:creator>MC</ns0:creator>
+        <skos:altLabel xml:lang="en"
+            >accelerated heart rate</skos:altLabel>
         <skos:altLabel xml:lang="en">fast heart rate</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >rapid heart rate</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">tachicardia</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en">tachycardia</skos:prefLabel>
-        <skos:altLabel xml:lang="en">tachycardia</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;constitutionalSyndrome"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;hypovolemicShock"/>
@@ -11601,17 +11607,23 @@
             >C01.252.400.825.900:Tularemia</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <resource:dataCategory>disease</resource:dataCategory>
-        <skos:editorialNote></skos:editorialNote>
+        <ns0:modified>2011-05-12</ns0:modified>
         <skos:changeNote></skos:changeNote>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:source>biocaster</ns0:source>
         <resource:dataCategory>bioterrorism</resource:dataCategory>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <skos:editorialNote
+            >2011-05-12 - Added hiddenLabel and altLabels from Wikipedia</skos:editorialNote>
         <skos:definition
             >A disease of rodents which is transmitted to man by the bites of flies, fleas, ticks and lice, or through the handling of infected animals, caused by Pasturella tularensis. In man it is characterized by the formation of an ulcer at the site of inoculation and severe systemic symptoms.</skos:definition>
+        <skos:altLabel xml:lang="en">deer fly fever</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >francisella tularensis</skos:altLabel>
-        <skos:altLabel xml:lang="en">tularemia</skos:altLabel>
+        <skos:altLabel xml:lang="en">o&#39;hara&#39;s fever</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >pahvant valley plague</skos:altLabel>
+        <skos:altLabel xml:lang="en">rabbit fever</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">tularamia</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en">tularemia</skos:prefLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;cervicalAdenopathy"/>
@@ -11649,14 +11661,18 @@
         <ns0:source>biocaster</ns0:source>
         <ns0:creator>MC</ns0:creator>
         <ns0:modified>2011-03-31</ns0:modified>
+        <skos:editorialNote
+            >2011-05-12  - Added altTerms and hiddenLabel
+                      - Removed redundant altLabel</skos:editorialNote>
         <resource:dataCategory>bioterrorism</resource:dataCategory>
-        <skos:editorialNote></skos:editorialNote>
         <skos:changeNote></skos:changeNote>
         <skos:altLabel xml:lang="en"
             >salmonella typhi</skos:altLabel>
         <skos:altLabel xml:lang="en">salmonellosis</skos:altLabel>
-        <skos:altLabel xml:lang="en">typhoid fever</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">salmonelosis</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en">typhoid</skos:altLabel>
         <skos:prefLabel xml:lang="en">typhoid fever</skos:prefLabel>
+        <skos:hiddenLabel xml:lang="en">typoid</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;alteredMentalStatus"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;anorexia"/>
