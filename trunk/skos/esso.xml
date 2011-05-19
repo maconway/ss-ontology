@@ -297,6 +297,8 @@
 
     <owl:Thing rdf:about="&www;extended_sso">
         <rdf:type rdf:resource="&skos;ConceptScheme"/>
+        <ns0:hasVersion
+            >SVN:  $Revision$</ns0:hasVersion>
         <ns0:audience
             >We aim to appeal to two groups of users.  First, those seeking a reference for standard syndrome definitions.  Second, those seeking to automate syndromic surveillance</ns0:audience>
         <ns0:created>2011-03-31</ns0:created>
@@ -314,8 +316,6 @@
         <ns0:creator>W.Chapman</ns0:creator>
         <ns0:creator>J.Dowling</ns0:creator>
         <ns0:alternative>ESSO</ns0:alternative>
-        <ns0:hasVersion
-            >SVN:  $Revision$</ns0:hasVersion>
         <skos:hasTopConcept rdf:resource="&resource;botulismSyndrome"/>
         <skos:hasTopConcept rdf:resource="&resource;constitutionalSyndrome"/>
         <skos:hasTopConcept rdf:resource="&resource;gastrointestinalSyndrome"/>
@@ -7482,39 +7482,51 @@
         <skos:notation rdf:datatype="&resource;englishRegExp">\bv\s*\+\s*n\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\nasuea\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">v\/n</skos:notation>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <ns0:modified>2011-05-19</ns0:modified>
         <skos:changeNote></skos:changeNote>
         <ns0:created>2011-03-31</ns0:created>
+        <skos:editorialNote
+            >2011-05-19 - Moved misspelled altLabels to hiddenLabels (MC)</skos:editorialNote>
         <skos:definition
             >An unpleasant sensation, vaguely referred to the epigastrium and abdomen and often culminating in vomiting</skos:definition>
         <ns0:creator>MC</ns0:creator>
-        <skos:editorialNote></skos:editorialNote>
-        <skos:altLabel xml:lang="en">n &amp; v</skos:altLabel>
-        <skos:altLabel xml:lang="en">n and v</skos:altLabel>
-        <skos:altLabel xml:lang="en">n d</skos:altLabel>
-        <skos:altLabel xml:lang="en">n v d</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">n &amp; v</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">n + v</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">n and v</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">n d</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">n+v</skos:hiddenLabel>
         <ns0:source>sso</ns0:source>
         <ns0:source>syndrome_cc</ns0:source>
-        <skos:altLabel xml:lang="en">n v</skos:altLabel>
         <resource:dataCategory>symptom</resource:dataCategory>
-        <skos:altLabel xml:lang="en">n&amp;v</skos:altLabel>
-        <skos:altLabel xml:lang="en">n+v</skos:altLabel>
-        <skos:altLabel xml:lang="en">n/v</skos:altLabel>
-        <skos:altLabel xml:lang="en">nasea</skos:altLabel>
-        <skos:altLabel xml:lang="en">naseau</skos:altLabel>
-        <skos:altLabel xml:lang="en">nasuea</skos:altLabel>
-        <skos:altLabel xml:lang="en">nauceous</skos:altLabel>
-        <skos:altLabel xml:lang="en">nause</skos:altLabel>
-        <skos:altLabel xml:lang="en">nausea</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">n v</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">n v d</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">n&amp;v</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">n/v</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">n\v</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">nasea</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">naseau</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">nasuea</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">nauceous</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">nause</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en">nausea</skos:prefLabel>
         <skos:altLabel xml:lang="en">nauseated</skos:altLabel>
-        <skos:altLabel xml:lang="en">nauseau</skos:altLabel>
-        <skos:altLabel xml:lang="en">naussa</skos:altLabel>
-        <skos:altLabel xml:lang="en">nuasea</skos:altLabel>
-        <skos:altLabel xml:lang="en">nv</skos:altLabel>
-        <skos:altLabel xml:lang="en">nvd</skos:altLabel>
-        <skos:altLabel xml:lang="en">v+n</skos:altLabel>
-        <skos:altLabel xml:lang="en">v/n</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">nauseatted</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">nauseau</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en">nauseous</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">nc</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">nuasea</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">nv</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">nvd</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">v &amp; n</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">v + n</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">v n</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">v n d</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">v&amp;n</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">v+n</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">v/n</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">v\n</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vn</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vnd</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;appendicitis"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;bacterialFoodPoisoning"/>
@@ -8455,32 +8467,39 @@
         <ns0:source>syndrome_cc</ns0:source>
         <skos:editorialNote></skos:editorialNote>
         <ns0:modified>2011-03-31</ns0:modified>
-        <skos:altLabel xml:lang="en">painful breat*</skos:altLabel>
+        <skos:altLabel xml:lang="en">breathing hurts</skos:altLabel>
+        <skos:altLabel xml:lang="en">painful breath</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >painful breathing</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >painful respiration</skos:altLabel>
-        <skos:altLabel xml:lang="en">peluritic cp</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >pl chest discomfort</skos:altLabel>
-        <skos:altLabel xml:lang="en">pl cp</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >pl. chest discomfort</skos:altLabel>
-        <skos:altLabel xml:lang="en">pleturic</skos:altLabel>
-        <skos:altLabel xml:lang="en">pleur c.p.</skos:altLabel>
-        <skos:altLabel xml:lang="en">pleuratic cp</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >pleuretic chest discomfort</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >pleuretic chest pain</skos:altLabel>
-        <skos:altLabel xml:lang="en">pleuretic cp</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">peluritic cp</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >pl chest discomfort</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >pl. chest discomfort</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">pleturic</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">pleur</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">pleur c.p.</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">pleur cp</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">pleur. c.p.</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">pleur. cp</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">pleuratic</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">pleuratic cp</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >pleuretic chest discomfort</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >pleuretic chest pain</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">pleuretic pc</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en">pleurisy</skos:altLabel>
         <skos:altLabel xml:lang="en">pleuritic</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >pleuritic chest pain</skos:altLabel>
-        <skos:altLabel xml:lang="en">pleuritic cp</skos:altLabel>
-        <skos:altLabel xml:lang="en">pleuritic pain</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">pleuritic cp</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en">pleuritic pain</skos:prefLabel>
-        <skos:altLabel xml:lang="en">pleurtic cp</skos:altLabel>
-        <skos:altLabel xml:lang="en">plueritic cp</skos:altLabel>
-        <skos:altLabel xml:lang="en">plurtic c.p</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">pleuritic pn</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en">pleuritis</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">plurtic cp</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;empyema"/>
         <skos:broader rdf:resource="&resource;sensitiveGastrointestinalSyndrome"/>
@@ -9755,19 +9774,21 @@
             >C0035870:Rotavirus</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
             >\brot(o|a)virus\b</skos:notation>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <ns0:modified>2011-05-19</ns0:modified>
         <ns0:source>syndrome_cc</ns0:source>
-        <skos:editorialNote></skos:editorialNote>
         <ns0:creator>MC</ns0:creator>
+        <skos:editorialNote
+            >2011-05-19 - Added hiddenLabels (MC)</skos:editorialNote>
         <skos:definition
             >A virus in the family Reoviridae which typical causes gastroenteritis</skos:definition>
         <skos:changeNote></skos:changeNote>
         <ns0:source>sso</ns0:source>
         <ns0:created>2011-03-31</ns0:created>
         <resource:dataCategory>disease</resource:dataCategory>
-        <skos:altLabel xml:lang="en">rotavirus</skos:altLabel>
+        <skos:altLabel xml:lang="en">gastric flu</skos:altLabel>
         <skos:prefLabel xml:lang="en">rotavirus</skos:prefLabel>
-        <skos:altLabel xml:lang="en">rotovirus</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">rotovirus</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en">stomach flu</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;dehydration"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;diarrhea"/>
@@ -10171,21 +10192,26 @@
             >C0013371:Shigellosis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C06.405.205.331.479:Dysentery, Bacillary</skos:notation>
+        <ns0:created>2011-05-19</ns0:created>
         <ns0:source>icd</ns0:source>
         <resource:dataCategory>disease</resource:dataCategory>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <ns0:created>2011-03-31</ns0:created>
         <skos:definition
             >Shigellosis is a gastrointestinal infection that is caused by a species of Shigella. Its characteristic symptoms include watery or bloody diarrhea, tenismus, abdominal pain, and headache.</skos:definition>
-        <skos:editorialNote></skos:editorialNote>
+        <ns0:modified>2011-05-19</ns0:modified>
         <ns0:creator>MC</ns0:creator>
-        <skos:changeNote></skos:changeNote>
+        <skos:editorialNote
+            >2011-05-19 - Added hiddenLabels (MC)</skos:editorialNote>
+        <resource:dataCategory>bioterrorism</resource:dataCategory>
+        <skos:changeNote
+            >2011-05-19  - Added hiddenLabels (MC)</skos:changeNote>
+        <skos:hiddenLabel xml:lang="en">bacillaric</skos:hiddenLabel>
         <skos:altLabel xml:lang="en"
             >bacillary dysentery</skos:altLabel>
-        <resource:dataCategory>bioterrorism</resource:dataCategory>
+        <skos:hiddenLabel xml:lang="en">shig</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">shigallosis</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">shigella</skos:altLabel>
         <skos:prefLabel xml:lang="en">shigellosis</skos:prefLabel>
-        <skos:altLabel xml:lang="en">shigellosis</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">shigelosis</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;conjunctivitis"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;dysentery"/>
@@ -11025,18 +11051,20 @@
             >\bbring.*?\s+up\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
             >\bspit.*?\s+up\b</skos:notation>
-        <skos:editorialNote></skos:editorialNote>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <ns0:modified>2011-05-19</ns0:modified>
         <ns0:source>syndrome_cc</ns0:source>
         <ns0:source>sso</ns0:source>
+        <skos:editorialNote
+            >2011-05-19 - Added altLabel (MC)</skos:editorialNote>
         <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:creator>MC</ns0:creator>
-        <skos:changeNote></skos:changeNote>
         <skos:definition
             >Vomiting of small quantities of stomach contents</skos:definition>
+        <skos:changeNote></skos:changeNote>
         <ns0:created>2011-03-31</ns0:created>
         <skos:altLabel xml:lang="en">bringing up</skos:altLabel>
-        <skos:altLabel xml:lang="en">spitting up</skos:altLabel>
+        <skos:altLabel xml:lang="en">spit up</skos:altLabel>
+        <skos:altLabel xml:lang="en">spitted up</skos:altLabel>
         <skos:prefLabel xml:lang="en">spitting up</skos:prefLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:related rdf:resource="&resource;emesis"/>
@@ -11243,12 +11271,18 @@
         <skos:definition
             >Pain in the suprapubic region of the abdomen</skos:definition>
         <ns0:source>cc_ontology</ns0:source>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <resource:dataCategory>symptom</resource:dataCategory>
-        <skos:editorialNote></skos:editorialNote>
-        <ns0:created>2011-03-31</ns0:created>
-        <skos:altLabel xml:lang="en">suprapubic pain</skos:altLabel>
+        <ns0:modified>2011-05-19</ns0:modified>
+        <skos:altLabel xml:lang="en"
+            >supra pubic pain</skos:altLabel>
         <skos:prefLabel xml:lang="en">suprapubic pain</skos:prefLabel>
+        <resource:dataCategory>symptom</resource:dataCategory>
+        <ns0:created>2011-03-31</ns0:created>
+        <skos:editorialNote
+            >2011-05-19 - Added hiddenLabels (MC)</skos:editorialNote>
+        <skos:hiddenLabel xml:lang="en">supra pub pain</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en"
+            >supra-pubic pain</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">surpa pub pain</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;sensitiveGastrointestinalSyndrome"/>
     </skos:Concept>
@@ -11794,19 +11828,23 @@
             >C0009324:Ulcerative Colitis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C06.405.205.265.231:Colitis, Ulcerative</skos:notation>
-        <skos:changeNote></skos:changeNote>
-        <ns0:creator>MC</ns0:creator>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <ns0:modified>2011-05-19</ns0:modified>
         <resource:dataCategory>disease</resource:dataCategory>
         <skos:editorialNote></skos:editorialNote>
-        <ns0:source>icd</ns0:source>
         <skos:definition
             >Ulceration of the colon</skos:definition>
         <ns0:created>2011-03-31</ns0:created>
+        <ns0:creator>MC</ns0:creator>
+        <skos:changeNote
+            >2011-05-19 - Added hiddenLabel (MC)</skos:changeNote>
+        <skos:hiddenLabel xml:lang="en">UC</skos:hiddenLabel>
         <skos:altLabel xml:lang="en"
-            >ulcerative colitis</skos:altLabel>
+            >colitis ulcerosa</skos:altLabel>
+        <ns0:source>icd</ns0:source>
         <skos:prefLabel xml:lang="en"
             >ulcerative colitis</skos:prefLabel>
+        <skos:altLabel xml:lang="en"
+            >ulcerative colitis</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;abdominalPain"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;bleedingFromOrifices"/>
@@ -12215,82 +12253,78 @@
         <ns0:created>2011-03-31</ns0:created>
         <skos:definition
             >The forcible expulsion of the contents of the stomach through the mouth</skos:definition>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <skos:editorialNote
+            >2011-05-19 - Added hiddenLabels (MC)</skos:editorialNote>
         <ns0:creator>MC</ns0:creator>
         <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:source>syndrome_cc</ns0:source>
-        <skos:editorialNote></skos:editorialNote>
+        <ns0:modified>2011-05-19 </ns0:modified>
         <ns0:source>sso</ns0:source>
         <skos:changeNote></skos:changeNote>
-        <skos:altLabel xml:lang="en"
-            >cant hold any food down</skos:altLabel>
-        <skos:altLabel xml:lang="en">d &amp; v</skos:altLabel>
-        <skos:altLabel xml:lang="en">d + v</skos:altLabel>
-        <skos:altLabel xml:lang="en">d&amp;v</skos:altLabel>
-        <skos:altLabel xml:lang="en">d+v</skos:altLabel>
-        <skos:altLabel xml:lang="en">d/v</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >can&#39;t hold food down</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >cant hold food down</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">d &amp; v</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">d f v</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">d&amp;v</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">d/v</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">dfv</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">dry heaves</skos:altLabel>
-        <skos:altLabel xml:lang="en">dv</skos:altLabel>
-        <skos:altLabel xml:lang="en">emesis</skos:altLabel>
-        <skos:altLabel xml:lang="en">emisis</skos:altLabel>
-        <skos:altLabel xml:lang="en">emsis</skos:altLabel>
-        <skos:altLabel xml:lang="en">etc.</skos:altLabel>
-        <skos:altLabel xml:lang="en">f v</skos:altLabel>
-        <skos:altLabel xml:lang="en">fv</skos:altLabel>
-        <skos:altLabel xml:lang="en">n &amp; v</skos:altLabel>
-        <skos:altLabel xml:lang="en">n v</skos:altLabel>
-        <skos:altLabel xml:lang="en">n v d</skos:altLabel>
-        <skos:altLabel xml:lang="en">n&amp;v</skos:altLabel>
-        <skos:altLabel xml:lang="en">n+v</skos:altLabel>
-        <skos:altLabel xml:lang="en">n/v</skos:altLabel>
-        <skos:altLabel xml:lang="en">nv</skos:altLabel>
-        <skos:altLabel xml:lang="en">nvd</skos:altLabel>
-        <skos:altLabel xml:lang="en">puke</skos:altLabel>
+        <skos:altLabel xml:lang="en">dry heaving</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">f v</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">fv</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">n &amp; v</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">n v</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">n&amp;v</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">n/v</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">nv</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">nvd</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">puke</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en">retch</skos:altLabel>
+        <skos:altLabel xml:lang="en">retched</skos:altLabel>
         <skos:altLabel xml:lang="en">retching</skos:altLabel>
         <skos:altLabel xml:lang="en">threw up</skos:altLabel>
         <skos:altLabel xml:lang="en">throw up</skos:altLabel>
         <skos:altLabel xml:lang="en">throwing up</skos:altLabel>
-        <skos:altLabel xml:lang="en">v + d</skos:altLabel>
-        <skos:altLabel xml:lang="en">v d</skos:altLabel>
-        <skos:altLabel xml:lang="en">v f</skos:altLabel>
-        <skos:altLabel xml:lang="en">v&amp;d</skos:altLabel>
-        <skos:altLabel xml:lang="en">v+d</skos:altLabel>
-        <skos:altLabel xml:lang="en">v+n</skos:altLabel>
-        <skos:altLabel xml:lang="en">v/d</skos:altLabel>
-        <skos:altLabel xml:lang="en">v/n</skos:altLabel>
-        <skos:altLabel xml:lang="en">vimiting</skos:altLabel>
-        <skos:altLabel xml:lang="en">viomiting</skos:altLabel>
-        <skos:altLabel xml:lang="en">vmt</skos:altLabel>
-        <skos:altLabel xml:lang="en">vo</skos:altLabel>
-        <skos:altLabel xml:lang="en">voimiting</skos:altLabel>
-        <skos:altLabel xml:lang="en">voiting</skos:altLabel>
-        <skos:altLabel xml:lang="en">vom</skos:altLabel>
-        <skos:altLabel xml:lang="en">vometing</skos:altLabel>
-        <skos:altLabel xml:lang="en">vomi</skos:altLabel>
-        <skos:altLabel xml:lang="en">vomicking</skos:altLabel>
-        <skos:altLabel xml:lang="en">vomikting</skos:altLabel>
-        <skos:altLabel xml:lang="en">vomintg</skos:altLabel>
-        <skos:altLabel xml:lang="en">vominting</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">v&amp;d</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">v+d</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">v+n</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">v/d</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">v/n</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vd</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vf</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vimiting</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">viomiting</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vmt</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vo</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">voimiting</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">voiting</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vom</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vometing</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vomi</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vomicking</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vomikting</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vomintg</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vominting</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">vomit</skos:altLabel>
         <skos:altLabel xml:lang="en">vomited</skos:altLabel>
-        <skos:altLabel xml:lang="en">vomitibg</skos:altLabel>
-        <skos:altLabel xml:lang="en">vomitin</skos:altLabel>
-        <skos:altLabel xml:lang="en">vomitine</skos:altLabel>
-        <skos:altLabel xml:lang="en">vomiting</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">vomitibg</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vomitin</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vomitine</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en">vomiting</skos:prefLabel>
-        <skos:altLabel xml:lang="en">vomitinig</skos:altLabel>
-        <skos:altLabel xml:lang="en">vomitiong</skos:altLabel>
-        <skos:altLabel xml:lang="en">vomitng</skos:altLabel>
-        <skos:altLabel xml:lang="en">vomitt</skos:altLabel>
-        <skos:altLabel xml:lang="en">vomitting</skos:altLabel>
-        <skos:altLabel xml:lang="en">vomittng</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">vomitinig</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vomitiong</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vomitng</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vomitnng</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vomitt</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">vomitus</skos:altLabel>
-        <skos:altLabel xml:lang="en">vommiting</skos:altLabel>
-        <skos:altLabel xml:lang="en">vomoting</skos:altLabel>
-        <skos:altLabel xml:lang="en">vomtiing</skos:altLabel>
-        <skos:altLabel xml:lang="en">vomtiming</skos:altLabel>
-        <skos:altLabel xml:lang="en">vomting</skos:altLabel>
-        <skos:altLabel xml:lang="en">vomtiting</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">vommiting</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vomoting</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vomtiing</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vomtiming</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vomting</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">vomtiting</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;appendicitis"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;bacterialFoodPoisoning"/>
@@ -12330,12 +12364,17 @@
         <skos:changeNote></skos:changeNote>
         <ns0:source>sso</ns0:source>
         <ns0:creator>MC</ns0:creator>
-        <skos:editorialNote></skos:editorialNote>
+        <skos:editorialNote
+            >2011-05-19 -  Added altLabels (MC)</skos:editorialNote>
         <ns0:source>cc_ontology</ns0:source>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <ns0:modified>2011-05-19</ns0:modified>
+        <skos:hiddenLabel xml:lang="en">liq stool</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en">liquid faeces</skos:altLabel>
+        <skos:altLabel xml:lang="en">liquid feces</skos:altLabel>
         <skos:altLabel xml:lang="en">liquid stool</skos:altLabel>
+        <skos:altLabel xml:lang="en">watery faeces</skos:altLabel>
+        <skos:altLabel xml:lang="en">watery feces</skos:altLabel>
         <skos:prefLabel xml:lang="en">watery stool</skos:prefLabel>
-        <skos:altLabel xml:lang="en">watery stool</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:related rdf:resource="&resource;diarrhea"/>
         <p1:hasSuperordinateConcept rdf:resource="&resource;diarrhea"/>
