@@ -297,14 +297,14 @@
 
     <owl:Thing rdf:about="&www;extended_sso">
         <rdf:type rdf:resource="&skos;ConceptScheme"/>
-        <ns0:hasVersion
-            >SVN:  $Revision$</ns0:hasVersion>
         <ns0:audience
             >We aim to appeal to two groups of users.  First, those seeking a reference for standard syndrome definitions.  Second, those seeking to automate syndromic surveillance</ns0:audience>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:alternative>Extended SSO</ns0:alternative>
         <ns0:creator>M.Conway</ns0:creator>
         <ns0:format>SKOS</ns0:format>
+        <ns0:hasVersion
+            >SVN:  $Revision$</ns0:hasVersion>
         <ns0:title
             >Extended syndromic surveillance ontology</ns0:title>
         <ns0:modfied>SVN:  $Date$</ns0:modfied>
@@ -1117,18 +1117,20 @@
             >C2230227:bleeding gums</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_103</skos:notation>
         <resource:dataCategory>symptom</resource:dataCategory>
-        <skos:editorialNote></skos:editorialNote>
-        <skos:definition
-            >Hemorrhage from the gums</skos:definition>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <skos:editorialNote
+            >2011-05-19 - Added altLabels (MC)</skos:editorialNote>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:source>biocaster</ns0:source>
+        <skos:definition
+            >Hemorrhage from the gums</skos:definition>
+        <ns0:modified>2011-05-19</ns0:modified>
         <skos:changeNote></skos:changeNote>
         <ns0:creator>MC</ns0:creator>
         <skos:prefLabel xml:lang="en"
             >bleeding from gums</skos:prefLabel>
-        <skos:altLabel xml:lang="en"
-            >bleeding from gums</skos:altLabel>
+        <skos:altLabel xml:lang="en">bleeding gum</skos:altLabel>
+        <skos:altLabel xml:lang="en">bleeding gums</skos:altLabel>
+        <skos:altLabel xml:lang="en">gum bleed</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:related rdf:resource="&resource;bleedingFromOrifices"/>
         <p1:hasSuperordinateConcept rdf:resource="&resource;bleedingFromOrifices"/>
@@ -1150,15 +1152,20 @@
         <skos:changeNote></skos:changeNote>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:source>biocaster</ns0:source>
+        <ns0:modified>2011-05-19</ns0:modified>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:definition
             >Hemorrhage from a bodily orifice</skos:definition>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <skos:editorialNote></skos:editorialNote>
+        <skos:editorialNote
+            >2011-05-19 - Added altLabel (MC)</skos:editorialNote>
         <skos:altLabel xml:lang="en"
-            >bleeding from orifices</skos:altLabel>
+            >bleeding from orifice</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >bleeding from orifices</skos:prefLabel>
+        <skos:altLabel xml:lang="en"
+            >orifice bleeding</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >orifices bleeding</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:related rdf:resource="&resource;bleedingFromGums"/>
         <p1:isSuperordinateConceptOf rdf:resource="&resource;bleedingFromGums"/>
@@ -1180,18 +1187,29 @@
     <owl:Thing rdf:about="&resource;bleedingFromSurgicalIncision">
         <rdf:type rdf:resource="&skos;Concept"/>
         <ns0:creator>MC</ns0:creator>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <skos:hiddenLabel
+            >bleeding from surgical insicion</skos:hiddenLabel>
         <resource:dataCategory>symptom</resource:dataCategory>
-        <skos:editorialNote></skos:editorialNote>
+        <skos:editorialNote
+            >2011-05-19 - Added hiddenLabel and altLabel (MC)</skos:editorialNote>
         <ns0:source>rods</ns0:source>
         <ns0:created>2011-03-31</ns0:created>
         <skos:changeNote></skos:changeNote>
         <skos:definition
             >Hemorrhage from a surgical incision</skos:definition>
+        <ns0:modified>2011-05-19</ns0:modified>
         <skos:altLabel xml:lang="en"
-            >bleeding from surgical incision</skos:altLabel>
+            >bled from surgical incision</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >bleeding from incision</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >bleeding from surgical incision</skos:prefLabel>
+        <skos:altLabel xml:lang="en"
+            >bleeding incision</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >incision bleeding</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >surgical incision bleeding</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;coagulopathy"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;hemorrhagicFeverSyndrome"/>
@@ -1207,11 +1225,13 @@
         <ns0:source>rods</ns0:source>
         <ns0:creator>MC</ns0:creator>
         <skos:changeNote></skos:changeNote>
-        <skos:editorialNote></skos:editorialNote>
-        <ns0:modified>2011-03-31</ns0:modified>
         <skos:definition
             >Hemorrhage from a tube or catheter</skos:definition>
         <ns0:created>2011-03-31</ns0:created>
+        <skos:editorialNote
+            >2011-05-19 - Added altLabels (MC)</skos:editorialNote>
+        <resource:dataCategory>symptom</resource:dataCategory>
+        <ns0:modified>2011-05-19 </ns0:modified>
         <skos:altLabel xml:lang="en"
             >bleeding from catheter</skos:altLabel>
         <skos:altLabel xml:lang="en"
@@ -1220,7 +1240,8 @@
             >bleeding from tube or catheter</skos:prefLabel>
         <skos:altLabel xml:lang="en"
             >bleeding from tube or catheter</skos:altLabel>
-        <resource:dataCategory>symptom</resource:dataCategory>
+        <skos:altLabel xml:lang="en"
+            >catheter bleeding</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;coagulopathy"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;hemorrhagicFeverSyndrome"/>
@@ -2184,14 +2205,23 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0005779:Coagulopathy</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
+        <skos:editorialNote
+            >2011-05-19 - Added extra altLabels (MC)</skos:editorialNote>
         <ns0:source>rods</ns0:source>
         <ns0:creator>MC</ns0:creator>
+        <skos:hiddenLabel>coagulapathay</skos:hiddenLabel>
         <skos:changeNote></skos:changeNote>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <ns0:modified>2011-05-19</ns0:modified>
         <skos:definition
             >A defect in the process of clotting</skos:definition>
-        <skos:editorialNote></skos:editorialNote>
         <skos:altLabel xml:lang="en">bleeding</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >bleeding disorder</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >clotting disorder</skos:altLabel>
+        <skos:altLabel xml:lang="en">coagulate</skos:altLabel>
+        <skos:altLabel xml:lang="en">coagulated</skos:altLabel>
+        <skos:altLabel xml:lang="en">coagulating</skos:altLabel>
         <skos:altLabel xml:lang="en">coagulopathy</skos:altLabel>
         <skos:prefLabel xml:lang="en">coagulopathy</skos:prefLabel>
         <resource:dataCategory>disease</resource:dataCategory>
@@ -4270,17 +4300,22 @@
             >C0014591:Epistaxis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C08.460.261:Epistaxis</skos:notation>
-        <ns0:source>rods</ns0:source>
+        <skos:changeNote
+            >2011-05-19 - Added altLabels (MC)</skos:changeNote>
+        <ns0:modified>2011-05-19</ns0:modified>
         <resource:dataCategory>symptom</resource:dataCategory>
+        <ns0:source>rods</ns0:source>
         <ns0:creator>MC</ns0:creator>
         <skos:editorialNote></skos:editorialNote>
-        <ns0:modified>2011-03-31</ns0:modified>
         <ns0:created>2011-03-31</ns0:created>
         <skos:definition>Nose bleed</skos:definition>
-        <skos:changeNote></skos:changeNote>
-        <skos:altLabel xml:lang="en">epistaxis</skos:altLabel>
+        <skos:altLabel xml:lang="en">bleeding nose</skos:altLabel>
         <skos:prefLabel xml:lang="en">epistaxis</skos:prefLabel>
+        <skos:altLabel xml:lang="en"
+            >hemorrhage from nose</skos:altLabel>
         <skos:altLabel xml:lang="en">nose bleed</skos:altLabel>
+        <skos:altLabel xml:lang="en">nose bleeding</skos:altLabel>
+        <skos:altLabel xml:lang="en">nose bleeds</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;coagulopathy"/>
         <skos:broader rdf:resource="&resource;hemorrhagicSyndrome"/>
@@ -5330,11 +5365,11 @@
         <skos:prefLabel xml:lang="en">hematemesis</skos:prefLabel>
         <ns0:source>sso</ns0:source>
         <skos:altLabel xml:lang="en">threw up blood</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >threwing-up blood</skos:altLabel>
         <skos:altLabel xml:lang="en">throw up blood</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >throwing up blood</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >throwing-up blood</skos:altLabel>
         <skos:altLabel xml:lang="en">vomit &amp; blood</skos:altLabel>
         <skos:altLabel xml:lang="en">vomit + blood</skos:altLabel>
         <skos:altLabel xml:lang="en">vomit and blood</skos:altLabel>
@@ -5389,8 +5424,8 @@
 
     <!-- http://www.extended_sso.org/resource#hematospermia -->
 
-    <owl:Thing rdf:about="&resource;hematospermia">
-        <rdf:type rdf:resource="&skos;Concept"/>
+    <skos:Concept rdf:about="&resource;hematospermia">
+        <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >608.82:Hematospermia</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
@@ -5398,20 +5433,28 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C12.294.293:Hemospermia</skos:notation>
         <skos:changeNote></skos:changeNote>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <ns0:creator>MC</ns0:creator>
+        <skos:editorialNote
+            >2011-05-19 - Added altLabels (MC)</skos:editorialNote>
+        <ns0:modified>2011-05-19</ns0:modified>
         <skos:definition
             >Blood in the semen</skos:definition>
         <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:created>2011-03-31</ns0:created>
+        <skos:altLabel xml:lang="en">blood in semen</skos:altLabel>
+        <skos:altLabel xml:lang="en">blood in sperm</skos:altLabel>
         <ns0:source>rods</ns0:source>
-        <skos:editorialNote></skos:editorialNote>
-        <ns0:creator>MC</ns0:creator>
+        <skos:altLabel xml:lang="en"
+            >blood in the semen</skos:altLabel>
+        <skos:altLabel xml:lang="en">bloody semen</skos:altLabel>
+        <skos:altLabel xml:lang="en">bloody sperm</skos:altLabel>
         <skos:altLabel xml:lang="en">decreased sperm</skos:altLabel>
+        <skos:altLabel xml:lang="en">haematospermia</skos:altLabel>
         <skos:altLabel xml:lang="en">hematospermia</skos:altLabel>
         <skos:prefLabel xml:lang="en">hematospermia</skos:prefLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;hemorrhagicSyndrome"/>
-    </owl:Thing>
+    </skos:Concept>
     
 
 
@@ -5425,16 +5468,17 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C12.777.934.442:Hematuria</skos:notation>
         <resource:dataCategory>symptom</resource:dataCategory>
-        <ns0:modified>2011-03-31</ns0:modified>
         <ns0:creator>MC</ns0:creator>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:source>rods</ns0:source>
         <skos:changeNote></skos:changeNote>
+        <skos:editorialNote
+            >2011-05-19 - Added altLabel (MC)</skos:editorialNote>
+        <ns0:modified>2011-05-19</ns0:modified>
         <skos:definition
             >Blood in the urine</skos:definition>
-        <skos:editorialNote></skos:editorialNote>
         <skos:altLabel xml:lang="en">blood in urine</skos:altLabel>
-        <skos:altLabel xml:lang="en">hematuria</skos:altLabel>
+        <skos:altLabel xml:lang="en">haematuria</skos:altLabel>
         <skos:prefLabel xml:lang="en">hematuria</skos:prefLabel>
         <skos:altLabel xml:lang="en">pink urine</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
@@ -5508,12 +5552,13 @@
         <skos:definition
             >Blood in the sputum</skos:definition>
         <ns0:creator>MC</ns0:creator>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <skos:changeNote
+            >2011-05-19 - Added hiddenLabels (MC)</skos:changeNote>
         <ns0:source>syndrome_cc</ns0:source>
         <ns0:source>sso</ns0:source>
-        <skos:changeNote></skos:changeNote>
+        <ns0:modified>2011-05-19</ns0:modified>
         <skos:editorialNote></skos:editorialNote>
-        <skos:altLabel xml:lang="en">bloddy cough</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">bloddy cough</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">blood + cough</skos:altLabel>
         <skos:altLabel xml:lang="en">blood + spit</skos:altLabel>
         <skos:altLabel xml:lang="en"
@@ -5521,12 +5566,12 @@
         <skos:altLabel xml:lang="en">cough + blood</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >coughing up blood</skos:altLabel>
-        <skos:altLabel xml:lang="en">hemoptisis</skos:altLabel>
-        <skos:altLabel xml:lang="en">hemoptosis</skos:altLabel>
-        <skos:altLabel xml:lang="en">hemoptysis</skos:altLabel>
+        <skos:altLabel xml:lang="en">haemoptysis</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">hemoptisis</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">hemoptosis</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en">hemoptysis</skos:prefLabel>
-        <skos:altLabel xml:lang="en">hemopysis</skos:altLabel>
-        <skos:altLabel xml:lang="en">hemotypsis</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">hemopysis</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">hemotysis</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;coagulopathy"/>
         <skos:broader rdf:resource="&resource;hemorrhagicSyndrome"/>
@@ -5550,17 +5595,20 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C23.550.414:Hemorrhage</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_180</skos:notation>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <resource:dataCategory>symptom</resource:dataCategory>
-        <skos:changeNote></skos:changeNote>
-        <skos:editorialNote></skos:editorialNote>
         <skos:definition>Bleeding</skos:definition>
-        <ns0:creator>MC</ns0:creator>
+        <skos:editorialNote
+            >2011-05-19 - Added altLabel (MC)</skos:editorialNote>
         <ns0:source>biocaster</ns0:source>
         <ns0:created>2011-03-31</ns0:created>
+        <ns0:modified>2011-05-19</ns0:modified>
         <skos:altLabel xml:lang="en">bleeding</skos:altLabel>
-        <skos:altLabel xml:lang="en">hemorrhage</skos:altLabel>
+        <skos:altLabel xml:lang="en">haemorrhage</skos:altLabel>
         <skos:prefLabel xml:lang="en">hemorrhage</skos:prefLabel>
+        <skos:altLabel xml:lang="en">hemorrhaged</skos:altLabel>
+        <resource:dataCategory>symptom</resource:dataCategory>
+        <skos:changeNote></skos:changeNote>
+        <ns0:creator>MC</ns0:creator>
+        <skos:altLabel xml:lang="en">hemorrhaging</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;coagulopathy"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;hemorrhagicFeverSyndrome"/>
@@ -5573,8 +5621,8 @@
 
     <!-- http://www.extended_sso.org/resource#hemorrhagicFeverSyndrome -->
 
-    <owl:Thing rdf:about="&resource;hemorrhagicFeverSyndrome">
-        <rdf:type rdf:resource="&skos;Concept"/>
+    <skos:Concept rdf:about="&resource;hemorrhagicFeverSyndrome">
+        <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >287.9:Unspecified hemorrhagic conditions</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
@@ -5586,13 +5634,10 @@
         <skos:definition
             >A zoonotic disease, generally viral, that often causes extensive bleeding in humans</skos:definition>
         <ns0:modified>2011-03-31</ns0:modified>
-        <skos:editorialNote></skos:editorialNote>
         <resource:dataCategory>bioterrorism</resource:dataCategory>
+        <skos:editorialNote></skos:editorialNote>
         <ns0:creator>MC</ns0:creator>
         <ns0:created>2011-03-31</ns0:created>
-        <skos:altLabel xml:lang="en">ecchymoses</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >hemorrhagic fever syndrome</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >hemorrhagic fever syndrome</skos:prefLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
@@ -5602,7 +5647,7 @@
         <resource:isAssociatedWithSymptom rdf:resource="&resource;bleedingFromTubeOrCatheter"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;hemorrhage"/>
         <skos:broader rdf:resource="&resource;hemorrhagicSyndrome"/>
-    </owl:Thing>
+    </skos:Concept>
     
 
 
@@ -5866,22 +5911,23 @@
             >C0043117:Purpura, Thrombocytopenic, Idiopathic</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C15.378.100.805.600:Purpura, Thrombocytopenic, Idiopathic</skos:notation>
-        <skos:editorialNote></skos:editorialNote>
-        <ns0:modified>2011-03-31</ns0:modified>
         <ns0:creator>MC</ns0:creator>
         <ns0:created>2011-03-31</ns0:created>
+        <skos:editorialNote
+            >2011-05-19 - edited altLabels (MC)</skos:editorialNote>
         <skos:definition
             >An autoimmune disorder characterized by rapid platelet destruction caused by the presence of antibodies against the patient&#39;s own platelets</skos:definition>
         <resource:dataCategory>disease</resource:dataCategory>
         <ns0:source>rods</ns0:source>
         <skos:changeNote></skos:changeNote>
+        <ns0:modified>2011-05-19</ns0:modified>
         <skos:altLabel xml:lang="en">ecchymoses</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >idiopathic thrombocytic purpura</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >idiopathic thrombocytopenic purpura</skos:prefLabel>
         <skos:altLabel xml:lang="en">itp</skos:altLabel>
         <skos:altLabel xml:lang="en">purpura</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >thrombocytopenac</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;bleedingFromOrifices"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;epistaxis"/>
@@ -6286,18 +6332,23 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C1717969:Internal bleeding</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_104</skos:notation>
-        <skos:editorialNote></skos:editorialNote>
         <ns0:creator>MC</ns0:creator>
+        <ns0:modified>2011-05-19</ns0:modified>
         <ns0:source>biocaster</ns0:source>
         <skos:definition
             >Bleeding into the body</skos:definition>
         <skos:changeNote></skos:changeNote>
-        <ns0:modified>2011-03-31</ns0:modified>
         <ns0:created>2011-03-31</ns0:created>
+        <skos:editorialNote
+            >2011-05-19 - Added altLabel (MC)</skos:editorialNote>
+        <skos:altLabel xml:lang="en"
+            >bleeding internally</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >internal bleeding</skos:prefLabel>
         <skos:altLabel xml:lang="en"
             >internal bleeding</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >internal haemorrhage</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >internal hemorrhage</skos:altLabel>
         <resource:dataCategory>syndrome</resource:dataCategory>
@@ -9210,8 +9261,9 @@
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0267596:Rectal bleeding</skos:notation>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <skos:changeNote></skos:changeNote>
+        <ns0:modified>2011-05-19</ns0:modified>
+        <skos:changeNote
+            >2011-05-19 - Added altLabels (MC)</skos:changeNote>
         <ns0:creator>MC</ns0:creator>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:definition
@@ -9219,7 +9271,10 @@
         <ns0:source>rods</ns0:source>
         <ns0:created>2011-03-31</ns0:created>
         <skos:editorialNote></skos:editorialNote>
-        <skos:altLabel xml:lang="en">rectal bleeding</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >bleeding from rectum</skos:altLabel>
+        <skos:altLabel xml:lang="en">bleeding rectum</skos:altLabel>
+        <skos:altLabel xml:lang="en">rectal bleed</skos:altLabel>
         <skos:prefLabel xml:lang="en">rectal bleeding</skos:prefLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:related rdf:resource="&resource;bleedingFromGums"/>
@@ -11149,19 +11204,26 @@
     <owl:Thing rdf:about="&resource;subcutaneousHemorrhage">
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_351</skos:notation>
+        <skos:editorialNote
+            >2011-05-19 - Added altLabels and hiddenLabels (MC)</skos:editorialNote>
         <skos:definition
             >Bleeding under the skin</skos:definition>
         <ns0:creator>MC</ns0:creator>
         <ns0:source>biocaster</ns0:source>
         <ns0:created>2011-03-31</ns0:created>
         <skos:changeNote></skos:changeNote>
+        <skos:altLabel xml:lang="en"
+            >subcutaneous bleed</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >subcutaneous bleeding</skos:altLabel>
         <resource:dataCategory>symptom</resource:dataCategory>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <skos:editorialNote></skos:editorialNote>
+        <ns0:modified>2011-05-19</ns0:modified>
+        <skos:altLabel xml:lang="en"
+            >subcutaneous haemorrhage</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >subcutaneous hemmorrhage</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en"
             >subcutaneous hemorrhage</skos:prefLabel>
-        <skos:altLabel xml:lang="en"
-            >subcutaneous hemorrhage</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;hemorrhagicSyndrome"/>
     </owl:Thing>
@@ -11208,17 +11270,34 @@
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_728</skos:notation>
         <skos:definition
             >Bleeding under a nail</skos:definition>
+        <ns0:modified>2011-05-19</ns0:modified>
+        <skos:editorialNote
+            >2011-05-19 - Added hiddenLabel and altLabel (MC)</skos:editorialNote>
+        <ns0:created>2011-03-31</ns0:created>
         <ns0:source>biocaster</ns0:source>
         <ns0:creator>MC</ns0:creator>
-        <skos:editorialNote></skos:editorialNote>
         <skos:changeNote></skos:changeNote>
-        <resource:dataCategory>symptom</resource:dataCategory>
-        <ns0:created>2011-03-31</ns0:created>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <skos:altLabel xml:lang="en"
+            >bleeding under fingernail</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >bleeding under nail</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >bleeding under toenail</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >blood under nail</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >blood under toenail</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">jogger&#39;s toe</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">joggers toe</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >subungal hematoma</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en"
             >subungual hematoma</skos:prefLabel>
         <skos:altLabel xml:lang="en"
             >subungual hematoma</skos:altLabel>
+        <resource:dataCategory>symptom</resource:dataCategory>
+        <skos:altLabel xml:lang="en"
+            >blood under fingernail</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;hemorrhagicSyndrome"/>
     </skos:Concept>
@@ -11475,17 +11554,20 @@
         <skos:changeNote></skos:changeNote>
         <skos:definition
             >Decrease in the number of platelets in the blood</skos:definition>
-        <skos:editorialNote></skos:editorialNote>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <ns0:modified>2011-05-19</ns0:modified>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:source>biocaster</ns0:source>
         <ns0:creator>MC</ns0:creator>
+        <skos:editorialNote
+            >2011-05-19 - Added hiddenLabel (MC)</skos:editorialNote>
         <skos:altLabel xml:lang="en">low platelets</skos:altLabel>
         <ns0:source>sso</ns0:source>
         <skos:altLabel xml:lang="en"
             >thrombocytopenia</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >thrombocytopenia</skos:prefLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >thromboyctopania</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;hemorrhagicSyndrome"/>
     </owl:Thing>
@@ -11935,14 +12017,22 @@
             >Hemorrhage from the vagina</skos:definition>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:changeNote></skos:changeNote>
+        <ns0:modified>2011-05-19</ns0:modified>
         <ns0:source>rods</ns0:source>
-        <skos:editorialNote></skos:editorialNote>
+        <skos:editorialNote
+            >2011-05-19 - Added altLabels (MC)</skos:editorialNote>
         <ns0:created>2011-03-31</ns0:created>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <skos:altLabel xml:lang="en"
+            >bleeding from vagina</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >hemorrhaging vagina</skos:altLabel>
+        <skos:altLabel xml:lang="en">vaginal bleed</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >vaginal bleeding</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >vaginal bleeding</skos:prefLabel>
+        <skos:altLabel xml:lang="en"
+            >vaginal hemorrhage</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:related rdf:resource="&resource;bleedingFromGums"/>
         <p1:hasSuperordinateConcept rdf:resource="&resource;bleedingFromOrifices"/>
@@ -12256,13 +12346,13 @@
         <skos:editorialNote
             >2011-05-19 - Added hiddenLabels (MC)</skos:editorialNote>
         <ns0:creator>MC</ns0:creator>
-        <resource:dataCategory>symptom</resource:dataCategory>
-        <ns0:source>syndrome_cc</ns0:source>
-        <ns0:modified>2011-05-19 </ns0:modified>
-        <ns0:source>sso</ns0:source>
-        <skos:changeNote></skos:changeNote>
         <skos:hiddenLabel xml:lang="en"
             >can&#39;t hold food down</skos:hiddenLabel>
+        <resource:dataCategory>symptom</resource:dataCategory>
+        <ns0:source>syndrome_cc</ns0:source>
+        <ns0:source>sso</ns0:source>
+        <ns0:modified>2011-05-19</ns0:modified>
+        <skos:changeNote></skos:changeNote>
         <skos:hiddenLabel xml:lang="en"
             >cant hold food down</skos:hiddenLabel>
         <skos:hiddenLabel xml:lang="en">d &amp; v</skos:hiddenLabel>
