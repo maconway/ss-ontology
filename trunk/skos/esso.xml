@@ -307,14 +307,14 @@
         <ns0:title
             >Extended syndromic surveillance ontology</ns0:title>
         <ns0:format>SKOS</ns0:format>
-        <ns0:hasVersion
-            >SVN:  $Revision$</ns0:hasVersion>
         <ns0:description
             >The Extended Syndromic Surveillance Ontology is a terminological ontology/application ontology designed to facilitate NLP for syndromic surveillance.  The ontology uses data from the Syndromic Surveillance Ontology</ns0:description>
         <ns0:modfied>SVN:  $Date$</ns0:modfied>
         <ns0:creator>J.Dowling</ns0:creator>
         <ns0:subject
             >Syndromic surveillance</ns0:subject>
+        <ns0:hasVersion
+            >SVN:  $Revision$</ns0:hasVersion>
         <ns0:creator>W.Chapman</ns0:creator>
         <skos:hasTopConcept rdf:resource="&resource;botulismSyndrome"/>
         <skos:hasTopConcept rdf:resource="&resource;constitutionalSyndrome"/>
@@ -1484,13 +1484,13 @@
     <owl:Thing rdf:about="&resource;breathSoundsDecreased">
         <rdf:type rdf:resource="&skos;Concept"/>
         <ns0:created>2011-03-31</ns0:created>
+        <ns0:modified>2011-06-02</ns0:modified>
         <ns0:source>respiratory</ns0:source>
         <skos:changeNote></skos:changeNote>
         <ns0:creator>MC</ns0:creator>
         <skos:editorialNote
             >2011-06-02 - added altLabels (MC)</skos:editorialNote>
         <resource:dataCategory>symptom</resource:dataCategory>
-        <ns0:modified>2011-06-02 </ns0:modified>
         <skos:definition
             >A decrease in breath sounds on auscultation</skos:definition>
         <skos:altLabel xml:lang="en"
@@ -6693,8 +6693,8 @@
 
     <!-- http://www.extended_sso.org/resource#laryngitis -->
 
-    <owl:Thing rdf:about="&resource;laryngitis">
-        <rdf:type rdf:resource="&skos;Concept"/>
+    <skos:Concept rdf:about="&resource;laryngitis">
+        <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >464.0:Acute laryngitis</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsAltLabel"
@@ -6706,25 +6706,25 @@
         <skos:notation rdf:datatype="&resource;englishRegExp"
             >\blaryngeal\s+tracit.*?\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\blaryngitis\b</skos:notation>
-        <skos:editorialNote></skos:editorialNote>
         <resource:dataCategory>disease</resource:dataCategory>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <skos:changeNote></skos:changeNote>
-        <ns0:source>syndrome_cc</ns0:source>
+        <skos:editorialNote
+            >2011-06-05 - Added hiddenLabel (MC)</skos:editorialNote>
+        <ns0:modified>2011-06-05</ns0:modified>
         <ns0:source>sso</ns0:source>
         <ns0:created>2011-03-31</ns0:created>
+        <skos:changeNote></skos:changeNote>
         <ns0:creator>MC</ns0:creator>
+        <ns0:source>syndrome_cc</ns0:source>
         <skos:definition
             >Inflammation of the larynx</skos:definition>
-        <skos:altLabel xml:lang="en"
-            >laryngeal tracititis</skos:altLabel>
-        <skos:altLabel xml:lang="en">laryngitis</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >laryngeal tracititis</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en">laryngitis</skos:prefLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;hoarseness"/>
         <skos:broader rdf:resource="&resource;sensitiveRespiratorySyndrome"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;soreThroat"/>
-    </owl:Thing>
+    </skos:Concept>
     
 
 
@@ -7048,8 +7048,9 @@
         <ns0:created>2011-03-31</ns0:created>
         <ns0:creator>MC</ns0:creator>
         <ns0:modified>2011-03-31</ns0:modified>
-        <skos:altLabel xml:lang="en"
-            >lower respiratory infection</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">lower resp inf</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >lower resp infection</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en"
             >lower respiratory infection</skos:prefLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
@@ -7416,6 +7417,7 @@
             >Melioidosis, which is found in either acute or chronic form, is an infectious disease caused by Burkholderia pseudomallii, a gram-negative aerobic bacterium that occurs in the soil and water in Southeast Asia and northern Australia that are endemic areas. The characteristic symptoms include lymphangitis with septicemia, fever, cough, chest pain, and diarrhea.</skos:definition>
         <resource:dataCategory>disease</resource:dataCategory>
         <ns0:creator>MC</ns0:creator>
+        <skos:altLabel xml:lang="en">burkholderia</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >burkholderia pseudomallei</skos:altLabel>
         <skos:prefLabel xml:lang="en">melioidosis</skos:prefLabel>
@@ -7696,10 +7698,16 @@
         <ns0:source>sso</ns0:source>
         <ns0:creator>MC</ns0:creator>
         <ns0:source>cc_ontology</ns0:source>
+        <skos:hiddenLabel xml:lang="en">nasal cong</skos:hiddenLabel>
+        <skos:altLabel xml:lang="en"
+            >nasal congestion</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >nasal congestion</skos:prefLabel>
         <skos:altLabel xml:lang="en"
-            >nasal|nose + stuff*|cong*|conj*</skos:altLabel>
+            >nasal stuffiness</skos:altLabel>
+        <skos:altLabel xml:lang="en">nose congested</skos:altLabel>
+        <skos:altLabel xml:lang="en">nose stuffiness</skos:altLabel>
+        <skos:altLabel xml:lang="en">stuffy nose</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:related rdf:resource="&resource;coryza"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;measles"/>
@@ -8107,6 +8115,7 @@
         <skos:changeNote></skos:changeNote>
         <skos:altLabel xml:lang="en">otalgia</skos:altLabel>
         <skos:prefLabel xml:lang="en">otalgia</skos:prefLabel>
+        <skos:hiddenLabel xml:lang="en">otalgie</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:related rdf:resource="&resource;earache"/>
         <p1:hasSuperordinateConcept rdf:resource="&resource;earache"/>
@@ -8146,9 +8155,9 @@
             >Inflammation of the external ear</skos:definition>
         <skos:changeNote></skos:changeNote>
         <skos:altLabel xml:lang="en">external otitis</skos:altLabel>
-        <skos:altLabel xml:lang="en">oe</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">oe</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en">otitis externa</skos:prefLabel>
-        <skos:altLabel xml:lang="en">ototis externa</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">ototis externa</skos:hiddenLabel>
         <ns0:source>sso</ns0:source>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;blisters"/>
@@ -8640,7 +8649,6 @@
         <skos:changeNote></skos:changeNote>
         <ns0:source>biocaster</ns0:source>
         <skos:altLabel xml:lang="en">pestis</skos:altLabel>
-        <skos:altLabel xml:lang="en">plague</skos:altLabel>
         <skos:prefLabel xml:lang="en">plague</skos:prefLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;cough"/>
@@ -8686,11 +8694,8 @@
         <ns0:source>sso</ns0:source>
         <resource:dataCategory
             >chest_radiography</resource:dataCategory>
-        <skos:altLabel xml:lang="en"
-            >pleural effusion</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >pleural effusion</skos:prefLabel>
-        <skos:altLabel xml:lang="en">pleuritis</skos:altLabel>
         <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:source>syndrome_cc</ns0:source>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
@@ -8731,7 +8736,6 @@
         <resource:dataCategory>disease</resource:dataCategory>
         <ns0:created>2011-03-31</ns0:created>
         <skos:prefLabel xml:lang="en">pleurisy</skos:prefLabel>
-        <skos:altLabel xml:lang="en">pleurisy</skos:altLabel>
         <skos:altLabel xml:lang="en">pluritis</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;chestPain"/>
@@ -8986,9 +8990,18 @@
         <skos:definition
             >Inflammatory disease of the lungs</skos:definition>
         <skos:editorialNote></skos:editorialNote>
-        <skos:prefLabel xml:lang="en">pneumonitis</skos:prefLabel>
+        <skos:altLabel xml:lang="en"
+            >inflamation of lungs</skos:altLabel>
         <ns0:source>sso</ns0:source>
         <ns0:source>cc_ontology</ns0:source>
+        <skos:altLabel xml:lang="en"
+            >inflammation of lung</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >inflammation of the lungs</skos:altLabel>
+        <skos:altLabel xml:lang="en">lung inflamed</skos:altLabel>
+        <skos:altLabel xml:lang="en"
+            >lung inflammation</skos:altLabel>
+        <skos:prefLabel xml:lang="en">pneumonitis</skos:prefLabel>
         <skos:hiddenLabel xml:lang="en">pneumonitits</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;chill"/>
@@ -9064,16 +9077,16 @@
         <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:creator>MC</ns0:creator>
         <skos:editorialNote></skos:editorialNote>
-        <skos:altLabel xml:lang="en"
-            >cough - productive</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >cough is productive</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >cough was productive</skos:altLabel>
-        <skos:altLabel xml:lang="en">phlegm</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >cough - productive</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >cough is productive</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >cough was productive</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en"
             >productive cough</skos:prefLabel>
         <ns0:source>syndrome_cc</ns0:source>
+        <skos:hiddenLabel xml:lang="en">phlegm cough</skos:hiddenLabel>
         <skos:altLabel xml:lang="en"
             >productive coughing</skos:altLabel>
         <skos:altLabel xml:lang="en">sputum</skos:altLabel>
@@ -9210,7 +9223,7 @@
         <skos:altLabel xml:lang="en"
             >pulmonary artery clot</skos:altLabel>
         <skos:altLabel xml:lang="en"
-            >pulmonary embolus</skos:altLabel>
+            >pulmonary embolism</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >pulmonary embolus</skos:prefLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
@@ -9302,6 +9315,8 @@
         <ns0:created>2011-03-31</ns0:created>
         <ns0:creator>MC</ns0:creator>
         <ns0:source>biocaster</ns0:source>
+        <skos:hiddenLabel xml:lang="en"
+            >coxiella burnetii</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">q fever</skos:altLabel>
         <skos:prefLabel xml:lang="en">q fever</skos:prefLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
@@ -9525,8 +9540,8 @@
         <skos:altLabel xml:lang="en">bronchospasm</skos:altLabel>
         <skos:altLabel xml:lang="en">chest tight</skos:altLabel>
         <resource:dataCategory>disease</resource:dataCategory>
-        <skos:altLabel xml:lang="en">r a d</skos:altLabel>
-        <skos:altLabel xml:lang="en">rad</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">r a d</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">rad</skos:hiddenLabel>
         <skos:altLabel xml:lang="en"
             >reactive airway disease</skos:altLabel>
         <skos:prefLabel xml:lang="en"
@@ -9666,7 +9681,6 @@
         <skos:changeNote></skos:changeNote>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:editorialNote></skos:editorialNote>
-        <skos:altLabel xml:lang="en">)]</skos:altLabel>
         <ns0:source>syndrome_cc</ns0:source>
         <ns0:creator>MC</ns0:creator>
         <skos:definition
@@ -9675,110 +9689,87 @@
         <skos:definition
             >Difficulty breathing</skos:definition>
         <ns0:created>2011-03-31</ns0:created>
+        <skos:hiddenLabel xml:lang="en">braeth</skos:hiddenLabel>
         <skos:altLabel xml:lang="en"
-            >ard to breat(he)</skos:altLabel>
-        <skos:altLabel xml:lang="en">braeth*</skos:altLabel>
-        <skos:altLabel xml:lang="en">breaht*</skos:altLabel>
+            >breathing difficulty</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en">breathing funny</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">breathing hard</skos:hiddenLabel>
         <skos:altLabel xml:lang="en"
-            >breat(hing) diff(iculty)</skos:altLabel>
+            >breathing heavily</skos:altLabel>
+        <skos:altLabel xml:lang="en">breathing issue</skos:altLabel>
         <skos:altLabel xml:lang="en"
-            >breat(hing) funny</skos:altLabel>
+            >breathing problems</skos:altLabel>
         <skos:altLabel xml:lang="en"
-            >breat(hing) hard</skos:altLabel>
+            >breathing trouble</skos:altLabel>
         <skos:altLabel xml:lang="en"
-            >breat(hing) heav(y/ily)</skos:altLabel>
+            >coarse breathing</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >course breathing</skos:hiddenLabel>
         <skos:altLabel xml:lang="en"
-            >breat(hing) issue</skos:altLabel>
+            >difficulty breathing</skos:altLabel>
         <skos:altLabel xml:lang="en"
-            >breat(hing) prob(lems)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >breat(hing) troub(le)</skos:altLabel>
-        <skos:altLabel xml:lang="en">breath*</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >coarse breat(hing)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >course breat(hing)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >diff(iculty) breat(hing)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >heavy breat(hing)</skos:altLabel>
+            >hard to breat(he)</skos:altLabel>
+        <skos:altLabel xml:lang="en">heavy breathing</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >hyperventilating</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >hyperventilation</skos:altLabel>
         <skos:altLabel xml:lang="en"
-            >labored breat(hing)</skos:altLabel>
+            >labored breathing</skos:altLabel>
         <skos:altLabel xml:lang="en"
-            >pneumonia-resp distress</skos:altLabel>
+            >laboured breathing</skos:altLabel>
         <skos:altLabel xml:lang="en"
-            >prob(lem) breat(hing)</skos:altLabel>
+            >pneumonia-respiratory distress</skos:altLabel>
         <skos:altLabel xml:lang="en"
-            >resp(iratory) breat(hing)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >resp(iratory) destress</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >resp(iratory) diff(iculty)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >resp(iratory) dist(ress)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >resp(iratory) prob(lems)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >resp(iratory) troub(le)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >respiratiory breat(hing)</skos:altLabel>
+            >problem breathing</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >respiratiory breathing</skos:hiddenLabel>
         <skos:altLabel xml:lang="en"
             >respiratiory destress</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >respiratiory diff(iculty)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >respiratiory dist(ress)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >respiratiory prob(lems)</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >respiratiory distress</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >respiratiory problems</skos:hiddenLabel>
         <skos:altLabel xml:lang="en"
             >respiratiory stress</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >respiratory destress</skos:hiddenLabel>
         <skos:altLabel xml:lang="en"
-            >respiratiory troub(le)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >respiratory distress</skos:altLabel>
+            >respiratory difficulty</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >respiratory distress</skos:prefLabel>
         <skos:altLabel xml:lang="en"
-            >respitory breat(hing)</skos:altLabel>
+            >respiratory problems</skos:altLabel>
         <skos:altLabel xml:lang="en"
-            >respitory destress</skos:altLabel>
+            >respiratory trouble</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >respitory difficulty</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >respitory distress</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >respitory problem</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >respitory trouble</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >respr difficulty</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en">respr distress</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >respriatory destress</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >respriatory distress</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >respriatory problems</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >respriatory stress</skos:hiddenLabel>
         <skos:altLabel xml:lang="en"
-            >respitory diff(iculty)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >respitory dist(ress)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >respitory prob(lems)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >respitory stress</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >respitory troub(le)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >respr diff(iculty)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >respr dist(ress)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >respr(iatory) breat(hing)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >respr(iatory) destress</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >respr(iatory) prob(lems)</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >respr(iatory) stress</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >respr(iatory) troub(le)</skos:altLabel>
-        <skos:altLabel xml:lang="en">retracting</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >shallow breat(hing)</skos:altLabel>
+            >shallow breathing</skos:altLabel>
         <skos:altLabel xml:lang="en">tachypnea</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >troub(le) breat(hing)</skos:altLabel>
-        <skos:altLabel xml:lang="en">wob</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >work of br(eathing)</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >trouble breathing</skos:hiddenLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >work of breathing</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;anthrax"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;asthma"/>
