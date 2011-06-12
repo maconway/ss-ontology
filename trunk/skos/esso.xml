@@ -1632,6 +1632,8 @@
             >C0006309:Brucellosis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C01.252.400.167:Brucellosis</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(brucel+osis|gibr.*?\s+fev.*?|bang.*?\s+dise.*?|medit.*?\s+fev.*?|rock\s+fev.*?|undu.*?\s+fev.*?|crimean*\s+fev.*?)\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <ns0:modified>2011-05-11</ns0:modified>
         <skos:definition
@@ -1933,6 +1935,8 @@
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0024228:Adenopathy</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(cerv.*?\s+adenop.*?|neck\s+adenop.*?)b</skos:notation>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:editorialNote
             >2011-05-11  - Added altLabel
@@ -2978,22 +2982,24 @@
             >078.5:cytomegalic inclusion virus disease</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C02.256.466.245:Cytomegalovirus Infections</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(cmv|c\.m\.v\.|cytomeg.*?\s+dis.*?)\b</skos:notation>
+        <resource:dataCategory>disease</resource:dataCategory>
         <ns0:creator>MC</ns0:creator>
         <skos:changeNote></skos:changeNote>
         <ns0:modified>2011-05-11</ns0:modified>
         <skos:editorialNote
             >2011-05-11 - Corrected spelling of &#39;disease&#39; in altLabel</skos:editorialNote>
-        <skos:altLabel xml:lang="en">CMV</skos:altLabel>
         <ns0:source>icd</ns0:source>
         <ns0:created>2011-03-31</ns0:created>
+        <skos:altLabel xml:lang="en">CMV</skos:altLabel>
         <skos:altLabel xml:lang="en">CMV disease</skos:altLabel>
         <skos:definition
             >Disease due to cytomegalovirus, a Herpes virus</skos:definition>
-        <skos:altLabel xml:lang="en"
-            >cytomegaloviral disease</skos:altLabel>
-        <resource:dataCategory>disease</resource:dataCategory>
         <skos:prefLabel xml:lang="en"
             >cytomegalo viral disease</skos:prefLabel>
+        <skos:altLabel xml:lang="en"
+            >cytomegaloviral disease</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;constitutionalSyndrome"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;extremityNumbness"/>
@@ -4397,6 +4403,10 @@
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">637</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0041473:Epidemic typhus</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b((ship|petechial|famine|camp|hospital|jail|putrid)\s+fev.*?|typhus)\b</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\bepi.*?\s+typh.*?\b</skos:notation>
         <resource:dataCategory>disease</resource:dataCategory>
         <ns0:created>2011-03-31</ns0:created>
         <skos:changeNote
@@ -4548,17 +4558,19 @@
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0581876:Crying infant</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(cry*.?\s+exces.*?|exces.*?\s+cry.*?)\b</skos:notation>
         <ns0:source>icd</ns0:source>
         <ns0:creator>MC</ns0:creator>
-        <skos:changeNote></skos:changeNote>
         <skos:hiddenLabel>excesive crying</skos:hiddenLabel>
+        <skos:changeNote></skos:changeNote>
         <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:created>2011-03-31</ns0:created>
         <skos:definition
             >Exceeding the usual amount of crying</skos:definition>
-        <skos:hiddenLabel>crying infantt</skos:hiddenLabel>
         <skos:editorialNote
             >2011-05-12 - Added altLabels and hiddenLabels</skos:editorialNote>
+        <skos:hiddenLabel>crying infantt</skos:hiddenLabel>
         <ns0:modified>2011-05-12</ns0:modified>
         <skos:altLabel xml:lang="en"
             >crying excessive</skos:altLabel>
@@ -4853,6 +4865,8 @@
             >C0039070:Fainting</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.606.358.800.600:Syncope</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(faint.*?|feint.*?)\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <skos:definition
             >A temporary cessation of consciousness</skos:definition>
@@ -7138,6 +7152,8 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C01.252.400.155.569:Lyme Disease</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_131</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\bl.me\s+dis.*?\b</skos:notation>
         <ns0:modified>2011-05-12</ns0:modified>
         <ns0:creator>MC</ns0:creator>
         <skos:editorialNote
@@ -7554,6 +7570,8 @@
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">235</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0025306:Meningococcaemia</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\bmeningoco.*?\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <skos:editorialNote
             >2011-05-12 - Added hiddenLabels and altLabels</skos:editorialNote>
@@ -8076,6 +8094,8 @@
 
     <owl:Thing rdf:about="&resource;notDrinking">
         <rdf:type rdf:resource="&skos;Concept"/>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(decr.*?\s+liq.*?\s+cons.*?|not\s+drink.*?)\b</skos:notation>
         <skos:editorialNote
             >2011-05-12 - Added hiddenLabel and removed redundant altLabel</skos:editorialNote>
         <ns0:modified>2011-05-12</ns0:modified>
@@ -8109,6 +8129,8 @@
             >C0029291:Ornithosis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C01.252.400.210.250.600:Psittacosis</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(ornitho.*?|parrot.*?|parake.*?|psittaco.*?)\s+(fev.*?|dis.*?)\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <resource:dataCategory>bioterrorism</resource:dataCategory>
         <ns0:created>2011-03-31</ns0:created>
@@ -9980,6 +10002,8 @@
             >C0035436:Rheumatic Fever</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C01.252.410.890.731:Rheumatic Fever</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\brheumat.*?\s+fev.*?\b</skos:notation>
         <skos:definition
             >Rheumatic fever often develops after having a bout of strep throat or scarlet fever that is caused by Group A streptococcus pyogenes. Rheumatic fever commonly infects the heart, joints, skin, and the brain in children 6 -15 years of age.</skos:definition>
         <ns0:source>biocaster</ns0:source>
@@ -10523,6 +10547,8 @@
             >C0036690:Sepsis (Septicemia)</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C01.539.757:Sepsis</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(sepsis|bacteremia|systemi.*?\s+infl.*?\s+respo.*?\s+syn.*?)\b</skos:notation>
         <ns0:modified>2011-05-12</ns0:modified>
         <skos:editorialNote
             >2011-05-12:  - Added additional altLabels.</skos:editorialNote>
@@ -11708,6 +11734,7 @@
             >C0038990:Sweating</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >G07.110.232.693:Sweating</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp">\bsweat.*?\b</skos:notation>
         <skos:editorialNote
             >2011-5-12 - &#39;Sweating&#39; is distinct from &#39;sweats&#39; (concept diaphoresis)</skos:editorialNote>
         <skos:changeNote></skos:changeNote>
@@ -11717,6 +11744,7 @@
         <ns0:source>icd</ns0:source>
         <skos:definition>Persperation</skos:definition>
         <ns0:created>2011-03-31</ns0:created>
+        <skos:altLabel xml:lang="en">sweat</skos:altLabel>
         <skos:prefLabel xml:lang="en">sweating</skos:prefLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;constitutionalSyndrome"/>
@@ -11767,6 +11795,8 @@
             >785.0:Tachycardia, unspecified</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0039231:Tachycardia</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(tachy.*?|fast\s+heart\s+rate|accel.*?\s+heart\s+rate|rapid\s+heart\s+rate)\b</skos:notation>
         <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:creator>MC</ns0:creator>
         <ns0:source>respiratory</ns0:source>
@@ -12161,6 +12191,8 @@
             >C0041351:Tularaemia (Tularemia)</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C01.252.400.825.900:Tularemia</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(tular.mi.*?|deer\s+fly\s+fev.*?|francisella\s+tularensis|rabbit\s+fev.*?|o.hara\s+fev.*?|pahvant\s+valley\s+plague)\b</skos:notation>
         <resource:dataCategory>disease</resource:dataCategory>
         <skos:changeNote></skos:changeNote>
         <ns0:modified>2011-05-12</ns0:modified>
@@ -12210,6 +12242,8 @@
             >C0041466:Typhoid Fever</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C01.252.400.310.821.873:Typhoid Fever</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(typhoi.*?|salmonel+osis|salmonella\s+typ.*)\b</skos:notation>
         <skos:editorialNote
             >2011-05-12  - Added altTerms and hiddenLabel
                       - Removed redundant altLabel</skos:editorialNote>
@@ -12463,6 +12497,8 @@
             >079.99:Unspecified viral infection</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0042769:Viral infection NOS</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\bvir.*?\s+inf.*?\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:source>icd</ns0:source>
         <resource:dataCategory>disease</resource:dataCategory>
@@ -12501,8 +12537,10 @@
     <owl:Thing rdf:about="&resource;viralSymptoms">
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsAltLabel">C0042769:virus</skos:notation>
-        <skos:notation rdf:datatype="&resource;englishRegExp">\bviral\b</skos:notation>
-        <skos:notation rdf:datatype="&resource;englishRegExp">\bvirus\b</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\bviral\ssym.*?\b</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\bvirus.*?sym.*?\b</skos:notation>
         <skos:changeNote></skos:changeNote>
         <skos:editorialNote
             >2011-05-18 - added hidden label (MC)</skos:editorialNote>
@@ -12514,13 +12552,13 @@
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:definition
             >Symptoms caused by a virus, ofter upper respiratory or gastrointestinal</skos:definition>
-        <skos:altLabel xml:lang="en">viral</skos:altLabel>
         <skos:hiddenLabel xml:lang="en">viral sym</skos:hiddenLabel>
         <skos:hiddenLabel xml:lang="en">viral sym.</skos:hiddenLabel>
         <skos:hiddenLabel xml:lang="en">viral symp.</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">viral symptom</skos:altLabel>
+        <skos:altLabel xml:lang="en">viral symptoms</skos:altLabel>
         <skos:prefLabel xml:lang="en">viral symptoms</skos:prefLabel>
-        <skos:altLabel xml:lang="en">virus</skos:altLabel>
+        <skos:altLabel xml:lang="en">virus symptoms</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;constitutionalSyndrome"/>
         <skos:broader rdf:resource="&resource;influenzaLikeIllnessSyndrome"/>
@@ -12841,6 +12879,8 @@
             >C0043096:WEIGHTLOSS</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C23.888.144.243.963:Weight Loss</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(weight\s+los+|los+\s+of\s+weight)\b</skos:notation>
         <skos:definition
             >Decreased body weight</skos:definition>
         <ns0:modified>2011-05-18</ns0:modified>
