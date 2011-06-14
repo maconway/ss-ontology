@@ -300,14 +300,14 @@
         <ns0:audience
             >We aim to appeal to two groups of users.  First, those seeking a reference for standard syndrome definitions.  Second, those seeking to automate syndromic surveillance</ns0:audience>
         <ns0:created>2011-03-31</ns0:created>
+        <ns0:hasVersion
+            >SVN:  $Revision$</ns0:hasVersion>
         <ns0:alternative>Extended SSO</ns0:alternative>
         <ns0:creator>M.Conway</ns0:creator>
         <ns0:format>SKOS</ns0:format>
         <ns0:title
             >Extended syndromic surveillance ontology</ns0:title>
         <ns0:modfied>SVN:  $Date$</ns0:modfied>
-        <ns0:hasVersion
-            >SVN:  $Revision$</ns0:hasVersion>
         <ns0:language>English</ns0:language>
         <ns0:description
             >The Extended Syndromic Surveillance Ontology is a terminological ontology/application ontology designed to facilitate NLP for syndromic surveillance.  The ontology uses data from the Syndromic Surveillance Ontology</ns0:description>
@@ -337,7 +337,9 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0000731:ABDOMINAL DISTENTION</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
-            >abdominal distension, abdominal organomegally</skos:notation>
+            >\b(abdom.*?\s+disten.*?|abdom.*?\s+organom.*?|disten.*?\s+of\s+abdom.*?|disten.*?\s+abdo.*?)\b</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\borgano.*?\s+of\s+(the)*\s*abdo.*?\b</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsAltLabel"
             >abdominal distension, abdominal organomegally</skos:notation>
         <skos:definition
@@ -514,6 +516,8 @@
             >789.4:Abdominal rigidity</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0159066:DAbdominal rigidity</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(abd.*?\s+rigid.*?|stiff.*?\s+abd.*?|rigi.*?\s+abd.*?|abd.*?\s+rig.*?)\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <skos:changeNote></skos:changeNote>
         <skos:definition
@@ -852,6 +856,8 @@
             >C0003615:Appendicitis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C06.405.205.099:Appendicitis</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(appendici.*?|rlq|right\s+lower\+quad.*?)\b</skos:notation>
         <skos:editorialNote
             >2011-05-18 - Added hiddenLabel</skos:editorialNote>
         <ns0:creator>MC</ns0:creator>
@@ -1071,6 +1077,8 @@
             >C0178496:Bacterial food poisoning</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C21.613.415:Foodborne Diseases</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(bacte.*?|staph.*?)\s+food\s+pois.*?\b</skos:notation>
         <resource:dataCategory>disease</resource:dataCategory>
         <ns0:modified>2011-05-18</ns0:modified>
         <ns0:source>icd</ns0:source>
@@ -1161,6 +1169,8 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C2230227:bleeding gums</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_103</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(bleed.*?\s+(from)*\s*gum.*?|gum.*?\s+bleed.*?)\b</skos:notation>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:editorialNote
             >2011-05-19 - Added altLabels (MC)</skos:editorialNote>
@@ -1193,9 +1203,11 @@
     <skos:Concept rdf:about="&resource;bleedingFromOrifices">
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_99</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(bleed.*?\s+(from)*\s*orif.*?|orif.*?\s+bleed.*?)\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
-        <skos:changeNote></skos:changeNote>
         <ns0:created>2011-03-31</ns0:created>
+        <skos:changeNote></skos:changeNote>
         <ns0:source>biocaster</ns0:source>
         <ns0:modified>2011-05-19</ns0:modified>
         <resource:dataCategory>symptom</resource:dataCategory>
@@ -2201,6 +2213,8 @@
             >C0008354:Cholera</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C01.252.400.959.347:Cholera</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(cholera|colara|cholara|colera|cholere)\b</skos:notation>
         <ns0:modified>2011-05-18</ns0:modified>
         <skos:definition
             >Cholera is an acute infectious gastrointestinal disease, caused by consuming the water or food that is contaminated with the bacterium Vibrio cholerae.</skos:definition>
@@ -2402,6 +2416,8 @@
             >C0009319:Colitis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C06.405.205.265:Colitis</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(colitis|colitides|colon\s+inflammation|inflammation\s+of\s+(the)*\s*colon)\b</skos:notation>
         <ns0:modified>2011-05-18</ns0:modified>
         <ns0:creator>MC</ns0:creator>
         <ns0:created>2011-03-31</ns0:created>
@@ -2812,6 +2828,8 @@
             >C0010346:Crohns Disease</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C06.405.205.731.500:Crohn Disease</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(crohn.s|crohns|regional\s+enteritis|crone.s|crones|krones|krone.s|chrones|chrone.s)\b</skos:notation>
         <ns0:modified>2011-05-18</ns0:modified>
         <resource:dataCategory>disease</resource:dataCategory>
         <skos:definition
@@ -3776,6 +3794,8 @@
             >C0013369:Dysentery</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C06.405.205.331:Dysentery</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(dysentery|dysentry|dysentory|disentery|disentary)\b</skos:notation>
         <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:modified>2011-05-18</ns0:modified>
         <skos:changeNote></skos:changeNote>
@@ -4195,7 +4215,8 @@
             >C0042963:Vomiting</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C23.888.821.937:Vomiting</skos:notation>
-        <skos:notation rdf:datatype="&resource;englishRegExp">\bemesis\b</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp">\bem.sis\b</skos:notation>
+        <skos:hiddenLabel rdf:datatype="&resource;englishRegExp">emisis</skos:hiddenLabel>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:changeNote></skos:changeNote>
         <skos:definition>Vomiting</skos:definition>
@@ -4368,6 +4389,8 @@
             >C0014335:enteritis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C06.405.205.462:Enteritis</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(enteritis|illeitis)\b</skos:notation>
         <ns0:modified>2011-03-31</ns0:modified>
         <ns0:creator>MC</ns0:creator>
         <ns0:created>2011-03-31</ns0:created>
@@ -4379,7 +4402,6 @@
         <skos:changeNote></skos:changeNote>
         <skos:prefLabel xml:lang="en">enteritis</skos:prefLabel>
         <skos:hiddenLabel xml:lang="en">enteritis</skos:hiddenLabel>
-        <skos:hiddenLabel xml:lang="en">illeitis</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;abdominalPain"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;abdominalRigidity"/>
@@ -5311,16 +5333,18 @@
             >578.9:Gastrointestinal Bleeding NOS</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0017181:Gastrointestinal bleeding</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(gastro.*?\s+bleed.*?|gi\sbleed.*?|g\.i\.\s+bleed.*?)\b</skos:notation>
         <ns0:modified>2011-05-11</ns0:modified>
         <skos:changeNote></skos:changeNote>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:source>rods</ns0:source>
         <skos:definition
             >Bleeding into the bowel</skos:definition>
+        <ns0:creator>MC</ns0:creator>
         <skos:editorialNote
             >2011-05-11 - Added hiddenLabels
                      - Changed altLabels</skos:editorialNote>
-        <ns0:creator>MC</ns0:creator>
         <skos:altLabel xml:lang="en">g.i. bleed</skos:altLabel>
         <skos:altLabel xml:lang="en">g.i. bleeding</skos:altLabel>
         <skos:hiddenLabel xml:lang="en">gastro bleed</skos:hiddenLabel>
@@ -5639,6 +5663,8 @@
             >C0018932:Haematochezia</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C23.550.414.788:Gastrointestinal Hemorrhage</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(hematoche.*?|blood.*?\s+stool.*?|blood.*?\s+in\+stool.*?|stool.*?\s+blood.*?)\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <skos:definition
             >Blood in the feces</skos:definition>
@@ -7443,6 +7469,8 @@
             >C0025222:MELAENA</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C06.405.227.600:Melena</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(melena|tarr.*\s+stool.*?|melaena|(black|dark)\s+blood.*?\s+(in)*\s*stool.*?)\b</skos:notation>
         <skos:definition>Black stools</skos:definition>
         <skos:editorialNote
             >2011-05-18 - Added altLabels</skos:editorialNote>
@@ -7477,6 +7505,8 @@
             >C0025229:Melioidosis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C01.252.400.170.531:Melioidosis</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(melioidosis|burkholderia)\b</skos:notation>
         <ns0:source>biocaster</ns0:source>
         <skos:editorialNote></skos:editorialNote>
         <resource:dataCategory>disease</resource:dataCategory>
@@ -10204,7 +10234,7 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0035870:Rotavirus</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
-            >\brot(o|a)virus\b</skos:notation>
+            >\b(rot(o|a)virus|rota\s+virus)\b</skos:notation>
         <ns0:modified>2011-05-19</ns0:modified>
         <ns0:source>syndrome_cc</ns0:source>
         <ns0:creator>MC</ns0:creator>
@@ -10628,6 +10658,8 @@
             >C0013371:Shigellosis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C06.405.205.331.479:Dysentery, Bacillary</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(shigel.*?|shigal.*?|shig|bacilary\s+dys.*?}bacillaric)\b</skos:notation>
         <ns0:created>2011-05-19</ns0:created>
         <ns0:source>icd</ns0:source>
         <resource:dataCategory>disease</resource:dataCategory>
@@ -11699,7 +11731,7 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0241310:DSuprapubic pain</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
-            >\bsupra.*?pubic\s+pain.*?\b</skos:notation>
+            >\bsupra.?pub.*?\s+pain.*?\b</skos:notation>
         <ns0:source>sso</ns0:source>
         <ns0:creator>MC</ns0:creator>
         <skos:changeNote></skos:changeNote>
@@ -12296,6 +12328,8 @@
             >C0009324:Ulcerative Colitis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C06.405.205.265.231:Colitis, Ulcerative</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(ulcerative\s+colitis|colitis\+ulcerative|colitis\s+ulcerosa)\b</skos:notation>
         <ns0:modified>2011-05-19</ns0:modified>
         <resource:dataCategory>disease</resource:dataCategory>
         <skos:editorialNote></skos:editorialNote>
@@ -12311,8 +12345,6 @@
         <ns0:source>icd</ns0:source>
         <skos:prefLabel xml:lang="en"
             >ulcerative colitis</skos:prefLabel>
-        <skos:altLabel xml:lang="en"
-            >ulcerative colitis</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;abdominalPain"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;bleedingFromOrifices"/>
@@ -12835,9 +12867,7 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0232708:Watery stool</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
-            >\bliqu.*?\s+stoo.*?\b</skos:notation>
-        <skos:notation rdf:datatype="&resource;englishRegExp"
-            >\bwater.*?\s+stool.*?\b</skos:notation>
+            >\b(water*.?\s+(stool.*?|faeces|feces)|liq.*?\s+(stool.*?|faeces|feces))\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <skos:definition
             >Abnormal liquidity of fecal discharges</skos:definition>
