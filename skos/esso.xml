@@ -299,9 +299,9 @@
         <rdf:type rdf:resource="&skos;ConceptScheme"/>
         <ns0:audience
             >We aim to appeal to two groups of users.  First, those seeking a reference for standard syndrome definitions.  Second, those seeking to automate syndromic surveillance</ns0:audience>
-        <ns0:created>2011-03-31</ns0:created>
         <ns0:hasVersion
             >SVN:  $Revision$</ns0:hasVersion>
+        <ns0:created>2011-03-31</ns0:created>
         <ns0:alternative>Extended SSO</ns0:alternative>
         <ns0:creator>M.Conway</ns0:creator>
         <ns0:format>SKOS</ns0:format>
@@ -1243,6 +1243,8 @@
 
     <owl:Thing rdf:about="&resource;bleedingFromSurgicalIncision">
         <rdf:type rdf:resource="&skos;Concept"/>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(ble+d.*?\s+from\s+surg.*?\s+in[cs]ision|bleed.*?\s+surg.*?\s+in[sc]ision|in[sc]ision\s+bleed.*?|bleed.*?\s+in[sc]ision)\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <skos:hiddenLabel
             >bleeding from surgical insicion</skos:hiddenLabel>
@@ -1279,6 +1281,8 @@
 
     <owl:Thing rdf:about="&resource;bleedingFromTubeOrCatheter">
         <rdf:type rdf:resource="&skos;Concept"/>
+        <skos:altLabel rdf:datatype="&resource;englishRegExp"
+            >\b(cathe.*?\s+ble+d.*?|ble+d.*?\s+(from)*\s+(cath.*?|tube))\b</skos:altLabel>
         <ns0:source>rods</ns0:source>
         <ns0:creator>MC</ns0:creator>
         <skos:changeNote></skos:changeNote>
@@ -2296,6 +2300,8 @@
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0005779:Coagulopathy</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(coagul.*?|(bleeding|clotting)\s+disorder)\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <skos:editorialNote
             >2011-05-19 - Added extra altLabels (MC)</skos:editorialNote>
@@ -4518,6 +4524,8 @@
             >C0014591:Epistaxis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C08.460.261:Epistaxis</skos:notation>
+        <skos:hiddenLabel rdf:datatype="&resource;englishRegExp"
+            >\b(epistaxis|nose.*?\sbleed.*?|hemorr.*?\s+from\s+nose|bleeding\s+nose|bleeding\s+from\s+nose)</skos:hiddenLabel>
         <skos:changeNote
             >2011-05-19 - Added altLabels (MC)</skos:changeNote>
         <ns0:modified>2011-05-19</ns0:modified>
@@ -5701,6 +5709,8 @@
             >C0149707:Haematospermia</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C12.294.293:Hemospermia</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(ha*ematospermia|blood.*?\s+in\s+(sperm|semen)|blood.*?\s+(sperm|semen)|blood\s+in\s+the\s+(semen|sperm)|decreased\s+(sperm|semen))\b</skos:notation>
         <skos:changeNote></skos:changeNote>
         <ns0:creator>MC</ns0:creator>
         <skos:editorialNote
@@ -5712,15 +5722,14 @@
         <ns0:created>2011-03-31</ns0:created>
         <skos:altLabel xml:lang="en">blood in semen</skos:altLabel>
         <skos:altLabel xml:lang="en">blood in sperm</skos:altLabel>
-        <ns0:source>rods</ns0:source>
-        <skos:altLabel xml:lang="en"
-            >blood in the semen</skos:altLabel>
         <skos:altLabel xml:lang="en">bloody semen</skos:altLabel>
         <skos:altLabel xml:lang="en">bloody sperm</skos:altLabel>
         <skos:altLabel xml:lang="en">decreased sperm</skos:altLabel>
         <skos:altLabel xml:lang="en">haematospermia</skos:altLabel>
-        <skos:altLabel xml:lang="en">hematospermia</skos:altLabel>
         <skos:prefLabel xml:lang="en">hematospermia</skos:prefLabel>
+        <ns0:source>rods</ns0:source>
+        <skos:altLabel xml:lang="en"
+            >blood in the semen</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;hemorrhagicSyndrome"/>
     </skos:Concept>
@@ -5736,6 +5745,8 @@
             >C0018965:HAEMATURIA</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C12.777.934.442:Hematuria</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(ha*ematuria|pink\s+urine|blood.*?\s+in\s+the\s+urine|blood.*?\s+urine)\b</skos:notation>
         <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:creator>MC</ns0:creator>
         <ns0:created>2011-03-31</ns0:created>
@@ -5878,11 +5889,12 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C23.550.414:Hemorrhage</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_180</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp">\bhem+orr.*?\b</skos:notation>
         <skos:definition>Bleeding</skos:definition>
         <skos:editorialNote
             >2011-05-19 - Added altLabel (MC)</skos:editorialNote>
-        <ns0:source>biocaster</ns0:source>
         <ns0:created>2011-03-31</ns0:created>
+        <ns0:source>biocaster</ns0:source>
         <ns0:modified>2011-05-19</ns0:modified>
         <skos:altLabel xml:lang="en">bleeding</skos:altLabel>
         <skos:altLabel xml:lang="en">haemorrhage</skos:altLabel>
@@ -5911,6 +5923,8 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0019104:Haemorrhagic fever</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYNDROME_1</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\bhem+orr.*?\s+fev.*?\s+syn.*?\b</skos:notation>
         <ns0:source>biocaster</ns0:source>
         <resource:dataCategory>disease</resource:dataCategory>
         <skos:changeNote></skos:changeNote>
@@ -6212,6 +6226,8 @@
             >C0043117:Purpura, Thrombocytopenic, Idiopathic</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C15.378.100.805.600:Purpura, Thrombocytopenic, Idiopathic</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(idio.*?\s+thromboc.*?\s+purpu.*?|itp|ecchymoses|purpora|purpura)\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <ns0:created>2011-03-31</ns0:created>
         <skos:editorialNote
@@ -6639,6 +6655,8 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C1717969:Internal bleeding</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_104</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(internal\s+bleed.*?|internal\s+ha*emorr.*?|bleed.*?\s+intern.*?)\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <ns0:modified>2011-05-19</ns0:modified>
         <ns0:source>biocaster</ns0:source>
@@ -6652,8 +6670,6 @@
             >bleeding internally</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >internal bleeding</skos:prefLabel>
-        <skos:altLabel xml:lang="en"
-            >internal bleeding</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >internal haemorrhage</skos:altLabel>
         <skos:altLabel xml:lang="en"
@@ -9683,6 +9699,8 @@
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0267596:Rectal bleeding</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(rect.*?\sbleed.*?|bleed.*?\s+rect.*?|rectal\s+bleed|bleed.*?\s+from\s+rectum)\b</skos:notation>
         <ns0:modified>2011-05-19</ns0:modified>
         <skos:changeNote
             >2011-05-19 - Added altLabels (MC)</skos:changeNote>
@@ -11589,6 +11607,8 @@
     <owl:Thing rdf:about="&resource;subcutaneousHemorrhage">
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_351</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\bsubcut.*?\s+(hem+or+ha.*?|bleed.*?)\b</skos:notation>
         <skos:editorialNote
             >2011-05-19 - Added altLabels and hiddenLabels (MC)</skos:editorialNote>
         <skos:definition
@@ -11656,6 +11676,8 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0474975:Subungual haematoma</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_728</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(subungual\s+hematoma|subungual\s+hematoma|bleeding\s+under\s+(toe|toe\s+|finger|finger\s+)nail.*?|(blood|bleeding)\s+under\s+(toe|toe\s+|finger|finger\s)nail.*?|(blood|bleeding)\s+under\s+nail.*?|jogger&#39;s\s+toe|jogger.*s\s+toe)\b</skos:notation>
         <skos:definition
             >Bleeding under a nail</skos:definition>
         <ns0:modified>2011-05-19</ns0:modified>
@@ -11946,6 +11968,8 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C15.378.140.855:Thrombocytopenia</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_156</skos:notation>
+        <skos:altLabel rdf:datatype="&resource;englishRegExp"
+            >\b(thrombocytopenia|low\s+plate.*?|thrombocytopania)\b</skos:altLabel>
         <skos:changeNote></skos:changeNote>
         <skos:definition
             >Decrease in the number of platelets in the blood</skos:definition>
@@ -11957,8 +11981,6 @@
             >2011-05-19 - Added hiddenLabel (MC)</skos:editorialNote>
         <skos:altLabel xml:lang="en">low platelets</skos:altLabel>
         <ns0:source>sso</ns0:source>
-        <skos:altLabel xml:lang="en"
-            >thrombocytopenia</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >thrombocytopenia</skos:prefLabel>
         <skos:hiddenLabel xml:lang="en"
@@ -12430,13 +12452,15 @@
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0151706:VAGINAL BLEEDING</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(hemorr.*?\s+vagina|vagin.*?\s+bleed.*?|bleed.*?\s+from\s+vagin.*?|bleed.*?\s+vagina)\b</skos:notation>
+        <skos:changeNote></skos:changeNote>
+        <ns0:source>rods</ns0:source>
         <ns0:creator>MC</ns0:creator>
         <skos:definition
             >Hemorrhage from the vagina</skos:definition>
         <resource:dataCategory>symptom</resource:dataCategory>
-        <skos:changeNote></skos:changeNote>
         <ns0:modified>2011-05-19</ns0:modified>
-        <ns0:source>rods</ns0:source>
         <skos:editorialNote
             >2011-05-19 - Added altLabels (MC)</skos:editorialNote>
         <ns0:created>2011-03-31</ns0:created>
