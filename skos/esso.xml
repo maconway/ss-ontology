@@ -899,6 +899,8 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0003862</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C05.550.091:Arthralgia</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(arthralgia|arthralgias|joint\s+pain|joint\s+pains|pain\s+in\s+joints?|arfralgias?)\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <ns0:modified>2011-05-20</ns0:modified>
         <skos:editorialNote
@@ -932,6 +934,8 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0004093</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C23.888.089:Asthenia</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(asthenia|weak\s+muscles?|muscles?\s+weakness|lacks\s+muscle\s+strength|lack\s+of\s+muscle\s+strength|weak\s+mucsles?|mucsle\s+weak.*?)\b</skos:notation>
         <skos:changeNote></skos:changeNote>
         <ns0:modified>2011-05-20</ns0:modified>
         <skos:editorialNote
@@ -2598,6 +2602,8 @@
             >C0009763:Conjunctivitis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C11.187.183:Conjunctivitis</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(conjunct.*?|pink\s+eyes?|madras\s+eyes?)\b</skos:notation>
         <skos:changeNote></skos:changeNote>
         <ns0:creator>MC</ns0:creator>
         <ns0:modified>2011-05-20</ns0:modified>
@@ -2717,6 +2723,8 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0009443</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C08.730.162:Common Cold</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(coryza|coriza)\b</skos:notation>
         <skos:changeNote></skos:changeNote>
         <ns0:creator>MC</ns0:creator>
         <skos:definition
@@ -5567,6 +5575,8 @@
             >C0018681:Headache</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.617.470:Headache</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(headach.*?|head\s+aches?|head\s+pains?|cephalgia|pains?\s+in\s+head|pains?\s+in\s+the\s+head)\b</skos:notation>
         <skos:editorialNote
             >2011-05-20 - Added altLabel and hiddenLabel</skos:editorialNote>
         <ns0:created>2011-03-31</ns0:created>
@@ -6190,6 +6200,8 @@
     <owl:Thing rdf:about="&resource;iLI">
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0521839</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(ili|influenza-like-illness|influenza-like\s+illness|i\.l\.i|influenza\s+like\s+il+ness|influenza-like-ilness|flu\s+like\s+illness|flu-like illness|flu\s+like\s+illness)\b</skos:notation>
         <resource:dataCategory>syndrome</resource:dataCategory>
         <skos:definition
             >Influenza Like Illness is a syndrome defined as the presence of fever and either cough or sore throat.</skos:definition>
@@ -7852,25 +7864,27 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0027429</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C08.618.846.185.525:Nasal Obstruction</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(nasal\s+obstruct.*?|block.*?\s+nasal\s+(passag.*?|cavi.*?)|block.*?\s+of\s+the\s+(nasal|nose)\s*(pass.*?|cavit.*?))\b</skos:notation>
+        <skos:definition
+            >Blockage of the nasal passage</skos:definition>
+        <resource:dataCategory>symptom</resource:dataCategory>
+        <ns0:modified>2011-03-31</ns0:modified>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:source>bn_flu</ns0:source>
         <ns0:creator>MC</ns0:creator>
         <skos:changeNote></skos:changeNote>
-        <skos:definition
-            >Blockage of the nasal passage</skos:definition>
         <skos:editorialNote></skos:editorialNote>
-        <resource:dataCategory>symptom</resource:dataCategory>
-        <ns0:modified>2011-03-31</ns0:modified>
-        <skos:altLabel xml:lang="en"
-            >nasal obstruction</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >nasal obstruction</skos:prefLabel>
+        <skos:altLabel xml:lang="en"
+            >nasal obstruction</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:related rdf:resource="&resource;coryza"/>
         <skos:broader rdf:resource="&resource;influenzaLikeIllnessSyndrome"/>
         <skos:related rdf:resource="&resource;nasalCongestion"/>
-        <skos:related rdf:resource="&resource;rhinitis"/>
         <p1:hasSuperordinateConcept rdf:resource="&resource;rhinitis"/>
+        <skos:related rdf:resource="&resource;rhinitis"/>
         <skos:related rdf:resource="&resource;rhinorrhea"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;sinusitis"/>
         <skos:related rdf:resource="&resource;sneezing"/>
@@ -8379,6 +8393,8 @@
     <owl:Thing rdf:about="&resource;painOnEyeMovement">
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0239430</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(pain\s+on\s+eye\s+mov.*?|painful\s+eye\s+movement)\b</skos:notation>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:editorialNote
             >2011-05-20 - Added hiddenLabel (MC)</skos:editorialNote>
@@ -8494,6 +8510,8 @@
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel">786.2:Cough</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0850149</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\bpersi.*?\s+non.?productive\s+cough\b</skos:notation>
         <ns0:modified>2011-05-20</ns0:modified>
         <ns0:creator>MC</ns0:creator>
         <ns0:created>2011-03-31</ns0:created>
@@ -8501,9 +8519,9 @@
             >2011-05-20 - Added altLabels (MC)</skos:editorialNote>
         <skos:changeNote></skos:changeNote>
         <resource:dataCategory>symptom</resource:dataCategory>
-        <ns0:source>bn_flu</ns0:source>
         <skos:definition
             >Pesistent cough without the production of sputum</skos:definition>
+        <ns0:source>bn_flu</ns0:source>
         <skos:altLabel xml:lang="en"
             >persistant non-productive cough</skos:altLabel>
         <skos:prefLabel xml:lang="en"
@@ -9269,6 +9287,8 @@
     <skos:Concept rdf:about="&resource;prostration">
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0277794</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(prostration|extreme\s+exhaustion|powerlessness)\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:source>bn_flu</ns0:source>
@@ -9521,6 +9541,8 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0034642</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C23.888.852.779:Respiratory Sounds</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(rales?|crackles?|crackling)\b</skos:notation>
         <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:source>bn_flu</ns0:source>
         <skos:definition
@@ -9532,7 +9554,6 @@
         <ns0:modified>2011-03-31</ns0:modified>
         <skos:altLabel xml:lang="en">crackles</skos:altLabel>
         <skos:altLabel xml:lang="en">crackling</skos:altLabel>
-        <skos:altLabel xml:lang="en">rales</skos:altLabel>
         <skos:prefLabel xml:lang="en">rales</skos:prefLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;anthrax"/>
@@ -11642,20 +11663,22 @@
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >786.5:Chest pain</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0235710</skos:notation>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(substernal\s+pain|precordial\s+pain|substernal\s+burn.*?|substernal\s+discomfort)\b</skos:notation>
         <skos:editorialNote></skos:editorialNote>
-        <ns0:created>2011-03-31</ns0:created>
         <ns0:source>bn_flu</ns0:source>
         <skos:definition
             >Discomfort or a burning sensation underneath the sternum</skos:definition>
         <resource:dataCategory>symptom</resource:dataCategory>
+        <ns0:modified>2011-03-31</ns0:modified>
+        <ns0:created>2011-03-31</ns0:created>
         <ns0:creator>MC</ns0:creator>
         <skos:changeNote></skos:changeNote>
         <skos:altLabel xml:lang="en">precordial pain</skos:altLabel>
         <skos:altLabel xml:lang="en"
-            >substernal discomfort</skos:altLabel>
+            >substernal burning</skos:altLabel>
         <skos:altLabel xml:lang="en"
-            >substernal discomfort or burning</skos:altLabel>
+            >substernal discomfort</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >substernal discomfort or burning</skos:prefLabel>
         <skos:altLabel xml:lang="en">substernal pain</skos:altLabel>
@@ -12629,6 +12652,8 @@
     <owl:Thing rdf:about="&resource;viralSyndrome">
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0042740</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\bviral\s+syn.*?\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <skos:editorialNote></skos:editorialNote>
         <resource:dataCategory>syndrome</resource:dataCategory>
