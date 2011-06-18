@@ -299,8 +299,6 @@
         <rdf:type rdf:resource="&skos;ConceptScheme"/>
         <ns0:audience
             >We aim to appeal to two groups of users.  First, those seeking a reference for standard syndrome definitions.  Second, those seeking to automate syndromic surveillance</ns0:audience>
-        <ns0:hasVersion
-            >SVN:  $Revision$</ns0:hasVersion>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:alternative>Extended SSO</ns0:alternative>
         <ns0:creator>M.Conway</ns0:creator>
@@ -308,6 +306,8 @@
         <ns0:title
             >Extended syndromic surveillance ontology</ns0:title>
         <ns0:modfied>SVN:  $Date$</ns0:modfied>
+        <ns0:hasVersion
+            >SVN:  $Revision$</ns0:hasVersion>
         <ns0:language>English</ns0:language>
         <ns0:description
             >The Extended Syndromic Surveillance Ontology is a terminological ontology/application ontology designed to facilitate NLP for syndromic surveillance.  The ontology uses data from the Syndromic Surveillance Ontology</ns0:description>
@@ -550,21 +550,23 @@
 
     <!-- http://www.extended_sso.org/resource#abnormalGait -->
 
-    <owl:Thing rdf:about="&resource;abnormalGait">
-        <rdf:type rdf:resource="&skos;Concept"/>
+    <skos:Concept rdf:about="&resource;abnormalGait">
+        <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >81.2:Abnormality of gait</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0575081:Abnormal gait</skos:notation>
-        <skos:definition
-            >Abnormal walking</skos:definition>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b((abnormal|unsteady)\s+(walk.*?|gait)|walk.*?\s+(abnorm.*?|unstead.*?)|stagger.*?)\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <skos:changeNote></skos:changeNote>
         <ns0:source>rods</ns0:source>
         <ns0:created>2011-03-31</ns0:created>
+        <resource:dataCategory>symptom</resource:dataCategory>
+        <skos:definition
+            >Abnormal walking</skos:definition>
         <skos:editorialNote
             >2011-05-26 - Added more altLabels.</skos:editorialNote>
-        <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:modified>2011-05-26</ns0:modified>
         <skos:prefLabel xml:lang="en">abnormal gait</skos:prefLabel>
         <skos:altLabel xml:lang="en"
@@ -579,7 +581,7 @@
         <skos:related rdf:resource="&resource;falling"/>
         <skos:related rdf:resource="&resource;lossOfBalance"/>
         <skos:broader rdf:resource="&resource;neurologicalSyndrome"/>
-    </owl:Thing>
+    </skos:Concept>
     
 
 
@@ -589,6 +591,8 @@
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >780.97:Altered mental status</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(alt.*?\s+mental\s+(status|state)|obtunded|mental\s+(state|status)\s+alt.*?)\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:modified>2011-05-26</ns0:modified>
         <resource:dataCategory>symptom</resource:dataCategory>
@@ -647,6 +651,8 @@
             >C0002622:Amnesia</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.606.525.100:Amnesia</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(amnesia|amnesiacs?|diff.*?\s+remem.*?|mem.*?\s+diff.*?|no\s+memory|amnezia|anmesia|ammnesia)\b</skos:notation>
         <skos:definition
             >Lack or loss of memory, especially inability to remember past experiences</skos:definition>
         <resource:dataCategory>symptom</resource:dataCategory>
@@ -1040,6 +1046,8 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0004134:Ataxia</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.350.090:Ataxia</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(ataxia|poor.*?\s+co.?ordinat.*?)\b</skos:notation>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:editorialNote
             >2011-05-26 - Added altLabels</skos:editorialNote>
@@ -1806,6 +1814,8 @@
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >436:Acute, but ill-defined, cerebrovascular disease</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(cerebral\s+hem.*?|cerebral\s+bleed.*?|stroke|ich|cerebrel\s+bleed.*?|cerabral\s+bleed.*?)\b</skos:notation>
         <skos:editorialNote
             >2011-05-26 - Added altLabel and hiddenLabel</skos:editorialNote>
         <resource:dataCategory>disease</resource:dataCategory>
@@ -1852,20 +1862,22 @@
 
     <!-- http://www.extended_sso.org/resource#cerebralDysfunction -->
 
-    <owl:Thing rdf:about="&resource;cerebralDysfunction">
-        <rdf:type rdf:resource="&skos;Concept"/>
+    <skos:Concept rdf:about="&resource;cerebralDysfunction">
+        <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >779.2:Cerebral depression, coma, and other abnormal cerebral signs</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0262405:CEREBRAL DYSFUNCTION</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_145</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\bcerebr.*?\s+d.sfunction\b</skos:notation>
+        <ns0:source>biocaster</ns0:source>
+        <ns0:creator>MC</ns0:creator>
         <ns0:modified>2011-03-31</ns0:modified>
         <ns0:created>2011-03-31</ns0:created>
-        <ns0:source>biocaster</ns0:source>
         <skos:editorialNote></skos:editorialNote>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:changeNote></skos:changeNote>
-        <ns0:creator>MC</ns0:creator>
         <skos:definition
             >Malfuction of the brain</skos:definition>
         <skos:hiddenLabel xml:lang="en"
@@ -1881,37 +1893,39 @@
         <resource:isAssociatedWithDisease rdf:resource="&resource;encephalitis"/>
         <skos:broader rdf:resource="&resource;neurologicalSyndrome"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;transientIschemicAttack"/>
-    </owl:Thing>
+    </skos:Concept>
     
 
 
     <!-- http://www.extended_sso.org/resource#cerebrovascularAccident -->
 
-    <owl:Thing rdf:about="&resource;cerebrovascularAccident">
-        <rdf:type rdf:resource="&skos;Concept"/>
+    <skos:Concept rdf:about="&resource;cerebrovascularAccident">
+        <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >436:Acute, but ill-defined, cerebrovascular disease</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0038454:Cerebrovascular accident</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.228.140.300.775:Stroke</skos:notation>
-        <ns0:creator>MC</ns0:creator>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(cerebrovascular\s+accid.*?|cva|intercranial\s+bleed.*?|cerebral\s+infarc.*?|intercrancal\s+bleed.*?|cerebralvascular\s+accident)\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:source>rods</ns0:source>
-        <skos:editorialNote
-            >2011-05-26 - Added altLabels and hiddenLabels</skos:editorialNote>
         <ns0:modified>2011-05-26</ns0:modified>
         <skos:changeNote></skos:changeNote>
         <skos:definition
             >A clot in a cerebral artery or bleeding into the substance of the brain</skos:definition>
+        <resource:dataCategory>disease</resource:dataCategory>
+        <ns0:creator>MC</ns0:creator>
+        <skos:editorialNote
+            >2011-05-26 - Added altLabels and hiddenLabels</skos:editorialNote>
         <skos:altLabel xml:lang="en">CVA</skos:altLabel>
+        <skos:hiddenLabel xml:lang="en"
+            >cerebral infarct</skos:hiddenLabel>
         <skos:hiddenLabel xml:lang="en"
             >cerebralvascular accident</skos:hiddenLabel>
         <skos:prefLabel xml:lang="en"
             >cerebrovascular accident</skos:prefLabel>
-        <resource:dataCategory>disease</resource:dataCategory>
-        <skos:hiddenLabel xml:lang="en"
-            >cerebral infarct</skos:hiddenLabel>
         <skos:hiddenLabel xml:lang="en"
             >intercrancal bleed</skos:hiddenLabel>
         <skos:altLabel xml:lang="en"
@@ -1945,7 +1959,7 @@
         <p1:isSuperordinateConceptOf rdf:resource="&resource;transientIschemicAttack"/>
         <skos:related rdf:resource="&resource;transientIschemicAttack"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;visionProblem"/>
-    </owl:Thing>
+    </skos:Concept>
     
 
 
@@ -2472,6 +2486,8 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.606.358.800.200:Coma</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_173</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(coma|unresponsive|unconscious.*?|comatose|unconcsious.*?|not\s+conscious.*?)\b</skos:notation>
         <ns0:source>biocaster</ns0:source>
         <ns0:modified>2011-05-26</ns0:modified>
         <ns0:created>2011-03-31</ns0:created>
@@ -2510,6 +2526,8 @@
             >C0006107:Concussion NOS</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.228.140.199.250:Brain Concussion</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(concuss.*?|mhi|mtbi|minor\s+head\s+traumas?|mild\s+head\s+inj.*?|mild\s+brain\s+inj.*?|mild\s+trau.*?\s+(brain|head)\s+inj.*?)\b</skos:notation>
         <ns0:modified>2011-05-26</ns0:modified>
         <skos:changeNote></skos:changeNote>
         <ns0:source>rods</ns0:source>
@@ -2560,6 +2578,8 @@
             >C0009676:Confusion</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.606.337:Confusion</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(confusion|loss\s+of\s+orient.*?|not\s+orient.*?)\b</skos:notation>
         <ns0:modified>2011-05-26</ns0:modified>
         <skos:definition
             >A mental state marked by the mingling ideas with consequent disturbance of comprehension and understanding</skos:definition>
@@ -2694,6 +2714,7 @@
             >C0009951:Convulsion</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C23.888.592.742:Seizures</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp">\bconvul.*?\b</skos:notation>
         <skos:definition
             >A violent involuntary contraction or series of contractions of the voluntary muscles</skos:definition>
         <skos:changeNote></skos:changeNote>
@@ -3047,6 +3068,8 @@
 
     <skos:Concept rdf:about="&resource;decreasedHearing">
         <rdf:type rdf:resource="&owl;Thing"/>
+        <skos:altLabel rdf:datatype="&resource;englishRegExp"
+            >\b(decreased\s+hearing|hearing\s+diff.*?|hard\s+of\s+hearing|diff.*?\s+hear.*?)\b</skos:altLabel>
         <ns0:modified>2011-05-26</ns0:modified>
         <ns0:creator>MC</ns0:creator>
         <skos:changeNote></skos:changeNote>
@@ -3081,6 +3104,8 @@
             >369.9:Unspecified visual loss</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0042798:Decreased vision</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(decre.*?\s+(visi.*?|sight)|(vis.*?|sight)\s+diff.*?)\b</skos:notation>
         <ns0:source>rods</ns0:source>
         <ns0:creator>MC</ns0:creator>
         <ns0:created>2011-03-31</ns0:created>
@@ -3178,6 +3203,8 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.606.337.500:Delirium</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_100</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(delirium|mental.*?\s+disturb.*?|acute\s+conf.*?\s+stat.*?)\b</skos:notation>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:definition
             >A mental disturbance characterized by illusions, hallucinations, delusions, cerebral excitement physical restlessness and incoherence, and having a relatively short course</skos:definition>
@@ -3209,6 +3236,8 @@
             >C0497327:Dementia</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.228.140.380:Dementia</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(dement.*?|deteri.*?\s+in\s+ment.*?\s+stat.*?|deteri.*?\s+in\s+facul.*?|menta.*?\s+deterio.*?|deteri.*?\s+mental\s+stat.*?)\b</skos:notation>
         <skos:editorialNote
             >2011-05-26 - Added altLabels</skos:editorialNote>
         <skos:changeNote></skos:changeNote>
@@ -3216,11 +3245,11 @@
         <ns0:creator>MC</ns0:creator>
         <skos:definition
             >A general designation for mental deterioration</skos:definition>
-        <skos:altLabel xml:lang="en">dementia</skos:altLabel>
         <resource:dataCategory>disease</resource:dataCategory>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:modified>2011-05-26</ns0:modified>
         <skos:prefLabel xml:lang="en">dementia</skos:prefLabel>
+        <skos:altLabel xml:lang="en">dementia</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >deterioration in faculties</skos:altLabel>
         <skos:altLabel xml:lang="en"
@@ -3610,6 +3639,8 @@
             >C0009676:Disorientation</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.606.337:Confusion</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\bdisorient.*?\b</skos:notation>
         <ns0:source>rods</ns0:source>
         <skos:definition
             >The loss of proper bearings, or a state of mental confusion as to time, place, or identity</skos:definition>
@@ -3692,6 +3723,8 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >G11.561.600.815.754:Sleep Stages</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_321</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(drows.*?|nod.*?\s+off|sleepy)\b</skos:notation>
         <skos:definition>Sleepy</skos:definition>
         <skos:changeNote></skos:changeNote>
         <resource:dataCategory>symptom</resource:dataCategory>
@@ -3701,7 +3734,6 @@
         <skos:editorialNote
             >2011-05-26 - Added altLabels and hiddenLabels</skos:editorialNote>
         <ns0:creator>MC</ns0:creator>
-        <skos:altLabel xml:lang="en">drowsiness</skos:altLabel>
         <skos:prefLabel xml:lang="en">drowsiness</skos:prefLabel>
         <skos:altLabel xml:lang="en">drowsy</skos:altLabel>
         <skos:hiddenLabel xml:lang="en">nodded off</skos:hiddenLabel>
@@ -4359,6 +4391,8 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C02.182.500:Encephalitis</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_122</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(enceph.*?|inflam.*?\s+of\s+brain|brain\s+inflam.*?|inflam.*?\s+of\s+the\s+brain)\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <skos:editorialNote
             >2011-05-26 - Added altLabel</skos:editorialNote>
@@ -4636,6 +4670,8 @@
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0239375:EXTREMITY NUMBNESS</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(extrem.*\s+numb.*?|(hands?|legs?|foot|feet|arms?)\s+numb.*?)\b</skos:notation>
         <skos:definition
             >Numbness of an extremity</skos:definition>
         <ns0:created>2011-03-31</ns0:created>
@@ -4676,6 +4712,8 @@
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C2242996:Tingling</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(extrem.*?\b\s+tingl.*?|tingl.*?\bextremities|(legs?|arms?|foot|feet|hands?)\stingl.*?)\b</skos:notation>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:definition
             >A tingling sensation in an extremity</skos:definition>
@@ -4717,6 +4755,8 @@
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0587246:EXTREMITY WEAKNESS</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(extremit\w*?\s+weak.*?|weak\s+(limbs?|feet|foot|legs?|arms?)|(limbs?|feet|foot|legs?|arms?)\s+weak.*?)\b</skos:notation>
         <ns0:source>rods</ns0:source>
         <ns0:modified>2011-05-27</ns0:modified>
         <ns0:creator>MC</ns0:creator>
@@ -4764,6 +4804,8 @@
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0239511:FACIAL NUMBNESS</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(facial\s+numbness|face\s+numb|cannot\s+feel\s+face|numb\s+face|no\s+feeling\s+in\s+face|cannot\s+feel\s+face|can.?t\s+feel\s+face)\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:source>rods</ns0:source>
         <ns0:creator>MC</ns0:creator>
@@ -4797,6 +4839,8 @@
             >C0015468:Facial Pain</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.617.364:Facial Pain</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(facial\s+pain|pain\s+in\s+face|face\s+pain|fascial\s+pain|fasial\s+pain)\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <skos:changeNote></skos:changeNote>
         <ns0:source>rods</ns0:source>
@@ -4825,6 +4869,8 @@
             >781.94:Facial weakness</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0427055:Facial weakness</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(facial\s+weakness|face\s+weakness|face\s+weak|weakness\s+of\s+face|cranial\s+nerve\+palsy)\b</skos:notation>
         <skos:editorialNote
             >2011-05-27 - Added altLabel</skos:editorialNote>
         <ns0:source>rods</ns0:source>
@@ -4985,6 +5031,8 @@
             >C0085639:FALLING</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >N06.850.135.122:Accidental Falls</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(falling|fall|fell|faling)\b</skos:notation>
         <ns0:modified>2011-05-27</ns0:modified>
         <ns0:creator>MC</ns0:creator>
         <skos:definition
@@ -5496,18 +5544,22 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.606.762.300:Hallucinations</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_151</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(hallucinations?|halucinations?|halluccination?|hallucinated|hallucinates?)\b</skos:notation>
+        <skos:altLabel>hallucinates</skos:altLabel>
+        <skos:altLabel>hallucinated</skos:altLabel>
         <skos:definition
             >A sense perception not founded upon objective reality</skos:definition>
         <skos:changeNote></skos:changeNote>
         <ns0:modified>2011-05-27</ns0:modified>
         <ns0:source>biocaster</ns0:source>
+        <skos:altLabel>hallucinate</skos:altLabel>
         <resource:dataCategory>symptom</resource:dataCategory>
-        <ns0:created>2011-03-31</ns0:created>
         <ns0:creator>MC</ns0:creator>
+        <ns0:created>2011-03-31</ns0:created>
         <skos:editorialNote
             >2011-05-27 - added hiddenLabels</skos:editorialNote>
         <skos:hiddenLabel xml:lang="en">halluccination</skos:hiddenLabel>
-        <skos:altLabel xml:lang="en">hallucination</skos:altLabel>
         <skos:prefLabel xml:lang="en">hallucination</skos:prefLabel>
         <skos:hiddenLabel xml:lang="en">halucination</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
@@ -6129,6 +6181,8 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C23.550.835:Shock</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_96</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(hypovolemic\s+shock|hypovolaemia|hypo\w*?\s+shock)\b</skos:notation>
         <skos:editorialNote
             >2011-05-27 - added altLabels and hiddenLabels</skos:editorialNote>
         <skos:definition
@@ -6635,15 +6689,17 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.886.425.800.800:Sleep Initiation and Maintenance Disorders</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_147</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(insomnia|insomniac|(inability|unable)\s+to\s+sleep|cannot\s+sleep|sleepless|can.t\s+sleep|imsomnia)\b</skos:notation>
         <ns0:source>biocaster</ns0:source>
         <skos:editorialNote
             >2011-05-27 - add altLabel</skos:editorialNote>
+        <ns0:created>2011-03-31</ns0:created>
         <skos:definition
             >Inability to sleep</skos:definition>
-        <ns0:created>2011-03-31</ns0:created>
         <ns0:modified>2011-05-27</ns0:modified>
-        <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:creator>MC</ns0:creator>
+        <resource:dataCategory>symptom</resource:dataCategory>
         <skos:changeNote></skos:changeNote>
         <skos:hiddenLabel xml:lang="en">can&#39;t sleep</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">cannot sleep</skos:altLabel>
@@ -7046,6 +7102,8 @@
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >781.3:Lack of coordination</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(loss\s+of\s+balance|balance\s+loss|loss\s+of\s+equilibrium|balance\s+problems?|balancing\s+is\s+difficult|difficulty\s+balancing|equilibrium\s+difficulties|balancing\s+difficulties)\b</skos:notation>
         <skos:changeNote></skos:changeNote>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:definition
@@ -7091,6 +7149,8 @@
             >C0041657:Unconsciousness</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.606.358.800:Unconsciousness</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(loss\s+of\s+consciousness|unconsciousness|los\w*?\s+consciousness|loss\s+of\s+concsiosness)\b</skos:notation>
         <skos:editorialNote
             >2011-05-27 - added altLabel</skos:editorialNote>
         <ns0:created>2011-03-31</ns0:created>
@@ -7586,6 +7646,8 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.228.228.507:Meningitis</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_17</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(meningitis|meningismus|menangitis|meningtis|meninitis)\b</skos:notation>
         <skos:changeNote
             >2011-05-27 - Added hiddenLabel</skos:changeNote>
         <skos:definition
@@ -7673,6 +7735,8 @@
             >C0149931:Migraine</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.228.140.546.399.750:Migraine Disorders</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(migraine|migrane|mygrane|mygrain|migrain)\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <skos:definition
             >A syndrome characterized by periodic headaches, often one sided, accompanied by nausea, vomiting, and various sensory disturbances</skos:definition>
@@ -8037,6 +8101,8 @@
             >C0027796:Neuralgia</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.617.682:Neuralgia</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(neuralgia|nerve\s+pain|neuralgias|nuralgia)\b</skos:notation>
         <ns0:modified>2011-05-27</ns0:modified>
         <skos:definition
             >Pain along the path of a nerve</skos:definition>
@@ -8126,6 +8192,8 @@
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0442874:Neuropathy</skos:notation>
+        <skos:altLabel rdf:datatype="&resource;englishRegExp"
+            >\b(neuropathy|abnormal\s+nerve)\b</skos:altLabel>
         <resource:dataCategory>disease</resource:dataCategory>
         <skos:changeNote></skos:changeNote>
         <ns0:created>2011-03-31</ns0:created>
@@ -8136,7 +8204,6 @@
             >Any nervous disease, especially a degenerative (noninflammatory) disease of a nerve or nerves</skos:definition>
         <skos:editorialNote></skos:editorialNote>
         <skos:altLabel xml:lang="en">abnormal nerve</skos:altLabel>
-        <skos:altLabel xml:lang="en">neuropathy</skos:altLabel>
         <skos:prefLabel xml:lang="en">neuropathy</skos:prefLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;extremityNumbness"/>
@@ -8452,6 +8519,8 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.622:Paralysis</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_121</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(paralysis|paralysed|limp)\b</skos:notation>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:changeNote></skos:changeNote>
         <ns0:creator>MC</ns0:creator>
@@ -9498,6 +9567,8 @@
             >C02.782.580.830.750:Rabies</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_8</skos:notation>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel">V04.5:Rabies</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(rabies|rabid|hydrophobia|hydrophobic|rabyies)\b</skos:notation>
         <skos:editorialNote
             >2011-05-27 - Added altLabel</skos:editorialNote>
         <skos:definition
@@ -10417,6 +10488,8 @@
             >C0036396:Sciatica</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.617.682.800:Sciatica</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(sciatica|sciati|skiatica)\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <skos:definition
             >Pain along the path of the sciatic nerve, usually a neuritis</skos:definition>
@@ -10450,6 +10523,7 @@
             >C0036572:Seizure</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.742:Seizures</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp">\bseizures?\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:changeNote></skos:changeNote>
@@ -11387,6 +11461,8 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0037763:SPASMS</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.613.750:Spasm</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(spasms?|contractions)\b</skos:notation>
         <skos:definition
             >Repetitive contractions and relaxation of a muscle or muscle group</skos:definition>
         <ns0:modified>2011-05-27</ns0:modified>
@@ -11563,6 +11639,8 @@
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0151315:Stiff neck NOS</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(stiff\s+neck|neck\s+stiff|neck\s+stiffness)\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <ns0:source>rods</ns0:source>
         <ns0:created>2011-03-31</ns0:created>
@@ -11842,6 +11920,7 @@
             >C0039070:Syncope</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.606.358.800.600:Syncope</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp">\bsyncope\b</skos:notation>
         <skos:definition
             >A temporary suspension of consciousness due to cerebral anemia</skos:definition>
         <ns0:created>2011-03-31</ns0:created>
@@ -12109,6 +12188,8 @@
             >C10.228.140.300.150.836:Ischemic Attack, Transient</skos:notation>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >V12.54:Transient ischemic attack (TIA), and cerebral infarction without residual deficits</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(transient\s+ischemic\s+attack|rind|tia|reversible\s+ischemic\s+neuro\w*?\s+deficit)\b</skos:notation>
         <resource:dataCategory>disease</resource:dataCategory>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:changeNote></skos:changeNote>
@@ -12123,8 +12204,6 @@
         <skos:altLabel xml:lang="en">TIA</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >reversible ischemic neurologic deficit</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >transient ischaemic attack</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >transient ischemic attack</skos:prefLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
@@ -12153,6 +12232,8 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0040822:Tremor</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.350.850:Tremor</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(tremors?|tremours?|muscle\s+contracti\w*?)\b</skos:notation>
         <skos:changeNote></skos:changeNote>
         <ns0:creator>MC</ns0:creator>
         <resource:dataCategory>symptom</resource:dataCategory>
@@ -12517,6 +12598,8 @@
             >C0042571:Vertigo</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C10.597.951:Vertigo</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(vertigo|motion sick\w*?)\b</skos:notation>
         <skos:changeNote></skos:changeNote>
         <ns0:modified>2011-05-27</ns0:modified>
         <ns0:creator>MC</ns0:creator>
@@ -12677,15 +12760,17 @@
             >369.9:Unspecified visual loss</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0456909:VISION LOSS</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b((sight|vision)\s+loss|loss\s+of\s+(sight|vision)|blind\w*?)\b</skos:notation>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:editorialNote
             >2011-05-27 - consolidated altLabel</skos:editorialNote>
+        <ns0:created>2011-03-31</ns0:created>
         <ns0:source>rods</ns0:source>
         <skos:definition
             >Loss of the ability to see</skos:definition>
         <ns0:modified>2011-05-27</ns0:modified>
         <ns0:creator>MC</ns0:creator>
-        <ns0:created>2011-03-31</ns0:created>
         <skos:changeNote></skos:changeNote>
         <skos:altLabel xml:lang="en">blind</skos:altLabel>
         <skos:altLabel xml:lang="en">blindness</skos:altLabel>
@@ -12696,8 +12781,8 @@
         <skos:related rdf:resource="&resource;diplopia"/>
         <skos:broader rdf:resource="&resource;neurologicalSyndrome"/>
         <skos:related rdf:resource="&resource;photophobia"/>
-        <p1:hasSuperordinateConcept rdf:resource="&resource;visionProblem"/>
         <skos:related rdf:resource="&resource;visionProblem"/>
+        <p1:hasSuperordinateConcept rdf:resource="&resource;visionProblem"/>
     </skos:Concept>
     
 
