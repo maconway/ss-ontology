@@ -306,13 +306,13 @@
         <ns0:title
             >Extended syndromic surveillance ontology</ns0:title>
         <ns0:modfied>SVN:  $Date$</ns0:modfied>
-        <ns0:hasVersion
-            >SVN:  $Revision$</ns0:hasVersion>
         <ns0:language>English</ns0:language>
         <ns0:description
             >The Extended Syndromic Surveillance Ontology is a terminological ontology/application ontology designed to facilitate NLP for syndromic surveillance.  The ontology uses data from the Syndromic Surveillance Ontology</ns0:description>
         <ns0:subject
             >Syndromic surveillance</ns0:subject>
+        <ns0:hasVersion
+            >SVN:  $Revision$</ns0:hasVersion>
         <ns0:creator>W.Chapman</ns0:creator>
         <ns0:creator>J.Dowling</ns0:creator>
         <ns0:alternative>ESSO</ns0:alternative>
@@ -1334,6 +1334,8 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C17.800.865.187:Blister</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM-124</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(blisters?|wheals?|blistering|blistered)\b</skos:notation>
         <skos:editorialNote></skos:editorialNote>
         <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:source>biocaster</ns0:source>
@@ -1344,6 +1346,9 @@
             >Raised lesions of the skin which contain clear fluid</skos:definition>
         <ns0:created>2011-03-31</ns0:created>
         <skos:altLabel xml:lang="en">blister</skos:altLabel>
+        <skos:altLabel xml:lang="en">blistered</skos:altLabel>
+        <skos:altLabel xml:lang="en">blistering</skos:altLabel>
+        <skos:altLabel xml:lang="en">blisters</skos:altLabel>
         <skos:prefLabel xml:lang="en">blisters</skos:prefLabel>
         <skos:hiddenLabel xml:lang="en">wheal</skos:hiddenLabel>
         <skos:hiddenLabel xml:lang="en">wheals</skos:hiddenLabel>
@@ -2138,6 +2143,8 @@
             >C0008049:Chickenpox</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C02.256.466.175:Chickenpox</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(chicken\s+pox|chickenpox|varicel\w*?\s+zoster|vesicular\s+rash|vzv)\b</skos:notation>
         <ns0:source>rods</ns0:source>
         <resource:dataCategory>disease</resource:dataCategory>
         <ns0:creator>MC</ns0:creator>
@@ -2962,6 +2969,8 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C01.252.410.090.072:Anthrax</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_497</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(eschar|cutane\w*?\s+anthrax)\b</skos:notation>
         <resource:dataCategory>disease</resource:dataCategory>
         <skos:editorialNote></skos:editorialNote>
         <ns0:created>2011-03-31</ns0:created>
@@ -3286,6 +3295,8 @@
             >C0011603:Dermatitis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C17.800.174:Dermatitis</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(dermatitis|rash|rashes)\b</skos:notation>
         <ns0:source>rods</ns0:source>
         <ns0:creator>MC</ns0:creator>
         <resource:dataCategory>disease</resource:dataCategory>
@@ -3296,7 +3307,6 @@
         <skos:editorialNote></skos:editorialNote>
         <skos:changeNote></skos:changeNote>
         <skos:prefLabel xml:lang="en">dermatitis</skos:prefLabel>
-        <skos:altLabel xml:lang="en">dermatitis</skos:altLabel>
         <skos:altLabel xml:lang="en">rash</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;rash"/>
@@ -3385,6 +3395,8 @@
 
     <owl:Thing rdf:about="&resource;desquamation">
         <rdf:type rdf:resource="&skos;Concept"/>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(desquam\w*?|peel\w*?\s+skin|skin\s+peel\w*?)\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:source>bn_measles</ns0:source>
         <ns0:creator>MC</ns0:creator>
@@ -4110,6 +4122,8 @@
             >C0013491:Ecchymosis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C23.550.414.625:Ecchymosis</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(ecchymosis|bruis\w*?|bleed\w*?\s+into\s+skin)\b</skos:notation>
         <ns0:modified>2011-05-29</ns0:modified>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:editorialNote
@@ -4126,7 +4140,6 @@
         <skos:altLabel xml:lang="en">bruised</skos:altLabel>
         <skos:altLabel xml:lang="en">bruising</skos:altLabel>
         <skos:prefLabel xml:lang="en">ecchymosis</skos:prefLabel>
-        <skos:altLabel xml:lang="en">ecchymosis</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;coagulopathy"/>
         <skos:related rdf:resource="&resource;petechia"/>
@@ -4147,6 +4160,8 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0013595:Eczema</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C17.800.174.620:Eczema</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(eczema|itching\s+skin|skin\s+itching|skin\s+itch|itchy\s+rash)\b</skos:notation>
         <skos:editorialNote></skos:editorialNote>
         <ns0:modified>2011-03-31</ns0:modified>
         <ns0:created>2011-03-31</ns0:created>
@@ -4156,9 +4171,11 @@
             >An inflammatory skin disease with vesiculation, infiltration, watery discharge, and the development of scales and crusts</skos:definition>
         <skos:changeNote></skos:changeNote>
         <resource:dataCategory>disease</resource:dataCategory>
-        <skos:altLabel xml:lang="en">eczema</skos:altLabel>
         <skos:prefLabel xml:lang="en">eczema</skos:prefLabel>
+        <skos:altLabel xml:lang="en">itching skin</skos:altLabel>
         <skos:altLabel xml:lang="en">itchy rash</skos:altLabel>
+        <skos:altLabel xml:lang="en">skin itch</skos:altLabel>
+        <skos:altLabel xml:lang="en">skin itching</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;rash"/>
         <skos:broader rdf:resource="&resource;rashSyndrome"/>
@@ -4176,6 +4193,8 @@
             >C23.888.277:Edema</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel"
             >SkinAndSoftTissueSymptom_710</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(edemas?|fluid\s+under\s+the\s+skin)\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:creator>MC</ns0:creator>
         <skos:changeNote></skos:changeNote>
@@ -4601,6 +4620,8 @@
             >C0041834:Erythema</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C17.800.229:Erythema</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(erythema\w*?|red\s+skin)\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:creator>MC</ns0:creator>
         <skos:definition
@@ -4608,10 +4629,10 @@
         <skos:editorialNote></skos:editorialNote>
         <ns0:modified>2011-03-31</ns0:modified>
         <skos:changeNote></skos:changeNote>
-        <skos:altLabel xml:lang="en">erythematous</skos:altLabel>
-        <skos:altLabel xml:lang="en">red skin</skos:altLabel>
         <ns0:source>rods</ns0:source>
         <skos:prefLabel xml:lang="en">erythema</skos:prefLabel>
+        <skos:altLabel xml:lang="en">erythematous</skos:altLabel>
+        <skos:altLabel xml:lang="en">red skin</skos:altLabel>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;chickenpox"/>
@@ -5229,6 +5250,8 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0016382:Flushed face</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_216</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(flushed\s+face|flush\s+face|red\s+face|slapped\s+face\s+syndrome)\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <ns0:created>2011-03-31</ns0:created>
         <resource:dataCategory>symptom</resource:dataCategory>
@@ -6050,6 +6073,7 @@
             >C0019348:Herpes Simplex</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C02.256.466.382:Herpes Simplex</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp">\bherpes\b</skos:notation>
         <skos:definition
             >One of the Herpes viruses</skos:definition>
         <skos:editorialNote></skos:editorialNote>
@@ -6105,6 +6129,7 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0042109:Hives</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C17.800.862.945:Urticaria</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp">\bhives?\b</skos:notation>
         <ns0:modified>2011-03-31</ns0:modified>
         <skos:editorialNote></skos:editorialNote>
         <ns0:source>rods</ns0:source>
@@ -6812,6 +6837,8 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C23.888.885.625:Pruritus</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_672</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(itch\w*?|pruritus|ittching|iching)\b</skos:notation>
         <skos:changeNote></skos:changeNote>
         <ns0:created>2011-03-31</ns0:created>
         <skos:editorialNote
@@ -6839,6 +6866,8 @@
     <owl:Thing rdf:about="&resource;koplikSpots">
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"></skos:notation>
+        <skos:altLabel rdf:datatype="&resource;englishRegExp"
+            >\b(koplik\s+spots?|koplick\s+spots?)\b</skos:altLabel>
         <ns0:creator>MC</ns0:creator>
         <skos:changeNote></skos:changeNote>
         <ns0:source>bn_measles</ns0:source>
@@ -7267,7 +7296,7 @@
             >C01.252.400.155.569:Lyme Disease</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_131</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
-            >\bl.me\s+dis.*?\b</skos:notation>
+            >\b(l.mes?\s+disease|circular\s+rash|lyme\s+borr\w*?)\b</skos:notation>
         <ns0:modified>2011-05-12</ns0:modified>
         <ns0:creator>MC</ns0:creator>
         <skos:editorialNote
@@ -7375,6 +7404,8 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0332573:Macula</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C11.768.585.439.245:Macular Edema</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(macular|smooth\s+rash|macular\s+spots?|macular\s+rash)\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <skos:editorialNote
             >2011-05-29 - added altLabels (MC)</skos:editorialNote>
@@ -7399,6 +7430,8 @@
 
     <owl:Thing rdf:about="&resource;maculoPapularRash">
         <rdf:type rdf:resource="&skos;Concept"/>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(maculo\s+papular\s+rash|maculopapular\s+rash)\b</skos:notation>
         <skos:definition
             >A rash which is partially flat and partially raised</skos:definition>
         <ns0:source>bn_measles</ns0:source>
@@ -7516,6 +7549,8 @@
             >C02.782.580.600.500.500:Measles</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_243</skos:notation>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel">V73.2:Measles</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(measles|erythematous\s+rash|morbilli|rubeola)\b</skos:notation>
         <skos:editorialNote></skos:editorialNote>
         <ns0:modified>2011-03-31</ns0:modified>
         <ns0:source>biocaster</ns0:source>
@@ -8061,6 +8096,8 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0238124:Fascitis, Necrotizing</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_1763</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(necrotizing\s+faciitis|nf|flesh\s+eating\s+disease|flesh-eating\s+disease|flesh-eating\s+bacteria\s+syndrome|flesh\s+eating\s+bacteria\+syndrome)\b</skos:notation>
         <skos:changeNote></skos:changeNote>
         <resource:dataCategory>disease</resource:dataCategory>
         <ns0:modified>2011-05-29</ns0:modified>
@@ -8079,8 +8116,6 @@
             >flesh-eating bacteria syndrome</skos:hiddenLabel>
         <skos:hiddenLabel xml:lang="en"
             >flesh-eating disease</skos:hiddenLabel>
-        <skos:altLabel xml:lang="en"
-            >necrotizing fasciitis</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >necrotizing fasciitis</skos:prefLabel>
         <skos:altLabel xml:lang="en">nf</skos:altLabel>
@@ -8489,6 +8524,8 @@
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0332563:Papular</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(papular|palpable\s+rash|raised\s+rash)\b</skos:notation>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:editorialNote></skos:editorialNote>
         <ns0:modified>2011-03-31</ns0:modified>
@@ -8526,8 +8563,8 @@
         <ns0:creator>MC</ns0:creator>
         <skos:definition
             >Non-function of one or more muscles</skos:definition>
-        <skos:editorialNote></skos:editorialNote>
         <ns0:source>biocaster</ns0:source>
+        <skos:editorialNote></skos:editorialNote>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:modified>2011-03-31</ns0:modified>
         <skos:altLabel xml:lang="en">limp</skos:altLabel>
@@ -8546,6 +8583,8 @@
     <skos:Concept rdf:about="&resource;periorbitalEdema">
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel">782.3:Edema</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(periorbital\s+edema|eye\s+puff\w*?|puffy\s+eyes?|swelling\s+around\s+the\s+eyes?|swollen\s+eyes?)\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:creator>MC</ns0:creator>
         <skos:editorialNote
@@ -8672,6 +8711,8 @@
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0031256:Petechia</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(petechia\w*?|small\s+erythematous\s+rash)\b</skos:notation>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:editorialNote
             >2011-05-29 - added altLabel
@@ -8680,12 +8721,12 @@
             >A small, pinpoint, nonraised, perfectly round, purplish red spot caused by intradermal or submucous hemorrhage</skos:definition>
         <ns0:creator>MC</ns0:creator>
         <ns0:created>2011-03-31</ns0:created>
+        <skos:prefLabel xml:lang="en">petechia</skos:prefLabel>
+        <skos:altLabel xml:lang="en">petechial</skos:altLabel>
         <ns0:source>rods</ns0:source>
         <skos:changeNote></skos:changeNote>
         <ns0:modified>2011-05-29</ns0:modified>
-        <skos:prefLabel xml:lang="en">petechia</skos:prefLabel>
         <skos:altLabel>petechiae</skos:altLabel>
-        <skos:altLabel xml:lang="en">petechial</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >small erythematous rash</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
@@ -9467,6 +9508,8 @@
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0333289:Purpuric</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(purpura|purpuric)\b</skos:notation>
         <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:source>rods</ns0:source>
         <skos:editorialNote></skos:editorialNote>
@@ -9476,7 +9519,6 @@
             >A condition characterized by confluent petechiae or ecchymoses over any part of the body</skos:definition>
         <ns0:modified>2011-03-31</ns0:modified>
         <ns0:creator>MC</ns0:creator>
-        <skos:altLabel xml:lang="en">itchy</skos:altLabel>
         <skos:prefLabel xml:lang="en">purpura</skos:prefLabel>
         <skos:altLabel xml:lang="en">purpuric</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
@@ -9497,6 +9539,7 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0241157:pustule</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_90</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp">\bpustules?\b</skos:notation>
         <skos:editorialNote></skos:editorialNote>
         <ns0:creator>MC</ns0:creator>
         <ns0:created>2011-03-31</ns0:created>
@@ -9649,6 +9692,8 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C17.800.257:Exanthema</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_37</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(rash|skin\s+lesion|skin\s+erruptions|skin\s+lesions|skine\s+eruption)\b</skos:notation>
         <skos:definition
             >A temporary eruption on the skin; an exanthem</skos:definition>
         <skos:editorialNote
@@ -10389,6 +10434,8 @@
             >C0035920:Rubella</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C02.782.930.700.700:Rubella</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(rubella|rubella\s+virus|german\s+measles)\b</skos:notation>
         <skos:editorialNote
             >2011-05-29 - added hiddenLabels and altLabels (MC)</skos:editorialNote>
         <skos:definition
@@ -10400,7 +10447,6 @@
         <ns0:created>2011-03-31</ns0:created>
         <skos:altLabel xml:lang="en">german measles</skos:altLabel>
         <skos:hiddenLabel xml:lang="en">rubela</skos:hiddenLabel>
-        <skos:altLabel xml:lang="en">rubella</skos:altLabel>
         <skos:prefLabel xml:lang="en">rubella</skos:prefLabel>
         <skos:altLabel xml:lang="en">rubella virus</skos:altLabel>
         <skos:hiddenLabel xml:lang="en">ruubela</skos:hiddenLabel>
@@ -10419,8 +10465,8 @@
 
     <!-- http://www.extended_sso.org/resource#scarletFever -->
 
-    <owl:Thing rdf:about="&resource;scarletFever">
-        <rdf:type rdf:resource="&skos;Concept"/>
+    <skos:Concept rdf:about="&resource;scarletFever">
+        <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >034.1:Scarlet fever</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
@@ -10428,15 +10474,17 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C01.252.410.890.823:Scarlet Fever</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_1718</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(scarlet\s+fever|scarlatina)\b</skos:notation>
         <ns0:modified>2011-03-31</ns0:modified>
-        <ns0:source>biocaster</ns0:source>
-        <resource:dataCategory>disease</resource:dataCategory>
         <ns0:creator>MC</ns0:creator>
-        <skos:changeNote></skos:changeNote>
         <ns0:created>2011-03-31</ns0:created>
         <skos:editorialNote></skos:editorialNote>
         <skos:definition
             >Scarlet fever is caused by an exotoxin released by Streptococcus pyogenes Group A. Some characteristic symptoms include sore throat, fever, a &#39;strawberry tongue&#39;, and a rash over the upper part of the body or the entire body.</skos:definition>
+        <ns0:source>biocaster</ns0:source>
+        <resource:dataCategory>disease</resource:dataCategory>
+        <skos:changeNote></skos:changeNote>
         <skos:altLabel xml:lang="en">scarlatina</skos:altLabel>
         <skos:prefLabel xml:lang="en">scarlet fever</skos:prefLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
@@ -10446,7 +10494,7 @@
         <resource:isAssociatedWithSymptom rdf:resource="&resource;flushedFace"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;petechia"/>
         <skos:broader rdf:resource="&resource;rashSyndrome"/>
-    </owl:Thing>
+    </skos:Concept>
     
 
 
@@ -10459,6 +10507,7 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C23.550.355.274:Cicatrix</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">SYMPTOM_120</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp">\bscarr\w*?\b</skos:notation>
         <ns0:modified>2011-03-31</ns0:modified>
         <skos:definition
             >A superficial cicatrice of the skin left after an eruption or laceration</skos:definition>
@@ -11114,6 +11163,8 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C02.256.743.826:Smallpox</skos:notation>
         <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_6</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(smallpox|small\s+pox|variola|vanola\s+vanola)\b</skos:notation>
         <ns0:source>biocaster</ns0:source>
         <ns0:creator>MC</ns0:creator>
         <resource:dataCategory>bioterrorism</resource:dataCategory>
@@ -11435,6 +11486,7 @@
     <owl:Thing rdf:about="&resource;sores">
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C1442877:Sore</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp">\bsores?\b</skos:notation>
         <ns0:modified>2011-03-31</ns0:modified>
         <ns0:source>rods</ns0:source>
         <resource:dataCategory>symptom</resource:dataCategory>
@@ -11824,6 +11876,8 @@
             >C0038814:Sunburn</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C21.866.200.855:Sunburn</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(sunburn|erythematous\s+rash)\b</skos:notation>
         <skos:changeNote></skos:changeNote>
         <skos:definition
             >Erythema and vesciculation of the skin due to exposure to the sun</skos:definition>
@@ -13483,6 +13537,8 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0019360:Zoster</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C02.256.466.423:Herpes Zoster</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(shingles|zoster)\b</skos:notation>
         <ns0:modified>2011-03-31</ns0:modified>
         <skos:changeNote></skos:changeNote>
         <ns0:creator>MC</ns0:creator>
