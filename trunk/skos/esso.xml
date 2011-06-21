@@ -302,6 +302,8 @@
         <ns0:created>2011-03-31</ns0:created>
         <ns0:alternative>Extended SSO</ns0:alternative>
         <ns0:creator>M.Conway</ns0:creator>
+        <ns0:hasVersion
+            >SVN:  $Revision$</ns0:hasVersion>
         <ns0:format>SKOS</ns0:format>
         <ns0:title
             >Extended syndromic surveillance ontology</ns0:title>
@@ -311,8 +313,6 @@
             >The Extended Syndromic Surveillance Ontology is a terminological ontology/application ontology designed to facilitate NLP for syndromic surveillance.  The ontology uses data from the Syndromic Surveillance Ontology</ns0:description>
         <ns0:subject
             >Syndromic surveillance</ns0:subject>
-        <ns0:hasVersion
-            >SVN:  $Revision$</ns0:hasVersion>
         <ns0:creator>W.Chapman</ns0:creator>
         <ns0:creator>J.Dowling</ns0:creator>
         <ns0:alternative>ESSO</ns0:alternative>
@@ -769,6 +769,8 @@
             >C0003175:Anthrax</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C01.252.410.090.072:Anthrax</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(anthrax|wide\w*?\s+mediastinum)\b</skos:notation>
         <skos:editorialNote></skos:editorialNote>
         <ns0:creator>MC</ns0:creator>
         <resource:dataCategory>disease</resource:dataCategory>
@@ -1533,6 +1535,8 @@
 
     <owl:Thing rdf:about="&resource;breathSoundsDecreased">
         <rdf:type rdf:resource="&skos;Concept"/>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(breath\s+sounds?\s+decreased?|collapsed\s+lung|decreased\s+breath\s+sounds?)b</skos:notation>
         <skos:changeNote></skos:changeNote>
         <skos:editorialNote
             >2011-06-02 - added altLabels (MC)</skos:editorialNote>
@@ -1542,8 +1546,6 @@
         <skos:definition
             >A decrease in breath sounds on auscultation</skos:definition>
         <ns0:modified>2011-06-02</ns0:modified>
-        <skos:altLabel xml:lang="en"
-            >breath sound decreased</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >breath sounds decreased</skos:prefLabel>
         <skos:altLabel xml:lang="en">collapsed lung</skos:altLabel>
@@ -2012,6 +2014,8 @@
 
     <skos:Concept rdf:about="&resource;chestClear">
         <rdf:type rdf:resource="&owl;Thing"/>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(chest\s+clear|normal\s+breath\s+sound?|chest\s+normal)\b</skos:notation>
         <ns0:modified>2011-03-31</ns0:modified>
         <skos:changeNote></skos:changeNote>
         <ns0:creator>MC</ns0:creator>
@@ -2022,7 +2026,6 @@
         <skos:prefLabel xml:lang="en">chest clear</skos:prefLabel>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:altLabel xml:lang="en">chest normal</skos:altLabel>
-        <skos:altLabel xml:lang="en">clear chest</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >normal breath sounds</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
@@ -2041,7 +2044,7 @@
         <skos:notation rdf:datatype="&resource;umlsAltLabel"
             >C0242073:Pulmonary congestion</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
-            >\bchest(\s+|\+)con[gj</skos:notation>
+            >\bchest(\s+|\+)con[gj]\w*?\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:modified>2011-06-02</ns0:modified>
         <skos:changeNote></skos:changeNote>
@@ -2077,6 +2080,8 @@
             >C0008031:Chest Pain</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C23.888.646.215:Chest Pain</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(chest\s+pain|pain\s+in\s+chest|crushing\s+pain)\b</skos:notation>
         <ns0:modified>2011-03-31</ns0:modified>
         <ns0:creator>MC</ns0:creator>
         <resource:dataCategory>symptom</resource:dataCategory>
@@ -2087,7 +2092,6 @@
         <skos:definition
             >Pain in the chest</skos:definition>
         <skos:prefLabel xml:lang="en">chest pain</skos:prefLabel>
-        <skos:altLabel xml:lang="en">chest pain</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >chest pain radiates to arm</skos:altLabel>
         <skos:altLabel xml:lang="en">crushing pain</skos:altLabel>
@@ -2113,6 +2117,8 @@
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0239008:Chest tenderness</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(chest\s+tender\w*?|tender\s+chest)\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <skos:definition
             >Pain on palpation of the chest</skos:definition>
@@ -2125,8 +2131,6 @@
         <skos:altLabel xml:lang="en">chest tender</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >chest tenderness</skos:prefLabel>
-        <skos:altLabel xml:lang="en"
-            >chest tenderness</skos:altLabel>
         <skos:altLabel xml:lang="en">tender chest</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;sensitiveRespiratorySyndrome"/>
@@ -2368,24 +2372,26 @@
 
     <owl:Thing rdf:about="&resource;coarseBreathSounds">
         <rdf:type rdf:resource="&skos;Concept"/>
-        <ns0:modified>2011-03-31</ns0:modified>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b((course|coarse)\s+breath\w*?\s+sounds?|bronchial\s+breath\w*?\s+sounds?)\b</skos:notation>
         <skos:editorialNote></skos:editorialNote>
-        <skos:changeNote></skos:changeNote>
         <skos:definition
             >Coarse breath sounds heard on auscultation</skos:definition>
         <ns0:created>2011-03-31</ns0:created>
+        <ns0:creator>MC</ns0:creator>
+        <ns0:modified>2011-03-31</ns0:modified>
+        <skos:changeNote></skos:changeNote>
         <skos:altLabel xml:lang="en"
             >bronchial breath sounds</skos:altLabel>
-        <resource:dataCategory>symptom</resource:dataCategory>
-        <ns0:creator>MC</ns0:creator>
         <skos:altLabel xml:lang="en"
             >bronchial breathing sounds</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >coarse breath sounds</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >coarse breath sounds</skos:prefLabel>
         <skos:altLabel xml:lang="en"
+            >coarse breath sounds</skos:altLabel>
+        <skos:altLabel xml:lang="en"
             >course breathing sounds</skos:altLabel>
+        <resource:dataCategory>symptom</resource:dataCategory>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;asthma"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;bronchiolitis"/>
@@ -2426,7 +2432,6 @@
         <skos:hiddenLabel xml:lang="en">cold sx</skos:hiddenLabel>
         <skos:altLabel xml:lang="en">cold symptom</skos:altLabel>
         <skos:prefLabel xml:lang="en">cold symptoms</skos:prefLabel>
-        <skos:altLabel xml:lang="en">cold symptoms</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >symptoms of cold</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
@@ -3324,7 +3329,7 @@
         <skos:notation rdf:datatype="&resource;englishRegExp">\bdec.*?\s+[o0</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
             >\bdecr.*?\s+sats*\b</skos:notation>
-        <skos:notation rdf:datatype="&resource;englishRegExp">\bdesat\b</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp">\bdesat\w*?\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\bhypoxemia\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\blo\s+02\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
@@ -3772,6 +3777,8 @@
             >785.3:Other abnormal heart sounds</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0541911:Dullness</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(dullness|dull\s+chest\s+sounds?|chest\s+sounds?\s+dull)\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <skos:changeNote></skos:changeNote>
         <ns0:source>respiratory</ns0:source>
@@ -3787,7 +3794,6 @@
         <skos:altLabel xml:lang="en"
             >dull chest sounds</skos:altLabel>
         <skos:prefLabel xml:lang="en">dullness</skos:prefLabel>
-        <skos:altLabel xml:lang="en">dullness</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;sensitiveRespiratorySyndrome"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;tuberculosis"/>
@@ -4345,7 +4351,6 @@
         <skos:changeNote></skos:changeNote>
         <ns0:creator>MC</ns0:creator>
         <skos:hiddenLabel xml:lang="en">emfasema</skos:hiddenLabel>
-        <skos:altLabel xml:lang="en">emphysema</skos:altLabel>
         <skos:prefLabel xml:lang="en">emphysema</skos:prefLabel>
         <skos:hiddenLabel xml:lang="en">emphysima</skos:hiddenLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
@@ -4367,27 +4372,29 @@
 
     <!-- http://www.extended_sso.org/resource#empyema -->
 
-    <owl:Thing rdf:about="&resource;empyema">
-        <rdf:type rdf:resource="&skos;Concept"/>
+    <skos:Concept rdf:about="&resource;empyema">
+        <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel">510:Empyema</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0014009:Empyema</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C01.539.830.305:Empyema</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(empyema|fluid\s+in\s+the\s+chest)\b</skos:notation>
         <skos:editorialNote></skos:editorialNote>
         <skos:definition
             >Accumulation of pus in the pleural space</skos:definition>
-        <ns0:created>2011-03-31</ns0:created>
-        <ns0:source>respiratory</ns0:source>
         <ns0:creator>MC</ns0:creator>
-        <ns0:modified>2011-03-31</ns0:modified>
         <skos:changeNote></skos:changeNote>
         <resource:dataCategory
             >chest_radiography</resource:dataCategory>
         <resource:dataCategory>disease</resource:dataCategory>
+        <ns0:created>2011-03-31</ns0:created>
         <skos:prefLabel xml:lang="en">empyema</skos:prefLabel>
         <skos:altLabel xml:lang="en"
             >fluid in the chest</skos:altLabel>
+        <ns0:source>respiratory</ns0:source>
+        <ns0:modified>2011-03-31</ns0:modified>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;chestPain"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;pleuriticPain"/>
@@ -4395,7 +4402,7 @@
         <resource:isAssociatedWithSymptom rdf:resource="&resource;shortnessOfBreath"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;xRayPleuralEffusion"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;xRayPneumonia"/>
-    </owl:Thing>
+    </skos:Concept>
     
 
 
@@ -5609,6 +5616,8 @@
             >C0019092:Hantavirus</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C02.782.147.420.380:Hantavirus Pulmonary Syndrome</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(hantavirus\s+pulmonary\s+syn\w*?|hps)\b</skos:notation>
         <resource:dataCategory>disease</resource:dataCategory>
         <ns0:created>2011-03-31</ns0:created>
         <skos:editorialNote></skos:editorialNote>
@@ -5619,8 +5628,6 @@
         <ns0:source>biocaster</ns0:source>
         <skos:altLabel xml:lang="en">HPS</skos:altLabel>
         <ns0:creator>MC</ns0:creator>
-        <skos:altLabel xml:lang="en"
-            >hantavirus pulmonary syndrome</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >hantavirus pulmonary syndrome</skos:prefLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
@@ -6097,6 +6104,8 @@
             >C0019521:HICCOUGHS (Hiccup</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C23.888.821.578:Hiccup</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(hiccups?|hiccoughs?|hiccuping|hicupping|hicups?)\b</skos:notation>
         <skos:editorialNote
             >2011-06-02 - added hiddenLabel (MC)</skos:editorialNote>
         <skos:definition
@@ -7798,6 +7807,8 @@
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >786.5:Chest pain</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(musculo\s+skeletal\s+chest\s+pain|muskuloskeletal\s+chest\s+pain)\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:creator>MC</ns0:creator>
         <skos:definition
@@ -7919,7 +7930,7 @@
         <skos:notation rdf:datatype="&resource;umlsAltLabel"
             >C0027424:Nose congestion</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
-            >\b(nasal|nose)(\s+|\+)+(stuff|con[jg</skos:notation>
+            >\b(nasal|nose)(\s+|\+)+(stuff|con[jg]\w*?)\b</skos:notation>
         <skos:changeNote></skos:changeNote>
         <ns0:created>2011-03-31</ns0:created>
         <ns0:source>cc_ontology</ns0:source>
@@ -8893,6 +8904,8 @@
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0032064:Plague</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C01.252.400.310.980.745:Plague</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(plague|sepsis)\b</skos:notation>
         <skos:changeNote></skos:changeNote>
         <ns0:source>biocaster</ns0:source>
         <resource:dataCategory>disease</resource:dataCategory>
@@ -9199,6 +9212,8 @@
 
     <skos:Concept rdf:about="&resource;pneumoniaHistory">
         <rdf:type rdf:resource="&owl;Thing"/>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(pneumonia\s+history|history\s+of\s+pneumonia)\b</skos:notation>
         <skos:definition
             >History of having pneumonia in the past</skos:definition>
         <ns0:modified>2011-03-31</ns0:modified>
@@ -9211,8 +9226,6 @@
             >history of pneumonia</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >pneumonia history</skos:prefLabel>
-        <skos:altLabel xml:lang="en"
-            >pneumonia history</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:related rdf:resource="&resource;hantavirusPulmonarySyndrome"/>
         <skos:related rdf:resource="&resource;infiltrate"/>
@@ -9289,6 +9302,8 @@
 
     <owl:Thing rdf:about="&resource;pneumothoraxDX">
         <rdf:type rdf:resource="&skos;Concept"/>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(pneumothorax\s(dx|d\s+x)|fluid\s+in\s+the\s+chest)\b</skos:notation>
         <resource:dataCategory>disease</resource:dataCategory>
         <ns0:source>respiratory</ns0:source>
         <ns0:created>2011-03-31</ns0:created>
@@ -9472,6 +9487,8 @@
             >C0034065:Pulmonary embolus</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C08.381.746:Pulmonary Embolism</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(pulmon\w*?\s+embol\w*?|pulmon\w*?\s+arter\w*?\s+clot\w*?)\b</skos:notation>
         <resource:dataCategory>disease</resource:dataCategory>
         <ns0:creator>MC</ns0:creator>
         <skos:definition
@@ -9568,6 +9585,8 @@
             >C0034362:Q Fever</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C01.252.400.755:Q Fever</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(q\s+fever|qfever|coxiella\s+burnetii)\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <resource:dataCategory>disease</resource:dataCategory>
         <skos:editorialNote></skos:editorialNote>
@@ -10315,17 +10334,18 @@
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0035508:Rhonchi</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(rhonchi|rhonchus)\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <ns0:source>respiratory</ns0:source>
         <skos:definition
             >Dry, coarse sounds in the brochial tubes heard on auscultation, due to a partial obstruction</skos:definition>
         <ns0:modified>2011-03-31</ns0:modified>
+        <skos:prefLabel xml:lang="en">rhonchi</skos:prefLabel>
         <resource:dataCategory>symptom</resource:dataCategory>
         <skos:changeNote></skos:changeNote>
         <skos:editorialNote></skos:editorialNote>
         <ns0:created>2011-03-31</ns0:created>
-        <skos:altLabel xml:lang="en">rhonchi</skos:altLabel>
-        <skos:prefLabel xml:lang="en">rhonchi</skos:prefLabel>
         <skos:altLabel xml:lang="en">rhonchus</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;anthrax"/>
@@ -10781,6 +10801,8 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C02.782.600.550.200.750:Severe Acute Respiratory Syndrome</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C1175175:SARS</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(severe\s+acute\s+respiratory\s+syndrome|sars)\b</skos:notation>
         <skos:editorialNote></skos:editorialNote>
         <skos:changeNote></skos:changeNote>
         <resource:dataCategory>disease</resource:dataCategory>
@@ -11204,6 +11226,8 @@
             >C0037383:Sneezing</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C23.888.852.889:Sneezing</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(sneezing|sneezed|sneeze)\b</skos:notation>
         <skos:editorialNote></skos:editorialNote>
         <skos:changeNote></skos:changeNote>
         <resource:dataCategory>symptom</resource:dataCategory>
@@ -12354,6 +12378,8 @@
             >C0041296:Tuberculosis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C01.252.410.040.552.846:Tuberculosis</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(tuberculosis|mycobacteria|tb|tubercules?\s+bacillus|mycobacteriosis|mycobacterium|mtb)\b</skos:notation>
         <skos:editorialNote></skos:editorialNote>
         <resource:dataCategory>disease</resource:dataCategory>
         <ns0:creator>MC</ns0:creator>
@@ -12370,7 +12396,6 @@
         <skos:altLabel xml:lang="en">tb</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >tubercule bacillus</skos:altLabel>
-        <skos:altLabel xml:lang="en">tuberculosis</skos:altLabel>
         <skos:prefLabel xml:lang="en">tuberculosis</skos:prefLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithSymptom rdf:resource="&resource;chill"/>
@@ -13178,6 +13203,8 @@
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C1962948:Atelectasis</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(x.?ray\s+atelectasis|collapsed\s+lungs?|x.?ray\s+collapsed\s+lungs?|lungs?\s+collapsed|atelectasis)\b</skos:notation>
         <resource:dataCategory
             >chest_radiography</resource:dataCategory>
         <resource:dataCategory>symptom</resource:dataCategory>
@@ -13197,8 +13224,6 @@
         <skos:prefLabel xml:lang="en"
             >x-ray atelectasis</skos:prefLabel>
         <skos:altLabel xml:lang="en"
-            >x-ray atelectasis</skos:altLabel>
-        <skos:altLabel xml:lang="en"
             >x-ray collapsed lung</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;rheumaticFever"/>
@@ -13211,6 +13236,8 @@
 
     <skos:Concept rdf:about="&resource;xRayChestNormal">
         <rdf:type rdf:resource="&owl;Thing"/>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(x.?ray\s+chest\s+normal|chest\s+x.?ray\s+normal|chest\s+x.?ray\s+normal|x.?ray\s+chest\s+normal)\b</skos:notation>
         <skos:definition
             >A normal chest roentgenogram</skos:definition>
         <resource:dataCategory>symptom</resource:dataCategory>
@@ -13228,8 +13255,6 @@
         <skos:prefLabel xml:lang="en"
             >x-ray chest normal</skos:prefLabel>
         <skos:altLabel xml:lang="en"
-            >x-ray chest normal</skos:altLabel>
-        <skos:altLabel xml:lang="en"
             >xray chest normal</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <skos:broader rdf:resource="&resource;sensitiveRespiratorySyndrome"/>
@@ -13243,6 +13268,8 @@
 
     <owl:Thing rdf:about="&resource;xRayHyperinflatedLungs">
         <rdf:type rdf:resource="&skos;Concept"/>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\bx.?ray\s+hyperinflated\s+lungs?\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <ns0:modified>2011-03-31</ns0:modified>
         <resource:dataCategory
@@ -13252,11 +13279,8 @@
         <skos:editorialNote></skos:editorialNote>
         <skos:changeNote></skos:changeNote>
         <ns0:created>2011-03-31</ns0:created>
-        <skos:altLabel xml:lang="en">emphysema</skos:altLabel>
         <ns0:source>respiratory</ns0:source>
         <resource:dataCategory>symptom</resource:dataCategory>
-        <skos:altLabel xml:lang="en"
-            >x-ray hyperinflated lungs</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >x-ray hyperinflated lungs</skos:prefLabel>
         <skos:altLabel xml:lang="en"
@@ -13274,6 +13298,8 @@
 
     <owl:Thing rdf:about="&resource;xRayMass">
         <rdf:type rdf:resource="&skos;Concept"/>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(x.?ray\s+mass|mass\s+on\s+chest\s+x.?ray|x.?ray\s+mass|tumou?r\s+on\s+chest\s+x.?ray)\b</skos:notation>
         <ns0:creator>MC</ns0:creator>
         <skos:changeNote></skos:changeNote>
         <resource:dataCategory>symptom</resource:dataCategory>
@@ -13350,6 +13376,8 @@
 
     <skos:Concept rdf:about="&resource;xRayPleuralEffusion">
         <rdf:type rdf:resource="&owl;Thing"/>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(x.?ray\s+pleural\s+effusion|pleural\s+effusion\s+x.?ray|effusion\s+in\s+the\s+pleural\s+space\s+on\s+x.?ray)\b</skos:notation>
         <skos:editorialNote></skos:editorialNote>
         <ns0:modified>2011-03-31</ns0:modified>
         <skos:changeNote></skos:changeNote>
@@ -13367,8 +13395,6 @@
             >pleural effusion x-ray</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >pleural effusion xray</skos:altLabel>
-        <skos:altLabel xml:lang="en"
-            >x-ray pleural effusion</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >x-ray pleural effusion</skos:prefLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
@@ -13383,6 +13409,8 @@
 
     <skos:Concept rdf:about="&resource;xRayPneumonia">
         <rdf:type rdf:resource="&owl;Thing"/>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(x.?ray\s+pneumonia|pneumonia\s+x.?ray|infiltrate\s+on\s+x.?ray)\b</skos:notation>
         <skos:editorialNote></skos:editorialNote>
         <resource:dataCategory>symptom</resource:dataCategory>
         <ns0:created>2011-03-31</ns0:created>
@@ -13399,7 +13427,6 @@
         <ns0:source>respiratory</ns0:source>
         <skos:altLabel xml:lang="en">pneumonia xray</skos:altLabel>
         <skos:prefLabel xml:lang="en">x-ray pneumonia</skos:prefLabel>
-        <skos:altLabel xml:lang="en">x-ray pneumonia</skos:altLabel>
         <skos:altLabel xml:lang="en">xray pneumonia</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;anthrax"/>
@@ -13430,6 +13457,8 @@
 
     <skos:Concept rdf:about="&resource;xRayPneumothorax">
         <rdf:type rdf:resource="&owl;Thing"/>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(x.?ray\s+pneumothorax|air\s+in\s+the\s+pleural\s+space\s+on\s+x.?ray)\b</skos:notation>
         <skos:changeNote></skos:changeNote>
         <ns0:modified>2011-03-31</ns0:modified>
         <ns0:creator>MC</ns0:creator>
@@ -13446,8 +13475,6 @@
         <skos:prefLabel xml:lang="en"
             >x-ray pneumothorax</skos:prefLabel>
         <skos:altLabel xml:lang="en"
-            >x-ray pneumothorax</skos:altLabel>
-        <skos:altLabel xml:lang="en"
             >xray pneumothorax</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;pneumothoraxDX"/>
@@ -13460,6 +13487,8 @@
 
     <owl:Thing rdf:about="&resource;xRayPulmonaryEdema">
         <rdf:type rdf:resource="&skos;Concept"/>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(x.?ray\s+pulmonary\s+edema|fluid\s+in\s+lungs?\s+on\s+x.?ray|pulmonary\s+edema\s+x.?ray|fluid\s+in\s+the\s+lungs?\s+on\s+x.?ray)\b</skos:notation>
         <ns0:created>2011-03-31</ns0:created>
         <skos:definition
             >Fluid in the alveoli seen on a chest roentgenogram</skos:definition>
@@ -13485,8 +13514,6 @@
         <skos:prefLabel xml:lang="en"
             >x-ray pulmonary edema</skos:prefLabel>
         <skos:altLabel xml:lang="en"
-            >x-ray pulmonary edema</skos:altLabel>
-        <skos:altLabel xml:lang="en"
             >xray pulmonary edema</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
         <resource:isAssociatedWithDisease rdf:resource="&resource;rheumaticFever"/>
@@ -13499,6 +13526,8 @@
 
     <skos:Concept rdf:about="&resource;xRayWidenedMediastinum">
         <rdf:type rdf:resource="&owl;Thing"/>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\b(x.?ray\s+widened\s+mediastinum|widened\s+mediastium\s+x.?ray)\b</skos:notation>
         <resource:dataCategory
             >chest_radiography</resource:dataCategory>
         <ns0:created>2011-03-31</ns0:created>
@@ -13517,8 +13546,6 @@
             >widened mediastium xray</skos:altLabel>
         <skos:prefLabel xml:lang="en"
             >x-ray widened mediastinum</skos:prefLabel>
-        <skos:altLabel xml:lang="en"
-            >x-ray widened mediastium</skos:altLabel>
         <skos:altLabel xml:lang="en"
             >xray widened mediastium</skos:altLabel>
         <skos:inScheme rdf:resource="&www;extended_sso"/>
