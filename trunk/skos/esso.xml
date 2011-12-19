@@ -311,11 +311,11 @@
             >The Extended Syndromic Surveillance Ontology is a terminological ontology/application ontology designed to facilitate NLP for syndromic surveillance.  The ontology uses data from the Syndromic Surveillance Ontology</ns0:description>
         <ns0:modfied>SVN:  $Date$</ns0:modfied>
         <ns0:creator>J.Dowling</ns0:creator>
+        <ns0:hasVersion
+            >SVN:  $Revision$</ns0:hasVersion>
         <ns0:subject
             >Syndromic surveillance</ns0:subject>
         <ns0:creator>W.Chapman</ns0:creator>
-        <ns0:hasVersion
-            >SVN:  $Revision$</ns0:hasVersion>
         <skos:hasTopConcept rdf:resource="&resource;botulismSyndrome"/>
         <skos:hasTopConcept rdf:resource="&resource;constitutionalSyndrome"/>
         <skos:hasTopConcept rdf:resource="&resource;gastrointestinalSyndrome"/>
@@ -764,7 +764,7 @@
     <owl:Thing rdf:about="&resource;anthrax">
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel">022:Anthrax</skos:notation>
-        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">492</skos:notation>
+        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_492</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0003175:Anthrax</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
@@ -1656,7 +1656,7 @@
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >023.9:Brucellosis, unspecified</skos:notation>
-        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">962</skos:notation>
+        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_962</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0006309:Brucellosis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
@@ -3310,7 +3310,8 @@
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;umlsAltLabel"
             >C0483415:  Oxygen saturation</skos:notation>
-        <skos:notation rdf:datatype="&resource;englishRegExp">\bdec.*?\s+[o0</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp"
+            >\bdec.*?\s+sat.*?\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
             >\bdecr.*?\s+sats*\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\bdesat\w*?\b</skos:notation>
@@ -4474,7 +4475,7 @@
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >080:Louse-borne [epidemic] typhus</skos:notation>
-        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">637</skos:notation>
+        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_637</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0041473:Epidemic typhus</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
@@ -4571,7 +4572,7 @@
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C08.460.261:Epistaxis</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
-            >\b(epistaxis|nose.*?\sbleed.*?|hemorr.*?\s+from\s+nose|bleeding\s+nose|bleeding\s+from\s+nose</skos:notation>
+            >\b(epistaxis|nose.*?\sbleed.*?|hemorr.*?\s+from\s+nose|bleeding\s+nose|bleeding\s+from\s+nose)\b</skos:notation>
         <skos:changeNote
             >2011-05-19 - Added altLabels (MC)</skos:changeNote>
         <ns0:modified>2011-05-19</ns0:modified>
@@ -5582,7 +5583,7 @@
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >079.81:Hantavirus</skos:notation>
-        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">938</skos:notation>
+        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_938</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0019092:Hantavirus</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
@@ -6559,11 +6560,11 @@
             >C08.730.310:Influenza, Human</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\b\+flu\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\ba\s+flu\b</skos:notation>
-        <skos:notation rdf:datatype="&resource;englishRegExp">\bfl[uy</skos:notation>
-        <skos:notation rdf:datatype="&resource;englishRegExp">\bflu.*like\b</skos:notation>
-        <skos:notation rdf:datatype="&resource;englishRegExp">\bflu.?like\b</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp">\bflu.*?like\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\bflu\s+up\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\bflue?\b</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp">\bflulike\b</skos:notation>
+        <skos:notation rdf:datatype="&resource;englishRegExp">\bfluy</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
             >\bfly\s+sympt.*?\b</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp">\bili\b</skos:notation>
@@ -7588,7 +7589,7 @@
     <skos:Concept rdf:about="&resource;melioidosis">
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel">025:Melioidosis</skos:notation>
-        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">948</skos:notation>
+        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_948</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0025229:Melioidosis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
@@ -7687,7 +7688,7 @@
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >036.2:Meningococcemia</skos:notation>
-        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">235</skos:notation>
+        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_235</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0025306:Meningococcaemia</skos:notation>
         <skos:notation rdf:datatype="&resource;englishRegExp"
@@ -8847,7 +8848,7 @@
 
     <owl:Thing rdf:about="&resource;plague">
         <rdf:type rdf:resource="&skos;Concept"/>
-        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">216</skos:notation>
+        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_216</skos:notation>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel">978.3:Plague</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C0032064:Plague</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
@@ -9526,7 +9527,7 @@
     <skos:Concept rdf:about="&resource;qFever">
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel">083.0:Q fever</skos:notation>
-        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">956</skos:notation>
+        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_956</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0034362:Q Fever</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
@@ -9830,8 +9831,6 @@
 
     <skos:Concept rdf:about="&resource;respiratoryDistress">
         <rdf:type rdf:resource="&owl;Thing"/>
-        <skos:notation rdf:datatype="&resource;umlsAltLabel">)</skos:notation>
-        <skos:notation rdf:datatype="&resource;englishRegExp">)]</skos:notation>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >518.82:Other pulmonary insufficiency, not elsewhere classified</skos:notation>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
@@ -10143,7 +10142,7 @@
 
     <skos:Concept rdf:about="&resource;rheumaticFever">
         <rdf:type rdf:resource="&owl;Thing"/>
-        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">1738</skos:notation>
+        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_1738</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0035436:Rheumatic Fever</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
@@ -10738,7 +10737,7 @@
 
     <owl:Thing rdf:about="&resource;severeAcuteRespiratorySyndrome">
         <rdf:type rdf:resource="&skos;Concept"/>
-        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">13</skos:notation>
+        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_13</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
             >C02.782.600.550.200.750:Severe Acute Respiratory Syndrome</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel">C1175175:SARS</skos:notation>
@@ -12307,7 +12306,7 @@
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >010:Primary tuberculous infection</skos:notation>
-        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">469</skos:notation>
+        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_469</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0041296:Tuberculosis</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
@@ -12357,7 +12356,7 @@
     <owl:Thing rdf:about="&resource;tularemia">
         <rdf:type rdf:resource="&skos;Concept"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel">021:Tularemia</skos:notation>
-        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">425</skos:notation>
+        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_425</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0041351:Tularaemia (Tularemia)</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
@@ -12408,7 +12407,7 @@
         <rdf:type rdf:resource="&owl;Thing"/>
         <skos:notation rdf:datatype="&resource;icd9PrefLabel"
             >002.0:Typhoid fever</skos:notation>
-        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">797</skos:notation>
+        <skos:notation rdf:datatype="&resource;biocasterPrefLabel">DISEASE_797</skos:notation>
         <skos:notation rdf:datatype="&resource;umlsPrefLabel"
             >C0041466:Typhoid Fever</skos:notation>
         <skos:notation rdf:datatype="&resource;meshPrefLabel"
